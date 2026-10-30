@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "mainPoses": 20,
+  "newUnitTypes": [
+    "aircraftcarrier"
+  ],
+  "staticAssets": [],
+  "records": [
+    {
+      "key": "aircraftcarrier",
+      "source": "Built-in ImageGen",
+      "original": "art-source/carrier-20261010/aircraftcarrier.png",
+      "sourceSha256": "fef01f8334cd9d670eb87556f54a0966217284c0ddb428ab7c53ce63812505df",
+      "runtime": "web/assets/carrier/aircraftcarrier.webp",
+      "runtimeSha256": "f892783af91c734142b87e1af32ed774580ea1126c87e9e88b7e1e3a870271f9",
+      "bytes": 75656,
+      "poses": 20,
+      "actions": {
+        "idle": 4,
+        "move": 8,
+        "attack": 8
+      },
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.2585577161388827,
+      "sourceBands": [
+        [
+          10,
+          247
+        ],
+        [
+          256,
+          485
+        ],
+        [
+          492,
+          718
+        ],
+        [
+          726,
+          940
+        ],
+        [
+          921,
+          1113
+        ]
+      ],
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 4,
+          "top": 7,
+          "right": 354,
+          "bottom": 249,
+          "opaque": 32174,
+          "anchorY": 247,
+          "anchorX": 208.60739476669758,
+          "width": 351,
+          "height": 243
+        },
+        {
+          "index": 1,
+          "left": 354,
+          "top": 24,
+          "right": 703,
+          "bottom": 249,
+          "opaque": 31487,
+          "anchorY": 247,
+          "anchorX": 562.8924798916723,
+          "width": 350,
+          "height": 226
+        },
+        {
+          "index": 2,
+          "left": 704,
+          "top": 35,
+          "right": 1054,
+          "bottom": 249,
+          "opaque": 31152,
+          "anchorY": 247,
+          "anchorX": 916.4168966882461,
+          "width": 351,
+          "height": 215
+        },
+        {
+          "index": 3,
+          "left": 1054,
+          "top": 31,
+          "right": 1401,
+          "bottom": 249,
+          "opaque": 30954,
+          "anchorY": 247,
+          "anchorX": 1264.0196658111513,
+          "width": 348,
+          "height": 219
+        },
+        {
+          "index": 4,
+          "left": 1,
+          "top": 260,
+          "right": 354,
+          "bottom": 484,
+          "opaque": 35325,
+          "anchorY": 482,
+          "anchorX": 199.25522981190616,
+          "width": 354,
+          "height": 225
+        },
+        {
+          "index": 5,
+          "left": 352,
+          "top": 252,
+          "right": 703,
+          "bottom": 484,
+          "opaque": 35249,
+          "anchorY": 481,
+          "anchorX": 546.3583699024181,
+          "width": 352,
+          "height": 233
+        },
+        {
+          "index": 6,
+          "left": 702,
+          "top": 260,
+          "right": 1054,
+          "bottom": 484,
+          "opaque": 34869,
+          "anchorY": 481,
+          "anchorX": 898.9293763646316,
+          "width": 353,
+          "height": 225
+        },
+        {
+          "index": 7,
+          "left": 1052,
+          "top": 259,
+          "right": 1401,
+          "bottom": 487,
+          "opaque": 36290,
+          "anchorY": 485,
+          "anchorX": 1244.8199589636713,
+          "width": 350,
+          "height": 229
+        },
+        {
+          "index": 8,
+          "left": 1,
+          "top": 496,
+          "right": 353,
+          "bottom": 720,
+          "opaque": 35711,
+          "anchorY": 718,
+          "anchorX": 195.97300221084257,
+          "width": 353,
+          "height": 225
+        },
+        {
+          "index": 9,
+          "left": 352,
+          "top": 497,
+          "right": 703,
+          "bottom": 720,
+          "opaque": 35629,
+          "anchorY": 718,
+          "anchorX": 547.069424167494,
+          "width": 352,
+          "height": 224
+        },
+        {
+          "index": 10,
+          "left": 702,
+          "top": 495,
+          "right": 1053,
+          "bottom": 721,
+          "opaque": 35204,
+          "anchorY": 718,
+          "anchorX": 898.5420632424272,
+          "width": 352,
+          "height": 227
+        },
+        {
+          "index": 11,
+          "left": 1052,
+          "top": 489,
+          "right": 1401,
+          "bottom": 721,
+          "opaque": 35528,
+          "anchorY": 718,
+          "anchorX": 1245.6782345570662,
+          "width": 350,
+          "height": 233
+        },
+        {
+          "index": 12,
+          "left": 4,
+          "top": 723,
+          "right": 354,
+          "bottom": 942,
+          "opaque": 29998,
+          "anchorY": 940,
+          "anchorX": 214.07063476213887,
+          "width": 351,
+          "height": 220
+        },
+        {
+          "index": 13,
+          "left": 353,
+          "top": 725,
+          "right": 703,
+          "bottom": 941,
+          "opaque": 30129,
+          "anchorY": 939,
+          "anchorX": 564.1645340746672,
+          "width": 351,
+          "height": 217
+        },
+        {
+          "index": 14,
+          "left": 704,
+          "top": 725,
+          "right": 1054,
+          "bottom": 984,
+          "opaque": 32024,
+          "anchorY": 939,
+          "anchorX": 914.6420566024298,
+          "width": 351,
+          "height": 260
+        },
+        {
+          "index": 15,
+          "left": 1053,
+          "top": 725,
+          "right": 1401,
+          "bottom": 941,
+          "opaque": 34216,
+          "anchorY": 939,
+          "anchorX": 1263.989011618173,
+          "width": 349,
+          "height": 217
+        },
+        {
+          "index": 16,
+          "left": 4,
+          "top": 917,
+          "right": 354,
+          "bottom": 1115,
+          "opaque": 28981,
+          "anchorY": 1113,
+          "anchorX": 220.1752958270162,
+          "width": 351,
+          "height": 199
+        },
+        {
+          "index": 17,
+          "left": 354,
+          "top": 919,
+          "right": 703,
+          "bottom": 1115,
+          "opaque": 28106,
+          "anchorY": 1113,
+          "anchorX": 570.0378609130809,
+          "width": 350,
+          "height": 197
+        },
+        {
+          "index": 18,
+          "left": 703,
+          "top": 918,
+          "right": 1053,
+          "bottom": 1115,
+          "opaque": 28357,
+          "anchorY": 1113,
+          "anchorX": 919.5860715211452,
+          "width": 351,
+          "height": 198
+        },
+        {
+          "index": 19,
+          "left": 1053,
+          "top": 917,
+          "right": 1401,
+          "bottom": 1115,
+          "opaque": 28823,
+          "anchorY": 1113,
+          "anchorX": 1269.1676247151474,
+          "width": 349,
+          "height": 199
+        }
+      ],
+      "extraction": "connected opaque bodies with alpha ownership and nearest-body detached effects"
+    },
+    {
+      "key": "aircraftcarrier-icon",
+      "source": "Built-in ImageGen",
+      "original": "art-source/carrier-20261010/aircraftcarrier.png",
+      "sourceSha256": "fef01f8334cd9d670eb87556f54a0966217284c0ddb428ab7c53ce63812505df",
+      "runtime": "web/assets/carrier/aircraftcarrier-icon.webp",
+      "runtimeSha256": "b6f9f52677e4f813c28213c26eaedabd83a80ad48153b1ce8b16fb61ec4d6e45",
+      "bytes": 4074,
+      "poses": 1
+    },
+    {
+      "key": "aircraftcarrier-death",
+      "source": "Built-in ImageGen",
+      "original": "art-source/carrier-20261010/aircraftcarrier-death.png",
+      "sourceSha256": "131b2b53a1ffaf9ebfd99164818c7a7fbed1e9afd6b233f5461bba94978cab3c",
+      "runtime": "web/assets/carrier/aircraftcarrier-death.webp",
+      "runtimeSha256": "ef5b9986fd9b287702d037304f9e32ec42597d53d2fef4a22c04422378cc9ab9",
+      "bytes": 40022,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.23427331887201736
+    }
+  ],
+  "deathPoses": 8
+}

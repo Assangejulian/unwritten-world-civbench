@@ -1,0 +1,24 @@
+// Exercise the real Git-aware privacy gate without modifying the project's index.
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {execFileSync,spawnSync} from 'node:child_process';
+import {publicationExclusion} from './publication-policy.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),checks=[],pass=name=>{checks.push(name);console.log('PASS '+name);};
+for(const file of ['Model_work/AI_REPORT.md','output/checks.json','saves/autosave.json','logs/server.log','AI_COMPARISON.md','FULL_GAME_AUDIT.md','SESSION_HANDOFF.md'])assert(publicationExclusion(file));
+for(const file of ['README.md','LICENSE','NOTICE','docs/README.md','src/ai.mjs','players/template.cpp','scripts/world-options-check.mjs'])assert.equal(publicationExclusion(file),null);
+assert.equal(publicationExclusion('READ_THIS_FIRST.md',{distribution:true}),null);
+pass('Publication scope excludes private histories and legacy reviews while retaining implementation and reusable checks');
+const sourceFiles=execFileSync('git',['ls-files','-z','--cached','--others','--exclude-standard'],{cwd:root,encoding:'utf8'}).split('\0').filter(Boolean);
+assert.deepEqual(sourceFiles.filter(f=>publicationExclusion(f)),[]);pass('Actual source publication candidate contains no excluded paths');
+fs.mkdirSync(path.join(root,'output'),{recursive:true});const fixture=fs.mkdtempSync(path.join(root,'output','publication-fixture-'));
+execFileSync('git',['init','--quiet'],{cwd:fixture});fs.writeFileSync(path.join(fixture,'README.md'),'# Fixture\n');fs.writeFileSync(path.join(fixture,'AI_REPORT.md'),'# Synthetic private report\n');
+const scan=()=>spawnSync(process.execPath,[path.join(root,'scripts/privacy-check.mjs')],{cwd:fixture,encoding:'utf8'});
+assert.equal(scan().status,1);fs.writeFileSync(path.join(fixture,'.gitignore'),'/*.md\n!/README.md\n');assert.equal(scan().status,0);
+execFileSync('git',['add','-f','--','AI_REPORT.md'],{cwd:fixture});const tracked=scan();assert.equal(tracked.status,1);assert(tracked.stderr.includes('AI_REPORT.md'));
+pass('Real privacy scanner rejects reports, honors intentional ignores, and still rejects a force-tracked ignored report');
+for(const file of ['package.json','environment/mcp/package.json'])assert.equal(JSON.parse(fs.readFileSync(path.join(root,file))).license,'Apache-2.0');
+const license=fs.readFileSync(path.join(root,'LICENSE'),'utf8');assert(license.includes('Grant of Patent License')&&license.includes('END OF TERMS AND CONDITIONS'));assert(fs.readFileSync(path.join(root,'NOTICE'),'utf8').includes('Third-party'));
+pass('Project and adapter identify Apache-2.0, with complete license and separate third-party notice');
+fs.writeFileSync(path.join(fixture,'checks.json'),JSON.stringify({passed:true,checks,productionSaveWrites:false,publicUpload:false},null,2));

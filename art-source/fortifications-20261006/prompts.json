@@ -1,0 +1,132 @@
+[
+  {
+    "key": "barracks",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric building sprite for an original Civilization-inspired hex strategy game. Primary request: a complete ancient-to-medieval military barracks encampment, one coherent compact compound with training courtyard, sturdy timber palisade, low ochre stone barracks, a small red-banner guard tower, weapon racks and two canvas tents. Hand-painted realistic gouache and oil miniatures, warm muted earth colors, believable proportions, sunlight from upper left. Elevated three-quarter view, ground base foreshortened into a rhombus, entire building visible with generous transparent padding. Detailed but readable at 85 pixels wide. No text, letters, symbols, UI frame, soldiers or surrounding scenery. No cartoon outlines. Genuine transparent background, no colored backdrop. ONE asset only.",
+    "source": "local-cache:exec-cbaeb3d5-44a2-44e7-aa94-91ebb588f369.png"
+  },
+  {
+    "key": "qin",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Qin Chinese rammed-earth walls, black timber gate, spare dark roof and vermilion trim. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-85f51fd5-2968-4b25-94f2-02ceba1732d5.png"
+  },
+  {
+    "key": "han-wudi",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Han Chinese frontier fort, tall watchtower, ochre rammed earth and red lacquer gate. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-3b8815b5-17e2-4a6d-8ebd-e97a85b96211.png"
+  },
+  {
+    "key": "taizong",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Tang Chinese stone-and-timber fort, wide elegant dark tiled gatehouse and terracotta accents. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-408d3f43-6724-40fb-8019-dabec4992963.png"
+  },
+  {
+    "key": "wu-zetian",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Wu Zhou Chinese walled palace-fort, vermilion pillars, gold details and a compact double-roof tower. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-4e4c8421-59fe-41f7-88e8-4baa7edc36cf.png"
+  },
+  {
+    "key": "sejong",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Joseon Korean stone fortress with slate-tiled gate pavilion, green-red dancheong timber. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-7e063072-d422-4555-9419-03ee792c6e72.png"
+  },
+  {
+    "key": "tokugawa",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Edo Japanese white-plaster fortress, compact three-storey black-roof tenshu, stone foundation. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-f3468d52-eb6b-482f-818c-c5a8f99903f8.png"
+  },
+  {
+    "key": "alexander",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Macedonian Hellenistic limestone fortress with square towers, timber upper galleries and muted blue banners. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-7949e551-2a28-41f7-b007-33f7829623db.png"
+  },
+  {
+    "key": "caesar",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Roman Republic legionary fortified castrum, square timber palisade, low stone gate and red banners. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-82503e12-c67a-4666-a1eb-a1355793e111.png"
+  },
+  {
+    "key": "augustus",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Imperial Roman ashlar stone fortress, broad crenellated towers and terracotta-roof barracks. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-b414d2e4-fb54-4e43-b130-af498b560232.png"
+  },
+  {
+    "key": "pericles",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Classical Athenian limestone polis fortress, angular gate towers, white marble lintel and blue cloth. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-5c43219a-57d5-4773-b16f-7baa6228e387.png"
+  },
+  {
+    "key": "cyrus",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Achaemenid Persian mudbrick fortress, monumental stepped gateway with subtle turquoise glazed bricks. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-dc587747-58cc-488e-8363-6f6614dbc2f2.png"
+  },
+  {
+    "key": "darius",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Darius Persian royal fortress, ochre square towers, crenellations, restrained lapis and gold gate. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-60699481-3511-48bd-996b-48e42b06221d.png"
+  },
+  {
+    "key": "cleopatra",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Ptolemaic Egyptian Greco-Egyptian coastal fortress, pale stone pylon gate and Greek stone towers. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-a73758d8-52f0-477b-a1d3-f3e244fe808f.png"
+  },
+  {
+    "key": "hatshepsut",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: New Kingdom Egyptian sandstone defensive enclosure, battered pylon gate, restrained red ochre edging. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-00d6288a-6e45-469b-a8cd-901ed1d708bc.png"
+  },
+  {
+    "key": "ramesses",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Ramesside Egyptian frontier fortress, tall sandstone towers, massive pylon portal and deep red banner. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-4659a323-2293-41c2-96ae-e6c67cbfc5de.png"
+  },
+  {
+    "key": "ashoka",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Mauryan Indian fortress, ochre stone walls, carved gateway, tiny Buddhist wheel relief without text. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-c0be4396-4cd6-4e90-95e5-55d7eae9de2c.png"
+  },
+  {
+    "key": "chandragupta",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Early Mauryan Indian military fort, red-brown stone, robust wooden gates and small domed towers. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-0b0c85e7-9409-4a62-b994-3249b4cb0b1e.png"
+  },
+  {
+    "key": "saladin",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Ayyubid Levantine stone citadel, beige limestone curtain walls, round bastions and green cloth. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-2e01a90d-761f-4156-ac70-22b05b5e1580.png"
+  },
+  {
+    "key": "suleiman",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Ottoman stone fortress, low round bastions, brick arches, modest lead dome and burgundy banners. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-d1b88f46-4351-4e2f-b8e0-985d5c3c62e6.png"
+  },
+  {
+    "key": "genghis",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Mongol frontier fort, sturdy earth-and-timber ramparts, square watchtower, two yurts inside, horsehair standard. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-75da856c-d23e-4335-b186-80e9a3a5115c.png"
+  },
+  {
+    "key": "mansa-musa",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Malian Sahel adobe fortified compound, earthen buttresses, projecting timber toron, indigo cloth. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-faee1169-00d5-4963-8a20-92e6dd400a21.png"
+  },
+  {
+    "key": "shaka",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Zulu fortified military homestead, wooden palisade, compact beehive-thatch huts and muted ochre earth. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-a7791004-6776-4013-8679-4a21c73a6a2b.png"
+  },
+  {
+    "key": "elizabeth",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Elizabethan English fortress, Tudor brick gatehouse, grey stone curtain walls, low angular bastions. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-f8ee979b-3ade-4f13-bc3f-45bf7b010d06.png"
+  },
+  {
+    "key": "peter",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Petrine Russian compact bastion fortress, pale stone base, brick gate tower and muted green roofs. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-22cb86a7-2da6-4297-8149-390dde73680e.png"
+  },
+  {
+    "key": "pachacuti",
+    "prompt": "Use case: historical-scene. Asset type: ONE transparent isometric fortress sprite for an original Civilization-inspired hex strategy game. Primary request: a compact fortified compound with visually readable walls, guarded gate and distinct historical architecture: Inca Andean polygonal masonry fortress, stepped terraces, trapezoid gate and tiny straw-roof guard houses. Hand-painted realistic gouache and oil miniature, muted earth materials, believable period structures, sunlight from upper left. Match the barracks art direction. Elevated three-quarter isometric view; foreshortened rhombus ground base, whole structure visible with generous transparent margin. Readable at 80 pixels wide. No text, letters, numbers, UI, soldiers, landscape or background. No glowing effects or cartoon outlines. Genuine transparent background. ONE asset only.",
+    "source": "local-cache:exec-ba9ec69e-d3ab-4070-8d47-9c54555c9d58.png"
+  }
+]

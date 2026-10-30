@@ -1,0 +1,37 @@
+[
+  {
+    "key": "ancient",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: a COMPLETE hexagonal ring of ancient limestone city walls, low crenellated ramparts with six squat square gate towers and one open entrance. Empty open center with transparent ground so an existing 3D city can be seen inside. All six sides visible, rear walls lower in image, front walls at bottom. Center opening takes 65 percent of width. Outer silhouette fits image with margin.",
+    "source": "local-cache:exec-1b08b2ec-6184-4f2c-bb6b-7578b9b0381f.png"
+  },
+  {
+    "key": "medieval",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: a COMPLETE hexagonal ring of medieval stone city walls, taller ashlar ramparts, six round towers with battlements and a fortified open gate. Empty open center with transparent ground so an existing 3D city can be seen inside. All six sides visible, rear walls lower in image, front walls at bottom. Center opening takes 65 percent of width. Outer silhouette fits image with margin.",
+    "source": "local-cache:exec-6b7d7345-0258-460e-be52-6e602e73e079.png"
+  },
+  {
+    "key": "renaissance",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: a COMPLETE hexagonal ring of Renaissance bastion city defenses, low thick angled stone curtain walls, six arrowhead artillery bastions with bronze embrasure cannons, one open gate. No castle in center. Empty open center with transparent ground so an existing 3D city can be seen inside. All six sides visible. Center opening takes 65 percent of width. Outer silhouette fits image with margin.",
+    "source": "local-cache:exec-780c1e3e-7a49-4c34-9382-b23911270994.png"
+  },
+  {
+    "key": "concrete",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: a COMPLETE hexagonal ring of modern militarized reinforced concrete city walls, broad grey armored ramparts, six angular low bunkers with gun ports and sandbag stations, a steel open gate. No highrises, no castle. Empty open center with transparent ground so an existing 3D city can be seen inside. All six sides visible. Center opening takes 65 percent of width. Outer silhouette fits image with margin.",
+    "source": "local-cache:exec-d1392a4e-8d59-49ff-b769-4de4e700fb64.png"
+  },
+  {
+    "key": "airport",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: one self-contained modern small military airport miniature on a diamond-shaped ground patch, long dark asphalt runway with white threshold strips, two steel aircraft hangars and modest control tower, a parked olive bomber. Realistic functional arrangement, runway unobstructed. No city wall, no surrounding landscape. Wide clear runway silhouette.",
+    "source": "local-cache:exec-fd3ea81b-1b18-484d-b3f0-81b9181f867a.png"
+  },
+  {
+    "key": "bomber",
+    "prompt": "Use case: stylized-concept. Asset type: transparent isometric sprite for an offline hex civilization strategy game. Painterly realistic miniature, warm stone/earth and muted teal-grey palette, crisp readable silhouettes at small scale, 35-degree elevated three-quarter view, soft upper-left illumination. Genuine alpha transparency, no text, no UI, no backdrop, no watermark. Subject: GAME ANIMATION SPRITE SHEET exactly 4 columns by 5 rows, 20 isolated non-touching poses of the SAME olive-drab four-engine propeller bomber, nose pointing RIGHT and tail LEFT in every cell, wingspan and fuselage identical dimensions in all poses. Camera three-quarter overhead, transparent gutters of at least 30px, no drop shadow merging sprites. Row1 four parked idling poses with subtle propeller change, landing gear down; rows2-3 eight flight cycle poses with clear propeller rotation, slight wing banking and landing gear retracting without stretching airframe; rows4-5 eight bombing attack poses: level approach, open bomb bay, dark metal bombs emerge underneath, release, bay closes, departure. ONE large continuous connected airplane silhouette per cell; detached bombs tiny. All planes same painted size and orientation; each whole plane within its cell. No explosions, no ground, no labels, no visible grid.",
+    "source": "local-cache:exec-20d4bcae-e647-4689-9060-b3551d39a0c1.png"
+  },
+  {
+    "key": "trebuchet",
+    "prompt": "Use case: historical-scene. Asset type: transparent game animation sprite sheet exactly FOUR columns by FIVE rows, 20 non-touching isolated poses of the SAME medieval counterweight TREBUCHET for a painterly realistic miniature hex civilization strategy game. Elevated three-quarter isometric view, all machines face RIGHT. Wooden wheeled siege frame, large articulated long throwing arm, stone counterweight, sling, two small crew in muted tunics. Consistent machine chassis width/height and crew size in every pose; whole machine fits inside each cell including raised arm. Wide transparent gutters, genuine alpha background, no text or grid or scenery. Row1 four idling poses, arm lowered and loaded; rows2 and3 eight crew-hauling movement poses with wheels rotating and genuinely different walking legs; rows4 and5 eight attack poses with arm rotating from loaded to upright, counterweight lowering, sling release and one small dark stone launched, then reset. Clearly distinct articulated throwing phases, same physical proportions and same ground baseline, no bending/stretching chassis. Warm natural oak, weathered iron hardware, subtle upper-left light, match traditional civilization game's existing painted catapult sprites. ONE large connected machine body per cell, no overlapping cells.",
+    "source": "local-cache:exec-76293656-3093-4cac-a6a6-2ad28de90f92.png"
+  }
+]

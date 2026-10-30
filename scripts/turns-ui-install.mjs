@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+const f='web/app.js';let s=fs.readFileSync(f,'utf8');const rep=(a,b)=>{if(!s.includes(a))throw Error(a.slice(0,80));s=s.replace(a,b);};
+s="import {installGameTimeLabels} from './game-time.js';\n"+s;
+rep("const renderer=new LazyMapRenderer", "const gameTimeLabels=installGameTimeLabels(()=>session);\nconst renderer=new LazyMapRenderer");
+rep("&&currentPlayer()?.manual&&!session?.busy;", "&&currentPlayer()?.manual&&!session?.busy&&(session?.mode!=='turns'||session.activePlayer===owner&&session.phase!=='ai');");
+rep("const playing=session.running;", "const playing=session.running,turns=session.mode==='turns';");
+rep("icon(playing?'pause':'play')+`<span>${playing?'暂停对局':'继续模拟'}</span>`", "icon(turns?'arrow':playing?'pause':'play')+`<span>${turns?session.phase==='ai'?'AI 行动中…':'结束回合':playing?'暂停对局':'继续模拟'}</span>`");
+rep("$('play').disabled=actionBusy||session.busy||!!game.winner;", "$('play').disabled=actionBusy||session.busy||!!game.winner||turns&&!session.canEndTurn;");
+rep("$('step').disabled=actionBusy", "$('step').hidden=turns;$('speed').closest('label')?$('speed').closest('label').hidden=turns:$('speed').hidden=turns;\n  $('step').disabled=actionBusy");
+rep("game.winner?'历史已写下结局':session.busy?", "game.winner?'历史已写下结局':turns?session.phase==='ai'?'AI 依次行动中':session.canEndTurn?'你的回合 · 等待命令':'等待当前文明行动':session.busy?");
+rep("$('phase-title').textContent=`实时", "if(session.mode==='turns'){$('turn-phase').classList.toggle('resolving',session.phase==='ai');$('phase-title').textContent='第 '+game.turn+' 回合 · '+(session.phase==='ai'?'AI 行动中':session.canEndTurn?'你的回合':'等待玩家');$('phase-detail').textContent='各文明依次行动 · 完成一轮后结算生产、研究与收入';$('phase-players').innerHTML=game.players.filter(p=>p.alive).map(p=>`<span class=\"phase-player ${p.id===session.activePlayer?'current':''}\" style=\"--civ:${p.color}\">${esc(p.short)}</span>`).join('');renderer.activePlayer=session.activePlayer;return;}\n  $('phase-title').textContent=`实时");
+rep("$('play').onclick=async()=>{if(session.running)","$('play').onclick=async()=>{if(session.mode==='turns'){await mutate('end-turn',{player:view,view});return;}if(session.running)");
+rep("你已接管 '+p.name+'。可实时下令，也可暂停安排命令。", "你已接管 '+p.name+'。按文明顺序行动，完成后点击结束回合。");
+rep("const targeted=['nuke'", "const targeted=['jump','nuke'");
+rep("type==='move'?'点击高亮地块移动", "type==='jump'?'选择高亮落点跳跃 · 消耗 2 移动力 · Esc 取消':type==='move'?'点击高亮地块移动");
+rep("${!spec.civilian?`<button data-unit-action=", "${u.type==='giantdeathrobot'?`<button class=\"wide\" data-unit-action=\"jump\" ${inactive||!(owner?.techs||[]).includes('futuretech')||u.moves<2?'disabled':''}>动力跳跃${(owner?.techs||[]).includes('futuretech')?' · 2 移动力':' · 未来科技解锁'}</button><p class=\"inspector-note wide\">${u.ranged?'远程火炮已解锁 · 射程 3 格':'近战模式 · 未来科技解锁远程火炮与跳跃'}</p>`:''}${!spec.civilian?`<button data-unit-action=");
+rep("u.acted?'冷却 '+fmt(","u.acted&&session.mode==='turns'?'本回合已行动':u.acted?'冷却 '+fmt(");
+rep("return game?.players.find", "return game?.players.find");
+// Human and spectator starts are explicit, with human play as the normal new-game choice.
+rep('<div class="setup-fields">','<div class="setup-fields"><label class="field wide"><span>对局方式</span><select id="setup-play-mode"><option value="turns" selected>亲自游玩 · 回合制</option><option value="realtime">AI 观战 · 实时并行</option></select></label>');
+rep("const settings={aiAlgorithm:","const settings={playMode:$('setup-play-mode').value,aiAlgorithm:");
+rep("await api('new',settings);selectedPlayer=0;selection=null;view=-1;", "await api('new',settings);if(settings.playMode==='turns')await api('control',{player:0,manual:true});selectedPlayer=0;selection=null;view=settings.playMode==='turns'?0:-1;");
+rep("await mutate('step',{seconds:2});", "if(settings.playMode!=='turns')await mutate('step',{seconds:2});");
+rep("toast('镜头已定位首都。拖动探索世界，点击「继续模拟」开始实时运行；Tab 可收起面板。');", "toast(settings.playMode==='turns'?'你的回合已开始。选择开拓者建城，完成命令后点击结束回合。':'镜头已定位首都。点击继续模拟开始实时观战。');");
+rep("完成一个 20 秒的经济周期后，可以查看结算报告。", "完成一轮后，可以查看结算报告。");
+rep("每 20 秒模拟时间结算城市生产、人口、科技与收入；战斗与移动持续进行；", "${session.mode==='turns'?'各文明依次行动，完成一轮后结算城市生产、人口、科技与收入；':'每 20 秒模拟时间结算城市生产、人口、科技与收入；战斗与移动持续进行；'}");
+rep("默认暂停。点击「继续模拟」后，所有文明同时行动；", "亲自游玩采用回合制：你的回合下达命令，点击「结束回合」后 AI 按顺序行动；完整一轮结算一次收入、生产与研究。移动花费实际移动力，攻击或工作消耗本回合行动；技能时长与冷却按回合显示。AI 观战默认暂停，点击「继续模拟」后，所有文明同时行动；");
+fs.writeFileSync(f,s);

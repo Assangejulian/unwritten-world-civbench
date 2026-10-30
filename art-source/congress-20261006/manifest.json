@@ -1,0 +1,12 @@
+{
+  "generator": "Built-in ImageGen",
+  "source": "art-source/congress-20261006/chamber.png",
+  "sourceSha256": "c68d1576b9eff2dd6e1f9688de403566c950e0a2f70f937d2fe15e90342bc0bc",
+  "runtime": "web/assets/congress/chamber.webp",
+  "runtimeSha256": "093f4d683c2b0723e29922a37065c2211f9922dc6e4a2d98cf5f2198fb02f9e1",
+  "bytes": 210846,
+  "width": 1280,
+  "height": 720,
+  "animation": "CSS compositor pan and delegate/title arrival; reduced motion disables animation",
+  "loading": "Only when the congress panel is opened"
+}

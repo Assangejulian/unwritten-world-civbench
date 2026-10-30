@@ -1,0 +1,4235 @@
+{
+  "generator": "Built-in ImageGen",
+  "originalArt": true,
+  "unitTypes": 24,
+  "authoredPaintings": 192,
+  "livingPerType": 7,
+  "deathPerType": 1,
+  "notes": "Living paintings repeat along the existing 20-cell timeline; a single authored fallen pose uses the existing retirement fade. These are not 20 distinct living or eight distinct death paintings.",
+  "records": [
+    {
+      "key": "skirmisher",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/skirmisher.webp",
+      "sha256": "ed4d52c65fa12536f9becf20e156c8967e52895a9fa3a50045527ff04c79204e",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48148148148148145,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 65,
+          "top": 8,
+          "width": 96,
+          "height": 216,
+          "pixels": 11155
+        },
+        {
+          "left": 287,
+          "top": 18,
+          "width": 93,
+          "height": 206,
+          "pixels": 10840
+        },
+        {
+          "left": 464,
+          "top": 38,
+          "width": 198,
+          "height": 184,
+          "pixels": 12307
+        },
+        {
+          "left": 674,
+          "top": 40,
+          "width": 213,
+          "height": 183,
+          "pixels": 11722
+        },
+        {
+          "left": 887,
+          "top": 39,
+          "width": 222,
+          "height": 184,
+          "pixels": 12226
+        },
+        {
+          "left": 1109,
+          "top": 22,
+          "width": 222,
+          "height": 203,
+          "pixels": 14202
+        },
+        {
+          "left": 1331,
+          "top": 42,
+          "width": 221,
+          "height": 180,
+          "pixels": 11635
+        },
+        {
+          "left": 1552,
+          "top": 34,
+          "width": 205,
+          "height": 203,
+          "pixels": 10564
+        }
+      ]
+    },
+    {
+      "key": "skirmisher-death",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/skirmisher-death.webp",
+      "sha256": "39979a16069cdc0c9a11910f3f730a0d243cf91307b1d1dc1214d050e1acd3bd",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48148148148148145,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 65,
+          "top": 8,
+          "width": 96,
+          "height": 216,
+          "pixels": 11155
+        },
+        {
+          "left": 287,
+          "top": 18,
+          "width": 93,
+          "height": 206,
+          "pixels": 10840
+        },
+        {
+          "left": 464,
+          "top": 38,
+          "width": 198,
+          "height": 184,
+          "pixels": 12307
+        },
+        {
+          "left": 674,
+          "top": 40,
+          "width": 213,
+          "height": 183,
+          "pixels": 11722
+        },
+        {
+          "left": 887,
+          "top": 39,
+          "width": 222,
+          "height": 184,
+          "pixels": 12226
+        },
+        {
+          "left": 1109,
+          "top": 22,
+          "width": 222,
+          "height": 203,
+          "pixels": 14202
+        },
+        {
+          "left": 1331,
+          "top": 42,
+          "width": 221,
+          "height": 180,
+          "pixels": 11635
+        },
+        {
+          "left": 1552,
+          "top": 34,
+          "width": 205,
+          "height": 203,
+          "pixels": 10564
+        }
+      ]
+    },
+    {
+      "key": "ranger",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/ranger.webp",
+      "sha256": "e8c1b86d879f1e961f64a467497c4003b3c00e9fc62421b9caef2af5fd505171",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5067873303167421,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 57,
+          "top": 238,
+          "width": 93,
+          "height": 203,
+          "pixels": 11369
+        },
+        {
+          "left": 276,
+          "top": 237,
+          "width": 92,
+          "height": 204,
+          "pixels": 11985
+        },
+        {
+          "left": 469,
+          "top": 248,
+          "width": 169,
+          "height": 191,
+          "pixels": 11267
+        },
+        {
+          "left": 677,
+          "top": 249,
+          "width": 176,
+          "height": 191,
+          "pixels": 11514
+        },
+        {
+          "left": 887,
+          "top": 251,
+          "width": 185,
+          "height": 190,
+          "pixels": 11713
+        },
+        {
+          "left": 1120,
+          "top": 253,
+          "width": 211,
+          "height": 191,
+          "pixels": 12333
+        },
+        {
+          "left": 1331,
+          "top": 254,
+          "width": 221,
+          "height": 185,
+          "pixels": 12383
+        },
+        {
+          "left": 1552,
+          "top": 237,
+          "width": 210,
+          "height": 198,
+          "pixels": 11513
+        }
+      ]
+    },
+    {
+      "key": "ranger-death",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/ranger-death.webp",
+      "sha256": "c608076cafb6af12ce85e2ef73b85be151ab603a7f9e61b4f7786b134cfc627d",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5067873303167421,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 57,
+          "top": 238,
+          "width": 93,
+          "height": 203,
+          "pixels": 11369
+        },
+        {
+          "left": 276,
+          "top": 237,
+          "width": 92,
+          "height": 204,
+          "pixels": 11985
+        },
+        {
+          "left": 469,
+          "top": 248,
+          "width": 169,
+          "height": 191,
+          "pixels": 11267
+        },
+        {
+          "left": 677,
+          "top": 249,
+          "width": 176,
+          "height": 191,
+          "pixels": 11514
+        },
+        {
+          "left": 887,
+          "top": 251,
+          "width": 185,
+          "height": 190,
+          "pixels": 11713
+        },
+        {
+          "left": 1120,
+          "top": 253,
+          "width": 211,
+          "height": 191,
+          "pixels": 12333
+        },
+        {
+          "left": 1331,
+          "top": 254,
+          "width": 221,
+          "height": 185,
+          "pixels": 12383
+        },
+        {
+          "left": 1552,
+          "top": 237,
+          "width": 210,
+          "height": 198,
+          "pixels": 11513
+        }
+      ]
+    },
+    {
+      "key": "specops",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/specops.webp",
+      "sha256": "b5a84de5ffae2f4bf50c8fc6e2fe3165ad73cc3b4d8dbe85bc065306a31ad5ef",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48826291079812206,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 60,
+          "top": 456,
+          "width": 119,
+          "height": 208,
+          "pixels": 13210
+        },
+        {
+          "left": 280,
+          "top": 453,
+          "width": 111,
+          "height": 213,
+          "pixels": 12958
+        },
+        {
+          "left": 479,
+          "top": 457,
+          "width": 138,
+          "height": 207,
+          "pixels": 12561
+        },
+        {
+          "left": 683,
+          "top": 460,
+          "width": 156,
+          "height": 204,
+          "pixels": 13517
+        },
+        {
+          "left": 900,
+          "top": 460,
+          "width": 150,
+          "height": 207,
+          "pixels": 12736
+        },
+        {
+          "left": 1127,
+          "top": 461,
+          "width": 204,
+          "height": 207,
+          "pixels": 14476
+        },
+        {
+          "left": 1331,
+          "top": 467,
+          "width": 221,
+          "height": 200,
+          "pixels": 15388
+        },
+        {
+          "left": 1552,
+          "top": 571,
+          "width": 205,
+          "height": 104,
+          "pixels": 13272
+        }
+      ]
+    },
+    {
+      "key": "specops-death",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/specops-death.webp",
+      "sha256": "3626f4f9e70ead33d250def3b8e67fc56dfc6269916bda2b95af4ce445ce3bc9",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48826291079812206,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 60,
+          "top": 456,
+          "width": 119,
+          "height": 208,
+          "pixels": 13210
+        },
+        {
+          "left": 280,
+          "top": 453,
+          "width": 111,
+          "height": 213,
+          "pixels": 12958
+        },
+        {
+          "left": 479,
+          "top": 457,
+          "width": 138,
+          "height": 207,
+          "pixels": 12561
+        },
+        {
+          "left": 683,
+          "top": 460,
+          "width": 156,
+          "height": 204,
+          "pixels": 13517
+        },
+        {
+          "left": 900,
+          "top": 460,
+          "width": 150,
+          "height": 207,
+          "pixels": 12736
+        },
+        {
+          "left": 1127,
+          "top": 461,
+          "width": 204,
+          "height": 207,
+          "pixels": 14476
+        },
+        {
+          "left": 1331,
+          "top": 467,
+          "width": 221,
+          "height": 200,
+          "pixels": 15388
+        },
+        {
+          "left": 1552,
+          "top": 571,
+          "width": 205,
+          "height": 104,
+          "pixels": 13272
+        }
+      ]
+    },
+    {
+      "key": "machinegun",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/machinegun.webp",
+      "sha256": "c1242c150680460f90a0edb89092603f8087711d8d11f79f7e1a43391a576d3b",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 680,
+          "width": 203,
+          "height": 182,
+          "pixels": 20255
+        },
+        {
+          "left": 233,
+          "top": 682,
+          "width": 211,
+          "height": 181,
+          "pixels": 20396
+        },
+        {
+          "left": 444,
+          "top": 694,
+          "width": 221,
+          "height": 163,
+          "pixels": 18941
+        },
+        {
+          "left": 665,
+          "top": 698,
+          "width": 222,
+          "height": 159,
+          "pixels": 17294
+        },
+        {
+          "left": 887,
+          "top": 694,
+          "width": 222,
+          "height": 160,
+          "pixels": 17275
+        },
+        {
+          "left": 1109,
+          "top": 714,
+          "width": 222,
+          "height": 143,
+          "pixels": 18755
+        },
+        {
+          "left": 1331,
+          "top": 716,
+          "width": 221,
+          "height": 148,
+          "pixels": 19542
+        },
+        {
+          "left": 1552,
+          "top": 757,
+          "width": 207,
+          "height": 114,
+          "pixels": 17773
+        }
+      ]
+    },
+    {
+      "key": "machinegun-death",
+      "source": "art-source/unit-expansion-20261019/atlas-1.png",
+      "sourceSha256": "6ecf902c412484b4a6d90afa773599e0acecc167501ec35aed6a917a64e9b50d",
+      "runtime": "web/assets/unit-expansion/machinegun-death.webp",
+      "sha256": "7e56bd6cc1c8cd620df1bd6ecf290dd9b643c3b5359c3bfcd7406a890f57c685",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 680,
+          "width": 203,
+          "height": 182,
+          "pixels": 20255
+        },
+        {
+          "left": 233,
+          "top": 682,
+          "width": 211,
+          "height": 181,
+          "pixels": 20396
+        },
+        {
+          "left": 444,
+          "top": 694,
+          "width": 221,
+          "height": 163,
+          "pixels": 18941
+        },
+        {
+          "left": 665,
+          "top": 698,
+          "width": 222,
+          "height": 159,
+          "pixels": 17294
+        },
+        {
+          "left": 887,
+          "top": 694,
+          "width": 222,
+          "height": 160,
+          "pixels": 17275
+        },
+        {
+          "left": 1109,
+          "top": 714,
+          "width": 222,
+          "height": 143,
+          "pixels": 18755
+        },
+        {
+          "left": 1331,
+          "top": 716,
+          "width": 221,
+          "height": 148,
+          "pixels": 19542
+        },
+        {
+          "left": 1552,
+          "top": 757,
+          "width": 207,
+          "height": 114,
+          "pixels": 17773
+        }
+      ]
+    },
+    {
+      "key": "heavychariot",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/heavychariot.webp",
+      "sha256": "cef3240cfbc48d253a2a126a4e95e9445d99119dc736a517c1452df5132c802a",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48148148148148145,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 23,
+          "top": 15,
+          "width": 194,
+          "height": 216,
+          "pixels": 16403
+        },
+        {
+          "left": 242,
+          "top": 34,
+          "width": 202,
+          "height": 199,
+          "pixels": 18570
+        },
+        {
+          "left": 444,
+          "top": 25,
+          "width": 221,
+          "height": 210,
+          "pixels": 18827
+        },
+        {
+          "left": 665,
+          "top": 47,
+          "width": 215,
+          "height": 186,
+          "pixels": 17790
+        },
+        {
+          "left": 905,
+          "top": 36,
+          "width": 191,
+          "height": 206,
+          "pixels": 16667
+        },
+        {
+          "left": 1111,
+          "top": 42,
+          "width": 220,
+          "height": 195,
+          "pixels": 19780
+        },
+        {
+          "left": 1331,
+          "top": 35,
+          "width": 221,
+          "height": 207,
+          "pixels": 19703
+        },
+        {
+          "left": 1552,
+          "top": 103,
+          "width": 214,
+          "height": 134,
+          "pixels": 17537
+        }
+      ]
+    },
+    {
+      "key": "heavychariot-death",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/heavychariot-death.webp",
+      "sha256": "ac6dcf480c79db7dedd3f1f995ea5054cd738cfd54c2f8957b44ee711b8149e5",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48148148148148145,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 23,
+          "top": 15,
+          "width": 194,
+          "height": 216,
+          "pixels": 16403
+        },
+        {
+          "left": 242,
+          "top": 34,
+          "width": 202,
+          "height": 199,
+          "pixels": 18570
+        },
+        {
+          "left": 444,
+          "top": 25,
+          "width": 221,
+          "height": 210,
+          "pixels": 18827
+        },
+        {
+          "left": 665,
+          "top": 47,
+          "width": 215,
+          "height": 186,
+          "pixels": 17790
+        },
+        {
+          "left": 905,
+          "top": 36,
+          "width": 191,
+          "height": 206,
+          "pixels": 16667
+        },
+        {
+          "left": 1111,
+          "top": 42,
+          "width": 220,
+          "height": 195,
+          "pixels": 19780
+        },
+        {
+          "left": 1331,
+          "top": 35,
+          "width": 221,
+          "height": 207,
+          "pixels": 19703
+        },
+        {
+          "left": 1552,
+          "top": 103,
+          "width": 214,
+          "height": 134,
+          "pixels": 17537
+        }
+      ]
+    },
+    {
+      "key": "pikeandshot",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/pikeandshot.webp",
+      "sha256": "99031a7735ea60e9529422686e4eca13aa081216b40d668962701ebf5e13b46e",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48372093023255813,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 76,
+          "top": 251,
+          "width": 67,
+          "height": 215,
+          "pixels": 7462
+        },
+        {
+          "left": 281,
+          "top": 250,
+          "width": 78,
+          "height": 214,
+          "pixels": 7721
+        },
+        {
+          "left": 465,
+          "top": 273,
+          "width": 198,
+          "height": 187,
+          "pixels": 7624
+        },
+        {
+          "left": 674,
+          "top": 277,
+          "width": 213,
+          "height": 178,
+          "pixels": 8610
+        },
+        {
+          "left": 887,
+          "top": 261,
+          "width": 145,
+          "height": 188,
+          "pixels": 7942
+        },
+        {
+          "left": 1124,
+          "top": 293,
+          "width": 207,
+          "height": 163,
+          "pixels": 8568
+        },
+        {
+          "left": 1331,
+          "top": 296,
+          "width": 221,
+          "height": 162,
+          "pixels": 10529
+        },
+        {
+          "left": 1552,
+          "top": 299,
+          "width": 211,
+          "height": 171,
+          "pixels": 11726
+        }
+      ]
+    },
+    {
+      "key": "pikeandshot-death",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/pikeandshot-death.webp",
+      "sha256": "6307c3d1cfb60d055cb6ecd3f80771aa8943f77a3d97df9b00a142d699a07ad1",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48372093023255813,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 76,
+          "top": 251,
+          "width": 67,
+          "height": 215,
+          "pixels": 7462
+        },
+        {
+          "left": 281,
+          "top": 250,
+          "width": 78,
+          "height": 214,
+          "pixels": 7721
+        },
+        {
+          "left": 465,
+          "top": 273,
+          "width": 198,
+          "height": 187,
+          "pixels": 7624
+        },
+        {
+          "left": 674,
+          "top": 277,
+          "width": 213,
+          "height": 178,
+          "pixels": 8610
+        },
+        {
+          "left": 887,
+          "top": 261,
+          "width": 145,
+          "height": 188,
+          "pixels": 7942
+        },
+        {
+          "left": 1124,
+          "top": 293,
+          "width": 207,
+          "height": 163,
+          "pixels": 8568
+        },
+        {
+          "left": 1331,
+          "top": 296,
+          "width": 221,
+          "height": 162,
+          "pixels": 10529
+        },
+        {
+          "left": 1552,
+          "top": 299,
+          "width": 211,
+          "height": 171,
+          "pixels": 11726
+        }
+      ]
+    },
+    {
+      "key": "atcrew",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/atcrew.webp",
+      "sha256": "8404870d6d217b7388889df2b9683b22569369571ce531ee4a4728812642aecf",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 16,
+          "top": 499,
+          "width": 206,
+          "height": 160,
+          "pixels": 19022
+        },
+        {
+          "left": 222,
+          "top": 510,
+          "width": 222,
+          "height": 150,
+          "pixels": 16587
+        },
+        {
+          "left": 444,
+          "top": 516,
+          "width": 221,
+          "height": 139,
+          "pixels": 13466
+        },
+        {
+          "left": 665,
+          "top": 511,
+          "width": 222,
+          "height": 150,
+          "pixels": 14684
+        },
+        {
+          "left": 887,
+          "top": 513,
+          "width": 222,
+          "height": 147,
+          "pixels": 15206
+        },
+        {
+          "left": 1109,
+          "top": 515,
+          "width": 217,
+          "height": 147,
+          "pixels": 16116
+        },
+        {
+          "left": 1334,
+          "top": 522,
+          "width": 218,
+          "height": 137,
+          "pixels": 16608
+        },
+        {
+          "left": 1552,
+          "top": 538,
+          "width": 212,
+          "height": 119,
+          "pixels": 16321
+        }
+      ]
+    },
+    {
+      "key": "atcrew-death",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/atcrew-death.webp",
+      "sha256": "8d9fa4a2686946d165c123e6134e3e93d7bdc4754fc0c08db56d0dd0e61adc6d",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 16,
+          "top": 499,
+          "width": 206,
+          "height": 160,
+          "pixels": 19022
+        },
+        {
+          "left": 222,
+          "top": 510,
+          "width": 222,
+          "height": 150,
+          "pixels": 16587
+        },
+        {
+          "left": 444,
+          "top": 516,
+          "width": 221,
+          "height": 139,
+          "pixels": 13466
+        },
+        {
+          "left": 665,
+          "top": 511,
+          "width": 222,
+          "height": 150,
+          "pixels": 14684
+        },
+        {
+          "left": 887,
+          "top": 513,
+          "width": 222,
+          "height": 147,
+          "pixels": 15206
+        },
+        {
+          "left": 1109,
+          "top": 515,
+          "width": 217,
+          "height": 147,
+          "pixels": 16116
+        },
+        {
+          "left": 1334,
+          "top": 522,
+          "width": 218,
+          "height": 137,
+          "pixels": 16608
+        },
+        {
+          "left": 1552,
+          "top": 538,
+          "width": 212,
+          "height": 119,
+          "pixels": 16321
+        }
+      ]
+    },
+    {
+      "key": "modernat",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/modernat.webp",
+      "sha256": "50c0a8cea13a8cc8bc0953a0c35b489a52477d6d4f25ee3ffdb7bea1a9b17ad7",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 17,
+          "top": 694,
+          "width": 203,
+          "height": 170,
+          "pixels": 20406
+        },
+        {
+          "left": 242,
+          "top": 697,
+          "width": 195,
+          "height": 164,
+          "pixels": 19564
+        },
+        {
+          "left": 466,
+          "top": 702,
+          "width": 185,
+          "height": 157,
+          "pixels": 14601
+        },
+        {
+          "left": 679,
+          "top": 701,
+          "width": 198,
+          "height": 160,
+          "pixels": 16103
+        },
+        {
+          "left": 894,
+          "top": 726,
+          "width": 215,
+          "height": 136,
+          "pixels": 16057
+        },
+        {
+          "left": 1109,
+          "top": 711,
+          "width": 222,
+          "height": 151,
+          "pixels": 15974
+        },
+        {
+          "left": 1331,
+          "top": 718,
+          "width": 221,
+          "height": 142,
+          "pixels": 18036
+        },
+        {
+          "left": 1552,
+          "top": 724,
+          "width": 210,
+          "height": 126,
+          "pixels": 10963
+        }
+      ]
+    },
+    {
+      "key": "modernat-death",
+      "source": "art-source/unit-expansion-20261019/atlas-2.png",
+      "sourceSha256": "4c501ed172dc752cf5d345f0dce477a7f0289274d665f8c665ac30cf8c0fbc5d",
+      "runtime": "web/assets/unit-expansion/modernat-death.webp",
+      "sha256": "f9376f3fafd5ac5c474ce0eda8910dac6bf4b4f13aaf51ed9865fd66f6203504",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 17,
+          "top": 694,
+          "width": 203,
+          "height": 170,
+          "pixels": 20406
+        },
+        {
+          "left": 242,
+          "top": 697,
+          "width": 195,
+          "height": 164,
+          "pixels": 19564
+        },
+        {
+          "left": 466,
+          "top": 702,
+          "width": 185,
+          "height": 157,
+          "pixels": 14601
+        },
+        {
+          "left": 679,
+          "top": 701,
+          "width": 198,
+          "height": 160,
+          "pixels": 16103
+        },
+        {
+          "left": 894,
+          "top": 726,
+          "width": 215,
+          "height": 136,
+          "pixels": 16057
+        },
+        {
+          "left": 1109,
+          "top": 711,
+          "width": 222,
+          "height": 151,
+          "pixels": 15974
+        },
+        {
+          "left": 1331,
+          "top": 718,
+          "width": 221,
+          "height": 142,
+          "pixels": 18036
+        },
+        {
+          "left": 1552,
+          "top": 724,
+          "width": 210,
+          "height": 126,
+          "pixels": 10963
+        }
+      ]
+    },
+    {
+      "key": "quadrireme",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/quadrireme.webp",
+      "sha256": "165fbde5abf143e291d844f34fb7bf7fe86cc609d86185c3bd2da9ce3f15886b",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 12,
+          "top": 17,
+          "width": 210,
+          "height": 187,
+          "pixels": 21083
+        },
+        {
+          "left": 222,
+          "top": 16,
+          "width": 222,
+          "height": 192,
+          "pixels": 20012
+        },
+        {
+          "left": 444,
+          "top": 17,
+          "width": 221,
+          "height": 191,
+          "pixels": 19974
+        },
+        {
+          "left": 665,
+          "top": 15,
+          "width": 222,
+          "height": 194,
+          "pixels": 21772
+        },
+        {
+          "left": 887,
+          "top": 13,
+          "width": 222,
+          "height": 196,
+          "pixels": 21252
+        },
+        {
+          "left": 1114,
+          "top": 13,
+          "width": 217,
+          "height": 196,
+          "pixels": 22266
+        },
+        {
+          "left": 1331,
+          "top": 16,
+          "width": 221,
+          "height": 194,
+          "pixels": 22359
+        },
+        {
+          "left": 1552,
+          "top": 17,
+          "width": 215,
+          "height": 188,
+          "pixels": 17518
+        }
+      ]
+    },
+    {
+      "key": "quadrireme-death",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/quadrireme-death.webp",
+      "sha256": "15ea6c987053da9d4e8d6ff18e4516c67cb9b4aa132d94fc752d2957e5dcc563",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 12,
+          "top": 17,
+          "width": 210,
+          "height": 187,
+          "pixels": 21083
+        },
+        {
+          "left": 222,
+          "top": 16,
+          "width": 222,
+          "height": 192,
+          "pixels": 20012
+        },
+        {
+          "left": 444,
+          "top": 17,
+          "width": 221,
+          "height": 191,
+          "pixels": 19974
+        },
+        {
+          "left": 665,
+          "top": 15,
+          "width": 222,
+          "height": 194,
+          "pixels": 21772
+        },
+        {
+          "left": 887,
+          "top": 13,
+          "width": 222,
+          "height": 196,
+          "pixels": 21252
+        },
+        {
+          "left": 1114,
+          "top": 13,
+          "width": 217,
+          "height": 196,
+          "pixels": 22266
+        },
+        {
+          "left": 1331,
+          "top": 16,
+          "width": 221,
+          "height": 194,
+          "pixels": 22359
+        },
+        {
+          "left": 1552,
+          "top": 17,
+          "width": 215,
+          "height": 188,
+          "pixels": 17518
+        }
+      ]
+    },
+    {
+      "key": "caravel",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/caravel.webp",
+      "sha256": "0e670340d6c7b9cabb3ab6c900c08437ebb0ebfa8aa4931daf2b9c29c3033a36",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 224,
+          "width": 204,
+          "height": 198,
+          "pixels": 22163
+        },
+        {
+          "left": 222,
+          "top": 225,
+          "width": 222,
+          "height": 198,
+          "pixels": 20851
+        },
+        {
+          "left": 444,
+          "top": 225,
+          "width": 221,
+          "height": 198,
+          "pixels": 22566
+        },
+        {
+          "left": 665,
+          "top": 227,
+          "width": 222,
+          "height": 199,
+          "pixels": 21420
+        },
+        {
+          "left": 887,
+          "top": 225,
+          "width": 222,
+          "height": 203,
+          "pixels": 20958
+        },
+        {
+          "left": 1109,
+          "top": 225,
+          "width": 222,
+          "height": 198,
+          "pixels": 22531
+        },
+        {
+          "left": 1331,
+          "top": 226,
+          "width": 220,
+          "height": 198,
+          "pixels": 22183
+        },
+        {
+          "left": 1554,
+          "top": 236,
+          "width": 213,
+          "height": 195,
+          "pixels": 19661
+        }
+      ]
+    },
+    {
+      "key": "caravel-death",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/caravel-death.webp",
+      "sha256": "4d9eefd5e1e95a782537c5493164c2d136ac0cc055998295049938a585075dcd",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 224,
+          "width": 204,
+          "height": 198,
+          "pixels": 22163
+        },
+        {
+          "left": 222,
+          "top": 225,
+          "width": 222,
+          "height": 198,
+          "pixels": 20851
+        },
+        {
+          "left": 444,
+          "top": 225,
+          "width": 221,
+          "height": 198,
+          "pixels": 22566
+        },
+        {
+          "left": 665,
+          "top": 227,
+          "width": 222,
+          "height": 199,
+          "pixels": 21420
+        },
+        {
+          "left": 887,
+          "top": 225,
+          "width": 222,
+          "height": 203,
+          "pixels": 20958
+        },
+        {
+          "left": 1109,
+          "top": 225,
+          "width": 222,
+          "height": 198,
+          "pixels": 22531
+        },
+        {
+          "left": 1331,
+          "top": 226,
+          "width": 220,
+          "height": 198,
+          "pixels": 22183
+        },
+        {
+          "left": 1554,
+          "top": 236,
+          "width": 213,
+          "height": 195,
+          "pixels": 19661
+        }
+      ]
+    },
+    {
+      "key": "privateer",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/privateer.webp",
+      "sha256": "3268b8187bc21d7a105341d05cf17e8f38ac39b0401fa3d9b48a530c91e8638d",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48598130841121495,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 433,
+          "width": 204,
+          "height": 214,
+          "pixels": 24452
+        },
+        {
+          "left": 222,
+          "top": 435,
+          "width": 222,
+          "height": 213,
+          "pixels": 25249
+        },
+        {
+          "left": 444,
+          "top": 433,
+          "width": 221,
+          "height": 213,
+          "pixels": 25001
+        },
+        {
+          "left": 665,
+          "top": 439,
+          "width": 222,
+          "height": 212,
+          "pixels": 23750
+        },
+        {
+          "left": 887,
+          "top": 440,
+          "width": 222,
+          "height": 211,
+          "pixels": 23095
+        },
+        {
+          "left": 1109,
+          "top": 435,
+          "width": 222,
+          "height": 212,
+          "pixels": 24982
+        },
+        {
+          "left": 1331,
+          "top": 436,
+          "width": 221,
+          "height": 210,
+          "pixels": 24548
+        },
+        {
+          "left": 1552,
+          "top": 454,
+          "width": 215,
+          "height": 192,
+          "pixels": 19198
+        }
+      ]
+    },
+    {
+      "key": "privateer-death",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/privateer-death.webp",
+      "sha256": "21df25c83588d8b2ac06ab8c92db11ddb320830d10055067f1c62c1efbe67ca0",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48598130841121495,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 18,
+          "top": 433,
+          "width": 204,
+          "height": 214,
+          "pixels": 24452
+        },
+        {
+          "left": 222,
+          "top": 435,
+          "width": 222,
+          "height": 213,
+          "pixels": 25249
+        },
+        {
+          "left": 444,
+          "top": 433,
+          "width": 221,
+          "height": 213,
+          "pixels": 25001
+        },
+        {
+          "left": 665,
+          "top": 439,
+          "width": 222,
+          "height": 212,
+          "pixels": 23750
+        },
+        {
+          "left": 887,
+          "top": 440,
+          "width": 222,
+          "height": 211,
+          "pixels": 23095
+        },
+        {
+          "left": 1109,
+          "top": 435,
+          "width": 222,
+          "height": 212,
+          "pixels": 24982
+        },
+        {
+          "left": 1331,
+          "top": 436,
+          "width": 221,
+          "height": 210,
+          "pixels": 24548
+        },
+        {
+          "left": 1552,
+          "top": 454,
+          "width": 215,
+          "height": 192,
+          "pixels": 19198
+        }
+      ]
+    },
+    {
+      "key": "ironclad",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/ironclad.webp",
+      "sha256": "d00014cafda62482ca600972ff25bb4ec349efd388c7802a1c2ad7129c3b4de0",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 12,
+          "top": 662,
+          "width": 210,
+          "height": 184,
+          "pixels": 19510
+        },
+        {
+          "left": 222,
+          "top": 664,
+          "width": 222,
+          "height": 186,
+          "pixels": 19345
+        },
+        {
+          "left": 444,
+          "top": 661,
+          "width": 221,
+          "height": 190,
+          "pixels": 20384
+        },
+        {
+          "left": 665,
+          "top": 662,
+          "width": 222,
+          "height": 188,
+          "pixels": 18904
+        },
+        {
+          "left": 887,
+          "top": 662,
+          "width": 222,
+          "height": 188,
+          "pixels": 18224
+        },
+        {
+          "left": 1109,
+          "top": 662,
+          "width": 222,
+          "height": 189,
+          "pixels": 20804
+        },
+        {
+          "left": 1331,
+          "top": 663,
+          "width": 221,
+          "height": 187,
+          "pixels": 20620
+        },
+        {
+          "left": 1552,
+          "top": 682,
+          "width": 216,
+          "height": 171,
+          "pixels": 17349
+        }
+      ]
+    },
+    {
+      "key": "ironclad-death",
+      "source": "art-source/unit-expansion-20261019/atlas-3.png",
+      "sourceSha256": "e369804ff933b5f6fd0922bbab22e7dd7dfa6d9bab0c9ed23bb51b72391ea3d5",
+      "runtime": "web/assets/unit-expansion/ironclad-death.webp",
+      "sha256": "30229129efe900d77a7f996b69da6b9e58f6c2ce6ea5091a8774a812a2d44421",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 12,
+          "top": 662,
+          "width": 210,
+          "height": 184,
+          "pixels": 19510
+        },
+        {
+          "left": 222,
+          "top": 664,
+          "width": 222,
+          "height": 186,
+          "pixels": 19345
+        },
+        {
+          "left": 444,
+          "top": 661,
+          "width": 221,
+          "height": 190,
+          "pixels": 20384
+        },
+        {
+          "left": 665,
+          "top": 662,
+          "width": 222,
+          "height": 188,
+          "pixels": 18904
+        },
+        {
+          "left": 887,
+          "top": 662,
+          "width": 222,
+          "height": 188,
+          "pixels": 18224
+        },
+        {
+          "left": 1109,
+          "top": 662,
+          "width": 222,
+          "height": 189,
+          "pixels": 20804
+        },
+        {
+          "left": 1331,
+          "top": 663,
+          "width": 221,
+          "height": 187,
+          "pixels": 20620
+        },
+        {
+          "left": 1552,
+          "top": 682,
+          "width": 216,
+          "height": 171,
+          "pixels": 17349
+        }
+      ]
+    },
+    {
+      "key": "batteringram",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/batteringram.webp",
+      "sha256": "5dabee3d07202a74b53be854b2cc2d555b12911af1dfdbdf1f042dcb856225a9",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 21,
+          "top": 9,
+          "width": 201,
+          "height": 172,
+          "pixels": 23292
+        },
+        {
+          "left": 222,
+          "top": 10,
+          "width": 222,
+          "height": 179,
+          "pixels": 21912
+        },
+        {
+          "left": 444,
+          "top": 11,
+          "width": 221,
+          "height": 164,
+          "pixels": 20632
+        },
+        {
+          "left": 665,
+          "top": 9,
+          "width": 222,
+          "height": 169,
+          "pixels": 22639
+        },
+        {
+          "left": 887,
+          "top": 12,
+          "width": 222,
+          "height": 173,
+          "pixels": 21321
+        },
+        {
+          "left": 1109,
+          "top": 10,
+          "width": 222,
+          "height": 175,
+          "pixels": 23317
+        },
+        {
+          "left": 1331,
+          "top": 9,
+          "width": 221,
+          "height": 171,
+          "pixels": 22689
+        },
+        {
+          "left": 1552,
+          "top": 56,
+          "width": 209,
+          "height": 134,
+          "pixels": 20415
+        }
+      ]
+    },
+    {
+      "key": "batteringram-death",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/batteringram-death.webp",
+      "sha256": "886c8447f34e96536ecc48f37126f7a8b715d03d071ab67aefaf645e8fe3626a",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 21,
+          "top": 9,
+          "width": 201,
+          "height": 172,
+          "pixels": 23292
+        },
+        {
+          "left": 222,
+          "top": 10,
+          "width": 222,
+          "height": 179,
+          "pixels": 21912
+        },
+        {
+          "left": 444,
+          "top": 11,
+          "width": 221,
+          "height": 164,
+          "pixels": 20632
+        },
+        {
+          "left": 665,
+          "top": 9,
+          "width": 222,
+          "height": 169,
+          "pixels": 22639
+        },
+        {
+          "left": 887,
+          "top": 12,
+          "width": 222,
+          "height": 173,
+          "pixels": 21321
+        },
+        {
+          "left": 1109,
+          "top": 10,
+          "width": 222,
+          "height": 175,
+          "pixels": 23317
+        },
+        {
+          "left": 1331,
+          "top": 9,
+          "width": 221,
+          "height": 171,
+          "pixels": 22689
+        },
+        {
+          "left": 1552,
+          "top": 56,
+          "width": 209,
+          "height": 134,
+          "pixels": 20415
+        }
+      ]
+    },
+    {
+      "key": "siegetower",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/siegetower.webp",
+      "sha256": "bde43282ad5c253c4665e8defb55a6617d30641895fcc617ee94cf3f956d71c1",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.4279835390946502,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 40,
+          "top": 200,
+          "width": 163,
+          "height": 239,
+          "pixels": 24318
+        },
+        {
+          "left": 261,
+          "top": 196,
+          "width": 153,
+          "height": 243,
+          "pixels": 24010
+        },
+        {
+          "left": 444,
+          "top": 198,
+          "width": 200,
+          "height": 230,
+          "pixels": 26093
+        },
+        {
+          "left": 670,
+          "top": 198,
+          "width": 192,
+          "height": 231,
+          "pixels": 25714
+        },
+        {
+          "left": 888,
+          "top": 198,
+          "width": 221,
+          "height": 234,
+          "pixels": 25421
+        },
+        {
+          "left": 1109,
+          "top": 199,
+          "width": 222,
+          "height": 230,
+          "pixels": 27583
+        },
+        {
+          "left": 1331,
+          "top": 203,
+          "width": 221,
+          "height": 228,
+          "pixels": 28159
+        },
+        {
+          "left": 1552,
+          "top": 229,
+          "width": 211,
+          "height": 210,
+          "pixels": 26896
+        }
+      ]
+    },
+    {
+      "key": "siegetower-death",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/siegetower-death.webp",
+      "sha256": "4ca1ab53aa2045b0d8396e309e8e186f64925f33b0b568a0a7f7584ad062f5ac",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.4279835390946502,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 40,
+          "top": 200,
+          "width": 163,
+          "height": 239,
+          "pixels": 24318
+        },
+        {
+          "left": 261,
+          "top": 196,
+          "width": 153,
+          "height": 243,
+          "pixels": 24010
+        },
+        {
+          "left": 444,
+          "top": 198,
+          "width": 200,
+          "height": 230,
+          "pixels": 26093
+        },
+        {
+          "left": 670,
+          "top": 198,
+          "width": 192,
+          "height": 231,
+          "pixels": 25714
+        },
+        {
+          "left": 888,
+          "top": 198,
+          "width": 221,
+          "height": 234,
+          "pixels": 25421
+        },
+        {
+          "left": 1109,
+          "top": 199,
+          "width": 222,
+          "height": 230,
+          "pixels": 27583
+        },
+        {
+          "left": 1331,
+          "top": 203,
+          "width": 221,
+          "height": 228,
+          "pixels": 28159
+        },
+        {
+          "left": 1552,
+          "top": 229,
+          "width": 211,
+          "height": 210,
+          "pixels": 26896
+        }
+      ]
+    },
+    {
+      "key": "militaryengineer",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/militaryengineer.webp",
+      "sha256": "3e59a20a766e70afa36c7fd7461dc88b817a52a0d04be9b2deef562064b57144",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5517241379310345,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 41,
+          "top": 439,
+          "width": 102,
+          "height": 176,
+          "pixels": 9718
+        },
+        {
+          "left": 264,
+          "top": 439,
+          "width": 109,
+          "height": 176,
+          "pixels": 9599
+        },
+        {
+          "left": 510,
+          "top": 444,
+          "width": 98,
+          "height": 167,
+          "pixels": 8819
+        },
+        {
+          "left": 721,
+          "top": 440,
+          "width": 110,
+          "height": 175,
+          "pixels": 8922
+        },
+        {
+          "left": 921,
+          "top": 454,
+          "width": 110,
+          "height": 161,
+          "pixels": 8965
+        },
+        {
+          "left": 1140,
+          "top": 460,
+          "width": 136,
+          "height": 152,
+          "pixels": 9363
+        },
+        {
+          "left": 1363,
+          "top": 449,
+          "width": 189,
+          "height": 163,
+          "pixels": 9526
+        },
+        {
+          "left": 1552,
+          "top": 439,
+          "width": 203,
+          "height": 179,
+          "pixels": 11647
+        }
+      ]
+    },
+    {
+      "key": "militaryengineer-death",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/militaryengineer-death.webp",
+      "sha256": "2e185fca31cce8d52033bb8277b1176ec88ac07f6da30fcdc0283b50e25f5b95",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5517241379310345,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 41,
+          "top": 439,
+          "width": 102,
+          "height": 176,
+          "pixels": 9718
+        },
+        {
+          "left": 264,
+          "top": 439,
+          "width": 109,
+          "height": 176,
+          "pixels": 9599
+        },
+        {
+          "left": 510,
+          "top": 444,
+          "width": 98,
+          "height": 167,
+          "pixels": 8819
+        },
+        {
+          "left": 721,
+          "top": 440,
+          "width": 110,
+          "height": 175,
+          "pixels": 8922
+        },
+        {
+          "left": 921,
+          "top": 454,
+          "width": 110,
+          "height": 161,
+          "pixels": 8965
+        },
+        {
+          "left": 1140,
+          "top": 460,
+          "width": 136,
+          "height": 152,
+          "pixels": 9363
+        },
+        {
+          "left": 1363,
+          "top": 449,
+          "width": 189,
+          "height": 163,
+          "pixels": 9526
+        },
+        {
+          "left": 1552,
+          "top": 439,
+          "width": 203,
+          "height": 179,
+          "pixels": 11647
+        }
+      ]
+    },
+    {
+      "key": "balloon",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/balloon.webp",
+      "sha256": "6cb285ab24c9d51d8952173f8c8aee2828b44198a0e27f9c442a660e5c32e0c9",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.41434262948207173,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 31,
+          "top": 623,
+          "width": 166,
+          "height": 247,
+          "pixels": 22622
+        },
+        {
+          "left": 259,
+          "top": 622,
+          "width": 178,
+          "height": 239,
+          "pixels": 23263
+        },
+        {
+          "left": 498,
+          "top": 626,
+          "width": 167,
+          "height": 234,
+          "pixels": 21346
+        },
+        {
+          "left": 665,
+          "top": 623,
+          "width": 219,
+          "height": 237,
+          "pixels": 21559
+        },
+        {
+          "left": 937,
+          "top": 623,
+          "width": 158,
+          "height": 239,
+          "pixels": 21839
+        },
+        {
+          "left": 1142,
+          "top": 619,
+          "width": 189,
+          "height": 244,
+          "pixels": 21292
+        },
+        {
+          "left": 1331,
+          "top": 619,
+          "width": 221,
+          "height": 251,
+          "pixels": 26379
+        },
+        {
+          "left": 1552,
+          "top": 618,
+          "width": 211,
+          "height": 241,
+          "pixels": 25850
+        }
+      ]
+    },
+    {
+      "key": "balloon-death",
+      "source": "art-source/unit-expansion-20261019/atlas-4.png",
+      "sourceSha256": "360d5a773fcdbd4f84359082a687dcff955c5ea7aba4686d034c062ee8eafccb",
+      "runtime": "web/assets/unit-expansion/balloon-death.webp",
+      "sha256": "fa816782c43e1f1e6e707191aa4b6e9671ceb9006a2ee198d271ef55a4ff30e0",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.41434262948207173,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 31,
+          "top": 623,
+          "width": 166,
+          "height": 247,
+          "pixels": 22622
+        },
+        {
+          "left": 259,
+          "top": 622,
+          "width": 178,
+          "height": 239,
+          "pixels": 23263
+        },
+        {
+          "left": 498,
+          "top": 626,
+          "width": 167,
+          "height": 234,
+          "pixels": 21346
+        },
+        {
+          "left": 665,
+          "top": 623,
+          "width": 219,
+          "height": 237,
+          "pixels": 21559
+        },
+        {
+          "left": 937,
+          "top": 623,
+          "width": 158,
+          "height": 239,
+          "pixels": 21839
+        },
+        {
+          "left": 1142,
+          "top": 619,
+          "width": 189,
+          "height": 244,
+          "pixels": 21292
+        },
+        {
+          "left": 1331,
+          "top": 619,
+          "width": 221,
+          "height": 251,
+          "pixels": 26379
+        },
+        {
+          "left": 1552,
+          "top": 618,
+          "width": 211,
+          "height": 241,
+          "pixels": 25850
+        }
+      ]
+    },
+    {
+      "key": "guru",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/guru.webp",
+      "sha256": "d52def2d11e3217e3e85e6349ab63582c2882bf47549065ac04e787ee6732102",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.4928909952606635,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 57,
+          "top": 8,
+          "width": 102,
+          "height": 211,
+          "pixels": 13903
+        },
+        {
+          "left": 284,
+          "top": 8,
+          "width": 97,
+          "height": 210,
+          "pixels": 12664
+        },
+        {
+          "left": 492,
+          "top": 8,
+          "width": 139,
+          "height": 206,
+          "pixels": 15241
+        },
+        {
+          "left": 729,
+          "top": 8,
+          "width": 128,
+          "height": 207,
+          "pixels": 15470
+        },
+        {
+          "left": 929,
+          "top": 9,
+          "width": 144,
+          "height": 206,
+          "pixels": 16399
+        },
+        {
+          "left": 1141,
+          "top": 10,
+          "width": 148,
+          "height": 210,
+          "pixels": 18735
+        },
+        {
+          "left": 1361,
+          "top": 53,
+          "width": 191,
+          "height": 159,
+          "pixels": 14624
+        },
+        {
+          "left": 1552,
+          "top": 111,
+          "width": 212,
+          "height": 104,
+          "pixels": 13402
+        }
+      ]
+    },
+    {
+      "key": "guru-death",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/guru-death.webp",
+      "sha256": "c7aa58be9afe5d5231e74f2aad29ebef06002cee84c27400c1e96eb1684ccdbc",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.4928909952606635,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 57,
+          "top": 8,
+          "width": 102,
+          "height": 211,
+          "pixels": 13903
+        },
+        {
+          "left": 284,
+          "top": 8,
+          "width": 97,
+          "height": 210,
+          "pixels": 12664
+        },
+        {
+          "left": 492,
+          "top": 8,
+          "width": 139,
+          "height": 206,
+          "pixels": 15241
+        },
+        {
+          "left": 729,
+          "top": 8,
+          "width": 128,
+          "height": 207,
+          "pixels": 15470
+        },
+        {
+          "left": 929,
+          "top": 9,
+          "width": 144,
+          "height": 206,
+          "pixels": 16399
+        },
+        {
+          "left": 1141,
+          "top": 10,
+          "width": 148,
+          "height": 210,
+          "pixels": 18735
+        },
+        {
+          "left": 1361,
+          "top": 53,
+          "width": 191,
+          "height": 159,
+          "pixels": 14624
+        },
+        {
+          "left": 1552,
+          "top": 111,
+          "width": 212,
+          "height": 104,
+          "pixels": 13402
+        }
+      ]
+    },
+    {
+      "key": "archaeologist",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/archaeologist.webp",
+      "sha256": "8274fbd45c0bc68e9da8711f2e3306fc634204c00fccce43c0b4d803cf4196f5",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.47058823529411764,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 56,
+          "top": 224,
+          "width": 122,
+          "height": 221,
+          "pixels": 12877
+        },
+        {
+          "left": 281,
+          "top": 225,
+          "width": 123,
+          "height": 220,
+          "pixels": 13326
+        },
+        {
+          "left": 499,
+          "top": 225,
+          "width": 126,
+          "height": 218,
+          "pixels": 13048
+        },
+        {
+          "left": 722,
+          "top": 224,
+          "width": 129,
+          "height": 217,
+          "pixels": 14091
+        },
+        {
+          "left": 925,
+          "top": 225,
+          "width": 149,
+          "height": 217,
+          "pixels": 13436
+        },
+        {
+          "left": 1131,
+          "top": 287,
+          "width": 186,
+          "height": 152,
+          "pixels": 15688
+        },
+        {
+          "left": 1372,
+          "top": 252,
+          "width": 180,
+          "height": 184,
+          "pixels": 15992
+        },
+        {
+          "left": 1552,
+          "top": 298,
+          "width": 205,
+          "height": 148,
+          "pixels": 15599
+        }
+      ]
+    },
+    {
+      "key": "archaeologist-death",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/archaeologist-death.webp",
+      "sha256": "45be6ebd2ce23bbde43af3f04ab12969b2dd09c9de7428f08c669a805acd918a",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.47058823529411764,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 56,
+          "top": 224,
+          "width": 122,
+          "height": 221,
+          "pixels": 12877
+        },
+        {
+          "left": 281,
+          "top": 225,
+          "width": 123,
+          "height": 220,
+          "pixels": 13326
+        },
+        {
+          "left": 499,
+          "top": 225,
+          "width": 126,
+          "height": 218,
+          "pixels": 13048
+        },
+        {
+          "left": 722,
+          "top": 224,
+          "width": 129,
+          "height": 217,
+          "pixels": 14091
+        },
+        {
+          "left": 925,
+          "top": 225,
+          "width": 149,
+          "height": 217,
+          "pixels": 13436
+        },
+        {
+          "left": 1131,
+          "top": 287,
+          "width": 186,
+          "height": 152,
+          "pixels": 15688
+        },
+        {
+          "left": 1372,
+          "top": 252,
+          "width": 180,
+          "height": 184,
+          "pixels": 15992
+        },
+        {
+          "left": 1552,
+          "top": 298,
+          "width": 205,
+          "height": 148,
+          "pixels": 15599
+        }
+      ]
+    },
+    {
+      "key": "naturalist",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/naturalist.webp",
+      "sha256": "98fb5f7fdc66c97441b01d23c7cdb535ffe15662be2446b208eb01b387fb09ea",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.48372093023255813,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 41,
+          "top": 451,
+          "width": 129,
+          "height": 213,
+          "pixels": 13685
+        },
+        {
+          "left": 284,
+          "top": 450,
+          "width": 99,
+          "height": 214,
+          "pixels": 11934
+        },
+        {
+          "left": 494,
+          "top": 447,
+          "width": 132,
+          "height": 214,
+          "pixels": 14611
+        },
+        {
+          "left": 714,
+          "top": 447,
+          "width": 146,
+          "height": 215,
+          "pixels": 14830
+        },
+        {
+          "left": 936,
+          "top": 452,
+          "width": 138,
+          "height": 212,
+          "pixels": 13788
+        },
+        {
+          "left": 1137,
+          "top": 471,
+          "width": 168,
+          "height": 183,
+          "pixels": 18718
+        },
+        {
+          "left": 1364,
+          "top": 470,
+          "width": 188,
+          "height": 185,
+          "pixels": 17630
+        },
+        {
+          "left": 1552,
+          "top": 446,
+          "width": 213,
+          "height": 215,
+          "pixels": 16423
+        }
+      ]
+    },
+    {
+      "key": "naturalist-death",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/naturalist-death.webp",
+      "sha256": "e21a3c47736333e45dd9ba8d3d29d1c5aec411ef1700bf5b9147a3c63548d6f9",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.48372093023255813,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 41,
+          "top": 451,
+          "width": 129,
+          "height": 213,
+          "pixels": 13685
+        },
+        {
+          "left": 284,
+          "top": 450,
+          "width": 99,
+          "height": 214,
+          "pixels": 11934
+        },
+        {
+          "left": 494,
+          "top": 447,
+          "width": 132,
+          "height": 214,
+          "pixels": 14611
+        },
+        {
+          "left": 714,
+          "top": 447,
+          "width": 146,
+          "height": 215,
+          "pixels": 14830
+        },
+        {
+          "left": 936,
+          "top": 452,
+          "width": 138,
+          "height": 212,
+          "pixels": 13788
+        },
+        {
+          "left": 1137,
+          "top": 471,
+          "width": 168,
+          "height": 183,
+          "pixels": 18718
+        },
+        {
+          "left": 1364,
+          "top": 470,
+          "width": 188,
+          "height": 185,
+          "pixels": 17630
+        },
+        {
+          "left": 1552,
+          "top": 446,
+          "width": 213,
+          "height": 215,
+          "pixels": 16423
+        }
+      ]
+    },
+    {
+      "key": "rockband",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/rockband.webp",
+      "sha256": "08d68ad8e1613f81a7a2ff81a9c7d9bc38404d9ed236f5a0eaec5285ebb2cb1d",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.49056603773584906,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 56,
+          "top": 667,
+          "width": 138,
+          "height": 210,
+          "pixels": 12005
+        },
+        {
+          "left": 266,
+          "top": 666,
+          "width": 135,
+          "height": 212,
+          "pixels": 12371
+        },
+        {
+          "left": 466,
+          "top": 669,
+          "width": 171,
+          "height": 205,
+          "pixels": 12677
+        },
+        {
+          "left": 698,
+          "top": 666,
+          "width": 170,
+          "height": 211,
+          "pixels": 14496
+        },
+        {
+          "left": 921,
+          "top": 668,
+          "width": 139,
+          "height": 208,
+          "pixels": 13804
+        },
+        {
+          "left": 1124,
+          "top": 678,
+          "width": 193,
+          "height": 196,
+          "pixels": 13617
+        },
+        {
+          "left": 1345,
+          "top": 670,
+          "width": 207,
+          "height": 204,
+          "pixels": 17904
+        },
+        {
+          "left": 1552,
+          "top": 732,
+          "width": 213,
+          "height": 145,
+          "pixels": 17424
+        }
+      ]
+    },
+    {
+      "key": "rockband-death",
+      "source": "art-source/unit-expansion-20261019/atlas-5.png",
+      "sourceSha256": "42fd99e028bfac7e5b94db79c512af4878a51de9fc5618cecfe485ac03dd5956",
+      "runtime": "web/assets/unit-expansion/rockband-death.webp",
+      "sha256": "1109776248b9c762ba2c9527900da6189c87fbde4b26fb6ede5afbf83fe723a3",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.49056603773584906,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 56,
+          "top": 667,
+          "width": 138,
+          "height": 210,
+          "pixels": 12005
+        },
+        {
+          "left": 266,
+          "top": 666,
+          "width": 135,
+          "height": 212,
+          "pixels": 12371
+        },
+        {
+          "left": 466,
+          "top": 669,
+          "width": 171,
+          "height": 205,
+          "pixels": 12677
+        },
+        {
+          "left": 698,
+          "top": 666,
+          "width": 170,
+          "height": 211,
+          "pixels": 14496
+        },
+        {
+          "left": 921,
+          "top": 668,
+          "width": 139,
+          "height": 208,
+          "pixels": 13804
+        },
+        {
+          "left": 1124,
+          "top": 678,
+          "width": 193,
+          "height": 196,
+          "pixels": 13617
+        },
+        {
+          "left": 1345,
+          "top": 670,
+          "width": 207,
+          "height": 204,
+          "pixels": 17904
+        },
+        {
+          "left": 1552,
+          "top": 732,
+          "width": 213,
+          "height": 145,
+          "pixels": 17424
+        }
+      ]
+    },
+    {
+      "key": "helicopter",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/helicopter.webp",
+      "sha256": "9a5fbf39b057afc2befa5483c4f1cdf6f7bf74b812447014a8d7fe20ba33c204",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 19,
+          "top": 39,
+          "width": 203,
+          "height": 139,
+          "pixels": 13809
+        },
+        {
+          "left": 222,
+          "top": 39,
+          "width": 222,
+          "height": 137,
+          "pixels": 12060
+        },
+        {
+          "left": 444,
+          "top": 29,
+          "width": 217,
+          "height": 143,
+          "pixels": 12028
+        },
+        {
+          "left": 674,
+          "top": 33,
+          "width": 213,
+          "height": 144,
+          "pixels": 11267
+        },
+        {
+          "left": 887,
+          "top": 52,
+          "width": 222,
+          "height": 135,
+          "pixels": 12346
+        },
+        {
+          "left": 1109,
+          "top": 46,
+          "width": 222,
+          "height": 178,
+          "pixels": 17410
+        },
+        {
+          "left": 1331,
+          "top": 49,
+          "width": 216,
+          "height": 149,
+          "pixels": 13850
+        },
+        {
+          "left": 1552,
+          "top": 38,
+          "width": 206,
+          "height": 172,
+          "pixels": 18425
+        }
+      ]
+    },
+    {
+      "key": "helicopter-death",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/helicopter-death.webp",
+      "sha256": "182373028570bd3d4a00da3d5cdd593ec9de0b6aad9fe1bdf857a2dec4cf3561",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 19,
+          "top": 39,
+          "width": 203,
+          "height": 139,
+          "pixels": 13809
+        },
+        {
+          "left": 222,
+          "top": 39,
+          "width": 222,
+          "height": 137,
+          "pixels": 12060
+        },
+        {
+          "left": 444,
+          "top": 29,
+          "width": 217,
+          "height": 143,
+          "pixels": 12028
+        },
+        {
+          "left": 674,
+          "top": 33,
+          "width": 213,
+          "height": 144,
+          "pixels": 11267
+        },
+        {
+          "left": 887,
+          "top": 52,
+          "width": 222,
+          "height": 135,
+          "pixels": 12346
+        },
+        {
+          "left": 1109,
+          "top": 46,
+          "width": 222,
+          "height": 178,
+          "pixels": 17410
+        },
+        {
+          "left": 1331,
+          "top": 49,
+          "width": 216,
+          "height": 149,
+          "pixels": 13850
+        },
+        {
+          "left": 1552,
+          "top": 38,
+          "width": 206,
+          "height": 172,
+          "pixels": 18425
+        }
+      ]
+    },
+    {
+      "key": "observationdrone",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/observationdrone.webp",
+      "sha256": "a2cee2cdd56402df727bbfad9f20b1d4ce8db078d86384ce6d97f017b0dcafaa",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5283018867924528,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 29,
+          "top": 243,
+          "width": 193,
+          "height": 143,
+          "pixels": 9792
+        },
+        {
+          "left": 222,
+          "top": 242,
+          "width": 212,
+          "height": 143,
+          "pixels": 8976
+        },
+        {
+          "left": 484,
+          "top": 232,
+          "width": 180,
+          "height": 153,
+          "pixels": 7596
+        },
+        {
+          "left": 693,
+          "top": 238,
+          "width": 177,
+          "height": 141,
+          "pixels": 7823
+        },
+        {
+          "left": 909,
+          "top": 232,
+          "width": 166,
+          "height": 155,
+          "pixels": 8772
+        },
+        {
+          "left": 1135,
+          "top": 246,
+          "width": 188,
+          "height": 142,
+          "pixels": 10397
+        },
+        {
+          "left": 1348,
+          "top": 237,
+          "width": 173,
+          "height": 150,
+          "pixels": 10469
+        },
+        {
+          "left": 1559,
+          "top": 285,
+          "width": 187,
+          "height": 112,
+          "pixels": 10546
+        }
+      ]
+    },
+    {
+      "key": "observationdrone-death",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/observationdrone-death.webp",
+      "sha256": "9e55d37f7fa8998b61aa1d0639c19f47930dd5f8edfe2b09e274aa67d0c45d84",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5283018867924528,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 29,
+          "top": 243,
+          "width": 193,
+          "height": 143,
+          "pixels": 9792
+        },
+        {
+          "left": 222,
+          "top": 242,
+          "width": 212,
+          "height": 143,
+          "pixels": 8976
+        },
+        {
+          "left": 484,
+          "top": 232,
+          "width": 180,
+          "height": 153,
+          "pixels": 7596
+        },
+        {
+          "left": 693,
+          "top": 238,
+          "width": 177,
+          "height": 141,
+          "pixels": 7823
+        },
+        {
+          "left": 909,
+          "top": 232,
+          "width": 166,
+          "height": 155,
+          "pixels": 8772
+        },
+        {
+          "left": 1135,
+          "top": 246,
+          "width": 188,
+          "height": 142,
+          "pixels": 10397
+        },
+        {
+          "left": 1348,
+          "top": 237,
+          "width": 173,
+          "height": 150,
+          "pixels": 10469
+        },
+        {
+          "left": 1559,
+          "top": 285,
+          "width": 187,
+          "height": 112,
+          "pixels": 10546
+        }
+      ]
+    },
+    {
+      "key": "giantdeathrobot",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/giantdeathrobot.webp",
+      "sha256": "5cca700232ea6e5be56fb03d97af212d711eb82fc54f2f4675fb31b196e9796d",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.4748858447488584,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 45,
+          "top": 407,
+          "width": 176,
+          "height": 217,
+          "pixels": 21983
+        },
+        {
+          "left": 257,
+          "top": 409,
+          "width": 180,
+          "height": 217,
+          "pixels": 20814
+        },
+        {
+          "left": 478,
+          "top": 408,
+          "width": 183,
+          "height": 217,
+          "pixels": 18985
+        },
+        {
+          "left": 676,
+          "top": 405,
+          "width": 190,
+          "height": 219,
+          "pixels": 19042
+        },
+        {
+          "left": 889,
+          "top": 407,
+          "width": 220,
+          "height": 217,
+          "pixels": 22094
+        },
+        {
+          "left": 1109,
+          "top": 415,
+          "width": 222,
+          "height": 213,
+          "pixels": 19149
+        },
+        {
+          "left": 1331,
+          "top": 420,
+          "width": 221,
+          "height": 208,
+          "pixels": 24154
+        },
+        {
+          "left": 1552,
+          "top": 436,
+          "width": 203,
+          "height": 194,
+          "pixels": 22641
+        }
+      ]
+    },
+    {
+      "key": "giantdeathrobot-death",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/giantdeathrobot-death.webp",
+      "sha256": "3fac1835fdf36b12745a72a79362426e209839a034167e44a063883efd360f00",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.4748858447488584,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 45,
+          "top": 407,
+          "width": 176,
+          "height": 217,
+          "pixels": 21983
+        },
+        {
+          "left": 257,
+          "top": 409,
+          "width": 180,
+          "height": 217,
+          "pixels": 20814
+        },
+        {
+          "left": 478,
+          "top": 408,
+          "width": 183,
+          "height": 217,
+          "pixels": 18985
+        },
+        {
+          "left": 676,
+          "top": 405,
+          "width": 190,
+          "height": 219,
+          "pixels": 19042
+        },
+        {
+          "left": 889,
+          "top": 407,
+          "width": 220,
+          "height": 217,
+          "pixels": 22094
+        },
+        {
+          "left": 1109,
+          "top": 415,
+          "width": 222,
+          "height": 213,
+          "pixels": 19149
+        },
+        {
+          "left": 1331,
+          "top": 420,
+          "width": 221,
+          "height": 208,
+          "pixels": 24154
+        },
+        {
+          "left": 1552,
+          "top": 436,
+          "width": 203,
+          "height": 194,
+          "pixels": 22641
+        }
+      ]
+    },
+    {
+      "key": "warriormonk",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/warriormonk.webp",
+      "sha256": "fa4708840ab713ad888af27236f85f5d710ce2a766ec90740699280ce29a6b80",
+      "authoredPaintings": 7,
+      "timelineCells": 20,
+      "mapping": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        3,
+        4,
+        3,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 62,
+          "top": 641,
+          "width": 98,
+          "height": 206,
+          "pixels": 11920
+        },
+        {
+          "left": 244,
+          "top": 644,
+          "width": 200,
+          "height": 205,
+          "pixels": 11871
+        },
+        {
+          "left": 444,
+          "top": 655,
+          "width": 221,
+          "height": 190,
+          "pixels": 13853
+        },
+        {
+          "left": 665,
+          "top": 641,
+          "width": 222,
+          "height": 190,
+          "pixels": 13361
+        },
+        {
+          "left": 887,
+          "top": 656,
+          "width": 222,
+          "height": 190,
+          "pixels": 13134
+        },
+        {
+          "left": 1109,
+          "top": 664,
+          "width": 222,
+          "height": 171,
+          "pixels": 13154
+        },
+        {
+          "left": 1331,
+          "top": 648,
+          "width": 221,
+          "height": 194,
+          "pixels": 18232
+        },
+        {
+          "left": 1552,
+          "top": 669,
+          "width": 198,
+          "height": 172,
+          "pixels": 12123
+        }
+      ]
+    },
+    {
+      "key": "warriormonk-death",
+      "source": "art-source/unit-expansion-20261019/atlas-6.png",
+      "sourceSha256": "8908a7bd3bf2607793c30c7ea1efba70e75c39b84c0847b9d64ad0b147060f09",
+      "runtime": "web/assets/unit-expansion/warriormonk-death.webp",
+      "sha256": "3e35d074c47f751115300c658147c539554fe005d9a4c62ed99f89c7969c7c58",
+      "authoredPaintings": 1,
+      "timelineCells": 8,
+      "mapping": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "scale": 0.5045045045045045,
+      "anchor": [
+        64,
+        112
+      ],
+      "cells": [
+        {
+          "left": 62,
+          "top": 641,
+          "width": 98,
+          "height": 206,
+          "pixels": 11920
+        },
+        {
+          "left": 244,
+          "top": 644,
+          "width": 200,
+          "height": 205,
+          "pixels": 11871
+        },
+        {
+          "left": 444,
+          "top": 655,
+          "width": 221,
+          "height": 190,
+          "pixels": 13853
+        },
+        {
+          "left": 665,
+          "top": 641,
+          "width": 222,
+          "height": 190,
+          "pixels": 13361
+        },
+        {
+          "left": 887,
+          "top": 656,
+          "width": 222,
+          "height": 190,
+          "pixels": 13134
+        },
+        {
+          "left": 1109,
+          "top": 664,
+          "width": 222,
+          "height": 171,
+          "pixels": 13154
+        },
+        {
+          "left": 1331,
+          "top": 648,
+          "width": 221,
+          "height": 194,
+          "pixels": 18232
+        },
+        {
+          "left": 1552,
+          "top": 669,
+          "width": 198,
+          "height": 172,
+          "pixels": 12123
+        }
+      ]
+    }
+  ]
+}

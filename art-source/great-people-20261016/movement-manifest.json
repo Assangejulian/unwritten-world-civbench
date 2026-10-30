@@ -1,0 +1,610 @@
+{
+  "framesPerClass": 4,
+  "frameSize": 256,
+  "baseline": 0.87890625,
+  "style": "Original painted walk/oar phases; fixed scale per class",
+  "sources": {
+    "command": {
+      "file": "art-source/great-people-20261016/command-movement-original.png",
+      "sha256": "b729a5ee1c0864e6dbccdba3e7f7bba5f5f7b8d26cf6f9e60b260c9d9f7dd9f0",
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    "scholars": {
+      "file": "art-source/great-people-20261016/scholars-movement-original.png",
+      "sha256": "92c70951ddd824f6a84cae1c45c428f22c41147c09eb3dfef4fa5fa159b60ea4",
+      "size": [
+        1448,
+        1086
+      ]
+    },
+    "culture": {
+      "file": "art-source/great-people-20261016/culture-movement-original.png",
+      "sha256": "418f1383f85b8983bdb169b6042ac49326c84ae150e2b69c994d2222b620fe04",
+      "size": [
+        1448,
+        1086
+      ]
+    }
+  },
+  "classes": {
+    "general": {
+      "file": "great-people/general-move.webp",
+      "sourceGroup": "command",
+      "crops": [
+        {
+          "rect": [
+            0,
+            0,
+            362,
+            371
+          ],
+          "bounds": [
+            41,
+            1,
+            362,
+            371
+          ]
+        },
+        {
+          "rect": [
+            362,
+            0,
+            724,
+            371
+          ],
+          "bounds": [
+            0,
+            5,
+            362,
+            371
+          ]
+        },
+        {
+          "rect": [
+            724,
+            0,
+            1086,
+            371
+          ],
+          "bounds": [
+            0,
+            5,
+            362,
+            371
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            0,
+            1448,
+            371
+          ],
+          "bounds": [
+            0,
+            0,
+            344,
+            371
+          ]
+        }
+      ],
+      "scale": 0.5660377358490566,
+      "sha256": "943276aa6bf8a4aec2c9a4caa06a890fb9281eb3d58807ff416a4b55044fa8fd"
+    },
+    "admiral": {
+      "file": "great-people/admiral-move.webp",
+      "sourceGroup": "command",
+      "crops": [
+        {
+          "rect": [
+            0,
+            371,
+            367,
+            727
+          ],
+          "bounds": [
+            13,
+            0,
+            367,
+            356
+          ]
+        },
+        {
+          "rect": [
+            367,
+            371,
+            724,
+            727
+          ],
+          "bounds": [
+            0,
+            0,
+            357,
+            356
+          ]
+        },
+        {
+          "rect": [
+            724,
+            371,
+            1086,
+            727
+          ],
+          "bounds": [
+            0,
+            0,
+            362,
+            356
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            371,
+            1448,
+            727
+          ],
+          "bounds": [
+            0,
+            0,
+            362,
+            356
+          ]
+        }
+      ],
+      "scale": 0.5898876404494382,
+      "sha256": "abe82c12f95ab253f8574439bb60cf54ad2385ca042768dc7a5d7e5688a09580"
+    },
+    "engineer": {
+      "file": "great-people/engineer-move.webp",
+      "sourceGroup": "command",
+      "crops": [
+        {
+          "rect": [
+            0,
+            727,
+            362,
+            1086
+          ],
+          "bounds": [
+            29,
+            0,
+            362,
+            347
+          ]
+        },
+        {
+          "rect": [
+            362,
+            727,
+            724,
+            1086
+          ],
+          "bounds": [
+            0,
+            0,
+            362,
+            359
+          ]
+        },
+        {
+          "rect": [
+            724,
+            727,
+            1086,
+            1086
+          ],
+          "bounds": [
+            1,
+            0,
+            362,
+            347
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            727,
+            1448,
+            1086
+          ],
+          "bounds": [
+            1,
+            0,
+            348,
+            345
+          ]
+        }
+      ],
+      "scale": 0.584958217270195,
+      "sha256": "b6e3218987f0051e90749360efc8f1cc11f55e6510c9e1f3941acb86cd36ee78"
+    },
+    "scientist": {
+      "file": "great-people/scientist-move.webp",
+      "sourceGroup": "scholars",
+      "crops": [
+        {
+          "rect": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "bounds": [
+            41,
+            10,
+            332,
+            359
+          ]
+        },
+        {
+          "rect": [
+            362,
+            0,
+            724,
+            362
+          ],
+          "bounds": [
+            35,
+            14,
+            314,
+            362
+          ]
+        },
+        {
+          "rect": [
+            724,
+            0,
+            1086,
+            362
+          ],
+          "bounds": [
+            17,
+            14,
+            336,
+            358
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            0,
+            1448,
+            362
+          ],
+          "bounds": [
+            41,
+            0,
+            342,
+            362
+          ]
+        }
+      ],
+      "scale": 0.580110497237569,
+      "sha256": "d746abbce8b3e15948c171596222813f46a19d3830de3b1e2e3ef680750ac1ff"
+    },
+    "merchant": {
+      "file": "great-people/merchant-move.webp",
+      "sourceGroup": "scholars",
+      "crops": [
+        {
+          "rect": [
+            0,
+            362,
+            362,
+            708
+          ],
+          "bounds": [
+            0,
+            4,
+            336,
+            346
+          ]
+        },
+        {
+          "rect": [
+            362,
+            362,
+            724,
+            708
+          ],
+          "bounds": [
+            1,
+            0,
+            334,
+            346
+          ]
+        },
+        {
+          "rect": [
+            724,
+            362,
+            1086,
+            708
+          ],
+          "bounds": [
+            1,
+            4,
+            326,
+            346
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            362,
+            1448,
+            708
+          ],
+          "bounds": [
+            1,
+            0,
+            336,
+            346
+          ]
+        }
+      ],
+      "scale": 0.6069364161849711,
+      "sha256": "f810e5a27b661354f16c7f32e1abd26c54565e9d51824dea6b15d56ae37a76de"
+    },
+    "prophet": {
+      "file": "great-people/prophet-move.webp",
+      "sourceGroup": "scholars",
+      "crops": [
+        {
+          "rect": [
+            0,
+            708,
+            362,
+            1086
+          ],
+          "bounds": [
+            0,
+            0,
+            362,
+            362
+          ]
+        },
+        {
+          "rect": [
+            362,
+            708,
+            724,
+            1086
+          ],
+          "bounds": [
+            1,
+            0,
+            362,
+            360
+          ]
+        },
+        {
+          "rect": [
+            724,
+            708,
+            1086,
+            1086
+          ],
+          "bounds": [
+            15,
+            0,
+            344,
+            360
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            708,
+            1448,
+            1086
+          ],
+          "bounds": [
+            33,
+            0,
+            310,
+            360
+          ]
+        }
+      ],
+      "scale": 0.580110497237569,
+      "sha256": "e6a03eddae8c9420f503cc5bf3e7d0469c591b3186266af41d2e45662692dd69"
+    },
+    "writer": {
+      "file": "great-people/writer-move.webp",
+      "sourceGroup": "culture",
+      "crops": [
+        {
+          "rect": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "bounds": [
+            0,
+            0,
+            337,
+            362
+          ]
+        },
+        {
+          "rect": [
+            362,
+            0,
+            724,
+            362
+          ],
+          "bounds": [
+            21,
+            0,
+            360,
+            362
+          ]
+        },
+        {
+          "rect": [
+            724,
+            0,
+            1086,
+            362
+          ],
+          "bounds": [
+            25,
+            0,
+            362,
+            362
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            0,
+            1448,
+            362
+          ],
+          "bounds": [
+            1,
+            0,
+            326,
+            362
+          ]
+        }
+      ],
+      "scale": 0.580110497237569,
+      "sha256": "4421c6710acf9711fcdca03980e7de7329d8aef84b5a501bbca28f5e219f61eb"
+    },
+    "artist": {
+      "file": "great-people/artist-move.webp",
+      "sourceGroup": "culture",
+      "crops": [
+        {
+          "rect": [
+            0,
+            362,
+            362,
+            713
+          ],
+          "bounds": [
+            0,
+            0,
+            354,
+            351
+          ]
+        },
+        {
+          "rect": [
+            362,
+            362,
+            724,
+            713
+          ],
+          "bounds": [
+            9,
+            0,
+            362,
+            351
+          ]
+        },
+        {
+          "rect": [
+            724,
+            362,
+            1086,
+            713
+          ],
+          "bounds": [
+            1,
+            0,
+            358,
+            351
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            362,
+            1448,
+            713
+          ],
+          "bounds": [
+            9,
+            0,
+            348,
+            351
+          ]
+        }
+      ],
+      "scale": 0.5982905982905983,
+      "sha256": "f03369ee152eeaeac70b5f5619d0099251a9cd1b1a917b53e3126d23fbc4d0af"
+    },
+    "musician": {
+      "file": "great-people/musician-move.webp",
+      "sourceGroup": "culture",
+      "crops": [
+        {
+          "rect": [
+            0,
+            713,
+            362,
+            1086
+          ],
+          "bounds": [
+            25,
+            0,
+            360,
+            359
+          ]
+        },
+        {
+          "rect": [
+            362,
+            713,
+            724,
+            1086
+          ],
+          "bounds": [
+            1,
+            0,
+            362,
+            361
+          ]
+        },
+        {
+          "rect": [
+            724,
+            713,
+            1086,
+            1086
+          ],
+          "bounds": [
+            1,
+            0,
+            338,
+            359
+          ]
+        },
+        {
+          "rect": [
+            1086,
+            713,
+            1448,
+            1086
+          ],
+          "bounds": [
+            9,
+            0,
+            332,
+            357
+          ]
+        }
+      ],
+      "scale": 0.5817174515235457,
+      "sha256": "29c4a429bbfde57f5e8e6c3df7589aefd311bd5979f4922371e7b30c1e597630"
+    }
+  }
+}

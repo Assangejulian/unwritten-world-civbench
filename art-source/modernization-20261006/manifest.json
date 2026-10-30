@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "generator": "Built-in ImageGen",
+  "provenance": "Original generated game artwork; prompts and full originals retained in art-source/modernization-20261006.",
+  "runtime": "web/assets/modernization/atlas.webp",
+  "bytes": 470330,
+  "sha256": "c91ec603957d28ab3627b88286e975b53dc1425cbfa64ddd58f7e8df62d43dc2",
+  "frames": [
+    {
+      "key": "spaceport",
+      "cell": 0,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 43,
+        "top": 8,
+        "width": 331,
+        "height": 248
+      },
+      "bounds": {
+        "left": 10,
+        "right": 246,
+        "top": 39,
+        "bottom": 216
+      },
+      "opaque": 38204,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "nuclear",
+      "cell": 1,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 400,
+        "top": 20,
+        "width": 359,
+        "height": 227
+      },
+      "bounds": {
+        "left": 266,
+        "right": 502,
+        "top": 53,
+        "bottom": 202
+      },
+      "opaque": 42201,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "market",
+      "cell": 2,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 789,
+        "top": 23,
+        "width": 353,
+        "height": 223
+      },
+      "bounds": {
+        "left": 522,
+        "right": 758,
+        "top": 53,
+        "bottom": 202
+      },
+      "opaque": 49389,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "exchange",
+      "cell": 3,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 1171,
+        "top": 8,
+        "width": 314,
+        "height": 248
+      },
+      "bounds": {
+        "left": 778,
+        "right": 1014,
+        "top": 35,
+        "bottom": 221
+      },
+      "opaque": 46324,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "lighthouse",
+      "cell": 4,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 26,
+        "top": 256,
+        "width": 334,
+        "height": 256
+      },
+      "bounds": {
+        "left": 1034,
+        "right": 1270,
+        "top": 37,
+        "bottom": 218
+      },
+      "opaque": 32732,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "shipyard",
+      "cell": 5,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 387,
+        "top": 271,
+        "width": 373,
+        "height": 241
+      },
+      "bounds": {
+        "left": 1290,
+        "right": 1526,
+        "top": 52,
+        "bottom": 204
+      },
+      "opaque": 46174,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "seaport",
+      "cell": 6,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 787,
+        "top": 261,
+        "width": 365,
+        "height": 251
+      },
+      "bounds": {
+        "left": 10,
+        "right": 246,
+        "top": 303,
+        "bottom": 465
+      },
+      "opaque": 47812,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "amphitheater",
+      "cell": 7,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 1152,
+        "top": 256,
+        "width": 363,
+        "height": 256
+      },
+      "bounds": {
+        "left": 266,
+        "right": 502,
+        "top": 301,
+        "bottom": 467
+      },
+      "opaque": 54298,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "museum",
+      "cell": 8,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 25,
+        "top": 512,
+        "width": 359,
+        "height": 256
+      },
+      "bounds": {
+        "left": 522,
+        "right": 758,
+        "top": 300,
+        "bottom": 468
+      },
+      "opaque": 54448,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "opera",
+      "cell": 9,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 384,
+        "top": 512,
+        "width": 383,
+        "height": 256
+      },
+      "bounds": {
+        "left": 778,
+        "right": 1014,
+        "top": 305,
+        "bottom": 463
+      },
+      "opaque": 56616,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "broadcast",
+      "cell": 10,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 795,
+        "top": 512,
+        "width": 357,
+        "height": 229
+      },
+      "bounds": {
+        "left": 1034,
+        "right": 1270,
+        "top": 308,
+        "bottom": 459
+      },
+      "opaque": 34183,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "coalplant",
+      "cell": 11,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 1152,
+        "top": 512,
+        "width": 369,
+        "height": 233
+      },
+      "bounds": {
+        "left": 1290,
+        "right": 1526,
+        "top": 309,
+        "bottom": 458
+      },
+      "opaque": 48935,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "oilplant",
+      "cell": 12,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 24,
+        "top": 768,
+        "width": 360,
+        "height": 235
+      },
+      "bounds": {
+        "left": 10,
+        "right": 246,
+        "top": 563,
+        "bottom": 717
+      },
+      "opaque": 46911,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "powerplant",
+      "cell": 13,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 384,
+        "top": 768,
+        "width": 379,
+        "height": 239
+      },
+      "bounds": {
+        "left": 266,
+        "right": 502,
+        "top": 565,
+        "bottom": 714
+      },
+      "opaque": 51144,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "entertainment",
+      "cell": 14,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 780,
+        "top": 780,
+        "width": 357,
+        "height": 220
+      },
+      "bounds": {
+        "left": 522,
+        "right": 758,
+        "top": 567,
+        "bottom": 712
+      },
+      "opaque": 48180,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "stadium",
+      "cell": 15,
+      "source": "districts.png",
+      "sourceBounds": {
+        "left": 1158,
+        "top": 775,
+        "width": 359,
+        "height": 220
+      },
+      "bounds": {
+        "left": 778,
+        "right": 1014,
+        "top": 567,
+        "bottom": 712
+      },
+      "opaque": 53619,
+      "sourceSha256": "e32321da230a54b2aa7b5582d8df0dd71072122ddccebaa04e1785304b070462"
+    },
+    {
+      "key": "city-ancient",
+      "cell": 16,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 33,
+        "top": 81,
+        "width": 479,
+        "height": 382
+      },
+      "bounds": {
+        "left": 1034,
+        "right": 1270,
+        "top": 546,
+        "bottom": 734
+      },
+      "opaque": 115721,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    },
+    {
+      "key": "city-classical",
+      "cell": 17,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 512,
+        "top": 57,
+        "width": 507,
+        "height": 418
+      },
+      "bounds": {
+        "left": 1290,
+        "right": 1526,
+        "top": 542,
+        "bottom": 737
+      },
+      "opaque": 139062,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    },
+    {
+      "key": "city-medieval",
+      "cell": 18,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 1028,
+        "top": 27,
+        "width": 503,
+        "height": 485
+      },
+      "bounds": {
+        "left": 10,
+        "right": 246,
+        "top": 782,
+        "bottom": 1010
+      },
+      "opaque": 139976,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    },
+    {
+      "key": "city-industrial",
+      "cell": 19,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 16,
+        "top": 514,
+        "width": 496,
+        "height": 465
+      },
+      "bounds": {
+        "left": 266,
+        "right": 502,
+        "top": 785,
+        "bottom": 1006
+      },
+      "opaque": 165512,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    },
+    {
+      "key": "city-modern",
+      "cell": 20,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 512,
+        "top": 532,
+        "width": 512,
+        "height": 444
+      },
+      "bounds": {
+        "left": 522,
+        "right": 758,
+        "top": 793,
+        "bottom": 998
+      },
+      "opaque": 170067,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    },
+    {
+      "key": "city-information",
+      "cell": 21,
+      "source": "cities.png",
+      "sourceBounds": {
+        "left": 1024,
+        "top": 512,
+        "width": 506,
+        "height": 477
+      },
+      "bounds": {
+        "left": 778,
+        "right": 1014,
+        "top": 785,
+        "bottom": 1007
+      },
+      "opaque": 161499,
+      "sourceSha256": "bfdce7418a1e2004bee4c3190dcd2035c91b93e3b9be62f8a6b40f25e34bd7f5"
+    }
+  ]
+}

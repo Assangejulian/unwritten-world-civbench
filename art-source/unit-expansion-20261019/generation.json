@@ -1,0 +1,68 @@
+[
+  {
+    "group": 1,
+    "units": [
+      "skirmisher",
+      "ranger",
+      "specops",
+      "machinegun"
+    ],
+    "prompt": "Create ONE production sprite atlas for an original historical 4X strategy game. Transparent RGBA background. Exactly 8 columns by 4 rows, 32 separate full-body paintings. Each cell evenly sized, 10% transparent gutters, no objects touching edges, no text, no labels, no grid. Each ROW is a different unit, always facing RIGHT in 3/4 isometric view, fixed scale and bottom ground anchor across all eight cells. Refined hand-painted miniature military illustrations, warm muted historical pigments, realistic equipment, fine contour detail, soft upper-left lighting, matches parchment-and-bronze Civilization-inspired original art. Row1 medieval SKIRMISHER in green/brown hood with javelin and small shield. Row2 industrial RANGER, khaki frontier uniform, slouch hat, bolt-action rifle, backpack. Row3 modern SPECIAL OPERATIONS soldier, dark olive fatigues, tactical vest, carbine. Row4 MACHINE GUN crew, two khaki soldiers operating a wheeled heavy water-cooled machine gun with ammunition box. For EVERY row, columns 1-2 are distinct quiet idle poses; columns 3-5 are three genuinely different walking/pushing gait poses; columns 6-7 are two aiming/firing attack poses (small restrained flash only for firearms, javelin throwing for skirmisher); column8 is a prone fallen/disabled pose of same subject. Do not duplicate idle into action. No ground disks, no terrain, no background, no decorative frames. Each entire person/crew plus weapon must fit own cell. 2:1 wide atlas preferred, high resolution.",
+    "source": "local-cache:exec-8522702d-bd57-4911-8000-e035cb4b463c.png"
+  },
+  {
+    "group": 2,
+    "units": [
+      "heavychariot",
+      "pikeandshot",
+      "atcrew",
+      "modernat"
+    ],
+    "prompt": "One original historical strategy game unit sprite atlas. Transparent RGBA, exactly 8 columns x 4 rows, no text/grid/borders. Refined realistic hand-painted miniatures with warm muted pigments, 3/4 isometric RIGHT-facing, upper-left light, every cell has complete silhouette and 10% transparent gutter, fixed ground anchor. ROW1 HEAVY CHARIOT, ancient bronze two-horse wooden war chariot with spearman driver, no Egyptian royal symbols. ROW2 PIKE AND SHOT, Renaissance morion helmet soldier in buff coat with long pike and matchlock equipment. ROW3 ANTI-TANK CREW, two WWII olive-uniform soldiers pulling/operating a small towed anti-tank gun. ROW4 MODERN ANTI-TANK team, two modern olive soldiers with tripod guided anti-tank missile launcher, equipment distinctly modern but no logos. For EACH row: columns1-2 two different idle poses, columns3-5 three moving/gait/rolling poses, columns6-7 two attack poses (chariot spear thrust, pike thrust or musket fire, anti-tank muzzle flash, modern missile firing), column8 one fallen or disabled wreck pose. Fixed size/identity across each row, no clipping, no overlapping cells, no terrain/shadows disks, no background. Make real pose changes, not deformed copies. Wide 2:1 atlas.",
+    "source": "local-cache:exec-181f2d07-0156-4c8a-b311-e6f6f54d63f2.png"
+  },
+  {
+    "group": 3,
+    "units": [
+      "quadrireme",
+      "caravel",
+      "privateer",
+      "ironclad"
+    ],
+    "prompt": "Paint ONE transparent original historical naval sprite atlas, 8 columns x 4 rows, 32 full isolated ships, no words/no frames/no grid. Warm desaturated realistic hand-painted strategy miniatures in 3/4 isometric view, prows pointing RIGHT, fine rigging, consistent scale and anchor in each row. Row1 classical QUADRIREME: wooden oared war galley, two rows of oars, square cream sail, small deck ballista. Row2 CARAVEL: small late medieval exploration ship, three masts and triangular lateen sails. Row3 PRIVATEER: Renaissance dark wood armed corsair sailing ship, three masts, black-and-crimson pennants WITHOUT skull symbol. Row4 IRONCLAD: low industrial steam warship with iron armor, short funnel, side paddle detail, gun casemate, NOT a modern destroyer. For every row columns1-2 idle with slightly changing sails/water, columns3-5 three distinct sailing/rowing poses, columns6-7 firing deck weapon or broadside with restrained muzzle flash/smoke, column8 wrecked sinking hull. No ocean rectangle or disk; a few tiny painted wake strokes may surround hull within own transparent cell. 10 percent cell gutters; full ship/rigging fit every cell; never overlap. Wide 2:1 image.",
+    "source": "local-cache:exec-38c047e9-c439-4420-a721-6708f3b6aaee.png"
+  },
+  {
+    "group": 4,
+    "units": [
+      "batteringram",
+      "siegetower",
+      "militaryengineer",
+      "balloon"
+    ],
+    "prompt": "One production-ready transparent sprite atlas for an original historical 4X game. Exactly EIGHT COLUMNS and FOUR ROWS. No text, grid, frames or scenery. Each cell has 12% transparent clear gutters, entire silhouette must fit. 3/4 isometric RIGHT facing, finely hand-painted realistic miniatures in warm historical earth pigments. Each row a unit with identical identity/scale/foot anchor across eight cells. Row1 BATTERING RAM: ancient timber wheeled covered shelter, bronze ram head and two workmen. Row2 SIEGE TOWER: medieval tall wooden wheeled assault tower, platform/ladder, two engineers, distinguish from ram. Row3 MILITARY ENGINEER: medieval engineer in leather apron, helmet, satchel, shovel/pick and rolled plans, NO gun. Row4 OBSERVATION BALLOON: small industrial tan tethered observation balloon with basket, rolled cable cart and observer beneath; show full balloon and ground equipment within each cell. Columns1-2 two idle variants, columns3-5 three distinct moving/pushing/walking/tether-winch poses, columns6-7 two meaningful WORK poses: ram striking, tower bridge deploying, engineer using pick/shovel, balloon observer using binoculars while winch operates. Column8 damaged toppled ram/tower, fallen engineer, deflated torn grounded balloon. Original painted silhouettes, not stretched copies, no background/water/ground disc. Prefer wide 2:1 canvas.",
+    "source": "local-cache:exec-438ba37a-c666-4061-9e9c-2d11131c0fd5.png"
+  },
+  {
+    "group": 5,
+    "units": [
+      "guru",
+      "archaeologist",
+      "naturalist",
+      "rockband"
+    ],
+    "prompt": "Create ONE transparent RGBA historical/cultural strategy game sprite atlas, 8 columns by 4 rows, exactly32 complete separate paintings, no text/grid/frames. Fine hand-painted realistic miniature figures, warm muted pigments, 3/4 RIGHT-facing, consistent identity/scale/ground anchor per row, 12% transparent gutters. Row1 GURU: South Asian elder in saffron and ivory robes, small prayer beads and walking staff, serene. Row2 ARCHAEOLOGIST: woman in 19th century field khaki, broad brim hat, leather satchel, trowel and rolled map. Row3 NATURALIST: Victorian naturalist in green tweed field coat, canvas rucksack, butterfly net and botanical notebook, outdoors scholar. Row4 ROCK BAND: compact three-person 1960s/1970s rock trio, guitarist, bassist and percussionist with small portable drum, warm burgundy/ochre clothing, no logos. Columns1-2 two idle poses; columns3-5 three distinct walking/travelling poses with equipment; columns6-7 work poses (guru blessing with raised hand and subtle gold light, archaeologist kneeling and digging ancient pottery, naturalist examining plant and staking park survey marker, band playing energetic distinct instrument poses). Column8 fallen/disabled pose, instruments set down; non-graphic. Each whole subject and equipment fits its cell without crossing any edge. No terrain or ground disk or backdrop. Wide 2:1 canvas.",
+    "source": "local-cache:exec-182e77e8-9fd9-4541-88c6-6abd62577932.png"
+  },
+  {
+    "group": 6,
+    "units": [
+      "helicopter",
+      "observationdrone",
+      "giantdeathrobot",
+      "warriormonk"
+    ],
+    "prompt": "ONE transparent RGBA original strategy game unit sprite atlas, EIGHT columns by FOUR rows, exactly32 separate painted subjects, 12% clear gutters and complete silhouettes, no text/grid/frame. Realistic hand-painted miniatures with restrained earth pigments, fine contours, upper-left lighting, 3/4 RIGHT-facing, fixed scale/anchor for each row. Row1 military HELICOPTER, olive utility attack helicopter with skids and rotor, no logos, shallow altitude. Row2 OBSERVATION DRONE: small white/olive four-rotor reconnaissance quadcopter with underside camera and compact ground control case, distinct from an armed missile. Row3 GIANT COMBAT ROBOT: original tall gunmetal-and-bronze biped armored walker with articulated legs and one large forearm cannon, no famous franchise design, small teal sensors, imposing. Row4 WARRIOR MONK: East Asian martial monk, saffron/brown robes, wrapped lower legs, wooden staff, shaved head. For EACH row columns1-2 idle variants; columns3-5 distinct moving/flying/walking gait poses; columns6-7 attack/work poses: helicopter rockets firing with restrained flash, quadcopter camera tilting/scanning with tiny teal beam, robot aiming and firing forearm cannon, monk martial staff thrust/sweep. Column8 disabled crashed/fallen pose. No background/ground disk, no scenery, don't overlap cells, no clipping rotors/staff/legs. Wide 2:1 canvas.",
+    "source": "local-cache:exec-348193c8-a936-4dce-aa0c-257450e8810f.png"
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "generator": "Built-in ImageGen",
+  "type": "envoy",
+  "original": "art-source/envoy-20261006/envoy-sheet.png",
+  "initialOriginal": "art-source/envoy-20261006/envoy-initial.png",
+  "prompt": "art-source/envoy-20261006/prompt.txt",
+  "walkEditPrompt": "art-source/envoy-20261006/walk-edit-prompt.txt",
+  "sourceSha256": "7589e77cc838f62cc4c9dc7f03fe59f544442c184e9b35cab6275c91fdb2fcfa",
+  "initialSha256": "abb72c2db3105fe61ac8f83a031a9686b13e95a47d85cde10e05ee8bd45cf1b0",
+  "width": 1122,
+  "height": 1402,
+  "alpha": true,
+  "columns": 4,
+  "rows": 5,
+  "poses": 20,
+  "actions": {
+    "idle": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "move": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "work": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "baseSign": 1,
+  "normalization": "One shared fit and foot baseline; bowing is a posture change.",
+  "runtime": [
+    {
+      "file": "web/assets/envoy-painted-v1.webp",
+      "bytes": 372118,
+      "sha256": "bc628df845848eafc9e7bf67281d3f6d503faff32a906bd543f4ff5dc0c19ad7"
+    },
+    {
+      "file": "web/assets/envoy-icon-v1.webp",
+      "bytes": 5458,
+      "sha256": "9644d82cbd03d199e88ab3146665a17ccf12606a5964c3e1dee52d66994c3c67"
+    }
+  ],
+  "notes": "Original generated artwork. No religious identity or combat weapons. Dynamic gold protection is rendered by game state, not baked into the source. Icon is a crop of the same idle figure."
+}

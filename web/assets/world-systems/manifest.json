@@ -1,0 +1,891 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "mainPoses": 180,
+  "deathPoses": 72,
+  "records": [
+    {
+      "key": "rocket",
+      "original": "art-source/world-systems-20261007/rocket.png",
+      "sourceSha256": "55d7f29c1aa4f88745fb2e3b2a8913698ab28137e21620c249a0661a4eb85255",
+      "runtime": "web/assets/world-systems/rocket.webp",
+      "runtimeSha256": "973dc50536b1b64edbf2d15f46e0adc52d905dabea21aff9475987143708f0f2",
+      "bytes": 24912,
+      "sourcePose": 7,
+      "bands": [
+        [
+          9,
+          441
+        ],
+        [
+          455,
+          1001
+        ]
+      ]
+    },
+    {
+      "key": "infantry",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/infantry.png",
+      "sourceSha256": "0ecaf33237ecde004582983effc9b86a055c1c7226f93768f8def84f6b111e12",
+      "runtime": "web/assets/world-systems/infantry.webp",
+      "runtimeSha256": "37bcbd82004e5afeb6dc777adebbf81a70a1dbcd768f81f91fc917da9a692e92",
+      "bytes": 88084,
+      "scale": 0.4357976653696498,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          5,
+          234
+        ],
+        [
+          239,
+          455
+        ],
+        [
+          464,
+          675
+        ],
+        [
+          686,
+          909
+        ],
+        [
+          917,
+          1145
+        ],
+        [
+          1146,
+          1350
+        ],
+        [
+          1370,
+          1521
+        ]
+      ]
+    },
+    {
+      "key": "infantry-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/infantry.png",
+      "sourceSha256": "0ecaf33237ecde004582983effc9b86a055c1c7226f93768f8def84f6b111e12",
+      "runtime": "web/assets/world-systems/infantry-death.webp",
+      "runtimeSha256": "0908861f94017434d7ca0f068252f4dce5ea30b134fd296137428d13aa1e9e6e",
+      "bytes": 31800,
+      "scale": 0.4357976653696498,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          5,
+          234
+        ],
+        [
+          239,
+          455
+        ],
+        [
+          464,
+          675
+        ],
+        [
+          686,
+          909
+        ],
+        [
+          917,
+          1145
+        ],
+        [
+          1146,
+          1350
+        ],
+        [
+          1370,
+          1521
+        ]
+      ]
+    },
+    {
+      "key": "infantry-icon",
+      "bytes": 4014,
+      "runtime": "web/assets/world-systems/infantry-icon.webp",
+      "runtimeSha256": "3518d8c6d42211fe2368c6c86ffb5b4cab10e3021c990774a5332e8d1ea73003"
+    },
+    {
+      "key": "mechanized",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/mechanized.png",
+      "sourceSha256": "da15fb0818847d5bc2ebc3483594a4ade4711cd87d6d7afcb26f38cad0345649",
+      "runtime": "web/assets/world-systems/mechanized.webp",
+      "runtimeSha256": "a09dc2d3dafbf842b4c496ee245081682358cf03641d8332fadbdbba30043666",
+      "bytes": 106636,
+      "scale": 0.4425531914893617,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          44,
+          234
+        ],
+        [
+          272,
+          455
+        ],
+        [
+          499,
+          679
+        ],
+        [
+          713,
+          907
+        ],
+        [
+          946,
+          1139
+        ],
+        [
+          1149,
+          1388
+        ],
+        [
+          1401,
+          1630
+        ]
+      ]
+    },
+    {
+      "key": "mechanized-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/mechanized.png",
+      "sourceSha256": "da15fb0818847d5bc2ebc3483594a4ade4711cd87d6d7afcb26f38cad0345649",
+      "runtime": "web/assets/world-systems/mechanized-death.webp",
+      "runtimeSha256": "fbf41952b06e0016fd343d00cbaab696c0f66e6ec9a8d3d79de3101c37a33854",
+      "bytes": 52676,
+      "scale": 0.4425531914893617,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          44,
+          234
+        ],
+        [
+          272,
+          455
+        ],
+        [
+          499,
+          679
+        ],
+        [
+          713,
+          907
+        ],
+        [
+          946,
+          1139
+        ],
+        [
+          1149,
+          1388
+        ],
+        [
+          1401,
+          1630
+        ]
+      ]
+    },
+    {
+      "key": "mechanized-icon",
+      "bytes": 5608,
+      "runtime": "web/assets/world-systems/mechanized-icon.webp",
+      "runtimeSha256": "156c1922eba8af13714d31d5ee197db76558d934255109d1b7c5c5022c7d9981"
+    },
+    {
+      "key": "modernarmor",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/modernarmor.png",
+      "sourceSha256": "977f9d424de8c71aafa15bc1ca1dfa6492628b9d5d72c8426e382b840aca08a0",
+      "runtime": "web/assets/world-systems/modernarmor.webp",
+      "runtimeSha256": "4a18a2030071f8a296e3cc6115d43e87afa3c4b9d62da8a4d18f40b4d4e3c209",
+      "bytes": 108064,
+      "scale": 0.4406779661016949,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          29,
+          212
+        ],
+        [
+          275,
+          444
+        ],
+        [
+          506,
+          674
+        ],
+        [
+          737,
+          906
+        ],
+        [
+          958,
+          1126
+        ],
+        [
+          1142,
+          1366
+        ],
+        [
+          1381,
+          1627
+        ]
+      ]
+    },
+    {
+      "key": "modernarmor-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/modernarmor.png",
+      "sourceSha256": "977f9d424de8c71aafa15bc1ca1dfa6492628b9d5d72c8426e382b840aca08a0",
+      "runtime": "web/assets/world-systems/modernarmor-death.webp",
+      "runtimeSha256": "638b59303e0cff54a86603f37adabb20a700f50f681da41ad85bfcf1f84edcd9",
+      "bytes": 58118,
+      "scale": 0.4406779661016949,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          29,
+          212
+        ],
+        [
+          275,
+          444
+        ],
+        [
+          506,
+          674
+        ],
+        [
+          737,
+          906
+        ],
+        [
+          958,
+          1126
+        ],
+        [
+          1142,
+          1366
+        ],
+        [
+          1381,
+          1627
+        ]
+      ]
+    },
+    {
+      "key": "modernarmor-icon",
+      "bytes": 5660,
+      "runtime": "web/assets/world-systems/modernarmor-icon.webp",
+      "runtimeSha256": "9707d07847e1b9b805205cd5e51e242813c4cb4a73d18c994d60a5af96c1c0e2"
+    },
+    {
+      "key": "rocketartillery",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/rocketartillery.png",
+      "sourceSha256": "de153655a91912f55ff5fc95119064ffbbca32fea87b3baa5e8f8ea676968e61",
+      "runtime": "web/assets/world-systems/rocketartillery.webp",
+      "runtimeSha256": "c05a7ba0c89b7e926668af16f31ddc59550b2edec9c6f4000d0044476b972965",
+      "bytes": 109552,
+      "scale": 0.42424242424242425,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          0,
+          213
+        ],
+        [
+          213,
+          426
+        ],
+        [
+          426,
+          633
+        ],
+        [
+          633,
+          859
+        ],
+        [
+          859,
+          1076
+        ],
+        [
+          1076,
+          1280
+        ],
+        [
+          1280,
+          1491
+        ]
+      ]
+    },
+    {
+      "key": "rocketartillery-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/rocketartillery.png",
+      "sourceSha256": "de153655a91912f55ff5fc95119064ffbbca32fea87b3baa5e8f8ea676968e61",
+      "runtime": "web/assets/world-systems/rocketartillery-death.webp",
+      "runtimeSha256": "cfeaa9520e339f22772c7bb8532dfe1d57fd1c27099a1710ed32f04d5b957bcf",
+      "bytes": 48108,
+      "scale": 0.42424242424242425,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          0,
+          213
+        ],
+        [
+          213,
+          426
+        ],
+        [
+          426,
+          633
+        ],
+        [
+          633,
+          859
+        ],
+        [
+          859,
+          1076
+        ],
+        [
+          1076,
+          1280
+        ],
+        [
+          1280,
+          1491
+        ]
+      ]
+    },
+    {
+      "key": "rocketartillery-icon",
+      "bytes": 5400,
+      "runtime": "web/assets/world-systems/rocketartillery-icon.webp",
+      "runtimeSha256": "abe4588f8bbc080b3c0e0e1a00a872f38b7d648966da466971506ae00801a6be"
+    },
+    {
+      "key": "missilecruiser",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/missilecruiser.png",
+      "sourceSha256": "9f6bdb7c8cf1c315dee2bb44eeb6daf9d668abe120f9210823ae355f6a318c5d",
+      "runtime": "web/assets/world-systems/missilecruiser.webp",
+      "runtimeSha256": "816329b30472c05525a04a050020ac2416c4e6e92d640e1e3f6182e4b9a2b9ea",
+      "bytes": 112538,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          8,
+          207
+        ],
+        [
+          230,
+          428
+        ],
+        [
+          447,
+          646
+        ],
+        [
+          655,
+          885
+        ],
+        [
+          898,
+          1094
+        ],
+        [
+          1095,
+          1309
+        ],
+        [
+          1310,
+          1523
+        ]
+      ]
+    },
+    {
+      "key": "missilecruiser-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/missilecruiser.png",
+      "sourceSha256": "9f6bdb7c8cf1c315dee2bb44eeb6daf9d668abe120f9210823ae355f6a318c5d",
+      "runtime": "web/assets/world-systems/missilecruiser-death.webp",
+      "runtimeSha256": "27a990c936fc6f6bfc5f84c867e5f85d759bf1038539164c6fb406e04726c3e4",
+      "bytes": 51358,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          8,
+          207
+        ],
+        [
+          230,
+          428
+        ],
+        [
+          447,
+          646
+        ],
+        [
+          655,
+          885
+        ],
+        [
+          898,
+          1094
+        ],
+        [
+          1095,
+          1309
+        ],
+        [
+          1310,
+          1523
+        ]
+      ]
+    },
+    {
+      "key": "missilecruiser-icon",
+      "bytes": 5774,
+      "runtime": "web/assets/world-systems/missilecruiser-icon.webp",
+      "runtimeSha256": "c2fc8bde25321c9170e14c309071902cbd737ac74db3742f0830667c1d064c7b"
+    },
+    {
+      "key": "assaultship",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/assaultship.png",
+      "sourceSha256": "e70df1f16217b12afceaceeedbb077f3f33b3e8ac30f30429507eb6ec3832840",
+      "runtime": "web/assets/world-systems/assaultship.webp",
+      "runtimeSha256": "7c5e4f293913db9afd8b53715635ac3e8343d556e6668b88d09cc9011bee046b",
+      "bytes": 105076,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          33,
+          196
+        ],
+        [
+          231,
+          403
+        ],
+        [
+          435,
+          610
+        ],
+        [
+          639,
+          836
+        ],
+        [
+          852,
+          1045
+        ],
+        [
+          1045,
+          1265
+        ],
+        [
+          1269,
+          1500
+        ]
+      ]
+    },
+    {
+      "key": "assaultship-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/assaultship.png",
+      "sourceSha256": "e70df1f16217b12afceaceeedbb077f3f33b3e8ac30f30429507eb6ec3832840",
+      "runtime": "web/assets/world-systems/assaultship-death.webp",
+      "runtimeSha256": "e2f992d5232bb9f8cbba3ba0992fafd508a285f6143bf47972592ca81682c59c",
+      "bytes": 52586,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          33,
+          196
+        ],
+        [
+          231,
+          403
+        ],
+        [
+          435,
+          610
+        ],
+        [
+          639,
+          836
+        ],
+        [
+          852,
+          1045
+        ],
+        [
+          1045,
+          1265
+        ],
+        [
+          1269,
+          1500
+        ]
+      ]
+    },
+    {
+      "key": "assaultship-icon",
+      "bytes": 4686,
+      "runtime": "web/assets/world-systems/assaultship-icon.webp",
+      "runtimeSha256": "12d6a7bd27c7c1a653f942f0795c170e0c2f44fcf10ebe6586807aef58e3a6eb"
+    },
+    {
+      "key": "drone",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/drone.png",
+      "sourceSha256": "2a93864129f37d46421befa1f1c7cb41928ced5cd5b13c251a5d6478ad60e393",
+      "runtime": "web/assets/world-systems/drone.webp",
+      "runtimeSha256": "23bb3366cd3e7f19f55be3c9e72888eed196bf2229644942c564aeb099a7bd4f",
+      "bytes": 57960,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          51,
+          176
+        ],
+        [
+          249,
+          397
+        ],
+        [
+          449,
+          599
+        ],
+        [
+          668,
+          860
+        ],
+        [
+          901,
+          1064
+        ],
+        [
+          1075,
+          1276
+        ],
+        [
+          1292,
+          1506
+        ]
+      ]
+    },
+    {
+      "key": "drone-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/drone.png",
+      "sourceSha256": "2a93864129f37d46421befa1f1c7cb41928ced5cd5b13c251a5d6478ad60e393",
+      "runtime": "web/assets/world-systems/drone-death.webp",
+      "runtimeSha256": "a21aa319add9544d9ae2fce8544ec4f9fdbafb2a5fd2d4782094d96d5093ec8d",
+      "bytes": 43820,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          51,
+          176
+        ],
+        [
+          249,
+          397
+        ],
+        [
+          449,
+          599
+        ],
+        [
+          668,
+          860
+        ],
+        [
+          901,
+          1064
+        ],
+        [
+          1075,
+          1276
+        ],
+        [
+          1292,
+          1506
+        ]
+      ]
+    },
+    {
+      "key": "drone-icon",
+      "bytes": 2816,
+      "runtime": "web/assets/world-systems/drone-icon.webp",
+      "runtimeSha256": "43d71cf77965c2462caa123a207dd9a363cfb66422cadd9fb19d12e035ecb068"
+    },
+    {
+      "key": "apostle",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/apostle.png",
+      "sourceSha256": "72d07525eb8ca63d7109028af0e9bc4cbac39a1171930c434ecb7b456ecdbc1d",
+      "runtime": "web/assets/world-systems/apostle.webp",
+      "runtimeSha256": "74e74981a68642f3f31d82c311d9247d73187783f1748429390ddcb581788078",
+      "bytes": 100426,
+      "scale": 0.38661710037174724,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          0,
+          237
+        ],
+        [
+          237,
+          470
+        ],
+        [
+          470,
+          698
+        ],
+        [
+          698,
+          942
+        ],
+        [
+          942,
+          1211
+        ],
+        [
+          1211,
+          1442
+        ],
+        [
+          1442,
+          1659
+        ]
+      ]
+    },
+    {
+      "key": "apostle-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/apostle.png",
+      "sourceSha256": "72d07525eb8ca63d7109028af0e9bc4cbac39a1171930c434ecb7b456ecdbc1d",
+      "runtime": "web/assets/world-systems/apostle-death.webp",
+      "runtimeSha256": "610bde8aedb5198b03ad4caa2f70474db88f02075ede7d65b0024d01d519fd3f",
+      "bytes": 30980,
+      "scale": 0.38661710037174724,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          0,
+          237
+        ],
+        [
+          237,
+          470
+        ],
+        [
+          470,
+          698
+        ],
+        [
+          698,
+          942
+        ],
+        [
+          942,
+          1211
+        ],
+        [
+          1211,
+          1442
+        ],
+        [
+          1442,
+          1659
+        ]
+      ]
+    },
+    {
+      "key": "apostle-icon",
+      "bytes": 4330,
+      "runtime": "web/assets/world-systems/apostle-icon.webp",
+      "runtimeSha256": "63a7d71174ac0babe60a256c0b103beacc041a995657d99c492a2cfac8ed0ce8"
+    },
+    {
+      "key": "inquisitor",
+      "poses": 20,
+      "original": "art-source/world-systems-20261007/inquisitor.png",
+      "sourceSha256": "adca38567dba87002f301787eb82c083e1cf01a9ddcde7e9eb8cf458ec28f48c",
+      "runtime": "web/assets/world-systems/inquisitor.webp",
+      "runtimeSha256": "ee4b08f9a5898a6a85f5d778770f1b3073909f893496500e34b8946e90e8d75a",
+      "bytes": 86264,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          11,
+          223
+        ],
+        [
+          230,
+          427
+        ],
+        [
+          435,
+          631
+        ],
+        [
+          635,
+          864
+        ],
+        [
+          871,
+          1090
+        ],
+        [
+          1096,
+          1295
+        ],
+        [
+          1363,
+          1492
+        ]
+      ]
+    },
+    {
+      "key": "inquisitor-death",
+      "poses": 8,
+      "original": "art-source/world-systems-20261007/inquisitor.png",
+      "sourceSha256": "adca38567dba87002f301787eb82c083e1cf01a9ddcde7e9eb8cf458ec28f48c",
+      "runtime": "web/assets/world-systems/inquisitor-death.webp",
+      "runtimeSha256": "8e46403b2ea614d809d87803f5fbdbce8ac233ae3b2bfa4566b8ac9209b71c60",
+      "bytes": 32780,
+      "scale": 0.4375,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "sourceBands": [
+        [
+          11,
+          223
+        ],
+        [
+          230,
+          427
+        ],
+        [
+          435,
+          631
+        ],
+        [
+          635,
+          864
+        ],
+        [
+          871,
+          1090
+        ],
+        [
+          1096,
+          1295
+        ],
+        [
+          1363,
+          1492
+        ]
+      ]
+    },
+    {
+      "key": "inquisitor-icon",
+      "bytes": 3648,
+      "runtime": "web/assets/world-systems/inquisitor-icon.webp",
+      "runtimeSha256": "3bb22c8bd513c31c620f01b100af5c907fe76a4a79ad6c776703399f86fb50dc"
+    }
+  ]
+}

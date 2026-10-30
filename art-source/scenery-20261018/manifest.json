@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-18",
+  "purpose": "Explorable ancient ruin (tile.ruin)",
+  "source": "art-source/scenery-20261018/ancient-ruins-v1.png",
+  "sourceSha256": "9f7e176fcfc0cb118ef699f2dd52a8536dc96275ba7ebf36aff0c1f248e3863b",
+  "runtime": "web/assets/scenery/ancient-ruins-v1.webp",
+  "runtimeSha256": "4f4caa5db0a5e122194e4cb46f13dfa2fbf474d7360df1c23003f476684c2b69",
+  "prompt": "art-source/scenery-20261018/PROMPT.md",
+  "preparation": "sharp: trim transparent margins; resize width 512; WebP quality 92 alphaQuality 100",
+  "originalGeneratedFile": "exec-f98c8d38-f090-4b5b-b8c9-ef9b90597550.png",
+  "originalGeneratedLocation": "Local generation cache; not a repository path"
+}

@@ -1,0 +1,168 @@
+{
+  "generator": "Built-in ImageGen",
+  "source": "art-source/projectiles-20261017/projectiles-original.png",
+  "sourceSha256": "a94623b60c780520150a24a279c10861910714404b9e06a91dd099d5aa0c6dab",
+  "runtime": "web/assets/projectiles/projectiles-painted-v1.webp",
+  "runtimeSha256": "0a9434508f8f33a968e11136f086a88cf082f61ab4819af994110173beeccbd9",
+  "bytes": 221018,
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "cell": 256
+  },
+  "torpedoPoses": 3,
+  "records": [
+    {
+      "key": "torpedo-0",
+      "left": 33,
+      "top": 169,
+      "width": 420,
+      "height": 122,
+      "opaque": 28790,
+      "scale": 0.5555555555555556,
+      "runtime": {
+        "x": 0,
+        "y": 0,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "key": "torpedo-1",
+      "left": 472,
+      "top": 193,
+      "width": 412,
+      "height": 98,
+      "opaque": 27220,
+      "scale": 0.5555555555555556,
+      "runtime": {
+        "x": 256,
+        "y": 0,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "key": "torpedo-2",
+      "left": 907,
+      "top": 180,
+      "width": 432,
+      "height": 111,
+      "opaque": 30506,
+      "scale": 0.5555555555555556,
+      "runtime": {
+        "x": 512,
+        "y": 0,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.7,
+        0.5
+      ]
+    },
+    {
+      "key": "cannonball",
+      "left": 1478,
+      "top": 150,
+      "width": 211,
+      "height": 213,
+      "opaque": 35227,
+      "scale": 0.92018779342723,
+      "runtime": {
+        "x": 768,
+        "y": 0,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "bullet",
+      "left": 64,
+      "top": 608,
+      "width": 334,
+      "height": 96,
+      "opaque": 25334,
+      "scale": 0.7065868263473054,
+      "runtime": {
+        "x": 0,
+        "y": 256,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "missile",
+      "left": 411,
+      "top": 587,
+      "width": 464,
+      "height": 125,
+      "opaque": 27641,
+      "scale": 0.5086206896551724,
+      "runtime": {
+        "x": 256,
+        "y": 256,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "bomb",
+      "left": 911,
+      "top": 555,
+      "width": 400,
+      "height": 188,
+      "opaque": 49768,
+      "scale": 0.59,
+      "runtime": {
+        "x": 512,
+        "y": 256,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "key": "bolt",
+      "left": 1357,
+      "top": 613,
+      "width": 393,
+      "height": 86,
+      "opaque": 15665,
+      "scale": 0.6005089058524173,
+      "runtime": {
+        "x": 768,
+        "y": 256,
+        "width": 256,
+        "height": 256
+      },
+      "anchor": [
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

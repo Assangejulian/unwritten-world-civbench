@@ -1,0 +1,103 @@
+{
+  "generator": "built-in imagegen",
+  "transparentBackground": true,
+  "assets": [
+    {
+      "key": "zhangjiajie",
+      "source": "art-source/natural-wonders-20261030/zhangjiajie.png",
+      "runtime": "web/assets/natural-wonders/zhangjiajie.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "6dc92e49e3a240892ac000418bb4738d9b521d449144f28f3b0110dbd485afa1",
+      "runtimeSha256": "50ec93c7090ca2c33c4dddb4d18266257a7af300056f7541fb7c0363d80cbb4b",
+      "runtimeBytes": 52742,
+      "hasAlpha": true,
+      "subject": "A tight miniature cluster of tall slender limestone sandstone pillars rising above an irregular small forested rocky base, inspired by Zhangjiajie in China. Dark green pines cling to the vertical pale stone spires, with a little atmospheric mist at their feet."
+    },
+    {
+      "key": "great_barrier_reef",
+      "source": "art-source/natural-wonders-20261030/great_barrier_reef.png",
+      "runtime": "web/assets/natural-wonders/great_barrier_reef.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "4224a6c0c32973a2710a3b9b3b63fbdcafb7de1597fb859695a531d0a6bcaed1",
+      "runtimeSha256": "23086d06cc3384783db1a5f5c66560093d3fdfff3ae3ed2bd2e35289020a540d",
+      "runtimeBytes": 55032,
+      "hasAlpha": true,
+      "subject": "A small irregular shallow-water coral reef shoal, inspired by the Great Barrier Reef. Luminous restrained turquoise shallows curve around finely painted ochre, rose and ivory coral heads; tiny foam and translucent water edges fade to alpha. Just the reef, not a whole rectangular ocean."
+    },
+    {
+      "key": "iguazu_falls",
+      "source": "art-source/natural-wonders-20261030/iguazu_falls.png",
+      "runtime": "web/assets/natural-wonders/iguazu_falls.webp",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceSha256": "d491a25b0fe3a59c4e693bb66df8818da8c176dc34cc344f6e2c485359a9ebcf",
+      "runtimeSha256": "6912d5795228a4ccc1cb092449e6b27e564aa55cedacbd03f0da1eecf5472798",
+      "runtimeBytes": 40096,
+      "hasAlpha": true,
+      "subject": "A compact horseshoe-shaped tropical river waterfall, inspired by Iguazu Falls: a few white turquoise cascades descend over a dark mossy curved rock ledge into a small misty pool, with sparse little green trees at the upper edge."
+    },
+    {
+      "key": "eye_of_the_sahara",
+      "source": "art-source/natural-wonders-20261030/eye_of_the_sahara.png",
+      "runtime": "web/assets/natural-wonders/eye_of_the_sahara.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "8b7edc0b12309ea5a55d8b3473d8ca03b8254dad61bef008993ca2e5121fac72",
+      "runtimeSha256": "ad0e347722e2ba154c8a1877666d52b4e7be20213d111b62b1269778e2479259",
+      "runtimeBytes": 57328,
+      "hasAlpha": true,
+      "subject": "The Eye of the Sahara, a compact circular eroded geological formation with several concentric layered ochre and sienna rock rings around a dark muted blue-gray stone center, seen obliquely. Natural ancient erosion, no glowing technology."
+    },
+    {
+      "key": "meteorfall_basin",
+      "source": "art-source/natural-wonders-20261030/meteorfall_basin.png",
+      "runtime": "web/assets/natural-wonders/meteorfall_basin.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "6fa31f3a1256894c020913737091b07de0b5b3c637c7b4de28c047cc0992a22a",
+      "runtimeSha256": "3d78526d98e903d92b4b44a1e94a0ecc75a91279b49a54c5550a51f33290a426",
+      "runtimeBytes": 56062,
+      "hasAlpha": true,
+      "subject": "An original ancient meteor impact basin: a shallow round weathered stone crater with a broken rim in dry ochre earth, a few dark iron-nickel metallic fragments and pale blue-gray mineral seams in the bottom. Geologically plausible and subtle, not a glowing magical portal."
+    },
+    {
+      "key": "aurora_icefield",
+      "source": "art-source/natural-wonders-20261030/aurora_icefield.png",
+      "runtime": "web/assets/natural-wonders/aurora_icefield.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "a9225ccf06dbfdd0def0b3da748aabbc9e00d068e76d198bf71a246610a61f33",
+      "runtimeSha256": "d519898c00d638b68c680bfa3b71806890338e7841409ff1bbfa3151927ed548",
+      "runtimeBytes": 59402,
+      "hasAlpha": true,
+      "subject": "An original polar icefield landmark: a compact irregular cluster of wind-carved pale blue ice pinnacles and white snow ridges, with a very delicate thin translucent sage-green aurora ribbon floating above. No opaque night sky; the atmosphere fades into transparency."
+    },
+    {
+      "key": "echo_canyon",
+      "source": "art-source/natural-wonders-20261030/echo_canyon.png",
+      "runtime": "web/assets/natural-wonders/echo_canyon.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "07a5ca4aff85f67546f1281dcd3165b47bdb5db2178552b64c23b9d8098ac8dd",
+      "runtimeSha256": "3fa9418f6f20f48cfccf96e57ed2146a74893ead12dbc386223468f30b47a6d8",
+      "runtimeBytes": 61272,
+      "hasAlpha": true,
+      "subject": "An original echo canyon landmark: a compact pair of sculpted warm red sandstone buttes and a curving narrow natural canyon passage through their center, with fine stratified rock bands, sparse dry grass and a little warm shadow. The traversable passage should be readable."
+    },
+    {
+      "key": "emberheart_caldera",
+      "source": "art-source/natural-wonders-20261030/emberheart_caldera.png",
+      "runtime": "web/assets/natural-wonders/emberheart_caldera.webp",
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "sourceSha256": "728cfeb6c2cfcfd2ea4b89d3902a0c7ca6184c96411c0dff592df1423d7d16c5",
+      "runtimeSha256": "870d2327b37f05b1cefc79fbbdb5281daac7c947917a0d42724f9f15b2dc8cd2",
+      "runtimeBytes": 46402,
+      "hasAlpha": true,
+      "subject": "An original volcanic caldera landmark: a compact dark volcanic mountain with a clearly readable bowl-shaped crater, tiny restrained burnt-orange lava fissures inside, gray ash-stone slopes, sparse green foothill vegetation and one small quiet translucent steam wisp. Dormant-looking but geologically active, no giant eruption."
+    }
+  ],
+  "totalRuntimeBytes": 428336
+}

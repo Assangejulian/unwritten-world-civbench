@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "generatedOn": "2026-10-05",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "asset": "web/assets/transports-painted-v2.png",
+  "original": "exec-7459b6ca-9493-4691-9c90-d4e6f88d1594.png",
+  "originalLocation": "Local generation cache; not a repository path",
+  "reference": "web/assets/galley-painted-v3.png",
+  "sha256": "45508e1567456b3332917adb7f5174c89e711f3cf1fbda88baba0666964eb436",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "poses": 16,
+  "layout": {
+    "columns": 4,
+    "rows": [
+      "wood idle",
+      "wood rowing",
+      "cargo idle",
+      "cargo underway"
+    ],
+    "framesPerAction": 4
+  },
+  "integration": "web/transport-art.js composites the passenger on deck and clips its feet/tracks behind the foreground rail; waterline baseline is 0.88.",
+  "gameplay": "Derived embarkation state of existing land units. No new entities, movement costs, technology gates, combat rights, or unit ownership introduced.",
+  "promptFile": "transports-painted-v2-prompt.txt",
+  "checks": "output/playwright/realtime-ui-checks.json"
+}

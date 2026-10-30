@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import * as E from '../src/engine.mjs';
+import {CIVS} from '../src/rules.mjs';
+import {RealtimeSimulation} from '../src/realtime.mjs';
+import {NativeDriverPool} from '../src/driver-pool.mjs';
+const fixture=await readFile(new URL('../output/full-game-final/checkpoint.json',import.meta.url),'utf8'),pool=new NativeDriverPool(),checks=[];
+try{for(const civ of CIVS)for(const id of [1001,1029]){const g=E.restore(fixture),u=g.units.find(u=>u.id===id),p=g.players[u.owner],initial=u.tile,charges=u.charges;p.driver.file=civ.file;for(const v of g.players)v.manual=true;g.settings.barbarians=false;const sim=new RealtimeSimulation(g);try{let first;for(let step=0;step<32&&g.units.some(v=>v.id===id&&v.charges===charges);step++){const obs=E.observation(g,p);obs.legalActions=obs.legalActions.filter(a=>a.unit===id);const response=await pool.execute(p,obs);first??=response.orders.find(a=>a.unit===id);sim.enqueue(p,response.orders);sim.tick(5);}assert.equal(first?.type,'move',`${civ.file} moves idle builder ${id}`);const current=g.units.find(v=>v.id===id);assert(!current||current.charges<charges,`${civ.file} builder ${id} reaches a real project and spends a charge`);assert(!current||current.tile!==initial);}finally{sim.dispose();}}
+checks.push('All eight native drivers move both actually stalled period-240 builders and finish real charged improvements within 160 simulated seconds');console.log('PASS '+checks[0]);
+{const g=E.restore(fixture),u=g.units.find(u=>u.id===1001),p=g.players[u.owner];for(const t of g.map.tiles)if(t.owner===p.id&&t.cityId===null&&!t.district){t.improvement='farm';t.resource=null;t.feature=null;t.hill=false;};for(const t of g.map.tiles){t.pillaged=false;t.roadPillaged=false;if(t.fort)t.fort.hp=160;}E.refreshVisibility(g);const sim=new RealtimeSimulation(g);try{for(const civ of CIVS){p.driver.file=civ.file;const obs=E.observation(g,p);obs.legalActions=obs.legalActions.filter(a=>a.unit===u.id&&['move','fortify'].includes(a.type));const response=await pool.execute(p,obs);assert(!response.orders.some(a=>a.type==='move'),'No target does not create purposeless roaming');}}finally{sim.dispose();}}
+checks.push('Builders with no valid work retain safe rest instead of aimless movement');console.log('PASS '+checks[1]);
+await writeFile(new URL('../output/builder-routing-checks.json',import.meta.url),JSON.stringify({passed:true,checks},null,2)+'\n');}finally{pool.dispose();}

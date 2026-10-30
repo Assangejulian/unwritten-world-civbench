@@ -1,0 +1,423 @@
+{
+  "method": "Manual inspection of all original atlas cells. Front-facing poses retain nominal right facing; direction follows the head, hull or weapon muzzle rather than a raised weapon or a class default.",
+  "assets": [
+    {
+      "file": "unit-atlas.png",
+      "sha256": "12c554971df9cd9fb9f59241cfa367c71b3f4ec36ae66478897eb2054cc8a6f5"
+    },
+    {
+      "file": "unit-extra-atlas.png",
+      "sha256": "691224c0e6c7975597cb8e8a752c2a82058bf5926f106268dc2b16ea40540802"
+    },
+    {
+      "file": "world-systems/infantry.webp",
+      "sha256": "37bcbd82004e5afeb6dc777adebbf81a70a1dbcd768f81f91fc917da9a692e92"
+    },
+    {
+      "file": "world-systems/mechanized.webp",
+      "sha256": "a09dc2d3dafbf842b4c496ee245081682358cf03641d8332fadbdbba30043666"
+    },
+    {
+      "file": "world-systems/modernarmor.webp",
+      "sha256": "4a18a2030071f8a296e3cc6115d43e87afa3c4b9d62da8a4d18f40b4d4e3c209"
+    },
+    {
+      "file": "world-systems/rocketartillery.webp",
+      "sha256": "c05a7ba0c89b7e926668af16f31ddc59550b2edec9c6f4000d0044476b972965"
+    },
+    {
+      "file": "world-systems/missilecruiser.webp",
+      "sha256": "816329b30472c05525a04a050020ac2416c4e6e92d640e1e3f6182e4b9a2b9ea"
+    },
+    {
+      "file": "world-systems/assaultship.webp",
+      "sha256": "7c5e4f293913db9afd8b53715635ac3e8343d556e6668b88d09cc9011bee046b"
+    },
+    {
+      "file": "world-systems/apostle.webp",
+      "sha256": "74e74981a68642f3f31d82c311d9247d73187783f1748429390ddcb581788078"
+    },
+    {
+      "file": "world-systems/inquisitor.webp",
+      "sha256": "ee4b08f9a5898a6a85f5d778770f1b3073909f893496500e34b8946e90e8d75a"
+    },
+    {
+      "file": "medical/herbalist.webp",
+      "sha256": "464faf84fbc123f80ffb10d7759dcea0953dfcfef0ec924122446eacc58b6831"
+    },
+    {
+      "file": "medical/surgeon.webp",
+      "sha256": "9928eed77ea76fd652c6e15d4d4afb1a669a366edef9dd398860701f52f07233"
+    },
+    {
+      "file": "medical/fieldmedic.webp",
+      "sha256": "faf910616de093e4d4eac689d4cb7f0b9b83ff7847fb72e915081b397f77a455"
+    },
+    {
+      "file": "medical/ambulance.webp",
+      "sha256": "6985d61124514d3a9340d3395512e92a8cf2921d58ce366322f785249f6227dc"
+    }
+  ],
+  "units": [
+    {
+      "type": "settler",
+      "atlas": "unit-atlas.png",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The lead traveler faces left; the staff leads and the backpack trails."
+    },
+    {
+      "type": "builder",
+      "atlas": "unit-atlas.png",
+      "column": 1,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The blue-clad worker looks right; the other worker is nearly frontal."
+    },
+    {
+      "type": "scout",
+      "atlas": "unit-atlas.png",
+      "column": 2,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The telescope and gaze point right."
+    },
+    {
+      "type": "warrior",
+      "atlas": "unit-atlas.png",
+      "column": 3,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Both fighters look right despite holding their clubs behind them."
+    },
+    {
+      "type": "archer",
+      "atlas": "unit-atlas.png",
+      "column": 4,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The arrows and extended bow hands point right."
+    },
+    {
+      "type": "spearman",
+      "atlas": "unit-atlas.png",
+      "column": 0,
+      "row": 1,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "Both helmet face openings and leading steps lean left."
+    },
+    {
+      "type": "swordsman",
+      "atlas": "unit-atlas.png",
+      "column": 1,
+      "row": 1,
+      "sourceFacing": "front",
+      "horizontalSign": 1,
+      "evidence": "A largely frontal squad; retain nominal right facing. A raised sword alone is not a heading."
+    },
+    {
+      "type": "horseman",
+      "atlas": "unit-atlas.png",
+      "column": 2,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Both horse muzzles point right."
+    },
+    {
+      "type": "catapult",
+      "atlas": "unit-atlas.png",
+      "column": 3,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The raised throwing arm and cup extend right of the chassis."
+    },
+    {
+      "type": "crossbow",
+      "atlas": "unit-atlas.png",
+      "column": 4,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Both crossbow stocks and sights point right."
+    },
+    {
+      "type": "knight",
+      "atlas": "unit-atlas.png",
+      "column": 0,
+      "row": 2,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "Both horse muzzles and the lances point left of the saddles."
+    },
+    {
+      "type": "musket",
+      "atlas": "unit-atlas.png",
+      "column": 1,
+      "row": 2,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Both musket barrels point right."
+    },
+    {
+      "type": "cannon",
+      "atlas": "unit-atlas.png",
+      "column": 2,
+      "row": 2,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The cannon muzzle is right of the breech and carriage."
+    },
+    {
+      "type": "tank",
+      "atlas": "unit-atlas.png",
+      "column": 3,
+      "row": 2,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The gun muzzle and sloped hull front point left."
+    },
+    {
+      "type": "galley",
+      "atlas": "unit-atlas.png",
+      "column": 4,
+      "row": 2,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The projecting ram and raised bow are at the left end; the stern is on the right."
+    },
+    {
+      "type": "frigate",
+      "atlas": "unit-atlas.png",
+      "column": 0,
+      "row": 3,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The bowsprit projects left; the stern cabin is on the right."
+    },
+    {
+      "type": "missionary",
+      "atlas": "unit-atlas.png",
+      "column": 1,
+      "row": 3,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The lead figure looks left and leads with the staff; the companion is frontal."
+    },
+    {
+      "type": "rifleman",
+      "atlas": "unit-atlas.png",
+      "column": 2,
+      "row": 3,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Both rifle barrels point right."
+    },
+    {
+      "type": "bombard",
+      "atlas": "unit-atlas.png",
+      "column": 3,
+      "row": 3,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The wide barrel muzzle is on the right."
+    },
+    {
+      "type": "destroyer",
+      "atlas": "unit-atlas.png",
+      "column": 4,
+      "row": 3,
+      "sourceFacing": "left",
+      "horizontalSign": -1,
+      "evidence": "The sharp bow and forward turrets are at the lower left."
+    },
+    {
+      "type": "slinger",
+      "atlas": "unit-extra-atlas.png",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The gaze and forward arm point right; the sling is held behind the head."
+    },
+    {
+      "type": "pikeman",
+      "atlas": "unit-extra-atlas.png",
+      "column": 1,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The gaze and pike tip point right."
+    },
+    {
+      "type": "manatarms",
+      "atlas": "unit-extra-atlas.png",
+      "column": 2,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The helmet is turned right; the sword is held behind the body."
+    },
+    {
+      "type": "courser",
+      "atlas": "unit-extra-atlas.png",
+      "column": 3,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The horse muzzle and pike tip point right."
+    },
+    {
+      "type": "cuirassier",
+      "atlas": "unit-extra-atlas.png",
+      "column": 0,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The horse muzzle and rider gaze point right."
+    },
+    {
+      "type": "cavalry",
+      "atlas": "unit-extra-atlas.png",
+      "column": 1,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The horse muzzle and firearm point right."
+    },
+    {
+      "type": "artillery",
+      "atlas": "unit-extra-atlas.png",
+      "column": 2,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The long barrel muzzle points right."
+    },
+    {
+      "type": "battleship",
+      "atlas": "unit-extra-atlas.png",
+      "column": 3,
+      "row": 1,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "The sharp bow and forward gun barrels point right."
+    },
+    {
+      "type": "infantry",
+      "atlas": "world-systems/infantry.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "mechanized",
+      "atlas": "world-systems/mechanized.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "modernarmor",
+      "atlas": "world-systems/modernarmor.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "rocketartillery",
+      "atlas": "world-systems/rocketartillery.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "missilecruiser",
+      "atlas": "world-systems/missilecruiser.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "assaultship",
+      "atlas": "world-systems/assaultship.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "apostle",
+      "atlas": "world-systems/apostle.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "inquisitor",
+      "atlas": "world-systems/inquisitor.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Inspected world-actions-gallery.png: head, hull bow or weapon faces right; fixed anchors and authored action poses."
+    },
+    {
+      "type": "herbalist",
+      "atlas": "medical/herbalist.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Prepared medical manifest and painted action baseline use nominal right-facing source poses."
+    },
+    {
+      "type": "surgeon",
+      "atlas": "medical/surgeon.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Prepared medical manifest and painted action baseline use nominal right-facing source poses."
+    },
+    {
+      "type": "fieldmedic",
+      "atlas": "medical/fieldmedic.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Prepared medical manifest and painted action baseline use nominal right-facing source poses."
+    },
+    {
+      "type": "ambulance",
+      "atlas": "medical/ambulance.webp",
+      "column": 0,
+      "row": 0,
+      "sourceFacing": "right",
+      "horizontalSign": 1,
+      "evidence": "Prepared medical manifest and painted action baseline use nominal right-facing source poses."
+    }
+  ]
+}

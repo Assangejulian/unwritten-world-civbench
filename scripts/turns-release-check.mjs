@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+import {spawn} from 'node:child_process';
+const out='output/turns-units-20261019/verification';fs.mkdirSync(out,{recursive:true});
+const cases=[['engine',['scripts/turns-units-check.mjs']],['native',['scripts/turns-native-check.mjs']],...['realtime','warfare','truce','occupancy','medical','city-combat','unit-upgrade','technology-tree','movement-limits','religion-movement','city-research'].map(n=>[n,['--import','./scripts/turns-regression-fixture.mjs','scripts/'+n+'-check.mjs']]),['map',['scripts/turns-map-check.cjs']],['depth',['scripts/map-depth-check.cjs']]];
+const old=process.argv.includes('--resume')?JSON.parse(fs.readFileSync(out+'/checks.json')):{results:[]},results=old.results.filter(r=>r.code===0);
+for(const [name,args]of cases){if(results.some(r=>r.name===name))continue;let log='';const start=Date.now(),child=spawn(process.execPath,args,{env:{...process.env,HCX_CHECK_OUTPUT:'output/turns-units-20261019/map-depth'},windowsHide:true,stdio:['ignore','pipe','pipe']});child.stdout.on('data',b=>log+=b);child.stderr.on('data',b=>log+=b);const code=await new Promise(r=>child.on('exit',r));fs.writeFileSync(out+'/'+name+'.log',log);results.push({name,code,ms:Date.now()-start,log:out+'/'+name+'.log'});fs.writeFileSync(out+'/checks.json',JSON.stringify({passed:results.length===cases.length&&results.every(r=>r.code===0),total:cases.length,results},null,2));console.log((code===0?'PASS ':'FAIL ')+name);}
+if(results.some(r=>r.code!==0))process.exitCode=1;

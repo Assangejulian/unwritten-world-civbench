@@ -1,0 +1,5 @@
+{
+  "generator": "Built-in ImageGen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent isometric strategy game improvement sprite atlas with exactly TWO columns and ONE row, equal cells. Left: a historical horse breeding ranch, fenced paddock with 3 small realistic chestnut/white horses, hay and modest wood stable, compact grassy earth footprint. Right: silk sericulture farm, neat rows of leafy mulberry trees beside a small traditional silkworm rearing house with bamboo trays, a few pale silk cocoons and thread spools near doorway, compact earth footprint. Painterly detailed miniature civilization-style game art, warm muted earth colors, gentle top-left illumination, isometric elevated 3/4 view, orthographic, no harsh drop shadow. Each subject fully inside its half with generous transparent margin. Same footprint size and perspective. Genuine transparent background, no checkerboard, no text or icons, no panels, no scene background, no connecting objects between cells. These are buildings and improvements, not character portraits."
+}

@@ -1,0 +1,113 @@
+{
+  "version": "1.7.0",
+  "date": "2026-10-05",
+  "generator": "Built-in ImageGen",
+  "provenance": "Original strategy-game art; not extracted from Civilization VI.",
+  "unitTypes": [
+    "knight",
+    "archer",
+    "tank",
+    "battleship"
+  ],
+  "runtimeUnitPoses": 80,
+  "combatSprites": 20,
+  "actions": {
+    "idle": 4,
+    "move": 8,
+    "attack": 8
+  },
+  "sourceFacing": "right",
+  "runtimeFrameResolution": 128,
+  "unitFrameOrder": "Primary 4x5 atlases: idle 0-3, move 4-11, attack 12-19. Archer uses primary 0-11 plus the separate 4x2 attack atlas 0-7; incomplete primary attack cells are not used.",
+  "normalization": "Connected alpha components recover full silhouettes across nominal grid cells. Alpha-weighted lower body centers and common per-sheet scale anchor feet on a shared baseline. PNGs remain byte exact.",
+  "combatFrameOrder": [
+    "tankShell",
+    "navalShell",
+    "stone",
+    "arrow",
+    "muzzle0",
+    "muzzle1",
+    "muzzle2",
+    "muzzle3",
+    "explosion0",
+    "explosion1",
+    "explosion2",
+    "explosion3",
+    "splash0",
+    "splash1",
+    "splash2",
+    "splash3",
+    "slash",
+    "sparks",
+    "dust",
+    "smoke"
+  ],
+  "files": [
+    {
+      "file": "knight-painted-v2.png",
+      "width": 1402,
+      "height": 1122,
+      "bytes": 2062564,
+      "sha256": "6cb56e4b3c0b92793d676968c863f0a61432c3fd290cf1f7539d5d894f9d284a",
+      "format": "PNG RGBA"
+    },
+    {
+      "file": "../../art-source/unit-retired-20261007/archer-painted-v2.png",
+      "width": 1402,
+      "height": 1122,
+      "bytes": 1486976,
+      "sha256": "040b362b11236a37c58477b07b82c0040184d6787b3707bd27df6c4e543ff27f",
+      "format": "PNG RGBA",
+      "originalRuntime": "web/assets/archer-painted-v2.png",
+      "status": "retired",
+      "replacedBy": "web/assets/archer-painted-v3.png"
+    },
+    {
+      "file": "../../art-source/unit-retired-20261007/archer-attack-painted-v1.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1109052,
+      "sha256": "2f74ca95e8f9f7c6bc9bac46cbf1d13e1dc0438fffeb5c888ccac58b2d15ab05",
+      "format": "PNG RGBA",
+      "originalRuntime": "web/assets/archer-attack-painted-v1.png",
+      "status": "retired",
+      "replacedBy": "web/assets/archer-painted-v3.png"
+    },
+    {
+      "file": "tank-painted-v2.png",
+      "width": 1402,
+      "height": 1122,
+      "bytes": 2033327,
+      "sha256": "21085795591a7bdf1cafebd1daa2f74148de48f41de4c3fc0d318b3bdde4c84a",
+      "format": "PNG RGBA"
+    },
+    {
+      "file": "battleship-painted-v2.png",
+      "width": 1402,
+      "height": 1122,
+      "bytes": 2074804,
+      "sha256": "862c219c3d62297ddb14d098a6688fd50dd0710abedc11284eb5d238b24441f4",
+      "format": "PNG RGBA"
+    },
+    {
+      "file": "combat-painted-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2381071,
+      "sha256": "7fb33032e32412e7303d567e391341110cb067eb67fd439e8718e3af882a716a",
+      "format": "PNG RGBA"
+    }
+  ],
+  "sources": {
+    "knight": "local-cache:exec-9c86617b-e27a-43d0-a6c6-c29642fa19f8.png",
+    "archer": "local-cache:exec-ae07d41d-9d0f-456d-973b-93b81027cd25.png",
+    "tank": "local-cache:exec-2f89bb35-dae4-4f89-afcf-cf1c33ba04d0.png",
+    "battleship": "local-cache:exec-46c599bd-f89b-41e4-8c50-c2702360293a.png",
+    "archerAttack": "local-cache:exec-4965d4ec-e5bc-48c5-b922-e8be4af13fc4.png",
+    "combat": "local-cache:exec-93d06151-569a-4438-888e-6d3aadfcc8e4.png"
+  },
+  "prompts": "../../output/imagegen/painted-actions-prompts.json",
+  "verification": "../../output/playwright/painted-actions-checks.json",
+  "preview": "../../output/playwright/painted-actions-preview.gif",
+  "saveBackup": "../../saves/before-painted-actions-20261005.json"
+}

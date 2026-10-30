@@ -1,0 +1,33 @@
+[
+  {
+    "key": "specops",
+    "prompt": "Edit this existing 4-column by7-row transparent sprite atlas. Preserve the same28-cell layout, camera, soldier, outfit, proportions, all other rows and existing true alpha. Correct ONLY the FOUR paintings in ROW5: currently they are cut-off floating torsos. Repaint EACH of those four as a COMPLETE kneeling or standing soldier with whole pelvis, BOTH legs, BOTH boots and ground contact inside its own cell, matching the soldier's physical scale in row4. Row5 col1 fires the same carbine with a small flash, col2 recoil, col3 re-aim, col4 lower carbine and recover. Maintain enough transparent margin below both boots and between all figures, no hard cropped waist or cut-off body anywhere. Keep every other pose and the final eight fallen poses as they are. No background, labels, lines or new props.",
+    "original": "local-cache:exec-8040f163-27fa-4adb-b8e7-913b3d268de1.png",
+    "replaces": "local-cache:exec-5d410f41-47ea-43e4-b119-49f25fe3e60d.png",
+    "superseded": true
+  },
+  {
+    "key": "quadrireme",
+    "prompt": "Correct this original4-column7-row ANCIENT quadrireme animation atlas. Preserve hull, sail, oars, all28 complete silhouettes, common scale, camera, layout and transparent background. Remove the historically wrong modern cannon flash, explosive projectile and gunpowder smoke from ROW5 columns1 and2. These are wooden-deck torsion BALLISTA release and recovery poses, with tiny ancient crew pulling and releasing ropes and a restrained ballista arm motion. No cannon or firearms anywhere. No muzzle flash, no fire, no gunpowder smoke, no explosive rocket, no baked flying projectile or trails anywhere in living frames. Keep the top12 idle/rowing poses and the last8 damage/sinking poses, and retain the boat's silhouette/paint style. All20 living frames should be a functional ancient oared sailing vessel; same hull/sail throughout. Real transparent alpha, no new background or text.",
+    "original": "local-cache:exec-3d5b1a1d-5381-4a53-bdb2-0c5d5a530c98.png",
+    "replaces": "local-cache:exec-36ca6088-5b2d-4b2c-a777-ae8950a5ddfa.png"
+  },
+  {
+    "key": "specops",
+    "prompt": "Generate a NEW COMPLETE sprite animation sheet from this ONE character identity reference. The reference is only a magnified single idle soldier; do not copy its 768-square canvas layout. OUTPUT A TALL PORTRAIT ATLAS with exactly FOUR evenly spaced columns and SEVEN evenly spaced rows. There are28 separate FULL-BODY pictures of this exact dark-olive special-operations soldier with helmet/goggles, tactical vest, backpack and carbine. Rows1-5: row1 four quiet standing guard poses; rows2-3 eight sequential walking/running gait poses with alternating feet; rows4-5 eight combat poses: prepare, raise carbine, aim, brace, fire (row5 col1), recoil, re-aim, lower weapon. Rows6-7: eight death poses: hit/stagger, bend, knee down, fall sideways, touch ground, settle, nearly still, final motionless prone soldier with carbine. EVERY pose must include the complete head, torso, BOTH LEGS and BOTH BOOTS, or the complete fallen body, in its own spacious cell. All cells must have a wide TRANSPARENT BORDER on ALL FOUR SIDES. No silhouette or weapon may cross a cell border or touch another pose. Use no more than70% of each cell height and width so there is a CLEAR EMPTY HORIZONTAL GAP BETWEEN EVERY ROW, including the death rows. Keep same physical body size through all28, no enlarged dead bodies or cropped shooting busts. Whole matrix should fill the tall portrait image evenly, NOT squeezed into a landscape letterbox. Painted historical-strategy miniature rendering with restrained olive/brown pigments, soft upper-left light, right-facing oblique camera. True transparent RGBA, NO brown background, shadows, labels, grid lines, text, UI or extra people. Draw28 distinct sequential poses rather than duplicating cutouts.",
+    "original": "local-cache:exec-57068505-757c-4516-84a9-3d3d11f2433d.png",
+    "replaces": "local-cache:exec-8040f163-27fa-4adb-b8e7-913b3d268de1.png"
+  },
+  {
+    "key": "modernat",
+    "prompt": "Edit this transparent4-column7-row animation sprite atlas, retaining all28 poses, crew, olive uniforms, launch tripod, equipment cases, lighting, scale, spacing and whole-body silhouettes. Correct ONLY ROW5's attack images: remove the large detached flying launch tube/missile and its long flight trail in row5 col1. Leave the actual launcher fixed on its tripod, with only a SHORT SMALL attached launch puff at its muzzle in col1, residual smoke in col2, reload/recovery in col3, ready launcher in col4. No in-flight projectile or floating weapon anywhere. The game's code draws the traveling missile separately. Preserve all other rows, including the eight final fallen crew/disabled launcher poses. True alpha background, no labels, no grid, no new props.",
+    "original": "local-cache:exec-72893699-b05a-4356-a0f0-66ba7c2fa3ba.png",
+    "replaces": "local-cache:exec-4c3bda82-6c2b-44e7-bbab-253ae90b6222.png"
+  },
+  {
+    "key": "helicopter",
+    "prompt": "Edit this exact transparent4-column7-row28-pose helicopter sprite atlas while preserving the same olive helicopter, rotor, hull dimensions, all complete silhouettes, camera, row/column geometry and death frames. Remove all detached flying rockets/missiles and the long white-orange rocket FLIGHT TRAILS from the living poses. In row4 col4 show aiming/stabilizing with NO flash or launch. In row5 col1 show only a SMALL SHORT attached exhaust flash at one rocket pod, NOT a projectile, NOT a long trail; row5 col2 has a small residual wisp, col3 recovery, col4 ready. The runtime draws the traveling missile, so none may be painted flying ahead of the hull. Retain8 distinct rotor-flight poses and8 burning/crash poses exactly as much as possible. No background, ground disks, labels or extra aircraft. Keep real transparent alpha.",
+    "original": "local-cache:exec-207f5fdb-31cb-4b45-83ea-48e6426160b9.png",
+    "replaces": "local-cache:exec-46e3f065-9d62-47b3-8512-6cdbaab11d65.png"
+  }
+]

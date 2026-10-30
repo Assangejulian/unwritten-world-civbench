@@ -1,0 +1,12 @@
+# Authored waterway and village sprites
+
+Generated with the built-in image_gen tool. Originals retained unchanged; runtime preparation only trims alpha margins, resizes and encodes WebP. Source/runtime hashes are in manifest.json.
+
+## aqueduct
+
+Use case: stylized-concept. Asset type: isolated transparent sprite for a historical isometric hex strategy game's painted map. Style: finely painted semi-realistic small map illustration, warm upper-left sunlight, subdued sandstone/ochre/wood palette, natural detailed material texture, readable silhouette at 100 pixels wide. Camera: orthographic isometric viewed down 37 degrees. Centered compact broad low profile, no landscape, no hexagonal pedestal, no UI, no text, no watermark, no low-poly geometry. Background must be actual transparent alpha with only a very soft local contact shadow. Subject: a functioning ancient Roman style stone aqueduct, a shallow open water channel clearly carrying a narrow turquoise ribbon of water along the top, supported by five graduated arches in weathered cream limestone, gentle diagonal L bend with a short descending end and a modest receiving cistern, enough detail in masonry and arches to distinguish it from a temple, realistic engineering. Entire structure fits compactly inside one hex, no castle, no cathedral, no monumental bridge over a river, no city. Arches remain open, blue water is visible from above. Horizontal composition about two times wider than tall.
+
+## village
+
+Use case: stylized-concept. Asset type: isolated transparent sprite for a historical isometric hex strategy game's painted map. Style: finely painted semi-realistic small map illustration, warm upper-left sunlight, subdued sandstone/ochre/wood palette, natural detailed material texture, readable silhouette at 100 pixels wide. Camera: orthographic isometric viewed down 37 degrees. Centered compact broad low profile, no landscape, no hexagonal pedestal, no UI, no text, no watermark, no low-poly geometry. Background must be actual transparent alpha with only a very soft local contact shadow. Subject: a friendly small tribal village, three modest circular woven timber and reed huts with textured thatched roofs around a tiny communal firepit and woven grain baskets; small natural drying rack and footpath between the huts; welcoming settled community, no warriors, no people, no palisade, no flags, no ruins, no treasure, no large trees. Distinct warm ochre brown roofs and handbuilt details, compact informal arrangement. Horizontal composition about 1.7 times wider than tall.
+

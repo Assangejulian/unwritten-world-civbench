@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-18",
+  "preparation": "sharp alpha trim, 512px width, WebP quality92 alphaQuality100",
+  "records": [
+    {
+      "key": "aqueduct",
+      "source": "art-source/encounters-20261018/aqueduct-v1.png",
+      "runtime": "web/assets/scenery/aqueduct-v1.webp",
+      "sourceSha256": "523430c3955900a394104d42d346679e274d26606103db1887ebbb5581b9cd6b",
+      "runtimeSha256": "c69cee406a1693940fa9aa4ebdef4bd9edd8bb42747ac4c5db6cb7f42e818595",
+      "metadata": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "width": 512,
+        "height": 201,
+        "space": "srgb",
+        "channels": 4,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": true,
+        "autoOrient": {
+          "width": 512,
+          "height": 201
+        }
+      }
+    },
+    {
+      "key": "tribal-village",
+      "source": "art-source/encounters-20261018/tribal-village-v1.png",
+      "runtime": "web/assets/scenery/tribal-village-v1.webp",
+      "sourceSha256": "a78973c82890efdfd32d040f4ef1543a6583d4a7ef65ca880f793510b2d85010",
+      "runtimeSha256": "80684afe43b69d86db970a9deafe59e8a4b975f0e6fbfca2cecb9443902ebca1",
+      "metadata": {
+        "format": "webp",
+        "mediaType": "image/webp",
+        "width": 512,
+        "height": 258,
+        "space": "srgb",
+        "channels": 4,
+        "depth": "uchar",
+        "isProgressive": false,
+        "isPalette": false,
+        "hasProfile": false,
+        "hasAlpha": true,
+        "autoOrient": {
+          "width": 512,
+          "height": 258
+        }
+      }
+    }
+  ]
+}

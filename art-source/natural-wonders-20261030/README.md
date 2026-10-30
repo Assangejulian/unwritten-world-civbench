@@ -1,0 +1,11 @@
+# Natural-wonder artwork, 2026-10-30
+
+Historical first batch. Only Zhangjiajie, Great Barrier Reef, Iguazu Falls and Eye of the Sahara remain active. Meteorfall Basin, Aurora Icefield, Echo Canyon and Emberheart Caldera are retired fictional experiments: their generator originals stay archived, while their runtime WebPs are removed. The manifest below is historical and is not the current runtime inventory. The active35 inventory is [the real-site manifest](../natural-wonders-real35-20261030/manifest.json).
+
+Eight original assets were generated with the built-in imagegen tool, one call per sprite, all requesting `transparent_background: true`. The original PNGs remain beside this file. No source Civilization artwork was extracted. Sharp only resized and encoded the runtime WebPs; conversion synthesized no content. Runtime total: 428,336 bytes.
+
+[manifest.json](manifest.json) records relative source/runtime paths, original dimensions, SHA-256 hashes, subjects and transparency. Runtime files live in `web/assets/natural-wonders/`. The private receipt and 1200px contact sheet remain task-local output, outside public source. `scripts/natural-wonders-art-import.cjs` accepts a local imagegen receipt to reproduce import/encoding; it never removes generator originals.
+
+Every complete prompt substitutes the manifest's `subject` into this exact template:
+
+> Create ONE isolated transparent-background map landmark sprite for Unwritten World, a historical Renaissance civilization strategy game. Subject: {subject} Elevated isometric strategy-camera view, the whole miniature object fits within a square canvas with at least 15% transparent margin. Tactile finely painted oil/gouache brushwork, atlas-like miniature realism, restrained parchment ochre, lapis and verdigris palette, warm brass-era light. Clearly distinguishable silhouette and readable at 96 pixels. An organic irregular natural base only; no pedestal, hexagon, hex grid, frame, UI, letters, numbers, icon badge, collage, opaque backdrop or rectangular terrain tile. Natural alpha edges and soft transparent mist where appropriate. This is a real compositing asset matching hand-painted historical map scenery, not a screenshot or concept sheet.

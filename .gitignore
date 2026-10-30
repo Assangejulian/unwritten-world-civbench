@@ -1,0 +1,104 @@
+# Local worlds and browser/Electron profile data. Git rollback must not replace saves.
+/saves/
+/logs/
+
+# Generated verification worlds, screenshots, before-copies and local audit evidence.
+/output/
+
+# Internal agent handoffs and machine/session notes stay local. Public docs live in docs/.
+/Model_work/
+/AGENTS.md
+/PROJECT_STATE.md
+/SESSION_HANDOFF*.md
+/AI_COORDINATION.md
+/IMPLEMENTATION_HANDOFF.md
+/LEADERS_FOR_GEMINI.md
+/scripts/c-drive-footprint.ps1
+
+# Legacy root feature/review documents mix implementation notes with local history.
+# Keep curated public documentation under docs/ and retain these originals locally.
+/*.md
+!/README.md
+!/LICENSE.md
+!/NOTICE.md
+!/CHANGELOG.md
+!/CONTRIBUTING.md
+!/CODE_OF_CONDUCT.md
+!/SECURITY.md
+
+# Historical local collaborator fixtures and rollback copies.
+/Model_work/claude/tests/
+/Model_work/claude/tests-baseline/
+/Model_work/claude/shots/
+/Model_work/claude/before/
+/Model_work/claude/baseline-root/
+/Model_work/claude/autosave-before.sha256
+/Model_work/claude/before-hashes.txt
+
+# Rebuildable native players and desktop launcher artifacts.
+/bin/
+/HexCivilizations.exe
+/HexCivilizations.pdb
+/launcher.lib
+/desktop/*.obj
+/desktop/*.res
+/desktop/*.pdb
+
+# Downloaded toolchains/runtimes/caches; retain pinned provenance and licenses.
+/tools/*
+!/tools/desktop-runtime.json
+!/tools/toolchain.json
+!/tools/electron-SHASUMS256.txt
+!/tools/NODE-LICENSE.txt
+
+# Third-party executable utilities are not authored art source.
+/art-source/**/*.exe
+
+# Dependency installations and build/cache directories.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+.playwright/
+playwright-report/
+test-results/
+/dist/
+/build/
+/coverage/
+
+# Machine-specific settings, editor state and secrets.
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+.idea/
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.pid
+*.tmp
+*.pending
+
+# Local model contexts, seat credentials and machine overrides.
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db-wal
+*.db-shm
+*.db
+*.db-journal
+*.har
+*.cpuprofile
+*.local.json
+*.local.toml
+.envrc

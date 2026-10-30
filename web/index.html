@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN" data-ui="b" data-skin="classic" data-theme="renaissance">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#16171b">
+  <title>诸文明 · 六角纪元</title>
+  <link rel="icon" href="/assets/branding/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/victory-panel.css">
+  <link rel="stylesheet" href="/civ-hud.css">
+  <link rel="stylesheet" href="/scene.css">
+  <link rel="stylesheet" href="/heritage.css">
+  <link rel="stylesheet" href="/religion-council.css">
+  <link rel="stylesheet" href="/ui-b/ui-b.css" id="ui-b-css">
+  <link rel="stylesheet" href="/ui-b/ui-b-v4.css" id="ui-b-v4-css">
+<link rel="stylesheet" href="/player-tasks.css">
+  <link rel="stylesheet" href="/leader-badge.css">
+  <link rel="stylesheet" href="/materials.css">
+  <link rel="stylesheet" href="/leader-meeting.css">
+  <script type="module" src="/materials.js"></script>
+</head>
+<body>
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-monument" viewBox="0 0 24 24"><path d="M2 21h20M4 18h16M6 18V9m4 9V9m4 9V9m4 9V9M3 8l9-6 9 6H3Zm8-6v3h2V2"/></symbol>
+    <symbol id="i-quill" viewBox="0 0 24 24"><path d="m4 20 12-12M6 17C3 8 12 2 21 3c0 8-6 16-13 14M9 13h7M12 10V6M3 22h9"/></symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24"><path d="m3 6 4 5 5-7 5 7 4-5-2 13H5L3 6Zm3 16h12M12 2v2"/></symbol>
+    <symbol id="i-science" viewBox="0 0 24 24"><path d="M9 3h6m-5 0v7L4 20h16l-6-10V3M7 16h10"/></symbol>
+    <symbol id="i-culture" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5H3Zm1 13h16M6 10v8m6-8v8m6-8v8M3 19h18"/></symbol>
+    <symbol id="i-gold" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 8h-4a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4H9m3-10v12"/></symbol>
+    <symbol id="i-faith" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></symbol>
+    <symbol id="i-food" viewBox="0 0 24 24"><path d="M12 22V3m0 14c-6 0-8-4-8-7 6 0 8 3 8 7Zm0-5c5 0 7-4 7-7-5 0-7 3-7 7Zm0 9c5 0 7-3 7-6-5 0-7 3-7 6Z"/></symbol>
+    <symbol id="i-production" viewBox="0 0 24 24"><path d="m3 19 9-9m-4-5 4-3 8 8-4 4-5-5-3-4Zm-6 17 3-3"/></symbol>
+    <symbol id="i-world" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></symbol>
+    <symbol id="i-diplomacy" viewBox="0 0 24 24"><path d="m2 11 5-5 5 3 5-3 5 5-7 9-3-2-3 2-7-9Zm5-5 6 8 4-3m-5 7-5-5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M4 3h14l3 3v15H3V3h1Zm3 0v7h10V3M7 21v-7h10v7"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 4 13 8-13 8V4Z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M7 4v16M17 4v16"/></symbol>
+    <symbol id="i-step" viewBox="0 0 24 24"><path d="m4 5 11 7-11 7V5Zm14 0v14"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 8c0-4 7-4 7 0 0 3-4 3-4 6m0 3v1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-audio" viewBox="0 0 24 24"><path d="M3 9h4l5-5v16l-5-5H3V9Zm13-2c4 3 4 7 0 10m3-13c6 4 6 12 0 16"/></symbol>
+    <symbol id="i-m-continue" viewBox="0 0 24 24"><path d="M4.5 18.5C2 14.5 2.3 8.8 5.8 5.2M19.5 18.5c2.5-4 2.2-9.7-1.3-13.3M3.6 13.2l2.2.6M4.2 9.2l2 1.1M6.4 6.2l1.4 1.8M20.4 13.2l-2.2.6M19.8 9.2l-2 1.1M17.6 6.2l-1.4 1.8M8 21h8M10 8l6 4-6 4V8Z"/></symbol>
+    <symbol id="i-m-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M12 6.5l2.2 5.5-2.2 5.5-2.2-5.5L12 6.5ZM9.8 12h4.4"/></symbol>
+    <symbol id="i-m-scroll" viewBox="0 0 24 24"><path d="M7 4h11a2 2 0 0 1 2 2v11M7 4a2 2 0 0 0-2 2v2h4V6a2 2 0 0 0-2-2Zm2 4v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1h-9v1a2 2 0 0 1-2 2M12 8h5M12 11h5M12 14h3"/></symbol>
+    <symbol id="i-m-seal" viewBox="0 0 24 24"><circle cx="12" cy="9.5" r="6.5"/><path d="m12 6 1 2.2 2.4.3-1.8 1.6.5 2.4-2.1-1.2-2.1 1.2.5-2.4-1.8-1.6 2.4-.3L12 6ZM8.3 14.8 6.5 21l2.8-1.4L11 22M15.7 14.8l1.8 6.2-2.8-1.4L13 22"/></symbol>
+    <symbol id="i-m-lyre" viewBox="0 0 24 24"><path d="M8 21h8M9 21C5.5 17 4.5 9.5 7 4.5c1.2 2.6 2.6 3.6 5 3.6s3.8-1 5-3.6c2.5 5 1.5 12.5-2 16.5M10 9.5V18M12 9.5V18M14 9.5V18M8.6 17.5h6.8M5.5 6 4 4.5M18.5 6 20 4.5"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 22V3m0 0c5-4 9 4 14 0v10c-5 4-9-4-14 0"/></symbol>
+  </defs></svg>
+  <main id="app">
+    <section id="start-menu" class="start-menu" aria-label="游戏主菜单" hidden>
+      <div class="menu-cover-frame" aria-hidden="true"><img class="menu-cover" src="/assets/branding/cover.webp" alt="" width="1672" height="941" fetchpriority="high"></div>
+      <i class="menu-vignette" aria-hidden="true"></i>
+      <div class="menu-content"><div class="menu-crest"><img class="menu-emblem" src="/assets/branding/game-icon.png" width="80" height="80" alt=""></div><span class="menu-kicker">HEX · CIVILIZATIONS</span><h1>诸文明<span>六角纪元</span></h1><p class="menu-intro">在这片世界，写下你的文明。</p>
+        <nav class="menu-actions" aria-label="主菜单选项"><button id="menu-continue"><svg class="mi" aria-hidden="true"><use href="#i-m-continue"/></svg><span class="ml">继续游戏</span> <span id="menu-turn"></span></button><button id="menu-new"><svg class="mi" aria-hidden="true"><use href="#i-m-compass"/></svg><span class="ml">开始新游戏</span></button><button id="menu-load"><svg class="mi" aria-hidden="true"><use href="#i-m-scroll"/></svg><span class="ml">加载存档</span></button><button id="menu-save"><svg class="mi" aria-hidden="true"><use href="#i-m-seal"/></svg><span class="ml">保存当前游戏</span></button><button id="menu-leaders"><svg class="mi" aria-hidden="true"><use href="#i-crown"/></svg><span class="ml">领袖与国家战略</span></button><button id="menu-audio"><svg class="mi" aria-hidden="true"><use href="#i-m-lyre"/></svg><span class="ml">音乐与声音</span></button></nav><p id="menu-loading" class="menu-loading" role="status" hidden>正在载入山河与军队…</p>
+        <p id="menu-world" class="menu-world"></p><small class="menu-footnote">I–XVI CIVITATES · 1–16 个文明 · 离线世界</small>
+      </div>
+    </section>
+    <canvas id="map" aria-label="可拖动、缩放和选择的六角文明地图" tabindex="0"></canvas>
+    <header class="topbar">
+      <button id="brand" class="brand" title="返回主菜单"><img src="/assets/branding/favicon.png" width="36" height="36" alt=""><span>诸文明<small>HEX CIVILIZATIONS</small></span></button>
+      <div class="turn-clock"><span id="era">远古时代</span><strong id="turn">001</strong><small id="year">公元前 4000 年</small></div>
+      <div id="empire-yields" class="empire-yields"></div>
+      <nav aria-label="游戏菜单"><button data-modal="governors" title="招募、晋升与指派总督"><svg><use href="#i-crown"/></svg><span>总督</span></button><button data-modal="worldsystems" title="城邦、间谍、游客与专家"><svg><use href="#i-world"/></svg><span>诸国</span></button>
+        <button data-modal="religion" title="万神殿、宗教信条与教派"><svg><use href="#i-faith"/></svg><span>宗教</span></button><button data-modal="greatpeople" hidden><span>伟人名录</span></button><button data-modal="wonders" hidden><span>世界奇观</span></button>
+        <button data-modal="leaders" title="领袖技能、国策与国家战略"><svg><use href="#i-crown"/></svg><span>领袖</span></button><button data-modal="tech" title="科技树"><svg><use href="#i-science"/></svg><span>科技</span></button>
+        <button data-modal="civic" title="市政与政策"><svg><use href="#i-culture"/></svg><span>市政</span></button>
+        <button data-modal="climate" title="气候与自然灾害"><svg><use href="#i-world"/></svg><span>气候</span></button>
+        <button data-modal="congress" title="国际大会与有效决议"><svg><use href="#i-world"/></svg><span>大会</span></button><button data-modal="diplomacy" title="外交与胜利"><svg><use href="#i-diplomacy"/></svg><span>外交</span></button>
+        <button data-modal="drivers" title="C++ 玩家驱动"><svg><use href="#i-code"/></svg><span>玩家</span></button>
+        <button data-modal="saves" title="存档与载入"><svg><use href="#i-save"/></svg><span>存档</span></button>
+        <button data-modal="audio" title="音乐与声音"><svg><use href="#i-audio"/></svg><span>声音</span></button><button id="toggle-panels" title="隐藏 / 展开两侧面板 · Tab" aria-label="隐藏两侧面板" aria-pressed="false"><svg><use href="#i-eye"/></svg><span>面板</span></button>
+        <button id="fullscreen" title="全屏 / 窗口 · F11" aria-label="切换全屏"><span class="fullscreen-symbol">⛶</span><span>全屏</span></button>
+        <button data-modal="help" title="玩法说明"><svg><use href="#i-help"/></svg></button>
+      </nav>
+    </header>
+    <aside id="council" class="council panel">
+      <button id="council-toggle" class="panel-heading" aria-expanded="true" title="收起整个文明面板"><span>世界议会</span><small id="civilization-count">8 个文明</small><span class="panel-hide-mark">‹</span></button>
+      <div id="players" class="player-list"></div>
+      <div class="perspective"><label for="perspective">战争迷雾</label><select id="perspective"><option value="-1">全知观战</option></select></div>
+      <button id="takeover" class="quiet-button"><svg><use href="#i-flag"/></svg><span>接管所选文明</span></button>
+      <button id="rankings" class="quiet-button"><svg><use href="#i-crown"/></svg><span>查看胜利进度</span></button>
+    </aside>
+    <div class="map-caption"><span id="world-scale">THE UNWRITTEN WORLD</span><p id="map-seed">随机世界 · FIRST-HORIZON</p></div>
+    <aside id="inspector" class="inspector panel"></aside>
+    <section id="force-panel" class="force-panel" aria-live="polite" hidden></section>
+    <button id="left-panel-tab" class="edge-tab left" aria-controls="council" aria-expanded="true" title="隐藏 / 展开文明面板">‹</button>
+    <button id="right-panel-tab" class="edge-tab right" aria-controls="inspector" aria-expanded="true" title="隐藏 / 展开详情面板">›</button>
+    <div id="hover" class="map-tooltip" hidden></div>
+    <div class="map-tools"><button id="zoom-in" aria-label="放大地图">+</button><button id="zoom-out" aria-label="缩小地图">−</button><button id="home-map" title="返回所选文明首都 · Home" aria-label="返回首都"><svg><use href="#i-crown"/></svg></button><button id="fit-map" title="全览地图 · F" aria-label="全览地图"><svg><use href="#i-world"/></svg></button><button id="toggle-grid" title="显示 / 隐藏六角网格" aria-label="显示六角网格" aria-pressed="false">格</button><button id="toggle-unit-names" title="显示 / 隐藏单位名称" aria-label="显示单位名称" aria-pressed="true">兵</button><button id="toggle-yields" title="地块产出：● 食物 · ◆ 生产 · ¤ 金币 · ⚗ 科技 · ♫ 文化 · ☀ 信仰" aria-label="显示地块产出" aria-pressed="false">♣</button><button id="toggle-resources" title="显示 / 隐藏资源标识" aria-label="显示资源标识" aria-pressed="true">◆</button><button id="toggle-borders" title="显示 / 隐藏城市边界" aria-label="显示城市边界">⬡</button></div>
+    <div class="minimap-wrap"><canvas id="minimap" width="220" height="140" aria-label="点击定位的小地图"></canvas><span>WORLD ATLAS</span></div>
+    <aside id="chronicle" class="chronicle panel"><button id="chronicle-toggle" aria-expanded="false"><span>世界纪事</span><small id="latest-event">文明的故事即将开始</small><span class="chevron">⌃</span></button><div id="events"></div></aside>
+    <section id="turn-phase" class="turn-phase panel" aria-label="实时模拟状态">
+      <div class="phase-heading"><strong id="phase-title">暂停中 · 等待命令</strong><button id="round-report" title="查看最近的经济结算报告" disabled>经济报告 ↗</button></div>
+      <div id="phase-players" class="phase-players"></div><p id="phase-detail"></p>
+    </section>
+    <footer class="turnbar">
+      <div id="research-status" class="research-status"></div>
+      <div class="transport"><label for="speed">模拟速度</label><select id="speed"><option value="0.5">×0.5</option><option value="1" selected>×1</option><option value="2">×2</option><option value="4">×4</option></select><button id="play" class="play-button"><svg><use href="#i-play"/></svg><span>继续模拟</span></button><button id="step" class="step-button"><svg><use href="#i-step"/></svg><span>推进 1 秒</span></button></div>
+      <div class="run-status"><span id="status-dot"></span><span id="run-status">暂停中 · 等待命令</span><small>空格 暂停 / 继续 · N 推进 1 秒</small></div>
+    </footer>
+    <div id="order-hint" class="order-hint" hidden></div>
+    <div id="toast" role="status" hidden></div>
+    <dialog id="modal"><div class="modal-shell"><header><div><small id="modal-kicker">THE COUNCIL</small><h2 id="modal-title"></h2></div><button id="close-modal" class="icon-button" aria-label="关闭窗口"><svg><use href="#i-close"/></svg></button></header><div id="modal-body"></div></div></dialog>
+    <input id="cpp-file" type="file" accept=".cpp" hidden>
+    <input id="save-file" type="file" accept=".json" hidden>
+  </main>
+  <link rel="stylesheet" href="/peace-negotiation.css">
+  <link rel="stylesheet" href="/imperial-council.css">
+  <link rel="stylesheet" href="/city-workshop.css">
+  <link rel="stylesheet" href="/ui-b/classic.css" id="classic-css">
+  <link rel="stylesheet" href="/ui-b/renaissance.css" id="renaissance-css">
+  <link rel="stylesheet" href="/climate-panel.css">
+  <script type="module" src="/ui-b/renaissance-hooks.js"></script>
+  <script type="module" src="/startup.js"></script>
+</body>
+</html>

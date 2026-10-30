@@ -1,0 +1,35 @@
+/* Terrain, sprites, and a restrained desktop game shell. */
+#terrain-3d{position:absolute;inset:0;display:block;width:100%;height:100%;z-index:0;pointer-events:none}
+#map{position:relative;z-index:1;background:transparent}
+:root{--glass:rgba(24,44,47,.89);--line:rgba(225,212,169,.2);--gold:#dfc68c;--muted:#b0b9ab}
+.topbar{height:74px;background:linear-gradient(180deg,#1b3034f7,#1b3034e0);box-shadow:0 4px 24px #172e3438;padding:0 20px;gap:19px}
+.brand{padding-right:18px}.brand>span{font-size:25px}.brand>svg{width:30px}.brand small{letter-spacing:2px}
+.topbar nav button{padding:8px 9px;min-width:40px}.fullscreen-symbol{font-size:24px;line-height:21px}
+.topbar nav button .fullscreen-symbol{display:block!important}
+.panel{backdrop-filter:blur(18px);box-shadow:0 12px 32px #1e333630;border-radius:3px}
+.map-caption{color:#f2e8cf;text-shadow:0 2px 5px #203e33;top:95px}.map-caption>span{color:#eee5c7}.map-caption p{color:#eee5c7;font-size:10px}
+.unit-art{display:inline-block;flex-shrink:0;width:42px;height:42px;background-image:url('/assets/unit-atlas.png');background-size:500% 400%;background-repeat:no-repeat;vertical-align:middle}
+.unit-chip .unit-art{width:35px;height:35px}.production-option .unit-art{width:38px;height:38px}.unit-guide-icon .unit-art{width:65px;height:65px}
+.unit-guide{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}.unit-guide article{min-height:96px}.unit-guide-icon{width:66px;min-width:66px;height:70px}
+.tree-toolbar{display:flex;align-items:center;gap:18px;margin:12px 0 16px;font-size:11px;color:var(--muted);flex-wrap:wrap}
+.tree-toolbar label{display:flex;gap:10px;align-items:center}.tree-toolbar input{background:#213a3e;border:1px solid var(--line);color:var(--ink);padding:8px 12px;width:200px;font-size:11px}
+.tree-toolbar button{padding:8px 12px}.tree-toolbar small{font-size:10px;color:#ceb784;margin-left:auto}
+.tree-scroll{overflow:auto;max-height:53vh;padding:8px 10px 20px;scrollbar-width:thin;scrollbar-color:#887854 #213a3e}
+.tree{display:flex;align-items:flex-start;gap:52px;position:relative;width:max-content;padding:0 20px 30px 0;min-height:400px}
+.era-column{width:212px;min-width:212px;position:relative;z-index:1}.era-column h3{position:sticky;top:-8px;z-index:2;padding:12px 4px;margin:0 0 14px;background:#172f35;color:#d7c58e;font-weight:400;letter-spacing:2px;border-bottom:1px solid var(--line)}
+.tree-node{display:block;width:100%;min-height:106px;margin:0 0 20px;padding:13px 15px;text-align:left;background:#20383d;border:1px solid #8c886052;border-left:3px solid #737e6a;border-radius:3px;opacity:1!important;transition:opacity .15s,background .15s;position:relative}
+.tree-node .tree-name{font-size:13px;letter-spacing:1px}.tree-node small{line-height:1.6;margin-top:7px;color:#b4beac;font-size:10px}.tree-node.locked{background:#1d3035;color:#8e9d95;border-color:#52645955}.tree-node.locked small{color:#8e9d95}
+.tree-node.available{border-color:#86a8aa80;border-left-color:#a7c8c3}.tree-node.done{border-color:#87997755;border-left-color:#a4bf86;background:#2c403c}.tree-node.current{border-color:#e8d29a;border-left-color:#e8d29a;background:#3c443c;box-shadow:0 0 15px #d5bb7430}.tree-node.tree-dimmed{opacity:.23!important}
+.tree-links{position:absolute;inset:0;max-width:none;pointer-events:none;width:auto;height:auto;overflow:visible;z-index:0}.tree-links path{stroke:#71817770;stroke-width:1.2;fill:none}.tree-links path.fulfilled{stroke:#b5c794aa}.tree-links path.target{stroke:#f0d491;stroke-width:1.8}
+#modal:has(.tree){width:min(1400px,94vw)}
+@media(max-width:1200px){.topbar{gap:12px;padding:0 15px}.empire-yields{gap:13px}.topbar nav button{padding:8px 6px}.brand{padding-right:12px}.turn-clock{min-width:127px}}
+@media(max-width:1020px){.topbar nav button span:not(.fullscreen-symbol){display:none}.topbar nav{gap:4px}.topbar nav button{min-width:30px;padding:8px 5px}.empire-yields{gap:10px}.brand>span{font-size:23px}.tree-toolbar small{display:none}}
+@media(max-width:760px){.topbar{height:96px;padding:8px 12px;gap:10px}.topbar nav{gap:5px}.topbar nav button{min-width:26px;padding:5px}.topbar nav button svg{width:18px}.map-caption{top:105px}.tree-scroll{max-height:47vh}.tree-toolbar{gap:10px}.tree-toolbar input{width:150px}.tree{gap:36px}.era-column{width:200px;min-width:200px}}
+@media(min-width:761px) and (max-width:1020px){.turn-clock{min-width:108px}.topbar{gap:9px}.brand{padding-right:6px}}
+@media(max-width:760px){.topbar{flex-wrap:wrap;align-content:center;gap:6px 10px}.turn-clock{min-width:80px;margin-left:auto}.topbar nav{flex-basis:100%;width:100%;margin:0;justify-content:space-between;gap:5px}.topbar nav button[data-modal="saves"],.topbar nav button[data-modal="diplomacy"]{display:flex}.edge-tab,.council{top:108px}}
+
+.city-development{margin:16px 0;border-bottom:1px solid var(--line);padding-bottom:12px}.city-development .inspector-note{margin:0}.city-alert{font-size:10px;line-height:1.9;color:#e0b195;border-left:2px solid #b47c54;padding-left:9px}.order-hint{max-width:calc(100vw - 40px);white-space:normal;text-align:center}
+
+.yield-grid>div{min-width:0;gap:4px}.yield-grid small{white-space:nowrap;font-size:8px}.yield-grid b{font-size:14px}.yield-grid svg{width:13px;flex-shrink:0}
+.order-hint.combat-preview{width:min(560px,calc(100vw - 40px));max-height:260px;overflow:auto;white-space:pre-line;text-align:left;line-height:1.7}
+@media(max-width:760px){.order-hint.combat-preview{max-height:220px;font-size:10px}}

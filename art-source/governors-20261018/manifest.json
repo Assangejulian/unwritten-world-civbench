@@ -1,0 +1,50 @@
+[
+  {
+    "key": "gov_agrarian",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Shen Qinghe, female East Asian agricultural administrator age 35, practical jade green brocade robe, neatly tied black hair, holding irrigation scroll and bronze ruler, terraced fields and aqueducts in distant background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_agrarian-v1.png",
+    "sha256": "857cc774e0ef46ed3a691c044d3d427c76930b5fa2a505715fb81eac37cef3ea"
+  },
+  {
+    "key": "gov_engineer",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Marco Varo, male Mediterranean architect age 48, greying short hair and trimmed beard, wool artisan coat and leather cap, brass calipers, stone aqueduct blueprints on desk, arched construction background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_engineer-v1.png",
+    "sha256": "220f539b08e0094760d5e0210c8d6d6a1ee7a19e32d4c75844886d1f89f3b159"
+  },
+  {
+    "key": "gov_merchant",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Amina Kanem, female West African merchant administrator age 40, deep brown skin, indigo wrapped head cloth with modest gold threads, Sahel woven red and ochre robes, confident expression, brass balance and shipping ledger, port background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_merchant-v1.png",
+    "sha256": "9d449310e6770a0027c9770d6d7794f3684042ecab2327c68d3a4d6516cf109a"
+  },
+  {
+    "key": "gov_warlord",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Batur Altan, male Central Asian fortress commander age 45, weathered face, modest healed cheek scar, iron lamellar armour and warm fur collar, hands on stone battlements, distant mountain fortress. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_warlord-v1.png",
+    "sha256": "af6e9716b30972b253cfd555024489adeba6436908b12cfdea2b4b48057f3480"
+  },
+  {
+    "key": "gov_educator",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Anahita Rao, female South Asian scholar age 38, thoughtful brown eyes, peacock blue and ivory silk sari, black hair in a bun and small astronomical silver pin, holding brass celestial armillary, vaulted library background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_educator-v1.png",
+    "sha256": "10fd5ccb2d12a346496878708e669fd43e54bef17d9c34b0dda6dacc86b46000"
+  },
+  {
+    "key": "gov_curator",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Jean de Louvre, male French court curator age 42, chestnut curls and neat moustache, deep plum velvet coat and lace collar, small enamel portrait medallion, holding a bronze statuette and slim conductor baton, sculptural gallery background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_curator-v1.png",
+    "sha256": "fb068c9b3d36d0cc2fabe70d291ed5847f967296de7c3c173b26b054228137d4"
+  },
+  {
+    "key": "gov_theologian",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Zara Tekle, female Ethiopian religious administrator age 36, brown skin, calm wise eyes, layered ivory linen robe with fine gold woven trim and turquoise clasp, holding old manuscript and small incense vessel, carved stone chapel background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_theologian-v1.png",
+    "sha256": "deb8ec3c7e81f39518f7319df36a1b1c13301d4f1140296be5359eef85b3354c"
+  },
+  {
+    "key": "gov_diplomat",
+    "prompt": "Single original historical governor character portrait for a Civilization-like strategy game. Cuetlauac, male Indigenous Mesoamerican diplomat age 44, jade ear ornaments, finely woven geometric cotton mantle, restrained green feather headband, holding jade treaty tablet and rolled document, carved council courtyard background. Museum-quality detailed hand-painted oil illustration, refined natural face anatomy, dignified individual character, warm parchment-and-umber light, muted antique gold details, deep teal shadows, painterly realism, historically inspired and culturally respectful. Waist-up composition filling frame, face in upper third, centered, portrait aspect ratio 3:4. Background atmospheric and subdued, no text, no labels, no border, no split panels, no collage, no modern logos. This is a standalone portrait, not a UI screenshot.",
+    "source": "art-source/governors-20261018/gov_diplomat-v1.png",
+    "sha256": "a73df775a75921b0b9746fa27b1176a20d00379b5e8983a3dc5c65644b8c93ff"
+  }
+]

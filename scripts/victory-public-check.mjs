@@ -1,0 +1,81 @@
+import auditBrowserRuntime from './browser-runtime.cjs';
+// Universe is mounted by startup; retired style switching has been removed.
+// Verify the encounter-gated public contract through snapshots, native input and the real UI.
+import assert from 'node:assert/strict';
+import {createRequire,registerHooks} from 'node:module';
+import fs from 'node:fs';
+import http from 'node:http';
+import path from 'node:path';
+import {Readable} from 'node:stream';
+import {pathToFileURL} from 'node:url';
+import {createHash} from 'node:crypto';
+import {createGame,snapshot,observation,victoryProgress,serialize,restore} from '../src/engine.mjs';
+const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'output/victory-public-20261012');
+fs.mkdirSync(out,{recursive:true});
+const work=fs.mkdtempSync(path.join(out,'fixture-')),checks=[],errors=[];
+const pass=name=>{checks.push(name);console.log('PASS '+name);};
+const g=createGame({seed:'PUBLIC-VICTORY',players:3,size:'small',barbarians:false});
+g.players[0].met=[1];g.players[1].spaceStage=2;g.players[1].tourism=1234;
+g.players[0].visible=[];
+const before=serialize(g),own=snapshot(g,0),all=snapshot(g,-1),input=observation(g,g.players[0]);
+for(const id of [0,1])assert.deepEqual(own.players[id].victory,victoryProgress(g,g.players[id]));
+assert(!Object.hasOwn(own.players[2],'victory'));pass('Player sees own and met-country progress, never unmet-country progress');
+assert.deepEqual(input.player.victory,own.players[0].victory);
+assert.deepEqual(input.opponents.map(o=>o.id),[1]);assert.deepEqual(input.opponents[0].victory,own.players[1].victory);
+pass('Native input and player snapshot disclose identical progress without current vision');
+for(const id of [0,1,2])assert.deepEqual(all.players[id].victory,victoryProgress(g,g.players[id]));
+pass('Observer retains progress for every civilization');
+for(const key of ['gold','techs','research','government','policies','plan','spaceLaunchDone','nuclearStockpile','diplomaticFavor','diplomaticFavorIncome','diplomaticLedger']){
+ assert(!Object.hasOwn(own.players[1],key),key);assert(!Object.hasOwn(input.opponents[0],key),key);
+}pass('Public victory does not publish foreign budgets, research choices, government or plans');
+assert.equal(serialize(g),before);const loaded=restore(before);assert.deepEqual(snapshot(loaded,0).players[1].victory,own.players[1].victory);
+pass('Projection is read-only and existing save format round-trips');
+g.players[1].spaceStage=3;assert.equal(snapshot(g,0).players[1].victory.science.stage,3);
+g.players[0].met.push(2);assert.deepEqual(snapshot(g,0).players[2].victory,victoryProgress(g,g.players[2]));
+pass('New contact and foreign progress become public on the next projection');
+g.players[0].met=[1];g.players[1].spaceStage=2;fs.writeFileSync(path.join(work,'autosave.json'),serialize(g));
+globalThis.__victoryServer=handler=>{globalThis.__victoryHandler=handler;return {on(){},listen(){}};};
+const serverUrl=pathToFileURL(path.join(root,'server.mjs')).href;
+const hooks=registerHooks({load(url,context,next){const result=next(url,context);if(url!==serverUrl)return result;
+ let source=result.source.toString().replaceAll('\r\n','\n');
+ for(const anchor of ["const saveDir=path.join(ROOT,'saves')",'http.createServer(','const timer=setInterval'])assert(source.includes(anchor));
+ source=source.replace("const saveDir=path.join(ROOT,'saves')",'const saveDir='+JSON.stringify(work)).replace('http.createServer(','globalThis.__victoryServer(');
+ source=source.replace(/^const timer=setInterval[^\n]+$/m,'const timer=undefined;').replace(/^for\(const signal of \['SIGINT','SIGTERM'\]\)[^\n]+$/m,'export function disposeFixture(){simulation.dispose();pool.dispose();observations.dispose();}');
+ source+='\nexport const victoryAccess={get world(){return game;},changed};\n';return {...result,source};
+}});
+const server=await import(serverUrl);hooks.deregister();
+// Restore recomputes contacts; pin this controlled perspective after restoration.
+server.victoryAccess.world.players[0].met=[1];server.victoryAccess.world.players[0].visible=[];server.victoryAccess.changed();
+async function call(method,url,body){const req=Readable.from(body===undefined?[]:[Buffer.from(body)]);Object.assign(req,{method,url,headers:{host:'127.0.0.1:43821',...(body===undefined?{}:{'content-type':'application/json'})}});let status,result;await globalThis.__victoryHandler(req,{writeHead(code){status=code;},end(bytes){result=String(bytes);}});return {status,body:result};}
+const files=http.createServer((req,res)=>{const name=decodeURIComponent(new URL(req.url,'http://x').pathname),relative=name==='/'?'/index.html':name;
+ for(const dir of ['web','src']){const base=path.join(root,dir),file=path.resolve(base,'.'+relative);if(file.startsWith(base+path.sep)&&fs.existsSync(file)&&fs.statSync(file).isFile()){res.writeHead(200,{'Content-Type':{'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.png':'image/png','.svg':'image/svg+xml'}[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(res);return;}}res.writeHead(404);res.end();});
+let browser;
+try{
+ const response=await call('GET','/api/state?view=0');assert.equal(response.status,200,response.body);const state=JSON.parse(response.body);
+ assert.equal(state.game.players[1].victory.science.stage,2);assert(!state.game.players[2].victory);pass('Actual state handler honors the encounter boundary');
+ const require=createRequire(import.meta.url),{chromium}=auditBrowserRuntime.load('playwright');
+ await new Promise(resolve=>files.listen(0,'127.0.0.1',resolve));
+ browser=await chromium.launch({headless:true,executablePath:auditBrowserRuntime.chromiumExecutable()});
+ const page=await browser.newPage({viewport:{width:1440,height:960}});page.on('pageerror',e=>errors.push(e.message));
+ await page.route('**/api/**',async route=>{const req=route.request(),u=new URL(req.url()),r=await call(req.method(),u.pathname+u.search,req.method()==='POST'?req.postData():undefined);await route.fulfill({status:r.status,contentType:'application/json',body:r.body});});
+ await page.goto('http://127.0.0.1:'+files.address().port);await page.waitForFunction(()=>window.__civ?.menuShown);await page.locator('#menu-continue').click();
+ await page.waitForFunction(()=>!window.__civ.menuShown&&window.__civ.game&&typeof window.__civ.renderer?.terrainType==='function');
+ await page.evaluate(()=>window.__civ.renderer.menuOpen=true);await page.locator('#perspective').selectOption('0');await page.waitForFunction(()=>window.__civ.game.visuals.view===0);
+ await page.evaluate(()=>window.__civ.focusPlayer(0));await page.locator('[data-modal="diplomacy"]').click();await page.locator('[data-dip-tab="victories"]').click();
+ const rows=page.locator('.victory-table tbody tr');await page.waitForFunction(()=>document.querySelectorAll('.victory-table tbody tr').length===3);
+ assert.equal(await rows.nth(1).locator('td').count(),7);assert.match(await rows.nth(1).locator('td').nth(2).innerText(),/2 \/ 3/);assert.match(await rows.nth(2).innerText(),/尚未相遇/);
+ await page.screenshot({path:path.join(out,'desktop.png')});pass('Real victory table shows met-country progress and an honest unmet placeholder');
+ const A=server.victoryAccess;A.world.players[1].spaceStage=3;A.world.turn++;A.changed();await page.evaluate(()=>window.__civ.refresh(true));
+ await page.waitForFunction(()=>document.querySelectorAll('.victory-table tbody tr')[1].textContent.includes('3 / 3'));
+ pass('Open victory table refreshes after a foreign project completes');
+ A.world.players[0].met.push(2);A.changed();await page.evaluate(()=>window.__civ.refresh(true));
+ await page.waitForFunction(()=>document.querySelectorAll('.victory-table tbody tr')[2].querySelectorAll('td').length===7);
+ pass('Newly encountered civilization replaces the unknown row while the table is open');
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:path.join(out,'mobile.png')});
+ const fit=await page.locator('.victory-scroll').evaluate(e=>({right:e.getBoundingClientRect().right,width:innerWidth}));assert(fit.right<=fit.width+1);pass('Mobile retains the existing horizontally scrollable victory table');
+ const legacyFallback=await page.evaluate(async()=>{const {mountVictoryPanel}=await import('/victory-panel.js'),g=structuredClone(window.__civ.game),p=g.players[0],host=document.createElement('div');delete p.victory.diplomacy;delete p.victory.scoreDetails;delete p.victory.scoreLimit;mountVictoryPanel(host,g,p,{esc:s=>String(s),bar:()=>'',openCongress:()=>{}});return host.textContent;});assert.match(legacyFallback,/正常存档并完全退出/);pass('New frontend gives a save-and-reopen notice for a still-running legacy backend instead of throwing');
+ await page.setViewportSize({width:1440,height:960});A.world.settings.victories=['score'];A.world.players[0].diplomaticPoints=20;A.changed();await page.evaluate(()=>{window.__hexUi.closeModal();});await page.evaluate(()=>window.__civ.refresh(true));await page.waitForFunction(()=>document.querySelector('[data-b-vic]')?.textContent.includes('—'));await page.locator('[data-b-vic]').click();assert(!(await page.locator('.b-vpop').innerText()).includes('外交'));assert((await page.locator('.b-vpop').innerText()).includes('查看全部胜利与分项'));pass('B summary excludes disabled victories and retains a visible route to the full victory breakdown');
+ assert.deepEqual(errors,[]);pass('Real UI completes without browser errors');
+}finally{await browser?.close();if(files.listening)await new Promise(resolve=>files.close(resolve));server.disposeFixture();delete globalThis.__victoryServer;delete globalThis.__victoryHandler;}
+const sources=Object.fromEntries(['src/engine.mjs','web/app.js','web/lazy-map.js','server.mjs','scripts/victory-public-check.mjs'].map(file=>[file,createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex')]));
+fs.writeFileSync(path.join(out,'checks.json'),JSON.stringify({passed:true,checks,errors,sources,fixture:work,activeSaveWritten:false,gameRestarted:false,sdkChanged:false},null,2)+'\n');

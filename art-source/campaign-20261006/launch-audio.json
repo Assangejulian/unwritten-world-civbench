@@ -1,0 +1,10 @@
+{
+  "file": "web/assets/audio/sfx/launch-roar.wav",
+  "author": "Original procedural synthesis for Hex Civilizations",
+  "license": "CC0-1.0",
+  "sampleRate": 22050,
+  "channels": 1,
+  "seconds": 8,
+  "bytes": 352844,
+  "sha256": "90564e1ba5a8ef13c7945aa1d2d749bd84fc70fa4774de0a312c71d288422b3f"
+}

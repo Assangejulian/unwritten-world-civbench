@@ -1,0 +1,18 @@
+{
+  "source": "Built-in ImageGen",
+  "date": "2026-10-10",
+  "records": [
+    {
+      "key": "aircraftcarrier",
+      "original": "aircraftcarrier.png",
+      "reference": "web/assets/battleship-painted-v2.png",
+      "prompt": "Create a NEW aircraft carrier sprite sheet for the same hex strategy game as the attached battleship reference. Use the reference ONLY for visual style, isometric three-quarter viewpoint, bow facing RIGHT, painted realistic miniature aesthetics and slate/navy/cream palette. Replace battleship silhouette entirely with a recognizable modern aircraft carrier: long broad flat flight deck, angled landing runway, starboard island and tiny parked jet aircraft, one continuous hull; no battleship gun turrets. Transparent background true alpha. Exactly 20 distinct complete carrier poses arranged in a rigorously spaced 4-column by 5-row grid. Every sprite inside its own equal cell, consistent physical ship size and camera across all cells, generous empty transparent gutters. NO text, NO labels, NO grid lines, NO background ocean. Row 1 four calm idle poses (antenna/radar subtle variation). Rows 2 and 3 eight sailing poses (small local white wake hugs hull, bow wave pulses). Rows 4 and 5 eight action poses showing catapult aircraft-launch preparation, one tiny jet taking off from the deck, puff of pale steam, then recovery; launch effects remain inside the ship's cell. Each pose must remain predominantly the same carrier body, not a separate plane. Maintain consistent whole-hull scale, all appendages fully inside cell. Output high-resolution polished sprite atlas."
+    },
+    {
+      "key": "aircraftcarrier-death",
+      "original": "aircraftcarrier-death.png",
+      "reference": "art-source/carrier-20261010/aircraftcarrier.png",
+      "prompt": "Create the DEATH / SINKING animation sprite sheet for the EXACT aircraft carrier identity in the reference image: same long broad flat angled flight deck, starboard island, slate-gray hull, tiny deck aircraft, bow facing RIGHT, same painted isometric three-quarter camera. Transparent background true alpha. Exactly EIGHT different chronological frames in a perfectly separated 4-column by 2-row grid; no text or labels or grid lines. Read row-major: 1 intact carrier beginning to burn on deck; 2 spreading small orange fire and dark smoke, starboard list; 3 hull damaged and bow lower; 4 severe listing, lower hull submerged with a small localized water splash; 5 flight deck halfway under surface; 6 only island and upper broken deck above surface; 7 tiny island remnant and small debris/water splash; 8 only small floating charred wreck pieces with faint smoke. Retain consistent physical carrier size throughout (progressive submersion, do not magnify smaller remnants); each entire pose/effects fits inside its equal cell with generous transparent gutters, empty transparent surrounding water (no ocean background). Make isolated separate stages, not eight identical ships. Polished game sprite art like existing living reference."
+    }
+  ]
+}

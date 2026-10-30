@@ -1,0 +1,1051 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "deathPoses": 72,
+  "records": [
+    {
+      "key": "fighter",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/fighter.png",
+      "sourceSha256": "52a7d0bd0f4770b07e5a1ba371ea61b7b962120823509ea08083b2ed6a71d163",
+      "runtime": "web/assets/unit-deaths/fighter-death.webp",
+      "runtimeSha256": "145feb9bcda8ac73479d4438ccaa1dc145acb03d49f8a50ce24e0f67397b3277",
+      "bytes": 37112,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.22926829268292684,
+      "requestedScale": 0.22926829268292684,
+      "livingReference": {
+        "left": 23,
+        "right": 116,
+        "top": 65,
+        "bottom": 111,
+        "width": 94,
+        "height": 47,
+        "opaque": 2035
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 23,
+          "right": 434,
+          "top": 145,
+          "bottom": 334,
+          "opaque": 35891,
+          "bodyWidth": 410,
+          "anchorX": 228.5,
+          "anchorY": 334
+        },
+        {
+          "index": 1,
+          "left": 475,
+          "right": 867,
+          "top": 145,
+          "bottom": 334,
+          "opaque": 39317,
+          "bodyWidth": 391,
+          "anchorX": 671,
+          "anchorY": 335
+        },
+        {
+          "index": 2,
+          "left": 931,
+          "right": 1330,
+          "top": 117,
+          "bottom": 349,
+          "opaque": 44090,
+          "bodyWidth": 396,
+          "anchorX": 1132.5,
+          "anchorY": 349
+        },
+        {
+          "index": 3,
+          "left": 1331,
+          "right": 1753,
+          "top": 76,
+          "bottom": 396,
+          "opaque": 44797,
+          "bodyWidth": 423,
+          "anchorX": 1542,
+          "anchorY": 396
+        },
+        {
+          "index": 4,
+          "left": 35,
+          "right": 435,
+          "top": 463,
+          "bottom": 813,
+          "opaque": 52690,
+          "bodyWidth": 395,
+          "anchorX": 237,
+          "anchorY": 813
+        },
+        {
+          "index": 5,
+          "left": 499,
+          "right": 870,
+          "top": 477,
+          "bottom": 814,
+          "opaque": 45095,
+          "bodyWidth": 371,
+          "anchorX": 685,
+          "anchorY": 814
+        },
+        {
+          "index": 6,
+          "left": 939,
+          "right": 1284,
+          "top": 489,
+          "bottom": 805,
+          "opaque": 39995,
+          "bodyWidth": 344,
+          "anchorX": 1111.5,
+          "anchorY": 805
+        },
+        {
+          "index": 7,
+          "left": 1394,
+          "right": 1729,
+          "top": 510,
+          "bottom": 819,
+          "opaque": 35665,
+          "bodyWidth": 335,
+          "anchorX": 1562,
+          "anchorY": 819
+        }
+      ]
+    },
+    {
+      "key": "jetfighter",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/jetfighter.png",
+      "sourceSha256": "69903b49eb163b2215e867e9c0a6f1bc2139fd6cc7b09172125eea285f8b1627",
+      "runtime": "web/assets/unit-deaths/jetfighter-death.webp",
+      "runtimeSha256": "110a54a3b73924c7da0ac457349cfe3d5f2d975a50e14d8524f787981cac5d68",
+      "bytes": 28246,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.19951923076923078,
+      "requestedScale": 0.19951923076923078,
+      "livingReference": {
+        "left": 26,
+        "right": 108,
+        "top": 71,
+        "bottom": 111,
+        "width": 83,
+        "height": 41,
+        "opaque": 1548
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 17,
+          "right": 443,
+          "top": 149,
+          "bottom": 339,
+          "opaque": 37157,
+          "bodyWidth": 416,
+          "anchorX": 235.5,
+          "anchorY": 340
+        },
+        {
+          "index": 1,
+          "left": 444,
+          "right": 886,
+          "top": 146,
+          "bottom": 338,
+          "opaque": 36554,
+          "bodyWidth": 443,
+          "anchorX": 665,
+          "anchorY": 339
+        },
+        {
+          "index": 2,
+          "left": 887,
+          "right": 1330,
+          "top": 87,
+          "bottom": 329,
+          "opaque": 39135,
+          "bodyWidth": 444,
+          "anchorX": 1108.5,
+          "anchorY": 329
+        },
+        {
+          "index": 3,
+          "left": 1331,
+          "right": 1758,
+          "top": 80,
+          "bottom": 384,
+          "opaque": 42174,
+          "bodyWidth": 427,
+          "anchorX": 1544,
+          "anchorY": 384
+        },
+        {
+          "index": 4,
+          "left": 20,
+          "right": 443,
+          "top": 493,
+          "bottom": 791,
+          "opaque": 43494,
+          "bodyWidth": 420,
+          "anchorX": 233.5,
+          "anchorY": 791
+        },
+        {
+          "index": 5,
+          "left": 444,
+          "right": 886,
+          "top": 516,
+          "bottom": 793,
+          "opaque": 40973,
+          "bodyWidth": 443,
+          "anchorX": 665,
+          "anchorY": 793
+        },
+        {
+          "index": 6,
+          "left": 887,
+          "right": 1304,
+          "top": 549,
+          "bottom": 785,
+          "opaque": 33593,
+          "bodyWidth": 417,
+          "anchorX": 1095,
+          "anchorY": 785
+        },
+        {
+          "index": 7,
+          "left": 1355,
+          "right": 1741,
+          "top": 572,
+          "bottom": 778,
+          "opaque": 29848,
+          "bodyWidth": 385,
+          "anchorX": 1548,
+          "anchorY": 778
+        }
+      ]
+    },
+    {
+      "key": "stealthfighter",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/stealthfighter.png",
+      "sourceSha256": "0dbb7c732c0c342035587221a4294794fe26ddc9c503dcbb4958d34d79494d2e",
+      "runtime": "web/assets/unit-deaths/stealthfighter-death.webp",
+      "runtimeSha256": "b8ba6b2f6d7ee0bafae4e48708445a4b88d574fdf99be2911815c86d20ba99a9",
+      "bytes": 25496,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.2078239608801956,
+      "requestedScale": 0.2078239608801956,
+      "livingReference": {
+        "left": 15,
+        "right": 99,
+        "top": 70,
+        "bottom": 111,
+        "width": 85,
+        "height": 42,
+        "opaque": 1532
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 23,
+          "right": 432,
+          "top": 146,
+          "bottom": 306,
+          "opaque": 33585,
+          "bodyWidth": 409,
+          "anchorX": 228,
+          "anchorY": 306
+        },
+        {
+          "index": 1,
+          "left": 460,
+          "right": 886,
+          "top": 134,
+          "bottom": 303,
+          "opaque": 39780,
+          "bodyWidth": 424,
+          "anchorX": 674.5,
+          "anchorY": 303
+        },
+        {
+          "index": 2,
+          "left": 894,
+          "right": 1330,
+          "top": 139,
+          "bottom": 321,
+          "opaque": 40279,
+          "bodyWidth": 432,
+          "anchorX": 1114.5,
+          "anchorY": 321
+        },
+        {
+          "index": 3,
+          "left": 1331,
+          "right": 1758,
+          "top": 136,
+          "bottom": 358,
+          "opaque": 38294,
+          "bodyWidth": 428,
+          "anchorX": 1544.5,
+          "anchorY": 359
+        },
+        {
+          "index": 4,
+          "left": 14,
+          "right": 443,
+          "top": 500,
+          "bottom": 767,
+          "opaque": 46382,
+          "bodyWidth": 421,
+          "anchorX": 233,
+          "anchorY": 768
+        },
+        {
+          "index": 5,
+          "left": 444,
+          "right": 853,
+          "top": 487,
+          "bottom": 772,
+          "opaque": 41160,
+          "bodyWidth": 410,
+          "anchorX": 648.5,
+          "anchorY": 772
+        },
+        {
+          "index": 6,
+          "left": 924,
+          "right": 1307,
+          "top": 519,
+          "bottom": 765,
+          "opaque": 33568,
+          "bodyWidth": 372,
+          "anchorX": 1120.5,
+          "anchorY": 765
+        },
+        {
+          "index": 7,
+          "left": 1427,
+          "right": 1755,
+          "top": 576,
+          "bottom": 764,
+          "opaque": 24799,
+          "bodyWidth": 328,
+          "anchorX": 1590.5,
+          "anchorY": 764
+        }
+      ]
+    },
+    {
+      "key": "bomber",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/bomber.png",
+      "sourceSha256": "3fa08f7148cd2881eef152b959f3301ee7f3cf3ad40e6691c829f94f6ab98864",
+      "runtime": "web/assets/unit-deaths/bomber-death.webp",
+      "runtimeSha256": "9a64538c3f8d03f453fb7bb166a114f62b5fdf1725302bc4e305faf29d71da4d",
+      "bytes": 41796,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.24939467312348668,
+      "requestedScale": 0.24939467312348668,
+      "livingReference": {
+        "left": 11,
+        "right": 113,
+        "top": 67,
+        "bottom": 112,
+        "width": 103,
+        "height": 46,
+        "opaque": 2190
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 7,
+          "right": 424,
+          "top": 164,
+          "bottom": 357,
+          "opaque": 36730,
+          "bodyWidth": 413,
+          "anchorX": 213,
+          "anchorY": 358
+        },
+        {
+          "index": 1,
+          "left": 450,
+          "right": 866,
+          "top": 163,
+          "bottom": 358,
+          "opaque": 38237,
+          "bodyWidth": 415,
+          "anchorX": 657,
+          "anchorY": 358
+        },
+        {
+          "index": 2,
+          "left": 892,
+          "right": 1309,
+          "top": 157,
+          "bottom": 377,
+          "opaque": 44207,
+          "bodyWidth": 416,
+          "anchorX": 1099.5,
+          "anchorY": 377
+        },
+        {
+          "index": 3,
+          "left": 1333,
+          "right": 1757,
+          "top": 136,
+          "bottom": 380,
+          "opaque": 44024,
+          "bodyWidth": 416,
+          "anchorX": 1548.5,
+          "anchorY": 379
+        },
+        {
+          "index": 4,
+          "left": 22,
+          "right": 441,
+          "top": 493,
+          "bottom": 776,
+          "opaque": 52091,
+          "bodyWidth": 418,
+          "anchorX": 231.5,
+          "anchorY": 776
+        },
+        {
+          "index": 5,
+          "left": 489,
+          "right": 876,
+          "top": 489,
+          "bottom": 818,
+          "opaque": 46979,
+          "bodyWidth": 378,
+          "anchorX": 686.5,
+          "anchorY": 818
+        },
+        {
+          "index": 6,
+          "left": 945,
+          "right": 1279,
+          "top": 517,
+          "bottom": 791,
+          "opaque": 40391,
+          "bodyWidth": 335,
+          "anchorX": 1112,
+          "anchorY": 791
+        },
+        {
+          "index": 7,
+          "left": 1385,
+          "right": 1743,
+          "top": 550,
+          "bottom": 779,
+          "opaque": 31928,
+          "bodyWidth": 357,
+          "anchorX": 1564,
+          "anchorY": 779
+        }
+      ]
+    },
+    {
+      "key": "stealthbomber",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/stealthbomber.png",
+      "sourceSha256": "68aab54c0775d691f7695a3c86665a6538376402cc36624c86cdd9616a527e64",
+      "runtime": "web/assets/unit-deaths/stealthbomber-death.webp",
+      "runtimeSha256": "1cdc488647ca0f23ce41481fa2481a30b72c0607c5d2e0ab11f1633ccb3e2cc4",
+      "bytes": 25396,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.21497584541062803,
+      "requestedScale": 0.21497584541062803,
+      "livingReference": {
+        "left": 28,
+        "right": 116,
+        "top": 79,
+        "bottom": 111,
+        "width": 89,
+        "height": 33,
+        "opaque": 1613
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 26,
+          "right": 440,
+          "top": 155,
+          "bottom": 321,
+          "opaque": 33089,
+          "bodyWidth": 414,
+          "anchorX": 232.5,
+          "anchorY": 322
+        },
+        {
+          "index": 1,
+          "left": 460,
+          "right": 878,
+          "top": 154,
+          "bottom": 323,
+          "opaque": 35726,
+          "bodyWidth": 417,
+          "anchorX": 669,
+          "anchorY": 324
+        },
+        {
+          "index": 2,
+          "left": 898,
+          "right": 1313,
+          "top": 146,
+          "bottom": 321,
+          "opaque": 37728,
+          "bodyWidth": 415,
+          "anchorX": 1105,
+          "anchorY": 321
+        },
+        {
+          "index": 3,
+          "left": 1345,
+          "right": 1744,
+          "top": 128,
+          "bottom": 355,
+          "opaque": 42172,
+          "bodyWidth": 398,
+          "anchorX": 1544.5,
+          "anchorY": 356
+        },
+        {
+          "index": 4,
+          "left": 40,
+          "right": 442,
+          "top": 518,
+          "bottom": 793,
+          "opaque": 45640,
+          "bodyWidth": 403,
+          "anchorX": 241,
+          "anchorY": 793
+        },
+        {
+          "index": 5,
+          "left": 490,
+          "right": 873,
+          "top": 532,
+          "bottom": 770,
+          "opaque": 36368,
+          "bodyWidth": 383,
+          "anchorX": 682,
+          "anchorY": 770
+        },
+        {
+          "index": 6,
+          "left": 937,
+          "right": 1312,
+          "top": 557,
+          "bottom": 788,
+          "opaque": 28638,
+          "bodyWidth": 360,
+          "anchorX": 1132.5,
+          "anchorY": 788
+        },
+        {
+          "index": 7,
+          "left": 1407,
+          "right": 1711,
+          "top": 584,
+          "bottom": 771,
+          "opaque": 19844,
+          "bodyWidth": 304,
+          "anchorX": 1559.5,
+          "anchorY": 772
+        }
+      ]
+    },
+    {
+      "key": "antiair",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/antiair.png",
+      "sourceSha256": "9a63253d44f11cee35e4edf32d3e2f50632d15fd272971fd32ef3a59614313b6",
+      "runtime": "web/assets/unit-deaths/antiair-death.webp",
+      "runtimeSha256": "bac83b478688cca5cf5c8964588bb6a28dd3da03cfb63c9f1b9b282445ab2788",
+      "bytes": 28260,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.18508997429305912,
+      "requestedScale": 0.18508997429305912,
+      "livingReference": {
+        "left": 29,
+        "right": 100,
+        "top": 65,
+        "bottom": 110,
+        "width": 72,
+        "height": 46,
+        "opaque": 1868
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 30,
+          "right": 420,
+          "top": 157,
+          "bottom": 406,
+          "opaque": 51698,
+          "bodyWidth": 389,
+          "anchorX": 225,
+          "anchorY": 407
+        },
+        {
+          "index": 1,
+          "left": 465,
+          "right": 855,
+          "top": 154,
+          "bottom": 403,
+          "opaque": 56845,
+          "bodyWidth": 391,
+          "anchorX": 660,
+          "anchorY": 404
+        },
+        {
+          "index": 2,
+          "left": 910,
+          "right": 1284,
+          "top": 137,
+          "bottom": 410,
+          "opaque": 60144,
+          "bodyWidth": 373,
+          "anchorX": 1097,
+          "anchorY": 411
+        },
+        {
+          "index": 3,
+          "left": 1349,
+          "right": 1736,
+          "top": 155,
+          "bottom": 413,
+          "opaque": 59634,
+          "bodyWidth": 387,
+          "anchorX": 1543,
+          "anchorY": 414
+        },
+        {
+          "index": 4,
+          "left": 30,
+          "right": 422,
+          "top": 478,
+          "bottom": 808,
+          "opaque": 67790,
+          "bodyWidth": 391,
+          "anchorX": 226,
+          "anchorY": 809
+        },
+        {
+          "index": 5,
+          "left": 464,
+          "right": 862,
+          "top": 514,
+          "bottom": 810,
+          "opaque": 66286,
+          "bodyWidth": 398,
+          "anchorX": 663.5,
+          "anchorY": 810
+        },
+        {
+          "index": 6,
+          "left": 898,
+          "right": 1294,
+          "top": 544,
+          "bottom": 817,
+          "opaque": 56091,
+          "bodyWidth": 396,
+          "anchorX": 1095.5,
+          "anchorY": 818
+        },
+        {
+          "index": 7,
+          "left": 1337,
+          "right": 1738,
+          "top": 579,
+          "bottom": 823,
+          "opaque": 53514,
+          "bodyWidth": 401,
+          "anchorX": 1538,
+          "anchorY": 823
+        }
+      ]
+    },
+    {
+      "key": "sam",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/sam.png",
+      "sourceSha256": "c124e276804e1d2fafe97a449c8720fd9f36d4232de748b7764984065cb508f2",
+      "runtime": "web/assets/unit-deaths/sam-death.webp",
+      "runtimeSha256": "fed8cc1cc2c1a4e5733ededff73a338c7db81cebb533965745ea1715e08dbcf9",
+      "bytes": 39684,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.22285714285714286,
+      "requestedScale": 0.22285714285714286,
+      "livingReference": {
+        "left": 26,
+        "right": 103,
+        "top": 55,
+        "bottom": 111,
+        "width": 78,
+        "height": 57,
+        "opaque": 2678
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 36,
+          "right": 386,
+          "top": 138,
+          "bottom": 394,
+          "opaque": 54377,
+          "bodyWidth": 350,
+          "anchorX": 210.5,
+          "anchorY": 394
+        },
+        {
+          "index": 1,
+          "left": 468,
+          "right": 842,
+          "top": 131,
+          "bottom": 391,
+          "opaque": 59777,
+          "bodyWidth": 374,
+          "anchorX": 654.5,
+          "anchorY": 391
+        },
+        {
+          "index": 2,
+          "left": 920,
+          "right": 1302,
+          "top": 124,
+          "bottom": 396,
+          "opaque": 65399,
+          "bodyWidth": 382,
+          "anchorX": 1111.5,
+          "anchorY": 396
+        },
+        {
+          "index": 3,
+          "left": 1358,
+          "right": 1757,
+          "top": 117,
+          "bottom": 405,
+          "opaque": 75055,
+          "bodyWidth": 398,
+          "anchorX": 1557.5,
+          "anchorY": 405
+        },
+        {
+          "index": 4,
+          "left": 29,
+          "right": 414,
+          "top": 555,
+          "bottom": 829,
+          "opaque": 71308,
+          "bodyWidth": 385,
+          "anchorX": 221,
+          "anchorY": 829
+        },
+        {
+          "index": 5,
+          "left": 471,
+          "right": 858,
+          "top": 529,
+          "bottom": 836,
+          "opaque": 71901,
+          "bodyWidth": 386,
+          "anchorX": 664.5,
+          "anchorY": 836
+        },
+        {
+          "index": 6,
+          "left": 919,
+          "right": 1305,
+          "top": 550,
+          "bottom": 841,
+          "opaque": 66087,
+          "bodyWidth": 386,
+          "anchorX": 1111.5,
+          "anchorY": 842
+        },
+        {
+          "index": 7,
+          "left": 1350,
+          "right": 1739,
+          "top": 608,
+          "bottom": 842,
+          "opaque": 51112,
+          "bodyWidth": 389,
+          "anchorX": 1545,
+          "anchorY": 843
+        }
+      ]
+    },
+    {
+      "key": "submarine",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/submarine.png",
+      "sourceSha256": "b823ecd01b20169fef313965229482baf77859c3f516ecb81c59422aad74de26",
+      "runtime": "web/assets/unit-deaths/submarine-death.webp",
+      "runtimeSha256": "fbcb10632ae7c80411395555d5ba30841482fd5574c58946bbd0dcca02dff383",
+      "bytes": 21756,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.18410041841004185,
+      "requestedScale": 0.18899521531100477,
+      "livingReference": {
+        "left": 9,
+        "right": 87,
+        "top": 66,
+        "bottom": 111,
+        "width": 79,
+        "height": 46,
+        "opaque": 1319
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 25,
+          "right": 443,
+          "top": 147,
+          "bottom": 387,
+          "opaque": 39894,
+          "bodyWidth": 418,
+          "anchorX": 234.5,
+          "anchorY": 387
+        },
+        {
+          "index": 1,
+          "left": 444,
+          "right": 886,
+          "top": 147,
+          "bottom": 393,
+          "opaque": 41827,
+          "bodyWidth": 443,
+          "anchorX": 665,
+          "anchorY": 391
+        },
+        {
+          "index": 2,
+          "left": 887,
+          "right": 1330,
+          "top": 131,
+          "bottom": 405,
+          "opaque": 48796,
+          "bodyWidth": 444,
+          "anchorX": 1108.5,
+          "anchorY": 404
+        },
+        {
+          "index": 3,
+          "left": 1331,
+          "right": 1758,
+          "top": 129,
+          "bottom": 411,
+          "opaque": 48581,
+          "bodyWidth": 426,
+          "anchorX": 1543.5,
+          "anchorY": 409
+        },
+        {
+          "index": 4,
+          "left": 31,
+          "right": 443,
+          "top": 582,
+          "bottom": 821,
+          "opaque": 40302,
+          "bodyWidth": 410,
+          "anchorX": 238.5,
+          "anchorY": 820
+        },
+        {
+          "index": 5,
+          "left": 444,
+          "right": 886,
+          "top": 556,
+          "bottom": 812,
+          "opaque": 42012,
+          "bodyWidth": 443,
+          "anchorX": 665,
+          "anchorY": 809
+        },
+        {
+          "index": 6,
+          "left": 887,
+          "right": 1330,
+          "top": 598,
+          "bottom": 805,
+          "opaque": 31478,
+          "bodyWidth": 441,
+          "anchorX": 1107,
+          "anchorY": 804
+        },
+        {
+          "index": 7,
+          "left": 1331,
+          "right": 1730,
+          "top": 647,
+          "bottom": 783,
+          "opaque": 17192,
+          "bodyWidth": 313,
+          "anchorX": 1568,
+          "anchorY": 781
+        }
+      ]
+    },
+    {
+      "key": "nuclearsubmarine",
+      "source": "Built-in ImageGen",
+      "original": "art-source/unit-deaths-20261008/nuclearsubmarine.png",
+      "sourceSha256": "72ede005eb9e011f2d622a9265b577816e0e8a9b336a3e53100bd62f27d79c26",
+      "runtime": "web/assets/unit-deaths/nuclearsubmarine-death.webp",
+      "runtimeSha256": "9006a9c05c3d83b9cb1c2760de40477fe103d53e7290b62d3144b02b2e78a4d7",
+      "bytes": 19358,
+      "poses": 8,
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.16945107398568018,
+      "requestedScale": 0.16945107398568018,
+      "livingReference": {
+        "left": 12,
+        "right": 82,
+        "top": 85,
+        "bottom": 111,
+        "width": 71,
+        "height": 27,
+        "opaque": 958
+      },
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 18,
+          "right": 437,
+          "top": 176,
+          "bottom": 357,
+          "opaque": 33858,
+          "bodyWidth": 419,
+          "anchorX": 228,
+          "anchorY": 358
+        },
+        {
+          "index": 1,
+          "left": 462,
+          "right": 882,
+          "top": 176,
+          "bottom": 357,
+          "opaque": 35498,
+          "bodyWidth": 420,
+          "anchorX": 671.5,
+          "anchorY": 357
+        },
+        {
+          "index": 2,
+          "left": 905,
+          "right": 1330,
+          "top": 156,
+          "bottom": 373,
+          "opaque": 42231,
+          "bodyWidth": 425,
+          "anchorX": 1118,
+          "anchorY": 373
+        },
+        {
+          "index": 3,
+          "left": 1331,
+          "right": 1761,
+          "top": 175,
+          "bottom": 383,
+          "opaque": 36923,
+          "bodyWidth": 426,
+          "anchorX": 1543.5,
+          "anchorY": 383
+        },
+        {
+          "index": 4,
+          "left": 18,
+          "right": 443,
+          "top": 559,
+          "bottom": 789,
+          "opaque": 42922,
+          "bodyWidth": 421,
+          "anchorX": 233,
+          "anchorY": 788
+        },
+        {
+          "index": 5,
+          "left": 444,
+          "right": 881,
+          "top": 591,
+          "bottom": 772,
+          "opaque": 32863,
+          "bodyWidth": 410,
+          "anchorX": 669.5,
+          "anchorY": 760
+        },
+        {
+          "index": 6,
+          "left": 901,
+          "right": 1319,
+          "top": 590,
+          "bottom": 751,
+          "opaque": 25988,
+          "bodyWidth": 398,
+          "anchorX": 1110.5,
+          "anchorY": 745
+        },
+        {
+          "index": 7,
+          "left": 1382,
+          "right": 1730,
+          "top": 609,
+          "bottom": 757,
+          "opaque": 20361,
+          "bodyWidth": 318,
+          "anchorX": 1556.5,
+          "anchorY": 753
+        }
+      ]
+    }
+  ]
+}

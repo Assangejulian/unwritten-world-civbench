@@ -1,0 +1,98 @@
+[
+  {
+    "title": "The Britons",
+    "instruments": "Lute, Recorder, Drums, Flute, Guitar",
+    "feel": "Ren Faire, Medieval",
+    "description": "Tavern music like from the olden days."
+  },
+  {
+    "title": "Ancient Rite",
+    "instruments": "Choir, Percussion, Bass",
+    "feel": "Calming, Mysterious, Somber",
+    "description": "A solumn affair. Deep and religious."
+  },
+  {
+    "title": "Vadodora Chill Mix",
+    "instruments": "Sitar, Percussion, Synth, Tambura, Bansuri",
+    "feel": "Intense, Grooving",
+    "description": "Quite a hip little tune. Also available witha cutting melody."
+  },
+  {
+    "title": "Vadodora",
+    "instruments": "Sitar, Percussion, Synth, Tambura, Bansuri",
+    "feel": "Intense, Grooving",
+    "description": "Quite a hip little tune. Also available without the melody."
+  },
+  {
+    "title": "Dhaka",
+    "instruments": "Sarod, Dilruba, Drone",
+    "feel": "Mysterious, Mystical",
+    "description": "Melodic-based music inspired by the Sarod music of northern India."
+  },
+  {
+    "title": "Angevin B",
+    "instruments": "Flute, Lute, Choir, Percussion",
+    "feel": "Dark, Mystical",
+    "description": "Faster Renaissance like piece of music. Also available in a very slow version."
+  },
+  {
+    "title": "Angevin",
+    "instruments": "Flute, Lute, Choir, Percussion",
+    "feel": "Calming, Dark, Mystical, Somber",
+    "description": "Sort of a slow Renaissance like piece of music."
+  },
+  {
+    "title": "Heroic Age",
+    "instruments": "Flutes, Clarinets, Oboes, Trombones, Tuba, Cellos, Basses, Percussion, Celesta",
+    "feel": "Action, Bright, Driving, Epic",
+    "description": "See title, instrumentation, tempo, and feels for description. Originally written for a live performance."
+  },
+  {
+    "title": "Tikopia",
+    "instruments": "Percussion",
+    "feel": "Dark, Driving, Grooving",
+    "description": "The feel of this percussion pieces switches from straight to swing several times, but always has a round wooden sound to it."
+  },
+  {
+    "title": "Eastminster",
+    "instruments": "Plucked Strings, Synths",
+    "feel": "Calming, Relaxed",
+    "description": "The constant reverberating sound of rain and the perfect-fifth drone of the strings are calming, but have an air of suspense and tension about them, as if a drama is about to unfold. The koto plays a near continuous refrain, at times forcefully. Evoking pre-colonialist East Asia, the piece is beautiful and stoic in tone, especially as the koto asserts its dominance in the sixth minute and at the end."
+  },
+  {
+    "title": "Ibn Al-Noor",
+    "instruments": "Plucked Strings, Bow strings, Percussion",
+    "feel": "Action, Eerie, Suspenseful",
+    "description": "Evocative of the Arab world, the music begins stoically; the melody accentuated by simple percussive sounds. Within the first minute, the strings hypnotize with their sinuous melody, the tribal drumming awakening the senses. In the third minute the piece changes to a heavy, dangerous string and tribal drumming that builds until all of the instruments come together in a fitful way, until the abrupt ending."
+  },
+  {
+    "title": "Desert City",
+    "instruments": "Percussion, Dulcimer",
+    "feel": "Grooving, Mysterious, Relaxed",
+    "description": "Middle Eastern atmospheric, sort of chill. This piece is easy to loop."
+  },
+  {
+    "title": "AngloZulu",
+    "instruments": "Percussion, English Horn, Choir, Brass, Strings, Flute",
+    "feel": "Driving, Epic, Grooving",
+    "description": "A collision of musical traditions put together in an epic theme."
+  },
+  {
+    "title": "Asian Drums",
+    "instruments": "Percussion",
+    "feel": "Dark, Eerie, Suspenseful, Unnerving",
+    "description": "A semi-chaotic mix of drums with nice reverb."
+  },
+  {
+    "title": "Ishikari Lore",
+    "instruments": "Koto, Flute, Percussion",
+    "feel": "Calming, Mystical, Relaxed",
+    "description": "A new piece derived from Eastern folk music."
+  },
+  {
+    "title": "Temple of the Manes",
+    "instruments": "Harps, Flutes, Oboe, Percussion",
+    "feel": "Dark, Mystical",
+    "description": "An ancient-feeling modal piece."
+  }
+]

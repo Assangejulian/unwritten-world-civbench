@@ -1,0 +1,8 @@
+import {UNITS} from './rules.mjs';
+import {heritageTradePath} from './heritage.mjs';
+import {governorHas} from './governors.mjs';
+export function tradePath(g,r){const a=g.cities.find(c=>c.id===r.from),b=g.cities.find(c=>c.id===r.to);return r.path?.length?r.path:a&&b?heritageTradePath(g,a,b):[];}
+export function protectedTrade(g,r){const c=g.cities.find(c=>c.id===r.from);return c&&governorHas(g,c,'gov_merchant','c');}
+export function plunderOptions(g,p,u){if(!u||u.hp<=0||u.acted||u.moves<=0||u.activity||UNITS[u.type]?.civilian)return [];return g.routes.filter(r=>r.owner!==p.id&&(p.id===-1||p.relations[r.owner]?.status==='war')&&!protectedTrade(g,r)&&(p.id===-1?tradePath(g,r)[Math.floor((g.realtime?.time??g.turn*20)/4)%Math.max(1,tradePath(g,r).length)]===u.tile:tradePath(g,r).includes(u.tile))).map(r=>({type:'plunderTrade',unit:u.id,route:r.id,hint:{utility:140,gold:50}}));}
+export function plunderTrade(g,p,a,event){const u=g.units.find(u=>u.id===a.unit&&u.owner===p.id);if(!plunderOptions(g,p,u).some(v=>v.route===a.route))throw Error('不能在此掠夺商路。');const r=g.routes.find(r=>r.id===a.route);g.routes=g.routes.filter(v=>v!==r);if(p.id>=0)p.gold+=50;u.moves=0;u.acted=true;u.attackUntil=(g.realtime?.time??g.turn*20)+4;u.cooldownUntil=u.attackUntil;u.moveUntil=u.attackUntil;event(g,'trade','一条商路遭到掠夺，贸易中断。',r.owner,u.tile);}
+export function visibleTradeRoutes(g,view){return g.routes.filter(r=>view<0||r.owner===view||tradePath(g,r).some(id=>g.players[view]?.visible.includes(id))).map(r=>view<0||r.owner===view?{...r,protected:!!protectedTrade(g,r)}:{id:r.id,owner:r.owner,path:tradePath(g,r).filter(id=>g.players[view].visible.includes(id)),foreign:true});}

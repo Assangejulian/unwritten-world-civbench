@@ -1,0 +1,17 @@
+{
+  "china": {"soft":["eastern-thought","forgotten-shrine","asianoriental2"],"majestic":["forgotten-shrine","eastern-thought","city-leviathan"],"heroic":["asian-drums","samurai","city-leviathan"]},
+  "korea": {"soft":["forgotten-shrine","eastern-thought","asianoriental2"],"majestic":["forgotten-shrine","rachels-weave","eastern-thought"],"heroic":["asian-drums","forgotten-shrine","city-leviathan"]},
+  "japan": {"soft":["ishikari-lore","forgotten-shrine","asianoriental1"],"majestic":["forgotten-shrine","asianoriental1","eastern-thought"],"heroic":["samurai","asian-drums","city-leviathan"]},
+  "classical": {"soft":["temple-of-the-manes","rachels-weave","moon-cave"],"majestic":["city-leviathan","rachels-weave","temple-of-the-manes"],"heroic":["city-leviathan","skypole-gorge","angevin-b"]},
+  "persia": {"soft":["desert-city","sultan","sun-cave-village"],"majestic":["sultan","ibn-al-noor","city-leviathan"],"heroic":["ibn-al-noor","city-leviathan","sultan"]},
+  "egypt": {"soft":["desert-city","sun-cave-village","temple-of-the-manes"],"majestic":["moon-cave","sultan","city-leviathan"],"heroic":["ibn-al-noor","city-leviathan","qetzyl"]},
+  "india": {"soft":["dhaka","sun-cave-village","lake-aria"],"majestic":["dhaka","sun-cave-village","city-leviathan"],"heroic":["sultan","city-leviathan","shaman"]},
+  "arabia": {"soft":["desert-city","sultan","sun-cave-village"],"majestic":["sultan","ibn-al-noor","moon-cave"],"heroic":["ibn-al-noor","sultan","city-leviathan"]},
+  "ottoman": {"soft":["sultan","desert-city","rachels-weave"],"majestic":["ibn-al-noor","sultan","city-leviathan"],"heroic":["ibn-al-noor","city-leviathan","sultan"]},
+  "steppe": {"soft":["tribe","skypole-gorge","asianoriental1"],"majestic":["shaman","skypole-gorge","eastern-thought"],"heroic":["asian-drums","shaman","city-leviathan"]},
+  "mali": {"soft":["accralate","tribe","sun-cave-village"],"majestic":["shaman","accralate","sun-cave-village"],"heroic":["shaman","accralate","city-leviathan"]},
+  "zulu": {"soft":["tribe","accralate","lake-aria"],"majestic":["shaman","accralate","skypole-gorge"],"heroic":["shaman","city-leviathan","accralate"]},
+  "england": {"soft":["angevin","rachels-weave","the-britons"],"majestic":["rachels-weave","the-britons","angevin-b"],"heroic":["angevin-b","city-leviathan","skypole-gorge"]},
+  "russia": {"soft":["moon-cave","skypole-gorge","lake-aria"],"majestic":["moon-cave","city-leviathan","skypole-gorge"],"heroic":["city-leviathan","skypole-gorge","angevin-b"]},
+  "andes": {"soft":["tribe","sun-cave-village","qetzyl"],"majestic":["qetzyl","shaman","skypole-gorge"],"heroic":["shaman","city-leviathan","qetzyl"]}
+}

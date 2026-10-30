@@ -1,0 +1,8 @@
+// Run current-source regressions in fresh processes with frozen, guarded save reads.
+import fs from 'node:fs';
+import {spawn} from 'node:child_process';
+const out='output/city-research-20261019/modern';fs.mkdirSync(out,{recursive:true});
+const suites=['production-balance','review-ai','urgent-scheduling','air-recruitment','joint-war','carrier','observation-worker','tactical-combat','strategic-resource','military-pay','naval-warfare','air-warfare','armor-ai','combat-ai','coastal-combat','domestic-defense','ai-coordination','unit-upgrade','queue-backpressure','builder-routing','long-game-ai','resource-queue','elimination-war','committed-gold','city-memory','campaign','warfare','truce','realtime','medical','siege-aviation','seafaring','occupancy','city-combat','driver','diplomacy-strategy'];
+const previous=process.argv.includes('--resume')&&fs.existsSync(out+'/checks.json')?JSON.parse(fs.readFileSync(out+'/checks.json')).results:[],results=[];
+for(const name of suites){if(previous.some(r=>r.name===name&&r.code===0)){results.push(previous.find(r=>r.name===name));continue;}let log='';const start=Date.now(),child=spawn(process.execPath,['--import','./scripts/city-regression-fixture.mjs','scripts/'+name+'-check.mjs'],{windowsHide:true,stdio:['ignore','pipe','pipe']});child.stdout.on('data',b=>log+=b);child.stderr.on('data',b=>log+=b);const code=await new Promise(r=>child.on('exit',r));fs.writeFileSync(out+'/'+name+'.log',log);results.push({name,code,ms:Date.now()-start});fs.writeFileSync(out+'/checks.json',JSON.stringify({results,passed:results.length===suites.length&&results.every(r=>r.code===0)},null,2));console.log((code===0?'PASS ':'FAIL ')+name);}
+if(results.some(r=>r.code!==0))process.exitCode=1;

@@ -1,0 +1,124 @@
+/* Hex Civilizations materials r2: unit dock materials (r1, unchanged) + subtle detail layer on the official UI. Code-only, no raster. */
+/* Hex Civilizations — "Hall of Materials" layer (U-20261022 materials pass).
+   Dark carved wood, aged/patinated brass, deep enamel. Pure CSS + inline SVG (no raster assets).
+   Loaded last; additive only: box-shadows/backgrounds, no layout-affecting widths. */
+:root{
+ --hm-wood-0:#120b06;--hm-wood-1:#24170d;--hm-wood-2:#352214;--hm-wood-3:#4a301b;
+ --hm-brass-hi:#b39a64;--hm-brass:#7d6537;--hm-brass-lo:#4a3a1d;--hm-brass-deep:#2a2010;--hm-patina:#4f6a5c;
+ --hm-rim:rgba(226,200,146,.22);--hm-rim-soft:rgba(226,200,146,.10);
+ --hm-ink:#e9dfc8;--hm-ink-dim:#b9ab8c;
+ --hm-lapis-a:#1d3554;--hm-lapis-b:#0b1729;
+ --hm-porph-a:#45203a;--hm-porph-b:#1f0d1b;
+ --hm-jade-a:#1c4537;--hm-jade-b:#0a2018;
+ --hm-cinn-a:#5a2017;--hm-cinn-b:#2a0d08;
+ --hm-mari-a:#173d52;--hm-mari-b:#081c29;
+ --hm-ivory-a:#4f4836;--hm-ivory-b:#25211a;
+ /* procedural wood grain: stretched fractal noise -> brown alpha streaks */
+ --hm-grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.006 0.22' numOctaves='5' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.10  0 0 0 0 0.055  0 0 0 0 0.02  0 0 0 1.25 -0.38'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+ --hm-grain-v:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='640'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.22 0.006' numOctaves='5' seed='11'/%3E%3CfeColorMatrix values='0 0 0 0 0.10  0 0 0 0 0.055  0 0 0 0 0.02  0 0 0 1.25 -0.38'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+ /* fine pores / knots */
+ --hm-pores:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.9 0.05' numOctaves='2' seed='3'/%3E%3CfeColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 0.62'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.55'/%3E%3C/svg%3E");
+ /* enamel glass micro-texture */
+ --hm-glass:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='e'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' seed='5'/%3E%3CfeColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.32 -0.2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23e)'/%3E%3C/svg%3E");
+ /* low-opacity engraved scrollwork / astrolabe for panel backgrounds */
+ --hm-engrave:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260' viewBox='0 0 260 260' fill='none' stroke='%23d8c08a' stroke-opacity='.05' stroke-width='1'%3E%3Ccircle cx='130' cy='130' r='96'/%3E%3Ccircle cx='130' cy='130' r='88' stroke-dasharray='2 5'/%3E%3Ccircle cx='130' cy='130' r='56'/%3E%3Cpath d='M130 22v216M22 130h216M54 54l152 152M206 54L54 206'/%3E%3Cpath d='M130 74l10 46 46 10-46 10-10 46-10-46-46-10 46-10z'/%3E%3Cpath d='M0 0c40 10 60 40 52 70-6 22-34 22-34 4 0-12 14-14 18-6M260 260c-40-10-60-40-52-70 6-22 34-22 34-4 0 12-14 14-18 6'/%3E%3C/svg%3E");
+ /* gear (cog) outline used behind bezels */
+ --hm-gear:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-50 -50 100 100'%3E%3Cdefs%3E%3CradialGradient id='b' cx='35%25' cy='30%25' r='80%25'%3E%3Cstop offset='0' stop-color='%23947c4b'/%3E%3Cstop offset='.55' stop-color='%23574424'/%3E%3Cstop offset='1' stop-color='%23241a0c'/%3E%3C/radialGradient%3E%3C/defs%3E%3Cg fill='url(%23b)' stroke='%23140d06' stroke-width='1.4'%3E%3Cpath d='M-6-49h12l2 9 7 2 7-6 9 8-6 7 3 7 9 1v12l-9 2-3 7 6 7-9 8-7-6-7 3-2 9H-6l-2-9-7-3-7 6-9-8 6-7-3-7-9-2V-6l9-1 3-7-6-7 9-8 7 6 7-2z' transform='scale(.98)'/%3E%3C/g%3E%3Ccircle r='22' fill='%23140d06' opacity='.85'/%3E%3Ccircle r='30' fill='none' stroke='%23c2a66c' stroke-opacity='.18' stroke-width='1'/%3E%3C/svg%3E");
+ /* laurel sprig ornament */
+ --hm-laurel:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 24'%3E%3Cg fill='%238a7243' stroke='%23231808' stroke-width='.6'%3E%3Cpath d='M60 12h-50' stroke='%236e5a33' stroke-width='1.2' fill='none'/%3E%3Cpath d='M60 12h50' stroke='%236e5a33' stroke-width='1.2' fill='none'/%3E%3Cpath d='M48 12c-4-6-10-7-14-5 4 4 9 5 14 5zM48 12c-4 6-10 7-14 5 4-4 9-5 14-5zM34 12c-4-6-10-7-14-5 4 4 9 5 14 5zM34 12c-4 6-10 7-14 5 4-4 9-5 14-5zM72 12c4-6 10-7 14-5-4 4-9 5-14 5zM72 12c4 6 10 7 14 5-4-4-9-5-14-5zM86 12c4-6 10-7 14-5-4 4-9 5-14 5zM86 12c4 6 10 7 14 5-4-4-9-5-14-5z'/%3E%3Ccircle cx='60' cy='12' r='4' fill='%23a58c58'/%3E%3C/g%3E%3C/svg%3E");
+ /* reusable stacks */
+ --hm-wood-bg:linear-gradient(180deg,rgba(255,220,170,.035),rgba(0,0,0,.18) 60%,rgba(0,0,0,.32)),var(--hm-grain),var(--hm-pores),linear-gradient(180deg,var(--hm-wood-2),var(--hm-wood-1) 55%,var(--hm-wood-0));
+ --hm-wood-size:auto,640px 160px,220px 220px,auto;
+ --hm-brass-ring:0 0 0 1px #0b0704,0 0 0 2px var(--hm-brass-lo),0 0 0 3px var(--hm-brass),0 0 0 4px #120b05;
+ --hm-bevel:inset 0 1px 0 var(--hm-rim),inset 0 -1px 0 rgba(0,0,0,.6),inset 1px 0 0 var(--hm-rim-soft),inset -1px 0 0 rgba(0,0,0,.45);
+ --hm-depth:0 10px 22px rgba(0,0,0,.55),0 2px 4px rgba(0,0,0,.6);
+ --hm-rivets:radial-gradient(circle at 45% 40%,#a48b58 0 .8px,#5e4a26 1.8px,#1c1408 2.8px,transparent 3.3px);
+}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal{width:78px;height:78px;flex-basis:78px;overflow:visible!important;
+ background:
+  radial-gradient(circle at 50% 50%,transparent 0 30px,rgba(0,0,0,.65) 30px 31px,transparent 31.5px),
+  radial-gradient(circle at 40% 32%,#24384a,#0c1622 68%) content-box,
+  conic-gradient(var(--hp-color,#89c78e) 0 var(--hp-angle,360deg),#1a120a var(--hp-angle,360deg) 360deg)!important;
+ padding:6px;box-sizing:border-box;
+ box-shadow:0 0 0 1px #0b0704,0 0 0 4px var(--hm-brass),0 0 0 5px var(--hm-brass-lo),0 0 0 6px #0b0704,0 0 0 9px var(--hm-wood-2),0 0 0 10px #0b0704,inset 0 0 0 1px rgba(0,0,0,.6),inset 0 3px 6px rgba(0,0,0,.6),0 8px 16px rgba(0,0,0,.6)!important}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal::before{content:"";position:absolute;inset:-18px;z-index:-1;border-radius:50%;pointer-events:none;background:radial-gradient(circle,transparent 0 60%,#120b05 60.5% 62%,transparent 62.5%),radial-gradient(circle at 35% 30%,#8c7444,#4f3d1e 55%,#20170a 80%) ,#2a1f10;-webkit-mask:radial-gradient(circle,transparent 0 49px,#000 49.5px 51px,transparent 51.5px),repeating-conic-gradient(from 3deg,#000 0 8deg,transparent 8.5deg 15deg),radial-gradient(circle,transparent 0 51px,#000 51.5px);-webkit-mask-composite:source-over,source-in;mask:radial-gradient(circle,transparent 0 49px,#000 49.5px 51px,transparent 51.5px),repeating-conic-gradient(from 3deg,#000 0 8deg,transparent 8.5deg 15deg),radial-gradient(circle,transparent 0 51px,#000 51.5px);mask-composite:add,intersect;filter:drop-shadow(0 3px 3px rgba(0,0,0,.75))}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal::after{content:"";position:absolute;inset:-6px;border-radius:50%;pointer-events:none;
+ background:var(--hm-rivets) 50% 0/8px 8px no-repeat,var(--hm-rivets) 50% 100%/8px 8px no-repeat,var(--hm-rivets) 0 50%/8px 8px no-repeat,var(--hm-rivets) 100% 50%/8px 8px no-repeat,radial-gradient(circle at 30% 18%,rgba(255,240,205,.10),transparent 40%)}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal :is(.unit-art,svg,img){filter:drop-shadow(0 2px 2px rgba(0,0,0,.8))}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-body{clip-path:none!important;border-radius:4px 12px 4px 4px;
+ border:1px solid #0b0704!important;
+ background:
+  linear-gradient(180deg,rgba(255,255,255,.05),transparent 30%) padding-box,
+  var(--hm-glass) 0 0/180px padding-box,
+  var(--hm-engrave) 100% 50%/200px padding-box,
+  linear-gradient(165deg,#1b3550,#0c1a2c 62%,#08121f) padding-box!important;
+ box-shadow:
+  inset 0 0 0 2px #0b0704,inset 0 0 0 3px rgba(179,154,100,.55),inset 0 0 0 4px #0b0704,inset 0 10px 18px rgba(0,0,0,.35),
+  0 0 0 2px var(--hm-wood-1),0 0 0 4px var(--hm-wood-2),0 0 0 6px var(--hm-wood-1),0 0 0 7px #0b0704,0 0 0 8px rgba(179,154,100,.30),0 12px 24px rgba(0,0,0,.6)!important}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-body header{position:relative;margin:-2px -6px 6px 0;padding:3px 10px;border-radius:3px;
+ background:linear-gradient(180deg,rgba(255,226,175,.06),rgba(0,0,0,.3)),var(--hm-grain) 0 0/640px 160px,linear-gradient(180deg,#3d2817,#22160c)!important;
+ box-shadow:0 0 0 1px #0b0704,inset 0 1px 0 rgba(226,200,146,.18),inset 0 -1px 0 rgba(0,0,0,.6)}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-body header strong{color:#efe3c6;text-shadow:0 1px 0 #000;letter-spacing:.06em}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-health{background:#0a0703!important;box-shadow:inset 0 1px 2px #000,0 0 0 1px rgba(179,154,100,.3)}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-health span{background:linear-gradient(180deg,color-mix(in srgb,var(--hpc) 80%,#fff 20%),var(--hpc) 45%,color-mix(in srgb,var(--hpc) 60%,#000))!important}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-stats dt{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;color:#ead9b0;
+ background:radial-gradient(circle at 50% 50%,#13202e 0 55%,transparent 58%),conic-gradient(from 210deg,#6b5530,#a58b58,#4f3d1e,#8c7444,#6b5530);box-shadow:0 0 0 1px #0b0704,0 1px 2px rgba(0,0,0,.7);font-size:11px}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-stats dd{color:var(--hm-ink)!important;text-shadow:0 1px 0 #000}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act{--ac:#1d3554;
+ width:36px;height:36px;border:0!important;color:#efe2c0!important;position:relative;
+ background:
+  radial-gradient(circle at 50% 22%,rgba(255,255,255,.14),transparent 42%),
+  radial-gradient(circle at 50% 50%,color-mix(in srgb,var(--ac) 100%,#000 0%) 0 11px,color-mix(in srgb,var(--ac) 55%,#000) 13.5px,transparent 14px),
+  conic-gradient(from 210deg,#5a4624,#a68c58 12%,#6b5530 25%,#3a2c15 45%,#8c7444 62%,#c2a874 70%,#5a4624 85%,#5a4624)!important;
+ box-shadow:0 0 0 1px #0b0704,inset 0 0 0 1px rgba(255,236,190,.12),0 3px 5px rgba(0,0,0,.65)!important}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act::after{content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
+ background:radial-gradient(circle,#9c8352 0 .7px,#3a2c15 1.4px,transparent 1.9px) 50% 1.5px/4px 4px no-repeat,radial-gradient(circle,#9c8352 0 .7px,#3a2c15 1.4px,transparent 1.9px) 50% calc(100% - 1.5px)/4px 4px no-repeat}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act svg{width:21px!important;height:21px!important;position:relative;z-index:1}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock :is(.cud-attack,.cud-pillage,.cud-attackCityState,.cud-bombard,.cud-airStrike){--ac:#5a2017}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock :is(.cud-fortify,.cud-sentry,.cud-skip,.cud-sleep){--ac:#173d52}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock :is(.cud-found,.cud-improve,.cud-buildRoad,.cud-chop,.cud-buildFort,.cud-repair){--ac:#1c4537}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock :is(.cud-heal,.cud-spread,.cud-mission){--ac:#4f4836}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock :is(.cud-upgrade,.cud-greatPerson){--ac:#45203a}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act:hover:not(:disabled),html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act:focus-visible{transform:translateY(-1px);
+ box-shadow:0 0 0 1px #0b0704,0 0 0 2px rgba(214,190,140,.55),inset 0 0 0 1px rgba(255,236,190,.18),0 5px 8px rgba(0,0,0,.7)!important;filter:brightness(1.1)}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act:disabled{filter:grayscale(.7) brightness(.62)!important;opacity:.85!important}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-details{color:#d8c79e!important}
+/* rich multi-part icon (built in civ-hud.js icon()) */
+svg.hm-ic .hm-sh{fill:rgba(0,0,0,.75)}
+svg.hm-ic .hm-body{fill:url(#hm-ivory-metal);stroke:#1a1108;stroke-width:.55px;paint-order:stroke}
+svg.hm-ic .hm-hl{fill:none;stroke:rgba(255,246,222,.55);stroke-width:.35px}
+svg.hm-ic.hm-line .hm-sh{fill:none;stroke:rgba(0,0,0,.8);stroke-width:3.2px}
+svg.hm-ic.hm-line .hm-body{fill:none;stroke:url(#hm-ivory-metal);stroke-width:2.2px}
+svg.hm-ic .hm-ring{fill:none;stroke:rgba(214,190,140,.16);stroke-width:.5px;stroke-dasharray:.6 1.1}
+@media (max-width:760px){
+ html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal{width:60px;height:60px;flex-basis:60px;padding:5px}
+ html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-medal::before{inset:-20px;-webkit-mask:radial-gradient(circle,transparent 0 40px,#000 40.5px 42px,transparent 42.5px),repeating-conic-gradient(from 3deg,#000 0 8deg,transparent 8.5deg 15deg),radial-gradient(circle,transparent 0 42px,#000 42.5px);-webkit-mask-composite:source-over,source-in;mask:radial-gradient(circle,transparent 0 40px,#000 40.5px 42px,transparent 42.5px),repeating-conic-gradient(from 3deg,#000 0 8deg,transparent 8.5deg 15deg),radial-gradient(circle,transparent 0 42px,#000 42.5px);mask-composite:add,intersect}
+ html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act{width:32px;height:32px}
+ html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act svg{width:18px!important;height:18px!important}
+}
+@media (prefers-reduced-motion:no-preference){
+ html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-act{transition:transform .14s ease,filter .14s ease,box-shadow .14s ease}
+}
+html:not(#hm-a):not(#hm-b) #civ-unit-dock .cud-details{width:30px;height:30px;border-radius:50%!important;border:0!important;
+ background:radial-gradient(circle at 50% 50%,#152a40 0 9px,transparent 10px),conic-gradient(from 210deg,#5a4624,#a68c58 12%,#6b5530 25%,#3a2c15 45%,#8c7444 62%,#5a4624)!important;
+ box-shadow:0 0 0 1px #0b0704,0 2px 4px rgba(0,0,0,.6)!important}
+
+/* ================= r2: subtle detail layer on the official UI =================
+   Overlay-only (pseudo-elements, outlines). Does not change colours, layouts, shapes or brightness. */
+:root{--hm2-tl:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='' fill='none' stroke='%23cdb27a' stroke-opacity='.42' stroke-width='.8' stroke-linecap='round'%3E%3Cpath d='M1.5 20V8.5C1.5 4.6 4.6 1.5 8.5 1.5H20'/%3E%3Cpath d='M4.5 14c0-5.2 4.3-9.5 9.5-9.5' stroke-opacity='.28'/%3E%3Cpath d='M5 5c2 0 3 1 3 3s-2 2.4-3 1.4' stroke-opacity='.35'/%3E%3Ccircle cx='1.5' cy='20.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3Ccircle cx='20.5' cy='1.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3C/g%3E%3C/svg%3E");--hm2-tr:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='translate%2822 0%29 scale%28-1 1%29' fill='none' stroke='%23cdb27a' stroke-opacity='.42' stroke-width='.8' stroke-linecap='round'%3E%3Cpath d='M1.5 20V8.5C1.5 4.6 4.6 1.5 8.5 1.5H20'/%3E%3Cpath d='M4.5 14c0-5.2 4.3-9.5 9.5-9.5' stroke-opacity='.28'/%3E%3Cpath d='M5 5c2 0 3 1 3 3s-2 2.4-3 1.4' stroke-opacity='.35'/%3E%3Ccircle cx='1.5' cy='20.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3Ccircle cx='20.5' cy='1.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3C/g%3E%3C/svg%3E");--hm2-bl:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='translate%280 22%29 scale%281 -1%29' fill='none' stroke='%23cdb27a' stroke-opacity='.42' stroke-width='.8' stroke-linecap='round'%3E%3Cpath d='M1.5 20V8.5C1.5 4.6 4.6 1.5 8.5 1.5H20'/%3E%3Cpath d='M4.5 14c0-5.2 4.3-9.5 9.5-9.5' stroke-opacity='.28'/%3E%3Cpath d='M5 5c2 0 3 1 3 3s-2 2.4-3 1.4' stroke-opacity='.35'/%3E%3Ccircle cx='1.5' cy='20.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3Ccircle cx='20.5' cy='1.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3C/g%3E%3C/svg%3E");--hm2-br:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='translate%2822 22%29 scale%28-1 -1%29' fill='none' stroke='%23cdb27a' stroke-opacity='.42' stroke-width='.8' stroke-linecap='round'%3E%3Cpath d='M1.5 20V8.5C1.5 4.6 4.6 1.5 8.5 1.5H20'/%3E%3Cpath d='M4.5 14c0-5.2 4.3-9.5 9.5-9.5' stroke-opacity='.28'/%3E%3Cpath d='M5 5c2 0 3 1 3 3s-2 2.4-3 1.4' stroke-opacity='.35'/%3E%3Ccircle cx='1.5' cy='20.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3Ccircle cx='20.5' cy='1.5' r='.9' fill='%23cdb27a' fill-opacity='.4' stroke='none'/%3E%3C/g%3E%3C/svg%3E");--hm2-noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' seed='9' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url%28%23n%29'/%3E%3C/svg%3E");--hm2-linen:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6'%3E%3Cpath d='M0 .5H6M.5 0V6' stroke='%23fff' stroke-opacity='.5' stroke-width='.5'/%3E%3C/svg%3E");--hm2-flourish:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='10' viewBox='0 0 64 10'%3E%3Cg fill='none' stroke='%23cdb27a' stroke-opacity='.55' stroke-width='.8'%3E%3Cpath d='M32 1l4 4-4 4-4-4z' fill='%23cdb27a' fill-opacity='.25'/%3E%3Cpath d='M27 5c-3-3-7-3-9 0M37 5c3-3 7-3 9 0M18 5H2M46 5h16'/%3E%3Ccircle cx='22' cy='5' r='.9' fill='%23cdb27a'/%3E%3Ccircle cx='42' cy='5' r='.9' fill='%23cdb27a'/%3E%3C/g%3E%3C/svg%3E")}
+html:not(#hm-a):not(#hm-b) .map-tools::after,html:not(#hm-a):not(#hm-b) #b4-age-dock::after,html:not(#hm-a):not(#hm-b) #civ-rankings::after,html:not(#hm-a):not(#hm-b) #civ-rankings .cr-race::after,html:not(#hm-a):not(#hm-b) #b4-tracker .b4-tr::after,html:not(#hm-a):not(#hm-b) .minimap-wrap::after,html:not(#hm-a):not(#hm-b) #turn-phase::after,html:not(#hm-a):not(#hm-b) #city-workshop-launcher::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+ background:var(--hm2-tl) 3px 3px/16px 16px no-repeat,var(--hm2-tr) calc(100% - 3px) 3px/16px 16px no-repeat,var(--hm2-bl) 3px calc(100% - 3px)/16px 16px no-repeat,var(--hm2-br) calc(100% - 3px) calc(100% - 3px)/16px 16px no-repeat,var(--hm2-noise) 0 0/200px 200px,var(--hm2-linen) 0 0/6px 6px;
+ mix-blend-mode:soft-light;opacity:.55;
+ box-shadow:inset 0 1px 0 rgba(255,240,210,.10),inset 0 -1px 0 rgba(0,0,0,.35),inset 0 0 0 1px rgba(205,178,122,.10),inset 0 0 18px rgba(0,0,0,.18)}
+html:not(#hm-a):not(#hm-b) #civ-rankings .cr-race::after,html:not(#hm-a):not(#hm-b) #b4-tracker .b4-tr::after{background:var(--hm2-tl) 2px 2px/11px 11px no-repeat,var(--hm2-br) calc(100% - 2px) calc(100% - 2px)/11px 11px no-repeat,var(--hm2-noise) 0 0/200px 200px}
+/* tech/civic cards: thin engraved inner border */
+html:not(#hm-a):not(#hm-b) #b4-codex .b5-node:not(:focus-visible){outline:1px solid rgba(205,178,122,.16);outline-offset:-4px}
+html:not(#hm-a):not(#hm-b) #b4-codex::before{content:"";position:absolute;inset:6px;pointer-events:none;z-index:4;
+ background:var(--hm2-tl) 0 0/22px 22px no-repeat,var(--hm2-tr) 100% 0/22px 22px no-repeat,var(--hm2-bl) 0 100%/22px 22px no-repeat,var(--hm2-br) 100% 100%/22px 22px no-repeat}
+/* dialog: engraved dividers with a centre lozenge on the existing top/bottom rules */
+html:not(#hm-a):not(#hm-b) #modal::before,html:not(#hm-a):not(#hm-b) #modal::after{height:10px!important;background:var(--hm2-flourish) center/64px 10px no-repeat,linear-gradient(90deg,transparent,rgba(167,131,79,.55) 12%,rgba(167,131,79,.55) calc(50% - 36px),transparent calc(50% - 34px),transparent calc(50% + 34px),rgba(167,131,79,.55) calc(50% + 36px),rgba(167,131,79,.55) 88%,transparent) center/100% 1px no-repeat!important}
+html:not(#hm-a):not(#hm-b) #modal::before{top:5px!important}html:not(#hm-a):not(#hm-b) #modal::after{bottom:5px!important}
+
+/* r3.1 polish (frontend only, no colour/layout change): dark-brass scrollbars + consistent engraved focus rings */
+html:not(#hm-a):not(#hm-b) :is(#civ-rankings,#b4-codex,#modal,#b4-tracker,.minimap-wrap) *{scrollbar-width:thin;scrollbar-color:rgba(150,120,74,.55) rgba(10,9,7,.35)}
+html:not(#hm-a):not(#hm-b) :is(#civ-rankings,#b4-codex,#modal,#b4-tracker,.map-tools,#b4-age-dock,#civ-unit-dock) :is(button,select,input,[tabindex]):focus-visible{outline:1px solid rgba(214,182,120,.75);outline-offset:2px}

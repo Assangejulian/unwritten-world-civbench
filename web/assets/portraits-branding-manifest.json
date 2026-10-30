@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-05",
+  "artDirection": "Historical oil and gouache, deep teal and antique gold",
+  "records": [
+    {
+      "key": "qin",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/qin.png",
+      "sha256": "6ffb7735ac3620c5fca793f1a3c8799245440f6b032e48a1250d6570f9dbb115",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Qin Shi Huang. East Asian Chinese middle-aged emperor with broad commanding face, sparse moustache and short goatee, Qin black robe with vermilion trim, historically inspired Chinese mian ceremonial headdress with restrained pearl pendants; no Qing queue or Manchu hat. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "han-wudi",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/han-wudi.png",
+      "sha256": "e2c2e664363f0595d3e175b65eb72d1ae321b1930a6be129d9bc3ce08b17564a",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Emperor Wu of Han. Chinese Han emperor, mature East Asian face, long dignified black moustache and beard, Han black-red court robes and ancient flat ceremonial crown; no Qing costume. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "sejong",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/sejong.png",
+      "sha256": "0b16d9a900d20782656d1ca53b60da0b6b66e80c450358a24dac253ee6e4ee30",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of King Sejong. Korean Joseon monarch, thoughtful middle-aged Korean man with neat moustache and short beard, black winged ikseongwan hat, warm red royal gonryongpo robe with gold dragon medallion. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "taizong",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/taizong.png",
+      "sha256": "96c715122739c1aafe5544a6f2b0eb9d8b1b5911b8e6975dae2b225c2e0dc0dd",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Tang Taizong. Chinese Tang emperor, mature East Asian man, neat moustache and short beard, rounded black Tang futou court cap, ochre-red round-collar silk imperial robe. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "tokugawa",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/tokugawa.png",
+      "sha256": "e48dc5440bab1795f4d88215cb32140869497ea820dc3d2df1ec4a22651125c4",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Tokugawa Ieyasu. Japanese Tokugawa shogun, older Japanese man with broad rounded face and small moustache, dark blue layered robes, black lacquered period samurai armor and plain dark eboshi court cap; not an imperial emperor. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "alexander",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/alexander.png",
+      "sha256": "6e71476a9ba3639b212bb78f51a01debeb70ff02059f59b7a4143f29b1598369",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Alexander the Great. Young Macedonian ruler with wavy sandy brown anastole hair, clean shaven Greek Mediterranean face, classical bronze muscle cuirass, cream chlamys with deep red lining; no medieval armor. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "wu-zetian",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/wu-zetian.png",
+      "sha256": "d99bc2a2598ae471af29de7129877d13c9ac32c90b8b00046ddcd6b4f62f44a0",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Wu Zetian. Chinese Tang-Zhou empress, poised mature East Asian woman, high Tang-era coiffure with restrained gold phoenix ornaments, ruby and ochre Tang silk court robes, confident gaze. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "caesar",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/caesar.png",
+      "sha256": "d330aa78d7f17e30c48c313ba41cc7b299af06de525db71e8a0428e5414f5aa5",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Julius Caesar. Mature Roman statesman, lean clean shaven face with aquiline nose and receding dark hair, laurel wreath, ivory-red Roman toga over subtle Republican cuirass. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "augustus",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/augustus.png",
+      "sha256": "6f2d988bdcb2b00dbd34cb04664042b3ae6f3633a5f78fac67ae7b928caf6f32",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Augustus. Roman emperor inspired by classical sculpture, youthful composed clean shaven face, short combed Roman brown hair, restrained laurel wreath, white imperial cloak and decorated Roman cuirass. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "pericles",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/pericles.png",
+      "sha256": "b90ae14f2eafde844694f801a29bd4868f60d0dac2fa76e0115d7160db1d1f81",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Pericles. Mature ancient Athenian statesman, Greek Mediterranean face and curly dark beard, Corinthian helmet pushed back high above brow so eyes and face are visible, pale Greek cloak. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "cyrus",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/cyrus.png",
+      "sha256": "bfd8bbfb7420c1b750fce045bad4c7b402960b96cad5c9d49f9e176339cab2fb",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Cyrus the Great. Ancient Persian Achaemenid king, Iranian face, carefully curled full beard, modest upright Persian royal tiara, deep blue and ochre patterned ancient Persian robe; no Islamic turban. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "darius",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/darius.png",
+      "sha256": "8ca01339030e89f2ac993722ee289523ea112c94dfb32f629bc89656bc0b69ca",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Darius I. Mature Achaemenid Persian king, Iranian face, squared carefully curled dark beard, Persian upright crenellated royal crown, burgundy and cream pleated royal robe inspired by Persepolis reliefs. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "cleopatra",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/cleopatra.png",
+      "sha256": "3fc168dd7828b82415c42dc287904c855aa5c7726a38a3ee8035e51ed3010e27",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Cleopatra VII. Ptolemaic Egyptian queen of Macedonian Greek ancestry, olive Mediterranean complexion, dark hair in Hellenistic melon coiffure with a small royal diadem, ivory linen and lapis-gold jewelry; no stereotypical fantasy headdress. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "ashoka",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/ashoka.png",
+      "sha256": "00f5bf7b3ade2746f79f42179e8cd90a0adeea2ac0b8bece552d3d6b0a236a5a",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Ashoka. Mauryan Indian emperor, warm brown South Asian face, thoughtful middle-aged man with dark hair and subtle beard, historically inspired simple wrapped royal headcloth with gold band, cream and saffron ancient Indian robes; no Mughal costume. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "hatshepsut",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/hatshepsut.png",
+      "sha256": "b7f58c40e78c6990882506c01920519bf02d1ca2b6b7ffb0c0895ba575bc09e7",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Hatshepsut. Ancient Egyptian female pharaoh, warm brown Egyptian complexion, visibly feminine composed mature face, striped blue-gold nemes royal headdress with uraeus, broad ancient Egyptian gold collar, no fantasy makeup. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "ramesses",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/ramesses.png",
+      "sha256": "65158fec25a8a78f4f64d0079b88f08dad93e95c91add2161e03ddd38e5fb7ef",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Ramesses II. Ancient Egyptian pharaoh, warm brown complexion, strong mature face, blue khepresh war crown with uraeus, cream linen and broad turquoise-gold collar. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "chandragupta",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/chandragupta.png",
+      "sha256": "2c2030088cbd90865894d3657571c19cef5e05d689f0328798fab9559c8f7954",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Chandragupta Maurya. Mauryan Indian ruler, young mature South Asian man, strong brow and short dark beard, simple ancient Indian cloth headwrap and narrow gold diadem, dark russet royal garment with light ancient lamellar armor; no Mughal jewelry. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "saladin",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/saladin.png",
+      "sha256": "6ec81450c13591bdd35385bc8d9568c4594dfdd2dfa274a625251fe6dbf87450",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Saladin. Ayyubid sultan of Kurdish ancestry, mature West Asian face, short full dark beard, cream wrapped turban, muted green cloak over 12th-century mail armor. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "suleiman",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/suleiman.png",
+      "sha256": "a2be56fd41dcd386ad45589f3894221bf5ac623a735ebaa2de7d5f400129b6e6",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Suleiman the Magnificent. Ottoman Turkish sultan, mature Ottoman man with narrow face and neat moustache, distinctive large white wrapped Ottoman turban, muted crimson kaftan with restrained gold embroidery. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "mansa-musa",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/mansa-musa.png",
+      "sha256": "f536e736e04b9bf3e7b109833663fc820c0a3db5b4ab788be167b4c556c1b77b",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Mansa Musa. Medieval Malian West African king, deep brown African skin, dignified mature face with short beard, cream and indigo cloth turban with subtle gold band, richly woven indigo robe and restrained gold ornaments. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "genghis",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/genghis.png",
+      "sha256": "e3004f58c477dda54db89a87d6f4d35a7311e959d2533bacae52892bcc838829",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Genghis Khan. Mongol Great Khan, mature Central-East Asian man with strong broad face, sparse moustache and beard, fur-trimmed Mongol cap, practical leather lamellar armor and earthy wool robes; no fantasy horns. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "elizabeth",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/elizabeth.png",
+      "sha256": "221f285d9bf5207d1a5b6f8f8436e0337620379f8dd46382c35204b8c9433440",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Elizabeth I. Tudor English queen, mature fair-skinned woman with auburn-red hair styled back, small jeweled crown, cream ruff collar, rich deep crimson Tudor dress and modest pearl details. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "shaka",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/shaka.png",
+      "sha256": "6bb592d87f956fc9c05255343c6d504af8244dc1a5c097f12c8571111237d4b1",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Shaka. Zulu king, young mature southern African man with deep brown skin and athletic broad shoulders, short natural hair, authentic restrained leopard-skin mantle and traditional isiCoco headring with small feather ornament; no giant fantasy feather crown. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "pachacuti",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/pachacuti.png",
+      "sha256": "42a29f7a2c825b8ecb83b5ee441852c6a4a79546614159cc028a42b16a01f84f",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Pachacuti. Inca Andean emperor, mature indigenous Andean man with copper brown skin, strong composed face, royal crimson mascaypacha fringe headband with restrained feathers and gold earspools, patterned wool tunic; no Aztec costume. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "peter",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/peter.png",
+      "sha256": "4d8b2de58881224f6f4ab037297f9ebf4becaa87fb8f47935e9b7d25f4b91400",
+      "width": 1122,
+      "height": 1402,
+      "prompt": "Create ONE production-ready historical strategy game leader portrait of Peter the Great. Russian tsar, mature tall European man with wavy dark brown hair, thin distinctive moustache, dark green early-18th-century military coat with red lapels and subtle sash; no medieval crown. Style: refined hand-painted oil and gouache illustration, believable human anatomy and a distinct individual face, subtle brush texture, cinematic restrained warm antique-gold rim light against a deep blue-green textured background. Consistent grand strategy game art direction, dignified and readable; not cartoon or photograph. Composition: vertical 4:5 chest-up bust, front or slight three-quarter pose, direct confident gaze; entire head and headdress fit the upper central half with generous safe margins for a small round in-game icon. No text, letters, UI frame, watermark, logo or other people. Period-inspired clothing, no modern or fantasy armor. Generate just ONE leader portrait."
+    },
+    {
+      "key": "cover",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/cover.png",
+      "sha256": "84346973d520dcc2472ffc7b507b433258c06204627385bb088f2dc3781f1eda",
+      "width": 1672,
+      "height": 941,
+      "prompt": "Create a production-ready wide 16:9 title-screen background illustration for an original historical grand strategy game called Hex Civilizations. NO text, letters or logos. Painted oil and gouache, deep blue-green and restrained antique gold matching dignified historical oil portraits. Vast ancient world landscape at dawn: a winding river, cultivated fields and misty mountains, a coherent imaginary multi-civilization crossroads city to the right with a classical colonnade, a modest East Asian pagoda and distant desert pyramids. These buildings occupy different believable districts across the landscape, not a jumbled collage. Warm sunrise illuminates clouds and a tiny caravan. The LEFT THIRD is quiet dark teal shaded landscape with low detail and room for a menu overlay. Sweeping spacious composition, cinematic, tactile brushwork, calm and majestic, no modern structures, no floating islands, no UI or hex outlines."
+    },
+    {
+      "key": "icon",
+      "source": "Built-in ImageGen",
+      "original": "art-source/portraits-branding/icon.png",
+      "sha256": "881563ee9a95d7029d7dfce13a9af08249fc1f67426f3b9ddbf52fcfe79646d3",
+      "width": 1254,
+      "height": 1254,
+      "prompt": "Create ONE original square app icon for a historical civilization strategy game. Bold simple silhouette designed to stay legible at 32 pixels: a single antique gold hexagonal medallion bearing a clean raised classical three-column temple, with a small sunrise arc behind the roof. Deep blue-green square background with subtle oil-paint texture and restrained engraved gold highlights. Strong contrast, centered, generous padding, no words, no letters, no tiny decorative details, no extra objects or borders outside the central medallion. Premium understated historical game branding, not a Civilization VI logo copy."
+    }
+  ]
+}

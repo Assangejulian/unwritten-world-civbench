@@ -1,0 +1,22 @@
+{
+  "author": "Original synthesis for Hex Civilizations",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "file": "web/assets/audio/sfx/missile-0.wav",
+      "seconds": 1.7,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bytes": 75014,
+      "sha256": "e18130dce393ea27dd4cdf8097ec2900eeac346c5989995f689141680aa5f50d"
+    },
+    {
+      "file": "web/assets/audio/sfx/missile-1.wav",
+      "seconds": 1.8599999999999999,
+      "sampleRate": 22050,
+      "channels": 1,
+      "bytes": 82070,
+      "sha256": "0d6cfe3300a87329876bdf959ee8a34d28d843baec2dd6edd6672bed7feab790"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Built-in ImageGen; reference web/assets/swordsman-painted-v3.png. Original Roman legionary, segmented cuirass, red scutum, gladius. Strict 4x7 atlas: idle 4, walk 8, combat 8, death 8. Transparent background requested. Raw output preserved; alpha/frame QA pending.

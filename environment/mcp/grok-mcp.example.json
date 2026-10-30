@@ -1,0 +1,14 @@
+{
+  "_comment": "Example only. Do not install this into a user MCP config. Start scripts/match-host.mjs first, then put that host URL and one seat or observer token in the env below. One MCP process is one token. cwd is the hex-civilizations repository. A reference-client check does not verify that a Grok host can connect.",
+  "mcpServers": {
+    "hex-civilizations": {
+      "command": "node",
+      "args": ["environment/mcp/server.mjs"],
+      "cwd": "PATH_TO_HEX_CIVILIZATIONS_REPO",
+      "env": {
+        "CIV_MATCH_URL": "http://127.0.0.1:PORT",
+        "CIV_MATCH_TOKEN": "SEAT_OR_OBSERVER_TOKEN"
+      }
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "key": "skirmisher",
+    "group": 1,
+    "row": 1,
+    "subject": "medieval skirmisher in green hood and brown tunic, small round shield and javelin",
+    "move": "walking/running with clearly alternating feet and swaying green cape",
+    "action": "prepare, raise javelin, wind up, aim; release at frame16, follow through, recover, return to guard",
+    "death": "stagger, buckle, kneel, fall sideways, contact ground, settle, nearly still, motionless prone; keep shield and javelin beside body",
+    "base": "archer"
+  },
+  {
+    "key": "ranger",
+    "group": 1,
+    "row": 2,
+    "subject": "industrial frontier ranger, tan/khaki uniform and slouch hat, brown boots, rucksack and bolt-action rifle",
+    "move": "alternating marching/running gait, rifle carried safely",
+    "action": "shoulder rifle, acquire aim, steady, brace; fire at frame16, recoil, work bolt, lower rifle",
+    "death": "wounded stagger, crouch, knee collapse, roll sideways, fall, settle, still, prone with rifle",
+    "base": "archer"
+  },
+  {
+    "key": "specops",
+    "group": 1,
+    "row": 3,
+    "subject": "modern special operations soldier, dark olive tactical fatigues and helmet, goggles, chest rig, rucksack and compact carbine",
+    "move": "alternating cautious tactical walking and low running, same kit",
+    "action": "raise carbine, cheek weld, aim, brace; fire at frame16, recoil, re-aim, lower carbine",
+    "death": "stagger, buckle knees, drop knee, fall sideways, contact ground, settle, still, prone with intact kit",
+    "base": "archer"
+  },
+  {
+    "key": "machinegun",
+    "group": 1,
+    "row": 4,
+    "subject": "two khaki-uniform early20th-century helmeted soldiers operating one heavy water-cooled machine gun on a small two-wheel carriage with ammunition box",
+    "move": "both crew push the same wheeled gun, alternate strides and rotate wheels; retain both crew",
+    "action": "deploy carriage, kneel gunner, feed belt, aim; fire at frame16, controlled short burst, recoil recovery, ready",
+    "death": "crew recoil wounded, kneel, slacken, carriage tilts, collapse, gun disabled, settle, final wreck and both fallen crew",
+    "base": "tank"
+  },
+  {
+    "key": "heavychariot",
+    "group": 2,
+    "row": 1,
+    "subject": "ancient bronze-armored two-person crew on a wooden two-wheel heavy chariot drawn by two brown horses, long spear and round shield",
+    "move": "eight consecutive trotting gait poses for BOTH horses with turning wheels; same two riders",
+    "action": "crew ready, lift spear, brace, aim; spear thrust at frame16, extend, recover, guard; keep both horses present",
+    "death": "horses stumble, bend knees, chariot lists, both horses collapse with riders, broken wheel, crew fall, settle, final chariot wreck with both horses/riders",
+    "base": "knight"
+  },
+  {
+    "key": "pikeandshot",
+    "group": 2,
+    "row": 2,
+    "subject": "Renaissance pike-and-shot infantryman, steel morion and breastplate over ochre doublet and dark red trousers, pike and matchlock musket",
+    "move": "alternating marching gait, pike carried diagonally, matchlock still present",
+    "action": "lower pike, raise matchlock, shoulder, aim; fire at frame16, modest recoil, lower matchlock, guard",
+    "death": "stagger, bend, kneel, fall, settle with pike and gun, slacken, still, final prone body",
+    "base": "archer"
+  },
+  {
+    "key": "atcrew",
+    "group": 2,
+    "row": 3,
+    "subject": "two olive-khaki helmeted WorldWar2 anti-tank gunners, one low wheeled shielded anti-tank cannon and ammunition case",
+    "move": "two crew pushing and pulling the same gun with alternating leg positions, wheels rotating",
+    "action": "unlimber, kneel, load breech, aim; fire cannon at frame16, barrel recoils, recover, ready",
+    "death": "crew injured, gun tilts, kneel, carriage collapses, crew fall, broken gun, settle, final wreck with both fallen crew",
+    "base": "tank"
+  },
+  {
+    "key": "modernat",
+    "group": 2,
+    "row": 4,
+    "subject": "two modern olive-uniform helmeted anti-tank crew with one tripod-mounted guided missile launch tube, targeting unit and dark equipment case",
+    "move": "carry launcher and tripod in the same team, clearly alternating legs and unchanged kit",
+    "action": "deploy tripod, kneel, sight target, lock; launch at frame16, brief exhaust, recoil recovery, ready reload",
+    "death": "crew stagger, kneel, tripod tips, crew fall, tube disabled, equipment settles, still, final launcher wreck with both crew",
+    "base": "tank"
+  },
+  {
+    "key": "quadrireme",
+    "group": 3,
+    "row": 1,
+    "subject": "ancient wooden quadrireme warship with bronze prow, red trim, many oars and one cream square sail, same hull and crew",
+    "move": "eight rowing/sailing poses: oars sweep through catch/pull/recovery, sail billows and hull rocks subtly",
+    "action": "crew ready deck artillery, load, wind, aim; release at frame16, mechanism recoil, recover, reload; NO modern firearm flashes",
+    "death": "hull struck, damaged mast, listing, mast breaks, bow sinks, broken hull sinks lower, near-submerged wreck, final low wreck silhouette; no gore",
+    "base": "battleship"
+  },
+  {
+    "key": "caravel",
+    "group": 3,
+    "row": 2,
+    "subject": "Renaissance brown wooden caravel with two cream triangular lateen sails, small sterncastle and red pennants, consistent mast count and hull",
+    "move": "sails billow in eight distinct wind phases, rigging stays intact, gentle hull pitch and wake",
+    "action": "crew prepare deck, signal, aim small period cannon, brace; fire at frame16, modest smoke recoil, recover, sails settle",
+    "death": "hull struck, mast leans, lists, sail tears, mast breaks, hull sinks, low wreck, final partly submerged timbers",
+    "base": "battleship"
+  },
+  {
+    "key": "privateer",
+    "group": 3,
+    "row": 3,
+    "subject": "original privateer raiding sailing ship, dark wooden hull, three near-black square sails with muted red markings and red pennants, detailed period cannon",
+    "move": "eight wind/sail and hull-bobbing phases, same three masts and equipment",
+    "action": "ready starboard guns, load, aim, brace; broadside at frame16, smoke, recoil, recover",
+    "death": "hull damage, mast lists, sails tear, leaning wreck, broken masts, hull sinks, low wreck, submerged debris",
+    "base": "battleship"
+  },
+  {
+    "key": "ironclad",
+    "group": 3,
+    "row": 4,
+    "subject": "early industrial gray ironclad warship with low armored hull, side paddle wheels, one smoking funnel, two bare-rigged masts and red pennant",
+    "move": "eight paddle wheel rotation phases, smoke wafts, subtle hull pitch, identical hull length",
+    "action": "cannon train, load, aim, brace; fire at frame16, short smoke plume, recoil, recover",
+    "death": "hull impact, funnel damaged, list, armored plates buckle, mast falls, hull sinks, low wreck, final sinking metal silhouette",
+    "base": "battleship"
+  },
+  {
+    "key": "batteringram",
+    "group": 4,
+    "row": 1,
+    "subject": "ancient covered wooden battering ram, pitched timber roof, bronze animal-head ram on suspension chains, four wheels and two visible helmeted crew",
+    "move": "same crew pushes wheeled ram with alternating legs; ram and roof remain intact",
+    "action": "crew take handles, pull beam back, wind, brace; strike forward at frame16, impact/rebound, reset, ready",
+    "death": "frame struck, crew stagger, roof sags, wheels buckle, roof collapses, crew fall, settle, final ram wreck and crew",
+    "base": "tank"
+  },
+  {
+    "key": "siegetower",
+    "group": 4,
+    "row": 2,
+    "subject": "tall medieval timber siege tower with four wheels, cream/red fabric shields, roof and hinged upper drawbridge, same visible two or three crew",
+    "move": "crew push tower, eight alternating pushing gaits and wheel phases; consistent tower dimensions",
+    "action": "crew climb, unlatch bridge, bridge lowers a little, lowers more; deployed bridge at frame16, crew gesture forward, hold, retract toward ready",
+    "death": "struck frame, wobble, wheels fail, frame leans, roof breaks, collapse, timbers settle, final tower wreck with crew; no gore",
+    "base": "tank"
+  },
+  {
+    "key": "militaryengineer",
+    "group": 4,
+    "row": 3,
+    "subject": "historical military engineer, steel helmet, cream shirt and brown leather vest/apron, dark trousers and boots, shovel, pickaxe and tool pack",
+    "move": "eight alternating walking gaits carrying the SAME shovel and pickaxe",
+    "action": "prepare shovel, lean down, drive shovel, scoop; lift soil at frame16, turn shovel, tamp ground, stand/recover, construction loop with tools retained",
+    "death": "stagger, bend, knee down, tool drops, fall sideways, settle, still, final prone body and tools",
+    "base": "archer"
+  },
+  {
+    "key": "balloon",
+    "group": 4,
+    "row": 4,
+    "subject": "industrial observation balloon: large cream spherical canvas envelope with net rigging, basket attached to wheeled winch cart and two blue-uniform ground crew",
+    "move": "cart and both crew move through eight pushing strides, balloon sways slightly on tether; never remove cart",
+    "action": "crew stop, operate winch, one crew raises binoculars, scan right; signal at frame16, scan farther, lower binoculars, return ready; no weapons or firing",
+    "death": "envelope punctures, sags, losing gas, net slackens, basket falls, envelope deflates, fabric settles, final collapsed balloon/cart wreck and crew",
+    "base": "tank"
+  },
+  {
+    "key": "guru",
+    "group": 5,
+    "row": 1,
+    "subject": "elder Indian guru with orange turban and shawl over cream robes, long white beard, wooden walking staff and prayer beads",
+    "move": "eight slow alternating steps with staff plant and orange cloth movement",
+    "action": "prepare prayer, raise palm, extend blessing, kneel slightly; healing gesture peaks at frame16, soft modest warm glow near palm, lower hand, return ready; no attacks",
+    "death": "stagger, sit down, lose balance, ease onto side, staff drops, settle, still, motionless robed body; respectful and non-graphic",
+    "base": "archer"
+  },
+  {
+    "key": "archaeologist",
+    "group": 5,
+    "row": 2,
+    "subject": "female field archaeologist in tan safari hat, cream rolled-sleeve shirt, tan trousers, brown boots and rucksack, rolled chart and small trowel/brush",
+    "move": "eight alternating exploratory walking gaits with same hat, rucksack and rolled chart",
+    "action": "unroll chart, kneel, use trowel, brush pottery; lift small ancient pot at frame16, examine, lower carefully, recover; never switch gender or costume",
+    "death": "stagger, crouch, knee buckles, fall sideways, chart drops, settle, still, final prone body and pack",
+    "base": "archer"
+  },
+  {
+    "key": "naturalist",
+    "group": 5,
+    "row": 3,
+    "subject": "bearded naturalist in brown slouch hat, olive coat over cream shirt, brown trousers/boots, field backpack, folded butterfly net, notebook and botanical specimen",
+    "move": "eight alternating walking strides with same net and backpack",
+    "action": "open notebook, kneel, inspect plant, examine sample; mark field notes at frame16, sketch, close notebook, stand/recover; no weapons",
+    "death": "stagger, crouch, knee buckles, fall sideways, notebook drops, settle, still, final prone body and net",
+    "base": "archer"
+  },
+  {
+    "key": "rockband",
+    "group": 5,
+    "row": 4,
+    "subject": "ONE SAME 1970s male rock guitarist with long curly dark-brown hair and mustache, burgundy-red velvet suit, cream open-collar shirt, brown boots and red electric guitar",
+    "move": "eight alternating steps while carrying same red guitar; no drummer, no extra band members, no costume changes",
+    "action": "prepare guitar, lean into performance, strum upward, lift neck; emphatic downstroke at frame16, lean back, strum followthrough, recover; no magic or firing",
+    "death": "stagger, knees buckle, sit, slump sideways, guitar lowers, settle, still, final fallen guitarist beside intact guitar; no gore",
+    "base": "archer"
+  },
+  {
+    "key": "helicopter",
+    "group": 6,
+    "row": 1,
+    "subject": "olive drab modern military utility/attack helicopter, same cockpit, side doors, landing skids, main rotor/tail rotor and restrained side rocket pods",
+    "move": "eight continuous rotor orientations and forward flight/bank phases, same camera and full rotor diameter",
+    "action": "bank toward target, stabilize, align pods, aim; fire small controlled rocket exhaust at frame16, followthrough, ease bank, recover, no floating disconnected rockets",
+    "death": "hit, smoke, list, descend, rotor fails, skids strike ground, hull crumples, final disabled helicopter wreck with rotor",
+    "base": "battleship"
+  },
+  {
+    "key": "observationdrone",
+    "group": 6,
+    "row": 2,
+    "subject": "compact gray four-rotor reconnaissance quadcopter, white central shell, black articulated rotors and camera gimbal, matching olive portable control equipment case below",
+    "move": "eight distinct propeller rotations and small forward tilt flight phases, keep case and drone scale constant",
+    "action": "stabilize, turn camera, pan right, tilt gimbal; inspection gesture at frame16, scan farther, pan back, level; NO weapons or bright laser cone",
+    "death": "hit, motor stops, tilt, descend, one arm breaks, case/drone contact ground, settle, final disabled quadcopter and case",
+    "base": "battleship"
+  },
+  {
+    "key": "giantdeathrobot",
+    "group": 6,
+    "row": 3,
+    "subject": "massive original futuristic bipedal combat robot in weathered tan/gray armor, cyan sensor eye, heavy armored legs and one right-arm multi-barrel cannon, same body throughout",
+    "move": "eight alternating heavy mechanical walking strides, pistons flex, same proportions and weapon",
+    "action": "raise arm cannon, stabilize, aim, brace; fire at frame16, short recoil, counterbalance, recover",
+    "death": "armor struck, stagger, one knee fails, kneel, torso slumps, arm falls, settle, final collapsed disabled robot, no crew",
+    "base": "tank"
+  },
+  {
+    "key": "warriormonk",
+    "group": 6,
+    "row": 4,
+    "subject": "bald EastAsian warrior monk with orange saffron robe over brown trousers, pale shin wraps and cloth shoes, one long wooden staff",
+    "move": "eight alternating martial walking/running strides with SAME staff and robe",
+    "action": "ready staff, twist torso, wind up, lunge; strike at frame16, extended followthrough, recover staff, return guard; NO magical rings",
+    "death": "stagger, bend, knee down, lose staff, fall sideways, settle, still, motionless robed body with staff",
+    "base": "archer"
+  }
+]

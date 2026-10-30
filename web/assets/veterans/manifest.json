@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "source": "Built-in ImageGen",
+  "original": "art-source/veterans-20261006/insignia-atlas.png",
+  "sourceSha256": "3165d3b7074b753cb704d3a78f27f163c89a1e0cdaef365958df604fec74d596",
+  "records": [
+    {
+      "key": "assault",
+      "cell": {
+        "left": 0,
+        "top": 0,
+        "width": 627,
+        "height": 627
+      },
+      "bytes": 10020,
+      "sha256": "f7e6068094519742b08bdaa4cc900cb23b34acfdb54c32f535ac329bf8d309c5",
+      "runtime": "web/assets/veterans/assault.webp"
+    },
+    {
+      "key": "bastion",
+      "cell": {
+        "left": 627,
+        "top": 0,
+        "width": 627,
+        "height": 627
+      },
+      "bytes": 8656,
+      "sha256": "8e9e26c7ae3532ba68a88755d60ded092d247450ae6196df9828b60861f3198e",
+      "runtime": "web/assets/veterans/bastion.webp"
+    },
+    {
+      "key": "terrain",
+      "cell": {
+        "left": 0,
+        "top": 627,
+        "width": 627,
+        "height": 627
+      },
+      "bytes": 9998,
+      "sha256": "fd9969b521cf02143195fcb745e434cfd20e29411641487633b7faf40b204825",
+      "runtime": "web/assets/veterans/terrain.webp"
+    },
+    {
+      "key": "medicine",
+      "cell": {
+        "left": 627,
+        "top": 627,
+        "width": 627,
+        "height": 627
+      },
+      "bytes": 8700,
+      "sha256": "b22ba7cb56216628cbf81bb0ece4a85db40591bb91272af107a642f87dac372d",
+      "runtime": "web/assets/veterans/medicine.webp"
+    }
+  ]
+}

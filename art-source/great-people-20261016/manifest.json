@@ -1,0 +1,207 @@
+{
+  "source": "art-source/great-people-20261016/great-people-original.png",
+  "sourceSha256": "ebc548eb401081f9745080da8464e88266d1631dfa1685f6840c6aa54b370485",
+  "kind": "Nine shared class archetypes; not individual historical likenesses",
+  "animation": "Existing articulated idle/move/work rigs",
+  "baseline": 0.88,
+  "classes": {
+    "general": {
+      "file": "great-people/general.webp",
+      "sourceRect": [
+        0,
+        0,
+        416,
+        426
+      ],
+      "sourceBounds": [
+        0,
+        0,
+        412,
+        426
+      ],
+      "alphaBounds": [
+        75,
+        15,
+        214,
+        222
+      ],
+      "sha256": "72d9b327896d392c4d7d8ec369bea5e1a83dc7e84b045c037a468a76d41ffa20"
+    },
+    "admiral": {
+      "file": "great-people/admiral.webp",
+      "sourceRect": [
+        416,
+        0,
+        848,
+        426
+      ],
+      "sourceBounds": [
+        3,
+        3,
+        432,
+        426
+      ],
+      "alphaBounds": [
+        21,
+        29,
+        234,
+        221
+      ],
+      "sha256": "3eb788606067efbc51bbf3be9fe6110d6caaa007a4a5f215e685984883d386a0"
+    },
+    "engineer": {
+      "file": "great-people/engineer.webp",
+      "sourceRect": [
+        848,
+        0,
+        1254,
+        426
+      ],
+      "sourceBounds": [
+        1,
+        31,
+        376,
+        426
+      ],
+      "alphaBounds": [
+        39,
+        15,
+        227,
+        225
+      ],
+      "sha256": "1ea9cec5cab0cdc9243735d058e8e4aaff23f4fd46b401e6bff9b203efc2f070"
+    },
+    "scientist": {
+      "file": "great-people/scientist.webp",
+      "sourceRect": [
+        0,
+        426,
+        416,
+        832
+      ],
+      "sourceBounds": [
+        17,
+        1,
+        416,
+        406
+      ],
+      "alphaBounds": [
+        24,
+        17,
+        227,
+        225
+      ],
+      "sha256": "b20df745f075d68259ea577c5140dfbf67bbee31d4f135ba10a909a883f2df7e"
+    },
+    "merchant": {
+      "file": "great-people/merchant.webp",
+      "sourceRect": [
+        416,
+        426,
+        848,
+        832
+      ],
+      "sourceBounds": [
+        1,
+        1,
+        432,
+        404
+      ],
+      "alphaBounds": [
+        19,
+        16,
+        239,
+        223
+      ],
+      "sha256": "575a9a58a09cae731458130ea0949ef1e0e04ee865e02584a71a8f5b27a0725b"
+    },
+    "prophet": {
+      "file": "great-people/prophet.webp",
+      "sourceRect": [
+        848,
+        426,
+        1254,
+        832
+      ],
+      "sourceBounds": [
+        3,
+        0,
+        388,
+        406
+      ],
+      "alphaBounds": [
+        57,
+        15,
+        224,
+        225
+      ],
+      "sha256": "41cb6b5d3e49fae4337ee63470975227e2102a9b70cf979455d5fc3605fd44ff"
+    },
+    "writer": {
+      "file": "great-people/writer.webp",
+      "sourceRect": [
+        0,
+        832,
+        416,
+        1254
+      ],
+      "sourceBounds": [
+        0,
+        0,
+        414,
+        406
+      ],
+      "alphaBounds": [
+        21,
+        15,
+        234,
+        225
+      ],
+      "sha256": "33fa530850cc44a1bdc35a5c94b0eb16980361516c47b0bab31a6ca55afb4c4b"
+    },
+    "artist": {
+      "file": "great-people/artist.webp",
+      "sourceRect": [
+        416,
+        832,
+        848,
+        1254
+      ],
+      "sourceBounds": [
+        1,
+        3,
+        420,
+        408
+      ],
+      "alphaBounds": [
+        61,
+        15,
+        233,
+        225
+      ],
+      "sha256": "8d40dc1854d2e49d455fdbe93d9dfad56850483112e41fa31ffdabf74c58c25b"
+    },
+    "musician": {
+      "file": "great-people/musician.webp",
+      "sourceRect": [
+        848,
+        832,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        7,
+        0,
+        390,
+        409
+      ],
+      "alphaBounds": [
+        36,
+        15,
+        224,
+        225
+      ],
+      "sha256": "c8cbb011de6ad765adacb3a14cd3949e06a036f1d29a96010a8c449cc163b02f"
+    }
+  }
+}

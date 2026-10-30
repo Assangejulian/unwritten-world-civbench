@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "reason": "Superseded archer versions, preserved byte-exact outside runtime assets",
+  "selected": "web/assets/archer-painted-v3.png",
+  "retired": [
+    {
+      "file": "../../art-source/unit-retired-20261007/archer-painted-v2.png",
+      "width": 1402,
+      "height": 1122,
+      "bytes": 1486976,
+      "sha256": "040b362b11236a37c58477b07b82c0040184d6787b3707bd27df6c4e543ff27f",
+      "format": "PNG RGBA",
+      "originalRuntime": "web/assets/archer-painted-v2.png",
+      "status": "retired",
+      "replacedBy": "web/assets/archer-painted-v3.png",
+      "archivedFile": "art-source/unit-retired-20261007/archer-painted-v2.png"
+    },
+    {
+      "file": "../../art-source/unit-retired-20261007/archer-attack-painted-v1.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1109052,
+      "sha256": "2f74ca95e8f9f7c6bc9bac46cbf1d13e1dc0438fffeb5c888ccac58b2d15ab05",
+      "format": "PNG RGBA",
+      "originalRuntime": "web/assets/archer-attack-painted-v1.png",
+      "status": "retired",
+      "replacedBy": "web/assets/archer-painted-v3.png",
+      "archivedFile": "art-source/unit-retired-20261007/archer-attack-painted-v1.png"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-03",
+  "assets": [
+    {
+      "file": "resource-atlas.png",
+      "generatedWith": "Built-in ImageGen",
+      "date": "2026-10-03",
+      "originalArtwork": true,
+      "width": 1254,
+      "height": 1254,
+      "format": "RGBA PNG",
+      "columns": 4,
+      "rows": 4,
+      "frames": [
+        "wheat",
+        "cattle",
+        "deer",
+        "fish",
+        "stone",
+        "iron",
+        "horses",
+        "gold",
+        "gems",
+        "spices",
+        "silk",
+        "oil",
+        "uranium"
+      ],
+      "bytes": 2184951,
+      "sha256": "f5df4aabfbf60372ccc7c75764fe53161fa6cb9da45aa199bb20a6ecdc35fc9b",
+      "rendering": "Unimproved land resources only. The fish cell is retained in the original PNG but is not displayed; fish use submerged shadows in the water shader. Completed improvements show their facility and circular resource badge."
+    },
+    {
+      "file": "unit-extra-atlas.png",
+      "generatedWith": "Built-in ImageGen",
+      "date": "2026-10-03",
+      "originalArtwork": true,
+      "width": 1774,
+      "height": 887,
+      "format": "RGBA PNG",
+      "columns": 4,
+      "rows": 2,
+      "frames": [
+        "slinger",
+        "pikeman",
+        "manatarms",
+        "courser",
+        "cuirassier",
+        "cavalry",
+        "artillery",
+        "battleship"
+      ],
+      "bytes": 1728912,
+      "sha256": "691224c0e6c7975597cb8e8a752c2a82058bf5926f106268dc2b16ea40540802"
+    },
+    {
+      "file": "water-normal.jpg",
+      "title": "Water 001 Normal",
+      "creator": "Katsukagi",
+      "license": "CC0 1.0 Universal",
+      "source": "https://3dtextures.me/2017/12/28/water-001/",
+      "licenseSource": "https://3dtextures.me/about/",
+      "download": "https://drive.google.com/uc?export=download&id=1gyaTNb8z2mWQVCh_aeae5QuxWLTLn9-c",
+      "bytes": 111566,
+      "sha256": "93986ced051352f87ec059b827069a20789d0e850d902f7bb8f4fd03fd681e1d",
+      "usage": "Animated river and shallow/deep sea shaders."
+    }
+  ]
+}

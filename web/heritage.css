@@ -1,0 +1,114 @@
+/* Historical catalogues share behavior across A and Universe B. */
+.topbar button[data-modal][hidden]{display:none!important}
+#modal:is([data-page="wonders"],[data-page="greatpeople"]){width:1120px;height:min(800px,calc(100dvh - 40px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 40px);overflow:hidden}
+#modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell{height:100%;box-sizing:border-box;display:flex;flex-direction:column;padding:24px 30px}
+#modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell>header{flex:0 0 auto;margin-bottom:16px;padding-bottom:16px}
+#modal:is([data-page="wonders"],[data-page="greatpeople"]) #modal-body{flex:1;min-height:0;overflow:hidden}
+.heritage-catalogue{height:100%;min-height:0;display:flex;flex-direction:column;color:var(--ink)}
+.heritage-intro{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 0 16px;border-bottom:1px solid var(--line)}
+.heritage-intro h3{font:26px "Noto Serif SC","SimSun",serif!important;letter-spacing:.18em;margin:7px 0!important;padding:0!important;border:0!important}
+.heritage-intro p{margin:0;font-size:12px;opacity:.7;letter-spacing:.12em}
+.heritage-intro .eyebrow{font:9px Georgia,serif;letter-spacing:.22em}
+.heritage-seal{font:26px "SimSun",serif;border:2px solid #a64a35;outline:1px solid #a64a35;outline-offset:3px;width:44px;height:44px;display:grid;place-items:center;color:#a64a35;transform:rotate(-5deg);margin-right:8px}
+.heritage-filters{display:grid;grid-template-columns:minmax(160px,1fr) 150px 150px;gap:16px;padding:14px 0 18px}
+.heritage-filters label{display:flex;flex-direction:column;gap:5px;font-size:10px;color:var(--muted)}
+.heritage-filters input,.heritage-filters select{box-sizing:border-box;width:100%;min-width:0;min-height:34px;font-size:12px}
+.heritage-workspace{display:grid;grid-template-columns:280px minmax(0,1fr);min-height:0;flex:1;border-top:1px solid var(--line)}
+.heritage-index{display:flex;flex-direction:column;min-height:0;border-right:1px solid var(--line);padding:15px 20px 0 0}
+.heritage-index-title{display:flex;flex:none;justify-content:space-between;font-size:11px;letter-spacing:.13em;padding-bottom:10px;opacity:.75}
+.heritage-index-title small{letter-spacing:0}
+.heritage-index nav{display:flex;flex-direction:column;gap:2px;min-height:0;flex:1;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;align-content:start}
+.heritage-entry{display:grid;grid-template-columns:24px minmax(0,1fr) 12px;gap:9px;align-items:center;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);color:inherit;min-height:48px;padding:8px 5px;position:relative;cursor:pointer}
+.heritage-entry.selected{background:linear-gradient(90deg,#b9914430,transparent)}
+.heritage-entry.selected::before{content:"";position:absolute;left:-8px;top:10px;bottom:10px;width:2px;background:var(--gold)}
+.heritage-number{font:11px Georgia,serif;opacity:.5}
+.heritage-entry strong{font:14px "Noto Serif SC","SimSun",serif;display:block;font-weight:500;letter-spacing:.04em}
+.heritage-entry small{display:block;font-size:10px;opacity:.65;margin-top:5px}
+.heritage-entry-mark{opacity:.5}
+.heritage-pagination{display:flex;flex:none;align-items:center;justify-content:space-between;padding-top:10px;font:11px Georgia,serif;gap:10px}
+.heritage-pagination button{width:32px;height:28px;padding:0;background:none;border:1px solid var(--line);color:inherit}
+.heritage-record{padding:19px 0 0 28px;min-height:0;overflow:auto;position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(150px,38%);align-content:start;column-gap:20px}
+.heritage-record-title{display:flex;justify-content:space-between;gap:12px;align-items:center;grid-column:1/-1;padding-bottom:9px;border-bottom:1px solid var(--line);font-size:10px}
+.heritage-record-title .eyebrow{font-size:10px;letter-spacing:.13em}
+.heritage-status{font-size:10px;opacity:.7;white-space:nowrap}
+.heritage-record-heading{grid-column:1;min-width:0;padding-top:21px}
+.heritage-record-heading h4{font:29px "Noto Serif SC","SimSun",serif;margin:0 0 9px;line-height:1.4;letter-spacing:.1em}
+.heritage-record-heading p{font-size:11px;opacity:.65;margin:0}
+.heritage-art,.heritage-engraving{grid-column:2;grid-row:2/5;aspect-ratio:1;position:relative;align-self:start;margin:20px 0 0;overflow:hidden;isolation:isolate}
+.heritage-art::before{content:"";position:absolute;inset:8%;border:1px solid var(--line);border-radius:50%;z-index:-1}
+.heritage-art img{display:block;width:300%;height:100%;max-width:none;object-fit:contain}
+.heritage-engraving{display:grid;place-items:center;font:78px Georgia,serif;color:var(--gold);opacity:.25}
+.heritage-description{grid-column:1;padding:20px 0 16px;min-width:0}
+.heritage-description h5{font:13px "SimSun",serif;margin:0 0 8px;color:var(--gold);letter-spacing:.14em}
+.heritage-description p{font-size:12px;line-height:1.9;margin:0;white-space:pre-line}
+.heritage-facts{grid-column:1;display:grid;gap:8px;font-size:11px;border-top:1px solid var(--line);margin:0;padding:14px 0}
+.heritage-facts>div{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px}
+.heritage-facts dt{opacity:.65}.heritage-facts dd{margin:0;line-height:1.65}
+.heritage-history{grid-column:1/-1;font:12px/1.9 "Noto Serif SC","SimSun",serif;opacity:.7;margin:14px 0 0;border-top:1px solid var(--line);padding:14px 0 0}
+.heritage-locate{grid-column:1;margin-top:8px;justify-self:start}
+.heritage-empty{grid-column:1/-1;align-self:center;justify-self:center;text-align:center;padding:36px 20px}
+.heritage-empty>span{font-size:44px;color:var(--gold);opacity:.5}.heritage-empty h4{font:20px "SimSun",serif;letter-spacing:.15em}.heritage-empty p{font-size:12px;opacity:.65}
+
+/* Universe B: an imperial ledger, with restrained bronze and engraved margins. */
+html[data-ui="b"] #app #b-hud{background:var(--noise),linear-gradient(180deg,#263027,#151d18 70%,#101612)!important;border-bottom:2px solid #aa894b;box-shadow:0 2px 0 #382c18,0 8px 22px #0004}
+html[data-ui="b"] #app #b-hud::before{height:2px;background:linear-gradient(90deg,#82602f,#e0c68b 30%,#74552b 70%,#bf9a54)}
+html[data-ui="b"] #app #b-hud .b-mark{background:linear-gradient(90deg,#b7904930,transparent);border-right:1px solid #ba99523d!important}
+html[data-ui="b"] #app #b-hud .b-mark img{filter:sepia(.2) drop-shadow(0 1px 2px #0008)}
+html[data-ui="b"] #app #b-hud .b-mark span{letter-spacing:.22em}
+html[data-ui="b"] #app #b-hud .b-clock{background:linear-gradient(180deg,#c1a2670b,transparent)}
+html[data-ui="b"] #app #b-era{font-family:var(--serif);letter-spacing:.2em}
+html[data-ui="b"] #app #b-hud .b-nav>button{border-radius:0;border-left:1px solid #bb965018;background:linear-gradient(180deg,#d3b16e08,transparent);width:42px!important}
+html[data-ui="b"] #app #b-hud .b-nav>button:hover{background:linear-gradient(180deg,#d3b16e28,#d3b16e08)!important}
+html[data-ui="b"] #app #b-roster header{background:linear-gradient(90deg,#1a251ce8,#253027aa);border-bottom:1px solid #b18c48;padding-top:13px;padding-bottom:12px}
+html[data-ui="b"] #app #b-roster h2{color:#e4c78b;font-size:15px;letter-spacing:.32em}
+html[data-ui="b"] #app #b-rows li{border-bottom:1px solid #c1a37323;background:linear-gradient(90deg,#1a221b25,transparent)}
+html[data-ui="b"] #app #b-rows li.active{background:linear-gradient(90deg,#b9995745,#1f302729);box-shadow:inset 2px 0 #d6b16b}
+html[data-ui="b"] #app #b-rows .b-name{font-family:var(--serif);letter-spacing:.04em}
+html[data-ui="b"] #app .turnbar{background:var(--noise),linear-gradient(180deg,#263027,#141c17)!important;border-top:2px solid #ae8a47}
+html[data-ui="b"] #app .chronicle>button{font-family:var(--serif);letter-spacing:.08em}
+html[data-ui="b"] #modal:is([data-page="wonders"],[data-page="greatpeople"]){background:var(--parchment)!important;color:var(--parch-ink);border:1px solid #b29561}
+html[data-ui="b"] #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell{padding:24px 30px!important}
+html[data-ui="b"] #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell>header{padding-bottom:14px!important;margin-bottom:14px!important}
+html[data-ui="b"] #modal:is([data-page="wonders"],[data-page="greatpeople"]) .heritage-catalogue{--ink:var(--parch-ink);--muted:var(--parch-dim);--line:var(--parch-rule);--gold:var(--bronze)}
+html[data-ui="b"] #modal .heritage-filters input,html[data-ui="b"] #modal .heritage-filters select{background:#fff8df33;color:var(--parch-ink);border:0;border-bottom:1px solid #92713e66;border-radius:0}
+html[data-ui="b"] #modal .heritage-entry{color:var(--parch-ink)}
+html[data-ui="b"] #modal .heritage-entry.selected{background:linear-gradient(90deg,#986f292b,transparent)}
+html[data-ui="b"] #modal .heritage-description p{color:var(--parch-ink)}
+@media(max-width:1100px){html[data-ui="b"] #app #b-hud .b-nav>button{width:32px!important}html[data-ui="b"] #app #b-yields .b-y{padding:0 6px!important}}
+@media(max-width:760px){
+ html[data-ui="b"] #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell{padding:16px!important}
+ #modal:is([data-page="wonders"],[data-page="greatpeople"]){width:calc(100vw - 16px);max-width:calc(100vw - 16px);height:calc(100dvh - 20px);max-height:calc(100dvh - 20px)}
+ #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell{padding:16px}
+ #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell>header{padding-bottom:10px;margin-bottom:10px}
+ #modal:is([data-page="wonders"],[data-page="greatpeople"]) .modal-shell h2{font-size:22px}
+ .heritage-intro{padding-bottom:10px}.heritage-intro h3{font-size:21px!important}.heritage-intro .eyebrow{font-size:8px}.heritage-intro p{font-size:10px}.heritage-seal{width:34px;height:34px;font-size:22px}
+ .heritage-filters{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px;padding:12px 0}
+ .heritage-filters label:first-child{grid-column:1/-1}.heritage-filters label{font-size:9px}.heritage-filters input,.heritage-filters select{min-height:31px;font-size:11px}
+ .heritage-workspace{grid-template-columns:1fr;grid-template-rows:155px minmax(0,1fr)}
+ .heritage-index{padding:9px 0;border-right:0;border-bottom:1px solid var(--line)}
+ .heritage-index-title{font-size:10px;padding-bottom:6px}.heritage-index nav{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}.heritage-entry{grid-template-columns:18px minmax(0,1fr) 7px;padding:5px 3px;gap:5px;min-height:37px}.heritage-entry strong{font-size:12px}.heritage-entry small{font-size:8px;margin-top:3px}.heritage-entry.selected::before{left:-3px;top:5px;bottom:5px}.heritage-pagination{padding-top:6px;font-size:10px}.heritage-pagination button{width:29px;height:23px}
+ .heritage-record{padding:12px 0 0;column-gap:10px;grid-template-columns:minmax(0,1fr) 34%}.heritage-record-title{font-size:9px}.heritage-record-title .eyebrow,.heritage-status{font-size:9px}.heritage-record-heading{padding-top:13px}.heritage-record-heading h4{font-size:22px;margin-bottom:5px}.heritage-art,.heritage-engraving{margin-top:14px}.heritage-description{padding:12px 0}.heritage-description p{font-size:11px;line-height:1.75}.heritage-facts{font-size:10px;gap:5px;padding:10px 0}.heritage-facts>div{grid-template-columns:60px 1fr;gap:5px}.heritage-history{font-size:10px;margin-top:8px;padding-top:10px}
+ html[data-ui="b"] #app #b-hud{height:98px;padding:0 8px;align-items:flex-start;gap:5px}
+ html[data-ui="b"] #app #b-hud .b-mark{height:44px;width:38px;justify-content:center;padding:0}
+ html[data-ui="b"] #app #b-hud .b-clock{height:44px;min-width:0;flex:1;padding:0 10px;grid-template-columns:auto auto}
+ html[data-ui="b"] #app #b-hud #b-victory{height:44px;padding:0 6px;flex:0 0 56px!important}
+ html[data-ui="b"] #app #b-hud #b-yields{position:absolute;left:8px;bottom:9px;height:34px;padding:0;gap:0}
+ html[data-ui="b"] #app #b-hud #b-yields .b-y{grid-template-columns:12px auto;padding:0 4px!important;gap:3px;border-right:0;min-width:27px}
+ html[data-ui="b"] #app #b-hud #b-yields .b-y b{font-size:11px}html[data-ui="b"] #app #b-hud #b-yields .b-y svg.b-ic{width:12px;height:12px}html[data-ui="b"] #app #b-hud #b-yields .b-y small,html[data-ui="b"] #app #b-hud .b-spark,html[data-ui="b"] #app #b-hud .b-orn{display:none}
+ html[data-ui="b"] #app #b-hud .b-nav{position:absolute;right:5px;bottom:7px;gap:0;padding:0;height:36px}
+ html[data-ui="b"] #app #b-hud .b-nav>button{width:29px!important;height:34px!important}.b-nav .b-menu{margin-left:2px}
+ html[data-ui="b"] #app #b-hud .b-menu-btn{width:28px;height:28px}
+ html[data-ui="b"] #app #b-hud .b-menu{margin-left:3px}
+ html[data-ui="b"] #app #b-roster{top:98px;width:min(250px,72vw)}
+}
+@media(prefers-reduced-motion:reduce){.heritage-entry,.heritage-record{animation:none;transition:none}}
+.heritage-controls{border-top:1px solid #9c82444d;padding-top:10px;margin-top:10px;color:#3d3929}
+.heritage-controls p{font-size:13px;margin:0 0 8px}.heritage-action-row{display:flex;flex-wrap:wrap;gap:6px}.heritage-controls button{padding:6px 10px;background:#263d33;color:#f3e8c9;border:1px solid #9b834f;font-size:12px;cursor:pointer}.heritage-controls button:disabled{opacity:.4;cursor:default}.heritage-target{margin:5px 5px 0 0}.heritage-muted{opacity:.65}
+
+.heritage-controls{grid-column:1/-1}.heritage-record-heading{padding-top:12px}.heritage-record .heritage-history{font-size:11px;line-height:1.7;margin-top:12px}
+
+.heritage-tabs{display:flex;gap:15px;margin-top:10px}.heritage-tabs button{background:none;border:0;border-bottom:1px solid transparent;color:inherit;font-size:11px;padding:2px 0}.heritage-tabs button[aria-pressed="true"]{border-color:var(--gold)}.heritage-work-heading,.heritage-work-list,.heritage-work-pagination{grid-column:1/-1}.heritage-work-heading h4{font:24px "SimSun",serif;margin:10px 0}.heritage-work-heading p{font-size:11px;margin:4px 0 12px}.heritage-work{border-top:1px solid var(--line);padding:10px 0;display:grid;gap:4px}.heritage-work strong{font:15px "SimSun",serif}.heritage-work small,.heritage-work span{font-size:10px;opacity:.75}.heritage-work>div{display:flex;gap:8px}.heritage-work select{min-width:0;max-width:70%;font-size:11px}.heritage-work button,.heritage-work-pagination button{font-size:11px;padding:3px 10px;background:none;border:1px solid var(--line);color:inherit}.heritage-work-pagination{display:flex;justify-content:space-between;align-items:center;margin-top:10px}.heritage-repair{grid-column:1/-1;font-size:12px;padding:7px;margin:10px 0}
+
+.heritage-facts:empty{display:none}.heritage-history summary{cursor:pointer;color:var(--gold);font-size:11px;letter-spacing:.08em}.heritage-history p{margin:8px 0 0}.heritage-controls{position:relative;z-index:1}
+
+.b-person-charge{font-size:12px;color:var(--gold);margin:12px 0 8px}.b-person-activate{width:100%;padding:9px 12px;border:1px solid #aa8b4a;background:#253b32;color:#f1e4c4;font:13px 'SimSun',serif}

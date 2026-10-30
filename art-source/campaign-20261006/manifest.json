@@ -1,0 +1,45 @@
+{
+  "generator": "Built-in ImageGen",
+  "sourceSha256": "63c0e44280dcff904912db9611e0c2e064b6bb98294d7e5b345e7631f104c30d",
+  "runtime": "web/assets/modernization/atlas-v2.webp",
+  "runtimeSha256": "7b1cb09b84a45607724277549179b246866ec51c5df79fcd036fe13cada89a42",
+  "bytes": 529976,
+  "seam": 882,
+  "priorFrames": 22,
+  "totalFrames": 24,
+  "frames": [
+    {
+      "key": "horse-ranch",
+      "bounds": {
+        "left": 1034,
+        "right": 1270,
+        "top": 802,
+        "bottom": 989
+      },
+      "sourceBounds": {
+        "left": 13,
+        "top": 95,
+        "width": 869,
+        "height": 687
+      },
+      "opaque": 383622
+    },
+    {
+      "key": "sericulture",
+      "bounds": {
+        "left": 1290,
+        "right": 1526,
+        "top": 799,
+        "bottom": 992
+      },
+      "sourceBounds": {
+        "left": 895,
+        "top": 96,
+        "width": 865,
+        "height": 708
+      },
+      "opaque": 395252
+    }
+  ],
+  "silkReference": "https://www.fao.org/4/ad108e/ad108e0a.htm"
+}

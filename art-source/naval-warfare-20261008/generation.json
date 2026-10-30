@@ -1,0 +1,24 @@
+[
+  {
+    "key": "submarine",
+    "prompt": "Use case: stylized-concept. Production-ready transparent animation sprite sheet for a painterly hex civilization strategy game. Painterly realistic miniature naval vehicle, muted teal-grey steel, warm upper-left light, fine hand-painted shading, crisp small-scale silhouette. Camera fixed 35-degree elevated three-quarter side view, submarine bow points RIGHT, stern LEFT. Exactly 4 columns by 5 rows, twenty separate complete sprites of the SAME submarine, identical physical scale and camera, ample transparent gutters. Genuine transparent alpha background, no ocean backdrop or ground, no text, labels, grid, logo, insignia or watermark. Row 1 four subtle idle poses, rows 2 and 3 eight genuinely different forward-motion poses with tiny isolated attached white wake accents, rows 4 and 5 eight attack cycle poses anticipation release follow-through recovery. Keep ALL sprite parts and brief effects INSIDE their own cell, generous clear gaps between rows. Hull remains visible and same length in every cell; no huge water clouds. Subject: compact WW2 diesel-electric submarine, long slim grey-green hull, distinct raised angular conning tower and periscope, a short small deck cannon, pointed rounded bow and narrow stern screw. Surfaced hull only; no crew. Attack sequence: fires one small torpedo from the bow, a tiny short white foamy trail at waterline, then recovers. Never launches a vertical missile. The silhouette should look visibly older and narrower than a modern nuclear boat.",
+    "source": "local-cache:exec-4c03a9d8-c47f-4ad7-b60c-b68450bf27f0.png",
+    "tool": "Built-in ImageGen",
+    "transparent": true
+  },
+  {
+    "key": "nuclearsubmarine",
+    "prompt": "Use case: stylized-concept. Production-ready transparent animation sprite sheet for a painterly hex civilization strategy game. Painterly realistic miniature naval vehicle, muted teal-grey steel, warm upper-left light, fine hand-painted shading, crisp small-scale silhouette. Camera fixed 35-degree elevated three-quarter side view, submarine bow points RIGHT, stern LEFT. Exactly 4 columns by 5 rows, twenty separate complete sprites of the SAME submarine, identical physical scale and camera, ample transparent gutters. Genuine transparent alpha background, no ocean backdrop or ground, no text, labels, grid, logo, insignia or watermark. Row 1 four subtle idle poses, rows 2 and 3 eight genuinely different forward-motion poses with tiny isolated attached white wake accents, rows 4 and 5 eight attack cycle poses anticipation release follow-through recovery. Keep ALL sprite parts and brief effects INSIDE their own cell, generous clear gaps between rows. Hull remains visible and same length in every cell; no huge water clouds. Subject: large modern nuclear-powered ballistic missile submarine, smooth dark charcoal cylindrical hull with rounded bow, tall clean sail with small horizontal diving planes, a row of sealed rectangular missile hatches behind the sail, stern control fins. NO deck gun. Attack sequence: a hatch behind the sail opens, ONE compact ballistic missile emerges vertically with a restrained pale flame, missile leaves cell, hatch closes. Tall firing effect must fit inside its cell. Keep the hull unchanged and clearly distinct from an older diesel submarine. No nuclear explosion or mushroom cloud.",
+    "source": "local-cache:exec-5d9c6234-0a06-4f1e-af5b-affcae8d4583.png",
+    "tool": "Built-in ImageGen",
+    "transparent": true
+  },
+  {
+    "key": "nuclearsubmarine",
+    "prompt": "Edit this game sprite sheet. Preserve the SAME modern nuclear submarine hull, scale, right-facing 35-degree camera, 4-column by 5-row arrangement and the first twelve idle/movement sprites. Change ONLY the last eight firing poses, rows 4 and 5: replace all vertical ballistic missiles, tall flames and smoke with an ordinary torpedo firing sequence from the rounded bow pointing RIGHT at waterline. Pose 12 anticipates with sealed missile hatches; pose 13 begins a tiny bow water puff; pose 14 releases ONE compact dark torpedo from the bow with a short pale white foamy trail; pose 15 torpedo moves further right; poses 16 and 17 trail fades; poses 18 and 19 return to idle. Every pose keeps the same hull proportions. All missile hatches stay CLOSED throughout this torpedo attack. No vertical missile, flame or nuclear explosion anywhere. Exactly twenty isolated sprites separated by generous transparent gutters. Remove any grey backdrop haze: truly transparent alpha background around hulls and tiny attached wake/torpedo effects. No text or grid. Keep painterly miniature military grey steel shading.",
+    "source": "local-cache:exec-18b0c2d7-7d8c-4c8a-a3dd-0697e321fa98.png",
+    "tool": "Built-in ImageGen",
+    "transparent": true,
+    "edit": true
+  }
+]

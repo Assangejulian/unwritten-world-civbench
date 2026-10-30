@@ -1,0 +1,86 @@
+{
+  "generator": "Built-in imagegen",
+  "date": "2026-10-29",
+  "assets": [
+    {
+      "key": "world-climate",
+      "source": "art-source\\climate-20261029\\world-climate.png",
+      "runtime": "web\\assets\\climate\\world-climate.webp",
+      "width": 1536,
+      "height": 1024,
+      "hasAlpha": false,
+      "sourceHash": "e9576c938059b702836c8b84dadbbca90bbc87ff0a5c21e860aa0fb88e19f52d",
+      "runtimeHash": "c983477e55ce6534c6adfb7dbcd9a4a25c90d43c188ca32b7a83bcd5ac849976"
+    },
+    {
+      "key": "blizzard",
+      "source": "art-source\\climate-20261029\\blizzard.png",
+      "runtime": "web\\assets\\climate\\blizzard.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "41b580239daa0987090e3820273e688fb3d5ec06519ba8936c621c62e28583b2",
+      "runtimeHash": "d46adcc08b0d98c154b3a20b27f93933fc338d646c31179f2edf02e16dffb2b7"
+    },
+    {
+      "key": "duststorm",
+      "source": "art-source\\climate-20261029\\duststorm.png",
+      "runtime": "web\\assets\\climate\\duststorm.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "a80aad08d19717f5c22b9476c12de2af4a73272daaa2b7195675faff98fb85aa",
+      "runtimeHash": "2c2db178011620bbe336ac8288fb8fa92fef615d89b68616b214edb4b5139943"
+    },
+    {
+      "key": "flood",
+      "source": "art-source\\climate-20261029\\flood.png",
+      "runtime": "web\\assets\\climate\\flood.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "6c7d872ff963236d2444c20cb303ac0f90fe11be33d8be4ba49fc650ba21660a",
+      "runtimeHash": "55738d731519a64c244078cde78756a2a20aba366916a92e7d29ceb287b8fa64"
+    },
+    {
+      "key": "hurricane",
+      "source": "art-source\\climate-20261029\\hurricane.png",
+      "runtime": "web\\assets\\climate\\hurricane.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "0e92d6d919f183e94bc13969fc26a4828b0e8f3295d2ed2bdd7321b564ad21d9",
+      "runtimeHash": "5dc9715951968791721d27d92ab68750ebb99c3c4ad09116cd443eabe9208c1b"
+    },
+    {
+      "key": "eruption",
+      "source": "art-source\\climate-20261029\\eruption.png",
+      "runtime": "web\\assets\\climate\\eruption.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "6ffacd55a4f909b059ddb840c546ed633dc87eb56c8e64520e06a0001efa591a",
+      "runtimeHash": "4550f7210a422272089619f272673be85b3cbcbdd180268e8ce3e3f820a4d0ae"
+    },
+    {
+      "key": "drought",
+      "source": "art-source\\climate-20261029\\drought.png",
+      "runtime": "web\\assets\\climate\\drought.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "d27c5603233055891031ff2430c2e2825db69f6141557af08dc5e33580a7b257",
+      "runtimeHash": "09099fc61888a4dab0439ffe6b6fcb671e10106a0ede85cd44361ec27bcef981"
+    },
+    {
+      "key": "dam",
+      "source": "art-source\\climate-20261029\\dam.png",
+      "runtime": "web\\assets\\climate\\dam.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "sourceHash": "88d1d0a79bf39becbcb91c581f408c47a947c15c0548a11c3515b88defc23f61",
+      "runtimeHash": "b8f94452262c93664d24021a8a2175fc533857a5dd3a500840a5b1355814b250"
+    }
+  ]
+}

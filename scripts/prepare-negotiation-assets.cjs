@@ -1,0 +1,12 @@
+const fs=require('node:fs/promises'),path=require('node:path'),crypto=require('node:crypto');
+const sharp=require('./browser-runtime.cjs').load('sharp');
+const root=path.resolve(__dirname,'..'),source=path.join(root,'art-source/envoy-negotiation-20261006'),target=path.join(root,'web/assets/negotiation');
+const jobs=[
+ {key:'envoy-death',input:'exec-ba245665-c604-47c1-a19b-e631e14a5178.png',alpha:true,prompt:'death-prompt.txt',poses:8,columns:4,rows:2,baseSign:1},
+ {key:'council-hall',input:'exec-38167340-3cc3-4c13-9e93-e9a75b6ddba9.png',alpha:false,prompt:'hall-prompt.txt',width:1600},
+ {key:'envoy-audience',input:'exec-c0e34d38-6e60-4a58-a30d-39703bcfc310.png',alpha:true,prompt:'envoy-prompt.txt',height:960}
+];
+(async()=>{await fs.mkdir(target,{recursive:true});const records=[];
+ for(const job of jobs){const raw=await fs.readFile(path.join(source,job.key+'.png')).catch(()=>fs.readFile(path.join(process.env.CIV_GENERATED_ART_DIR||path.join(source,'generated'),job.input))),meta=await sharp(raw).metadata(),stats=await sharp(raw).stats();if(job.alpha&&(!meta.hasAlpha||stats.channels.at(-1).min!==0))throw Error('Missing true alpha: '+job.key);await fs.writeFile(path.join(source,job.key+'.png'),raw);let pipeline=sharp(raw);if(job.width||job.height)pipeline=pipeline.resize({width:job.width,height:job.height,withoutEnlargement:true});const bytes=await pipeline.webp({quality:86,alphaQuality:100}).toBuffer();await fs.writeFile(path.join(target,job.key+'.webp'),bytes);records.push({key:job.key,original:'art-source/envoy-negotiation-20261006/'+job.key+'.png',prompt:'art-source/envoy-negotiation-20261006/'+job.prompt,sourceSha256:crypto.createHash('sha256').update(raw).digest('hex'),runtime:'web/assets/negotiation/'+job.key+'.webp',runtimeSha256:crypto.createHash('sha256').update(bytes).digest('hex'),bytes:bytes.length,alpha:job.alpha,sourceWidth:meta.width,sourceHeight:meta.height,...(job.poses?{poses:job.poses,columns:job.columns,rows:job.rows,baseSign:job.baseSign}:{})});}
+ await fs.writeFile(path.join(source,'manifest.json'),JSON.stringify({date:'2026-10-06',generator:'Built-in ImageGen',records,notes:'Original generated art. The death sheet has eight independently generated painted poses; audience art is composited with the existing historical leader portraits. No commercial game artwork.'},null,2)+'\n');console.log(JSON.stringify(records));
+})().catch(error=>{console.error(error);process.exitCode=1;});

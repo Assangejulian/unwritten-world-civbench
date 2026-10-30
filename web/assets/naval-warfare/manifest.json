@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "mainPoses": 40,
+  "newUnitTypes": [
+    "submarine",
+    "nuclearsubmarine"
+  ],
+  "staticAssets": [],
+  "records": [
+    {
+      "key": "submarine",
+      "source": "Built-in ImageGen",
+      "original": "art-source/naval-warfare-20261008/submarine.png",
+      "sourceSha256": "8edca87514bc9b40dc65811f045fadc3836bcc8efa25d836ef89001dc17e7fd3",
+      "runtime": "web/assets/naval-warfare/submarine.webp",
+      "runtimeSha256": "20a515b4e5353e2732846ae065df81a356792f7cd0863857050c1c1a59a630db",
+      "bytes": 46492,
+      "poses": 20,
+      "actions": {
+        "idle": 4,
+        "move": 8,
+        "attack": 8
+      },
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.2767102428949449,
+      "sourceBands": [
+        [
+          80,
+          245
+        ],
+        [
+          358,
+          518
+        ],
+        [
+          635,
+          797
+        ],
+        [
+          895,
+          1091
+        ],
+        [
+          1150,
+          1326
+        ]
+      ],
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 14,
+          "top": 76,
+          "right": 282,
+          "bottom": 241,
+          "opaque": 14769,
+          "anchorY": 239,
+          "anchorX": 198.51762631488083,
+          "width": 269,
+          "height": 166
+        },
+        {
+          "index": 1,
+          "left": 297,
+          "top": 80,
+          "right": 556,
+          "bottom": 242,
+          "opaque": 14180,
+          "anchorY": 240,
+          "anchorX": 474.7593180125599,
+          "width": 260,
+          "height": 163
+        },
+        {
+          "index": 2,
+          "left": 576,
+          "top": 84,
+          "right": 837,
+          "bottom": 245,
+          "opaque": 14230,
+          "anchorY": 243,
+          "anchorX": 755.329475742553,
+          "width": 262,
+          "height": 162
+        },
+        {
+          "index": 3,
+          "left": 851,
+          "top": 87,
+          "right": 1105,
+          "bottom": 247,
+          "opaque": 13449,
+          "anchorY": 245,
+          "anchorX": 1026.8934073884336,
+          "width": 255,
+          "height": 161
+        },
+        {
+          "index": 4,
+          "left": 14,
+          "top": 354,
+          "right": 276,
+          "bottom": 516,
+          "opaque": 14377,
+          "anchorY": 514,
+          "anchorX": 201.1802038581658,
+          "width": 263,
+          "height": 163
+        },
+        {
+          "index": 5,
+          "left": 290,
+          "top": 354,
+          "right": 554,
+          "bottom": 517,
+          "opaque": 15130,
+          "anchorY": 514,
+          "anchorX": 478.31679327534124,
+          "width": 265,
+          "height": 164
+        },
+        {
+          "index": 6,
+          "left": 565,
+          "top": 357,
+          "right": 835,
+          "bottom": 519,
+          "opaque": 15952,
+          "anchorY": 516,
+          "anchorX": 757.5587025027492,
+          "width": 271,
+          "height": 163
+        },
+        {
+          "index": 7,
+          "left": 834,
+          "top": 360,
+          "right": 1104,
+          "bottom": 521,
+          "opaque": 16034,
+          "anchorY": 518,
+          "anchorX": 1027.4904528197055,
+          "width": 271,
+          "height": 162
+        },
+        {
+          "index": 8,
+          "left": 8,
+          "top": 634,
+          "right": 282,
+          "bottom": 799,
+          "opaque": 16438,
+          "anchorY": 797,
+          "anchorX": 203.23430750977585,
+          "width": 275,
+          "height": 166
+        },
+        {
+          "index": 9,
+          "left": 281,
+          "top": 631,
+          "right": 562,
+          "bottom": 799,
+          "opaque": 17707,
+          "anchorY": 797,
+          "anchorX": 480.95736978103855,
+          "width": 282,
+          "height": 169
+        },
+        {
+          "index": 10,
+          "left": 567,
+          "top": 636,
+          "right": 835,
+          "bottom": 799,
+          "opaque": 15930,
+          "anchorY": 796,
+          "anchorX": 758.9125608213791,
+          "width": 269,
+          "height": 164
+        },
+        {
+          "index": 11,
+          "left": 823,
+          "top": 634,
+          "right": 1105,
+          "bottom": 800,
+          "opaque": 17044,
+          "anchorY": 797,
+          "anchorX": 1022.7089445442643,
+          "width": 283,
+          "height": 167
+        },
+        {
+          "index": 12,
+          "left": 12,
+          "top": 895,
+          "right": 274,
+          "bottom": 1057,
+          "opaque": 14208,
+          "anchorY": 1054,
+          "anchorX": 194.83301216621794,
+          "width": 263,
+          "height": 163
+        },
+        {
+          "index": 13,
+          "left": 288,
+          "top": 894,
+          "right": 604,
+          "bottom": 1050,
+          "opaque": 15352,
+          "anchorY": 1048,
+          "anchorX": 480.3258665713463,
+          "width": 317,
+          "height": 157
+        },
+        {
+          "index": 14,
+          "left": 568,
+          "top": 893,
+          "right": 887,
+          "bottom": 1073,
+          "opaque": 12909,
+          "anchorY": 1071,
+          "anchorX": 770.3777631580513,
+          "width": 320,
+          "height": 181
+        },
+        {
+          "index": 15,
+          "left": 834,
+          "top": 891,
+          "right": 1115,
+          "bottom": 1093,
+          "opaque": 13177,
+          "anchorY": 1091,
+          "anchorX": 1035.9807240507657,
+          "width": 282,
+          "height": 203
+        },
+        {
+          "index": 16,
+          "left": 21,
+          "top": 1146,
+          "right": 316,
+          "bottom": 1330,
+          "opaque": 14373,
+          "anchorY": 1326,
+          "anchorX": 217.35697062782685,
+          "width": 296,
+          "height": 185
+        },
+        {
+          "index": 17,
+          "left": 304,
+          "top": 1148,
+          "right": 560,
+          "bottom": 1310,
+          "opaque": 13947,
+          "anchorY": 1307,
+          "anchorX": 482.90940623162845,
+          "width": 257,
+          "height": 163
+        },
+        {
+          "index": 18,
+          "left": 577,
+          "top": 1150,
+          "right": 832,
+          "bottom": 1309,
+          "opaque": 13604,
+          "anchorY": 1307,
+          "anchorX": 754.067140401301,
+          "width": 256,
+          "height": 160
+        },
+        {
+          "index": 19,
+          "left": 849,
+          "top": 1151,
+          "right": 1103,
+          "bottom": 1309,
+          "opaque": 13529,
+          "anchorY": 1307,
+          "anchorX": 1024.2776343504327,
+          "width": 255,
+          "height": 159
+        }
+      ],
+      "extraction": "connected opaque bodies with alpha ownership and nearest-body detached effects"
+    },
+    {
+      "key": "submarine-icon",
+      "source": "Built-in ImageGen",
+      "original": "art-source/naval-warfare-20261008/submarine.png",
+      "sourceSha256": "8edca87514bc9b40dc65811f045fadc3836bcc8efa25d836ef89001dc17e7fd3",
+      "runtime": "web/assets/naval-warfare/submarine-icon.webp",
+      "runtimeSha256": "1d750d9e09601545a94a9d4ed2233020de203c6381c2194c01be16d83997539d",
+      "bytes": 2388,
+      "poses": 1
+    },
+    {
+      "key": "nuclearsubmarine",
+      "source": "Built-in ImageGen",
+      "original": "art-source/naval-warfare-20261008/nuclearsubmarine.png",
+      "sourceSha256": "2a20377c23679620a7adcb6851cede4cc258f40796231579940f05cd9185c6d5",
+      "runtime": "web/assets/naval-warfare/nuclearsubmarine.webp",
+      "runtimeSha256": "2dae0af35dc0436c8dc83cb50e806667095476fdfa514abf1b64ca38f47d5419",
+      "bytes": 37600,
+      "poses": 20,
+      "actions": {
+        "idle": 4,
+        "move": 8,
+        "attack": 8
+      },
+      "cellSize": 128,
+      "anchor": [
+        64,
+        112
+      ],
+      "scale": 0.1898481282812056,
+      "sourceBands": [
+        [
+          36,
+          173
+        ],
+        [
+          225,
+          365
+        ],
+        [
+          416,
+          556
+        ],
+        [
+          610,
+          766
+        ],
+        [
+          824,
+          967
+        ]
+      ],
+      "sourceCells": [
+        {
+          "index": 0,
+          "left": 28,
+          "top": 34,
+          "right": 388,
+          "bottom": 173,
+          "opaque": 22644,
+          "anchorY": 171,
+          "anchorX": 289.82594304061695,
+          "width": 361,
+          "height": 140
+        },
+        {
+          "index": 1,
+          "left": 410,
+          "top": 34,
+          "right": 765,
+          "bottom": 174,
+          "opaque": 22390,
+          "anchorY": 172,
+          "anchorX": 669.5973950531154,
+          "width": 356,
+          "height": 141
+        },
+        {
+          "index": 2,
+          "left": 787,
+          "top": 33,
+          "right": 1146,
+          "bottom": 175,
+          "opaque": 22648,
+          "anchorY": 172,
+          "anchorX": 1048.3005856520922,
+          "width": 360,
+          "height": 143
+        },
+        {
+          "index": 3,
+          "left": 1173,
+          "top": 33,
+          "right": 1529,
+          "bottom": 175,
+          "opaque": 22736,
+          "anchorY": 173,
+          "anchorX": 1432.4305091711926,
+          "width": 357,
+          "height": 143
+        },
+        {
+          "index": 4,
+          "left": 12,
+          "top": 221,
+          "right": 380,
+          "bottom": 364,
+          "opaque": 22970,
+          "anchorY": 362,
+          "anchorX": 288.41275568010695,
+          "width": 369,
+          "height": 144
+        },
+        {
+          "index": 5,
+          "left": 392,
+          "top": 221,
+          "right": 763,
+          "bottom": 365,
+          "opaque": 23982,
+          "anchorY": 362,
+          "anchorX": 665.9731406001034,
+          "width": 372,
+          "height": 145
+        },
+        {
+          "index": 6,
+          "left": 773,
+          "top": 222,
+          "right": 1146,
+          "bottom": 365,
+          "opaque": 24497,
+          "anchorY": 363,
+          "anchorX": 1045.955069086083,
+          "width": 374,
+          "height": 144
+        },
+        {
+          "index": 7,
+          "left": 1154,
+          "top": 223,
+          "right": 1526,
+          "bottom": 367,
+          "opaque": 24482,
+          "anchorY": 365,
+          "anchorX": 1424.5353506275476,
+          "width": 373,
+          "height": 145
+        },
+        {
+          "index": 8,
+          "left": 11,
+          "top": 413,
+          "right": 380,
+          "bottom": 557,
+          "opaque": 24527,
+          "anchorY": 555,
+          "anchorX": 279.2656001835045,
+          "width": 370,
+          "height": 145
+        },
+        {
+          "index": 9,
+          "left": 392,
+          "top": 413,
+          "right": 763,
+          "bottom": 558,
+          "opaque": 24283,
+          "anchorY": 555,
+          "anchorX": 663.0724266351135,
+          "width": 372,
+          "height": 146
+        },
+        {
+          "index": 10,
+          "left": 771,
+          "top": 413,
+          "right": 1146,
+          "bottom": 557,
+          "opaque": 24820,
+          "anchorY": 555,
+          "anchorX": 1045.1155603067407,
+          "width": 376,
+          "height": 145
+        },
+        {
+          "index": 11,
+          "left": 1154,
+          "top": 413,
+          "right": 1526,
+          "bottom": 558,
+          "opaque": 24480,
+          "anchorY": 556,
+          "anchorX": 1430.398698010272,
+          "width": 373,
+          "height": 146
+        },
+        {
+          "index": 12,
+          "left": 19,
+          "top": 608,
+          "right": 396,
+          "bottom": 755,
+          "opaque": 23955,
+          "anchorY": 751,
+          "anchorX": 291.068470652298,
+          "width": 378,
+          "height": 148
+        },
+        {
+          "index": 13,
+          "left": 397,
+          "top": 608,
+          "right": 822,
+          "bottom": 755,
+          "opaque": 24602,
+          "anchorY": 753,
+          "anchorX": 676.3724807940506,
+          "width": 426,
+          "height": 148
+        },
+        {
+          "index": 14,
+          "left": 781,
+          "top": 607,
+          "right": 1263,
+          "bottom": 757,
+          "opaque": 25480,
+          "anchorY": 755,
+          "anchorX": 1075.9726210471354,
+          "width": 483,
+          "height": 151
+        },
+        {
+          "index": 15,
+          "left": 1171,
+          "top": 607,
+          "right": 1527,
+          "bottom": 768,
+          "opaque": 24903,
+          "anchorY": 766,
+          "anchorX": 1442.7676233446034,
+          "width": 357,
+          "height": 162
+        },
+        {
+          "index": 16,
+          "left": 17,
+          "top": 821,
+          "right": 472,
+          "bottom": 969,
+          "opaque": 24626,
+          "anchorY": 967,
+          "anchorX": 302.25024206087335,
+          "width": 456,
+          "height": 149
+        },
+        {
+          "index": 17,
+          "left": 399,
+          "top": 821,
+          "right": 829,
+          "bottom": 969,
+          "opaque": 23837,
+          "anchorY": 967,
+          "anchorX": 677.7664418263004,
+          "width": 431,
+          "height": 149
+        },
+        {
+          "index": 18,
+          "left": 783,
+          "top": 821,
+          "right": 1147,
+          "bottom": 969,
+          "opaque": 23167,
+          "anchorY": 967,
+          "anchorX": 1053.2775253545326,
+          "width": 365,
+          "height": 149
+        },
+        {
+          "index": 19,
+          "left": 1169,
+          "top": 821,
+          "right": 1528,
+          "bottom": 969,
+          "opaque": 23162,
+          "anchorY": 967,
+          "anchorX": 1434.9018774661884,
+          "width": 360,
+          "height": 149
+        }
+      ],
+      "extraction": "connected opaque bodies with alpha ownership and nearest-body detached effects"
+    },
+    {
+      "key": "nuclearsubmarine-icon",
+      "source": "Built-in ImageGen",
+      "original": "art-source/naval-warfare-20261008/nuclearsubmarine.png",
+      "sourceSha256": "2a20377c23679620a7adcb6851cede4cc258f40796231579940f05cd9185c6d5",
+      "runtime": "web/assets/naval-warfare/nuclearsubmarine-icon.webp",
+      "runtimeSha256": "41277bb9d6b0b266407eff671a4aec3537540c3965dc8bb78a7db32f2bd57888",
+      "bytes": 1990,
+      "poses": 1
+    }
+  ]
+}

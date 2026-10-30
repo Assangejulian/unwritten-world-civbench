@@ -1,0 +1,257 @@
+/* Civ-style HUD additions (C-20261022-CIV): unit command dock + World Rankings drawer.
+   Historical palette: science lapis, culture/civics porphyry, cities jade, military cinnabar,
+   diplomacy maritime blue, faith ivory, score bronze. */
+:root{--cv-lapis:#2f5597;--cv-porphyry:#7a2e4a;--cv-jade:#2f7d63;--cv-cinnabar:#b4432e;--cv-maritime:#1f6f8b;--cv-ivory:#e8dcc0;--cv-bronze:#a7834f;--cv-ink:#14181c;--cv-paper:#f3ead6}
+/* ---------- unit command dock ---------- */
+#civ-unit-dock{position:absolute;right:26px;bottom:212px;z-index:26;display:flex;align-items:center;gap:0;pointer-events:auto;color:#f1e4c2;font-size:13px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+#civ-unit-dock[hidden]{display:none}
+#civ-unit-dock .cud-medal{position:relative;z-index:2;width:74px;height:74px;flex:0 0 74px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 40% 35%,#2a3a40,#0e1417 70%);box-shadow:0 0 0 3px var(--civ),0 0 0 5px #0e1417,0 0 0 6px var(--cv-bronze);overflow:hidden;margin-right:-20px}
+#civ-unit-dock .cud-medal .unit-art,#civ-unit-dock .cud-medal svg,#civ-unit-dock .cud-medal img{width:60px!important;height:60px!important;font-size:44px}
+#civ-unit-dock .cud-medal svg.unit-art{background:none!important;color:#f1e4c2;stroke-width:1.3}
+#civ-unit-dock .cud-body{min-width:220px;max-width:330px;padding:8px 12px 8px 28px;background:linear-gradient(180deg,#1b2428f2,#0f1518f2);border:1px solid #a7834f88;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%)}
+#civ-unit-dock header{display:flex;align-items:baseline;gap:8px;white-space:nowrap}
+#civ-unit-dock header strong{font-size:15px;color:#fbf6ea;overflow:hidden;text-overflow:ellipsis}
+#civ-unit-dock header small{opacity:.65;font-size:11px}
+#civ-unit-dock .cud-health{height:5px;margin:5px 0;background:#00000066;border-radius:3px;overflow:hidden}
+#civ-unit-dock .cud-health span{display:block;height:100%;background:var(--hpc)}
+#civ-unit-dock .cud-stats{display:flex;gap:10px;margin:0 0 6px}
+#civ-unit-dock .cud-stats div{display:flex;gap:3px;align-items:center}
+#civ-unit-dock .cud-stats dt{opacity:.75}#civ-unit-dock .cud-stats dd{margin:0;font-variant-numeric:tabular-nums;color:#fbf6ea}
+#civ-unit-dock .cud-hp dt{color:#d76b5a}
+#civ-unit-dock .cud-actions{display:flex;flex-wrap:wrap;gap:6px}
+#civ-unit-dock .cud-act{width:32px;height:32px;padding:0;border-radius:50%;display:grid;place-items:center;border:1px solid #fbf6ea55;background:radial-gradient(circle at 40% 35%,color-mix(in srgb,var(--ac,#a7834f) 85%,#fff 15%),var(--ac,#a7834f) 70%);color:#fbf6ea;cursor:pointer;transition:transform .12s,box-shadow .12s}
+#civ-unit-dock .cud-act svg{width:17px;height:17px;fill:currentColor}
+#civ-unit-dock .cud-act:hover:not(:disabled),#civ-unit-dock .cud-act:focus-visible{transform:translateY(-2px);box-shadow:0 0 0 2px #fbf6ea}
+#civ-unit-dock .cud-act:disabled{cursor:not-allowed;filter:grayscale(.85) brightness(.7);opacity:.8}
+#civ-unit-dock :is(.cud-found,.cud-improve,.cud-buildRoad,.cud-buildFort,.cud-repair,.cud-chop){--ac:var(--cv-jade)}
+#civ-unit-dock :is(.cud-attack,.cud-attackCityState,.cud-pillage,.cud-plunderTrade,.cud-nuke,.cud-destroyFort,.cud-destroyRoad){--ac:var(--cv-cinnabar)}
+#civ-unit-dock :is(.cud-fortify,.cud-patrol,.cud-cancelPatrol,.cud-jump){--ac:#5a6470}
+#civ-unit-dock :is(.cud-heal,.cud-spread){--ac:#9b8a5e}
+#civ-unit-dock .cud-upgrade{--ac:var(--cv-lapis)}
+#civ-unit-dock :is(.cud-cancel,.cud-recallEnvoy){--ac:var(--cv-maritime)}
+#civ-unit-dock .cud-readonly svg{width:18px;height:18px;fill:#f1e4c2;opacity:.6}
+@media(max-width:760px){#civ-unit-dock{right:12px;bottom:196px}#civ-unit-dock .cud-medal{width:56px;height:56px;flex-basis:56px}#civ-unit-dock .cud-medal :is(.unit-art,svg,img){width:46px!important;height:46px!important}#civ-unit-dock .cud-body{min-width:0;max-width:calc(100vw - 90px)}#civ-unit-dock .cud-act{width:30px;height:30px}}
+/* A bound atlas: linen, quiet bronze edges and one aligned ranking ledger. */
+#civ-rankings-btn{position:absolute;top:64px;right:14px;z-index:27;width:44px;height:44px;padding:10px;border-radius:50%;display:grid;place-items:center;cursor:pointer;color:#d8c39a;border:1px solid #a98c5b;background:#192733;box-shadow:inset 0 1px 0 #ffffff20,0 3px 10px #0006;transition:color .16s,background .16s}
+#civ-rankings-btn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5}
+#civ-rankings-btn:hover,#civ-rankings-btn[aria-expanded="true"]{color:#fff2d5;background:#2b4150}
+html[data-ui="b"] #b4-ribbon{right:74px!important;max-width:calc(100vw - 820px)}
+#civ-rankings{--cr-accent:#c6ae7d;--cr-text:#f2ecdf;--cr-muted:#aebbc2;position:fixed;inset:14px 14px 14px auto;z-index:90;box-sizing:border-box;width:min(552px,calc(100vw - 28px));display:flex;flex-direction:column;border:1px solid #a48d645e;border-radius:5px;background-color:#17232e;background-image:linear-gradient(#192c3bdf,#12232ee8),url('/assets/ui/archival-linen-v1.webp');background-size:auto,512px;color:var(--cr-text);font-family:var(--rn-sans,'RN Source Sans','Microsoft YaHei',sans-serif);font-size:14px;line-height:1.55;box-shadow:inset 0 0 0 3px #0c141c,inset 0 0 0 4px #a48d6425,-12px 12px 40px #0007;transform:translateX(calc(100% + 28px));visibility:hidden;transition:transform .24s cubic-bezier(.2,.7,.2,1),visibility 0s linear .24s;overflow:hidden}
+#civ-rankings.open{transform:none;visibility:visible;transition:transform .24s cubic-bezier(.2,.7,.2,1)}
+#civ-rankings *{box-sizing:border-box}
+#civ-rankings svg{fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+#civ-rankings button{font:inherit;cursor:pointer}
+#civ-rankings button:focus-visible,#civ-rankings summary:focus-visible{outline:2px solid #e2c99a;outline-offset:-3px}
+#civ-rankings .cr-head{display:flex;align-items:center;gap:16px;min-height:82px;padding:18px 22px;background:#0b131aaa;border-bottom:1px solid #b69b673b;box-shadow:inset 0 1px 0 #ffffff0c}
+#civ-rankings .cr-seal{display:grid;place-items:center;width:38px;height:38px;color:#cbb387}
+#civ-rankings .cr-seal svg{width:38px;height:38px;stroke-width:1.1}
+#civ-rankings .cr-head h2{margin:0;color:#f5ecdb;font-family:var(--serif,serif);font-size:24px;font-weight:500;letter-spacing:.12em;line-height:1.35}
+#civ-rankings .cr-close{margin-left:auto;width:34px;height:34px;padding:0;display:grid;place-items:center;border:1px solid #b7c7d036;border-radius:50%;background:none;color:#c0cbd0;font:26px/1 sans-serif;transition:background .15s,color .15s}
+#civ-rankings .cr-close:hover{color:#fff;background:#ffffff14}
+#civ-rankings .cr-tabs{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));padding:0 12px;background:#e8dfcd;border-block:1px solid #fff4d580;box-shadow:0 3px 8px #0003;flex-shrink:0}
+#civ-rankings .cr-tabs button{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;min-height:61px;padding:9px 2px 8px;border:0;border-radius:0;clip-path:none;background:none;color:#6e6a5e;transition:background .15s,color .15s}
+#civ-rankings .cr-tabs button svg{width:20px;height:20px}
+#civ-rankings .cr-tabs button span{font-size:12px;white-space:nowrap;letter-spacing:.08em;line-height:1.3}
+#civ-rankings .cr-tabs button:hover{color:#253d4d;background:#d5cebd}
+#civ-rankings .cr-tabs button[aria-selected="true"]{color:#fff6e6;background:#293e4c;box-shadow:inset 0 -2px 0 #c6ae7d}
+#civ-rankings .cr-tabs button.cr-off{color:#8a8477}
+#civ-rankings .cr-tabs button.cr-off[aria-selected="true"]{color:#e5ddce}
+#civ-rankings .cr-body{flex:1;min-height:0;overflow:auto;padding:23px 24px 26px;scrollbar-width:thin;scrollbar-color:#7f8e946b transparent}
+#civ-rankings .cr-race{width:100%;display:grid;grid-template-columns:44px minmax(0,1fr) 72px 34px 12px;align-items:center;gap:13px;padding:19px 0;border:0;border-bottom:1px solid #adc4ce20;text-align:left;background:none;color:var(--cr-text);transition:background .16s,transform .16s}
+#civ-rankings .cr-race:first-child{padding-top:7px}
+#civ-rankings .cr-race:hover{background:#ffffff06;transform:translateX(2px)}
+#civ-rankings .cr-race-emblem{display:grid;place-items:center;width:43px;height:48px;color:var(--race)}
+#civ-rankings .cr-race-emblem svg{width:34px;height:34px;stroke-width:1.2}
+#civ-rankings .cr-race-main{min-width:0}
+#civ-rankings .cr-race-main strong{display:block;font:500 18px/1.45 var(--serif,serif);letter-spacing:.04em}
+#civ-rankings .cr-race-main>small{display:block;margin-top:4px;font-size:12px;color:var(--cr-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#civ-rankings .cr-race-value{font-size:23px;line-height:1.2;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+#civ-rankings .cr-race-value small{display:block;margin-top:4px;color:var(--cr-muted);font-size:11px}
+#civ-rankings .cr-race-arrow{font:23px/1 serif;color:#b5a487;text-align:right}
+#civ-rankings .cr-face{display:block;width:40px;height:40px;border:1px solid #bba57b;outline:3px solid #07121a55;border-radius:50%;object-fit:cover;object-position:50% 22%;background:#273c47;box-shadow:0 2px 5px #0005}
+#civ-rankings .cr-race .cr-face{width:32px;height:32px}
+#civ-rankings .cr-sigil{display:grid;place-items:center;color:#b9c5c8}
+#civ-rankings .cr-sigil svg{width:22px;height:22px}
+#civ-rankings .cr-track{display:block;height:3px;margin-top:10px;background:#adc4ce26;border-radius:2px;overflow:hidden}
+#civ-rankings .cr-track>i{display:block;height:100%;background:var(--race,var(--cr-accent));min-width:0}
+#civ-rankings .cr-stage-line{display:flex;align-items:center;gap:9px;margin-top:9px;max-width:150px}
+#civ-rankings .cr-stage-line>i{position:relative;display:grid;place-items:center;width:12px;height:12px;border:1px solid #a5bdcc66;border-radius:50%;color:var(--race,var(--cr-accent));background:#14212b}
+#civ-rankings .cr-stage-line>i:not(:last-child)::after{content:'';position:absolute;left:12px;width:9px;height:1px;background:#a5bdcc55}
+#civ-rankings .cr-stage-line>i.complete{border-color:currentColor;background:currentColor}
+#civ-rankings .cr-stage-line>i.complete svg{width:9px;height:9px;color:#1b2b35;stroke-width:1.6}
+#civ-rankings .cr-unmet-note{margin:22px 0 0;color:#a8b4bd;text-align:center;font-size:12px}
+#civ-rankings .cr-req{padding:2px 0 18px;margin:0 0 18px;border-bottom:1px solid #adc4ce26}
+#civ-rankings .cr-req-top{display:grid;grid-template-columns:46px minmax(0,1fr) auto;gap:15px;align-items:center}
+#civ-rankings .cr-emblem{display:grid;place-items:center;width:46px;height:52px;color:var(--cr-accent)}
+#civ-rankings .cr-emblem svg{width:40px;height:40px;stroke-width:1.1}
+#civ-rankings .cr-req h3{margin:0;font:500 24px/1.35 var(--serif,serif);color:#f5ecdb;letter-spacing:.03em}
+#civ-rankings .cr-req-top>div>small{display:block;font-size:11px;color:#b1bac0;margin-bottom:4px}
+#civ-rankings .cr-req-top>b{font-size:34px;font-weight:400;line-height:1.1;color:var(--cr-accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+#civ-rankings .cr-req-top>b>small{font-size:14px;color:#aebbc2}
+#civ-rankings .cr-next{display:flex;align-items:baseline;gap:16px;margin:18px 0 0;padding:10px 12px;border-left:2px solid var(--cr-accent);background:#e8e0cf;color:#233643}
+#civ-rankings .cr-next>span{flex-shrink:0;font-size:11px;letter-spacing:.12em;color:#6d726c}
+#civ-rankings .cr-next strong{font-size:13px;font-weight:500;line-height:1.6}
+#civ-rankings .cr-milestones{display:flex;justify-content:space-between;gap:10px;margin:-2px 0 24px;padding:0 2px}
+#civ-rankings .cr-milestones>span{display:flex;gap:6px;align-items:center;color:#afbec6;font-size:11px;white-space:nowrap}
+#civ-rankings .cr-milestones i{display:grid;place-items:center;width:19px;height:19px;border:1px solid #a3b7c24a;border-radius:50%;font:11px/1 sans-serif;color:#c2d3dd}
+#civ-rankings .cr-milestones .complete{color:var(--cr-accent)}
+#civ-rankings .cr-milestones .complete i{background:var(--cr-accent);color:#16252e;border-color:var(--cr-accent)}
+#civ-rankings .cr-section-title{display:flex;justify-content:space-between;gap:20px;align-items:baseline;margin:0 0 4px;padding-bottom:8px;border-bottom:1px solid #adc4ce20}
+#civ-rankings .cr-section-title h4{font-size:12px;font-weight:400;color:#afbec6;margin:0;letter-spacing:.12em}
+#civ-rankings .cr-section-title>span{font-size:11px;color:#afbec6}
+#civ-rankings .cr-rank{list-style:none;margin:0 0 20px;padding:0}
+#civ-rankings .cr-rank>li:not(.cr-unknown){display:grid;grid-template-columns:25px 40px minmax(0,1fr) auto;align-items:center;gap:12px;padding:16px 0;border-bottom:1px solid #adc4ce1e;min-height:82px}
+#civ-rankings .cr-place{font:16px/1.1 'RN Newsreader',Georgia,serif;color:#b5a487;font-style:normal}
+#civ-rankings .cr-self .cr-place{color:var(--cr-accent)}
+#civ-rankings .cr-self .cr-face{border-color:var(--civ);box-shadow:0 0 0 1px var(--civ),0 3px 9px #0005}
+#civ-rankings .cr-identity{min-width:0}
+#civ-rankings .cr-identity>strong{display:flex;gap:8px;align-items:center;font-size:15px;line-height:1.45;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f1eadd}
+#civ-rankings .cr-identity>strong>small{font-size:10px;color:#b9d0dc;font-weight:400;background:#ffffff0d;padding:0 5px;border:1px solid #a5c0d22e;line-height:1.6}
+#civ-rankings .cr-identity>span:not(.cr-track):not(.cr-stage-line){display:block;margin-top:2px;font-size:11px;color:#b1bec6;line-height:1.4}
+#civ-rankings .cr-value{text-align:right;white-space:nowrap;font:500 22px/1.2 'RN Newsreader',Georgia,serif;color:#f5e9d1;font-variant-numeric:tabular-nums}
+#civ-rankings .cr-value small{font:11px/1.3 var(--rn-sans,sans-serif);color:#afbec6}
+#civ-rankings .cr-rank .cr-gone{opacity:.65}
+#civ-rankings .cr-unknown{display:grid;grid-template-columns:36px minmax(0,1fr) auto;align-items:center;gap:16px;padding:18px 5px;color:#aebbc2;border-bottom:1px solid #adc4ce1e}
+#civ-rankings .cr-unknown-seal{display:grid;place-items:center;color:#a6b6bd}
+#civ-rankings .cr-unknown-seal svg{width:25px;height:25px}
+#civ-rankings .cr-unknown strong{font-size:12px;font-weight:400;letter-spacing:.04em}
+#civ-rankings .cr-unknown b{font-weight:400}
+#civ-rankings :is(.cr-rules,.cr-breakdown){margin:0;border-bottom:1px solid #adc4ce20;font-size:13px;color:#bac7ce}
+#civ-rankings summary{list-style:none;display:flex;align-items:center;gap:12px;padding:14px 0;cursor:pointer;color:#d3d9d8;user-select:none}
+#civ-rankings summary::-webkit-details-marker{display:none}
+#civ-rankings summary>span{margin-left:auto;color:#afbec6;font-size:12px}
+#civ-rankings summary>svg{width:15px;height:15px;margin-left:auto;transition:transform .15s}
+#civ-rankings summary>span+svg{margin-left:0}
+#civ-rankings details[open]>summary>svg{transform:rotate(90deg)}
+#civ-rankings .cr-rules>div{padding:0 0 14px;max-width:44ch;font-size:12px;line-height:1.85;color:#c1ccd2}
+#civ-rankings .cr-rules p{margin:0 0 8px}
+#civ-rankings .cr-score-parts{padding:0 0 18px}
+#civ-rankings .cr-score-parts>div{display:grid;grid-template-columns:minmax(0,1fr) auto 48px;gap:4px 12px;align-items:baseline;padding:9px 0}
+#civ-rankings .cr-score-parts small{color:#afbec6;font-size:11px}
+#civ-rankings .cr-score-parts b{font-weight:500;color:#e4d4b6;text-align:right}
+#civ-rankings .cr-score-parts i{display:block;grid-column:1/-1;height:2px;margin-top:3px;background:#adc4ce1c}
+#civ-rankings .cr-score-parts em{display:block;height:100%;background:#a9946e}
+#civ-rankings .cr-awards{margin:0;padding:0 0 16px;list-style:none}
+#civ-rankings .cr-awards li{display:grid;grid-template-columns:1fr auto 34px;gap:12px;padding:9px 0;font-size:12px}
+#civ-rankings .cr-awards small{color:#aebbc2}
+#civ-rankings .cr-awards b{text-align:right;font-weight:500;color:#d9c8a9}
+#civ-rankings .cr-congress{display:flex;align-items:center;gap:10px;width:100%;padding:12px 0;margin-top:17px;border:0;border-bottom:1px solid #94b8b34d;background:none;text-align:left;color:#a8d1c8}
+#civ-rankings .cr-congress svg{width:19px;height:19px}
+#civ-rankings .cr-congress>span{margin-left:auto}
+@media(max-width:760px){#civ-rankings-btn{top:66px;right:12px;width:40px;height:40px}}
+@media(max-width:580px){#civ-rankings{inset:0 0 0 auto;width:100vw;border-radius:0;border-left:1px solid #a48d645e}#civ-rankings .cr-head{min-height:72px;padding:15px 19px}#civ-rankings .cr-tabs{padding:0 7px}#civ-rankings .cr-tabs button{min-height:57px}#civ-rankings .cr-body{padding:21px 19px 24px}#civ-rankings .cr-race{grid-template-columns:34px minmax(0,1fr) 57px 29px 8px;gap:9px;padding:18px 0}#civ-rankings .cr-race-emblem{width:32px}#civ-rankings .cr-race-emblem svg{width:28px;height:28px}#civ-rankings .cr-race-main strong{font-size:17px}#civ-rankings .cr-race-value{font-size:21px}#civ-rankings .cr-race .cr-face{width:28px;height:28px}#civ-rankings .cr-req-top{grid-template-columns:40px minmax(0,1fr) auto;gap:12px}#civ-rankings .cr-req h3{font-size:23px}#civ-rankings .cr-req-top>b{font-size:30px}#civ-rankings .cr-rank>li:not(.cr-unknown){grid-template-columns:21px 36px minmax(0,1fr) auto;gap:9px}#civ-rankings .cr-face{width:36px;height:36px}#civ-rankings .cr-value{font-size:21px}}
+@media(prefers-reduced-motion:reduce){#civ-rankings,#civ-rankings *,#civ-rankings-btn{transition:none!important}}
+
+#app.has-unit-command:not(.unit-details-open) #inspector{visibility:hidden!important;pointer-events:none!important}
+#civ-unit-dock .cud-details{width:32px;height:32px;padding:0;border-radius:50%;display:grid;place-items:center;border:1px solid #a5b7c0;background:#30424c;color:#fff8e8;cursor:pointer}
+#civ-unit-dock .cud-details svg{width:17px;height:17px;fill:currentColor}
+/* Match the command tray to the same bound-atlas material. */
+#civ-unit-dock .cud-body{background-color:#17232e;background-image:linear-gradient(#192c3bdf,#12232ee8),url('/assets/ui/archival-linen-v1.webp');background-size:auto,512px;border-color:#a48d6473;box-shadow:inset 0 1px 0 #ffffff12}
+#civ-unit-dock .cud-act{background:#2b3c47;border-color:#a6b8bf4d;color:#d6e0e3;box-shadow:inset 0 1px 0 #ffffff0a}
+#civ-unit-dock .cud-act:hover:not(:disabled){background:#425762;color:#fff2d3;box-shadow:0 0 0 1px #c6ae7d;transform:translateY(-1px)}
+#civ-unit-dock .cud-act:disabled{opacity:.45;filter:none}
+#civ-unit-dock .cud-actions{gap:7px;padding-top:5px;border-top:1px solid #b1c2ca20}
+
+#civ-rankings .cr-identity>strong>span{min-width:0;overflow:hidden;text-overflow:ellipsis}
+#civ-rankings .cr-identity>span:not(.cr-track):not(.cr-stage-line){overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+
+#civ-rankings .cr-race-arrow{grid-column:5}
+
+/* Heraldic instruments: enamel faces, cut-metal rims and engraved progress. */
+#civ-rankings{border:1px solid #9cacaf8c;border-radius:9px 9px 3px 3px;box-shadow:inset 0 0 0 3px #08131d,inset 0 0 0 4px #c7b69140,-14px 14px 38px #0008;background-image:radial-gradient(ellipse at 0 0,#425b6950,transparent 70%),linear-gradient(#142735e8,#0c1a26ed),url('/assets/ui/archival-linen-v1.webp')}
+#civ-rankings .cr-head{position:relative;isolation:isolate;min-height:76px;padding:14px 24px;background:linear-gradient(100deg,#603b47e6,#302733d9 70%,#172735),url('/assets/ui/archival-linen-v1.webp');border-bottom:1px solid #c1ad8780;box-shadow:inset 0 2px 0 #e7cb9d55,inset 0 -4px 0 #0a172a66,0 3px 9px #0006}
+#civ-rankings .cr-head::after{content:'';z-index:-1;position:absolute;inset:7px 7px 6px;border:1px solid #dfc7a12d;border-radius:5px;pointer-events:none}
+#civ-rankings .cr-head h2{font-size:25px;letter-spacing:.17em;text-shadow:0 2px 1px #0008}
+#civ-rankings .cr-seal{width:40px;height:46px;padding:7px 5px;color:#f3dfb8;background:linear-gradient(120deg,#a57b55,#563d36);clip-path:polygon(0 0,100% 0,100% 78%,50% 100%,0 78%);filter:drop-shadow(0 2px 1px #0009)}
+#civ-rankings .cr-seal svg{width:29px;height:29px;stroke-width:1.6}
+#civ-rankings .cr-close{background:radial-gradient(at 35% 20%,#53606a,#1a2933 75%);box-shadow:inset 0 1px 0 #fff4,0 2px 4px #0006;border-color:#b4bec15e}
+#civ-rankings .cr-tabs{padding:9px 14px 5px;background:#0b1724b3;border-top:0;border-bottom:1px solid #9aafba40;box-shadow:inset 0 -3px 0 #030a0f55,0 3px 9px #0003}
+#civ-rankings .cr-tabs button{--tab-ink:#c7b794;gap:7px;min-height:75px;padding:5px 1px;color:#b8c5cc;background:none!important;box-shadow:none!important}
+#civ-rankings .cr-tabs .cr-t-science{--tab-ink:#8fc8e5}#civ-rankings .cr-tabs .cr-t-culture{--tab-ink:#dfabdf}#civ-rankings .cr-tabs .cr-t-domination{--tab-ink:#e7a292}#civ-rankings .cr-tabs .cr-t-religion{--tab-ink:#e5d4a2}#civ-rankings .cr-tabs .cr-t-diplomacy{--tab-ink:#99d6c9}
+#civ-rankings .cr-tabs button>svg{box-sizing:content-box;width:22px;height:22px;padding:8px;border-radius:50%;border:1px solid #bacad354;stroke-width:1.6;background:radial-gradient(at 30% 10%,#3b5263,#152635 70%);box-shadow:0 0 0 2px #07121e,inset 0 1px 2px #ffffff35,0 3px 4px #0007;transition:transform .18s,box-shadow .18s,color .18s;color:#b7c9d0}
+#civ-rankings .cr-tabs button[aria-selected="true"]{color:var(--tab-ink)}
+#civ-rankings .cr-tabs button[aria-selected="true"]>svg{color:#fff8dc;border-color:var(--tab-ink);background:radial-gradient(at 30% 10%,color-mix(in srgb,var(--tab-ink) 62%,#234259),#182f42 76%);box-shadow:0 0 0 2px #07121e,0 0 0 3px color-mix(in srgb,var(--tab-ink) 65%,transparent),inset 0 1px 2px #fff8,0 4px 6px #0007;transform:translateY(-2px)}
+#civ-rankings .cr-tabs button:hover>svg{color:#fff3d8;transform:translateY(-2px)}
+#civ-rankings .cr-tabs button.cr-off{opacity:.48}
+#civ-rankings .cr-body{padding:20px 24px 26px}
+#civ-rankings .cr-medallion{--medal:var(--race,var(--cr-accent));position:relative;isolation:isolate;display:grid;place-items:center;flex-shrink:0;width:82px;height:92px;filter:drop-shadow(0 3px 2px #0007)}
+#civ-rankings .cr-pennant{position:absolute;top:40px;bottom:0;left:23px;right:23px;background:linear-gradient(90deg,#0c202e,color-mix(in srgb,var(--medal) 52%,#12222c),#0c202e);clip-path:polygon(0 0,100% 0,100% 100%,50% 82%,0 100%)}
+#civ-rankings .cr-pennant::after{content:'';position:absolute;inset:4px;border-inline:1px solid #dcc39280}
+#civ-rankings .cr-wreath{position:absolute;inset:7px -4px auto;width:90px;height:72px;fill:#b8a174;stroke:#e8d6a366;stroke-width:.65}
+#civ-rankings .cr-medallion-face{position:relative;display:grid;place-items:center;width:59px;height:59px;margin-top:-10px;border:3px solid #25343c;border-radius:50%;color:#fff4d8;background:radial-gradient(at 32% 20%,color-mix(in srgb,var(--medal) 65%,#425460),color-mix(in srgb,var(--medal) 30%,#0e273b) 64%,#112539);box-shadow:0 0 0 1px #dfd2af,0 0 0 3px #7b7b6a,inset 0 2px 4px #fff7,inset 0 -4px 8px #031427cc}
+#civ-rankings .cr-medallion-face::after{content:'';position:absolute;inset:4px;border:1px solid #e9eedb38;border-radius:50%;pointer-events:none}
+#civ-rankings .cr-medallion-face>.cr-crest-icon{width:33px;height:33px;stroke-width:1.5;filter:drop-shadow(0 2px 1px #0008)}
+#civ-rankings .cr-race{grid-template-columns:82px minmax(0,1fr) 67px 37px 10px;min-height:108px;gap:13px;padding:8px 0;position:relative;background:linear-gradient(90deg,color-mix(in srgb,var(--race) 6%,transparent),transparent 50%);border-bottom:1px solid #9aadb82b;box-shadow:0 1px 0 #050e1840}
+#civ-rankings .cr-race:hover{background:linear-gradient(90deg,color-mix(in srgb,var(--race) 15%,transparent),transparent);transform:none}
+#civ-rankings .cr-race:hover .cr-medallion-face{filter:brightness(1.15);transform:translateY(-2px)}
+#civ-rankings .cr-medallion-face{transition:transform .18s,filter .18s}
+#civ-rankings .cr-race-main strong{font-size:23px;font-family:var(--serif,serif);font-weight:500;letter-spacing:.12em;color:#f2e9d5}
+#civ-rankings .cr-race-main small{margin-top:2px;font-size:12px;color:#aabcc6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#civ-rankings .cr-race .cr-face{width:35px;height:35px;box-shadow:0 0 0 2px #07121b,0 0 0 3px #a4947566}
+#civ-rankings .cr-race-value{color:var(--race);font-size:27px;text-shadow:0 2px 1px #0008}
+#civ-rankings .cr-face{width:44px;height:44px;border:2px solid #c0ad86;box-shadow:0 0 0 2px #081621,inset 0 1px 0 #fff5,0 3px 5px #0008}
+#civ-rankings .cr-req{position:relative;isolation:isolate;overflow:hidden;padding:0 0 17px;margin:0 0 17px}
+#civ-rankings .cr-req::before{content:'';position:absolute;z-index:-1;right:22px;top:-42px;width:205px;height:205px;border:1px solid color-mix(in srgb,var(--cr-accent) 14%,transparent);border-radius:50%;box-shadow:0 0 0 15px #162b3a,0 0 0 16px color-mix(in srgb,var(--cr-accent) 8%,transparent),0 0 0 48px #11233033;pointer-events:none}
+#civ-rankings .cr-req-top{grid-template-columns:89px minmax(0,1fr) auto;gap:18px;min-height:110px}
+#civ-rankings .cr-req h3{font-size:32px;letter-spacing:.13em;text-shadow:0 2px 1px #0009}
+#civ-rankings .cr-req h3>span{display:block;margin-top:2px;font-size:12px;letter-spacing:.6em;color:#c9bda3}
+#civ-rankings .cr-req-top>b{font-size:43px;font-family:'RN Newsreader',Georgia,serif;text-shadow:0 2px 1px #0008}
+#civ-rankings .cr-next{margin-top:9px;padding:8px 13px;border:1px solid color-mix(in srgb,var(--cr-accent) 35%,transparent);border-left:3px solid var(--cr-accent);border-radius:2px;background:linear-gradient(100deg,color-mix(in srgb,var(--cr-accent) 17%,#122532),#12253266);color:#edf2ed;box-shadow:inset 0 1px 0 #ffffff0d;gap:10px}
+#civ-rankings .cr-next>span{font-size:20px;line-height:1;color:var(--cr-accent)}
+#civ-rankings .cr-next strong{font-size:13px;letter-spacing:.04em}
+#civ-rankings .cr-milestones{position:relative;margin:0 0 22px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#civ-rankings .cr-milestones::before{content:'';position:absolute;left:16%;right:16%;top:19px;height:1px;background:#a2b9c84a}
+#civ-rankings .cr-milestones>span{position:relative;display:flex;flex-direction:column;gap:8px;z-index:1;font-size:11px;letter-spacing:.15em}
+#civ-rankings .cr-milestones i{width:38px;height:38px;background:#112331;box-shadow:0 0 0 4px #122635;border:1px solid #a3b9ca55}
+#civ-rankings .cr-milestones svg{width:22px;height:22px;stroke-width:1.35}
+#civ-rankings .cr-milestones .complete i{color:#fff3d3;background:radial-gradient(at 30% 20%,#7fa6b8,#31516a 75%);border-color:#b6cccd;box-shadow:0 0 0 3px #122635,0 0 0 4px #7b9cac80,inset 0 1px 2px #fff6}
+#civ-rankings .cr-rank>li:not(.cr-unknown){position:relative;grid-template-columns:26px 44px minmax(0,1fr) auto;gap:14px;min-height:80px;padding:13px 0;box-shadow:inset 0 -1px 0 #050e174d}
+#civ-rankings .cr-rank>li:first-child:not(.cr-unknown){background:linear-gradient(90deg,#c5aa7420,#c5aa7400);border-bottom-color:#c4a87544}
+#civ-rankings .cr-place{display:grid;place-items:center;align-self:stretch;font:18px/1 'RN Newsreader',Georgia,serif;color:#9bb1be;background:linear-gradient(#b7c5cb0e,transparent);border-top:2px solid #a0b5c12b;padding-top:2px}
+#civ-rankings .cr-rank>li:first-child .cr-place{color:#efcf91;border-top-color:#d5b884;background:linear-gradient(#cdb17926,transparent);font-size:22px}
+#civ-rankings .cr-self::before{content:'';position:absolute;left:-12px;top:15px;bottom:15px;width:3px;border-radius:3px;background:var(--civ);box-shadow:0 0 6px color-mix(in srgb,var(--civ) 40%,transparent)}
+#civ-rankings .cr-identity>strong{font-size:16px;letter-spacing:.04em}
+#civ-rankings .cr-identity>span:not(.cr-track):not(.cr-stage-line){font-size:11px}
+#civ-rankings .cr-value{font-size:27px;color:#e5dbc3}
+#civ-rankings .cr-track{height:5px;max-width:200px;background:#050e16;border:1px solid #a4b9c32b;box-shadow:inset 0 1px 2px #0008}
+#civ-rankings .cr-track>i{background:linear-gradient(90deg,color-mix(in srgb,var(--race,var(--cr-accent)) 55%,#173647),var(--race,var(--cr-accent)));box-shadow:inset 0 1px 0 #fff3}
+#civ-rankings .cr-stage-line{gap:15px;margin-top:7px}
+#civ-rankings .cr-stage-line>i{width:20px;height:20px;border-color:#7f9bad66;color:#698595;background:#10212e;box-shadow:inset 0 1px 2px #0005}
+#civ-rankings .cr-stage-line>i:not(:last-child)::after{left:19px;width:16px;background:#7893a64d}
+#civ-rankings .cr-stage-line svg{width:12px;height:12px;stroke-width:1.6}
+#civ-rankings .cr-stage-line>i.complete{border-color:#9dc2d2;background:linear-gradient(#5b7f94,#24445b);color:#e4f3ed;box-shadow:inset 0 1px 1px #fff5}
+#civ-rankings .cr-stage-line>i.complete svg{width:12px;height:12px;color:#e4f3ed;stroke-width:1.6}
+#civ-rankings .cr-unmet-note{font-size:11px;letter-spacing:.08em;margin-top:18px}
+#civ-rankings-btn{border-color:#b9c8ca;background:radial-gradient(at 32% 20%,#657c8b,#203745 65%,#0d1e2d);box-shadow:0 0 0 2px #13222b,0 0 0 3px #ad9570,inset 0 2px 2px #fff5,0 4px 9px #0008}
+#civ-rankings-btn:hover{background:radial-gradient(at 32% 20%,#879d9e,#2c485c 65%,#0d1e2d)}
+
+/* Unit console: a health-rimmed crest and tactile, pictographic commands. */
+#civ-unit-dock{align-items:center;right:28px;gap:0}
+#civ-unit-dock .cud-medal{width:80px;height:80px;flex-basis:80px;margin-right:-22px;overflow:visible;background:radial-gradient(at 30% 20%,#71858c,#223d4d 62%,#112632);box-shadow:inset 0 2px 4px #fff5,0 0 0 2px #0b1922,0 0 0 3px #c9b48b,0 5px 10px #0008;color:#f5eed8}
+#civ-unit-dock .cud-medal::before{content:'';position:absolute;inset:-7px;z-index:-1;border-radius:50%;background:conic-gradient(from -90deg,var(--hp-color) var(--hp-angle),#263842 0);mask:radial-gradient(farthest-side,transparent calc(100% - 6px),#000 calc(100% - 5px));transform:rotate(-30deg)}
+#civ-unit-dock .cud-medal::after{content:'';position:absolute;inset:6px;border:1px solid #d7e1db44;border-radius:50%;pointer-events:none}
+#civ-unit-dock .cud-medal svg.unit-art{width:61px!important;height:61px!important;color:#faf2d9;filter:drop-shadow(0 3px 1px #051723aa)}
+#civ-unit-dock .cud-body{min-width:250px;max-width:340px;padding:12px 16px 12px 34px;clip-path:none;border:1px solid #a7bbc07a;border-radius:5px 17px 8px 5px;background-image:linear-gradient(115deg,#294455e8,#142936f5),url('/assets/ui/archival-linen-v1.webp');box-shadow:inset 0 2px 0 #f7e8bb44,inset 0 0 0 4px #09172166,0 4px 14px #0006}
+#civ-unit-dock header{border-bottom:1px solid #d5d0b74a;padding:0 0 8px;margin-bottom:8px;align-items:center}
+#civ-unit-dock header strong{font-size:18px;letter-spacing:.12em;font-family:var(--serif,serif)}
+#civ-unit-dock header small{margin-left:auto;color:#ebd2a2}
+#civ-unit-dock .cud-health{display:none}
+#civ-unit-dock .cud-stats{gap:14px;margin:0 0 12px;font-size:14px}
+#civ-unit-dock .cud-stats dt{font-size:15px;opacity:1;color:#b3c9cf}
+#civ-unit-dock .cud-stats dd{font-size:15px}
+#civ-unit-dock .cud-hp dt{color:#a6d3a5}
+#civ-unit-dock .cud-actions{gap:9px;padding-top:8px;border-top:1px solid #b1c2ca26}
+#civ-unit-dock :is(.cud-act,.cud-details){width:37px;height:37px;border:1px solid #9eb4bf;border-radius:50%;background:radial-gradient(at 30% 16%,color-mix(in srgb,var(--ac,#5c7e8f) 70%,#c1d7dc),color-mix(in srgb,var(--ac,#5c7e8f) 70%,#183042) 60%,#0c1f2e);box-shadow:0 0 0 2px #0b1c29,inset 0 2px 2px #fff6,inset 0 -2px 2px #0005,0 3px 5px #0008;color:#f2f0dc}
+#civ-unit-dock .cud-act svg{width:20px;height:20px;filter:drop-shadow(0 1px 1px #0008)}
+#civ-unit-dock .cud-act svg[fill="none"]{fill:none}
+#civ-unit-dock .cud-act:hover:not(:disabled){background:radial-gradient(at 30% 16%,#c4d9d4,var(--ac,#426377) 70%,#20394b);box-shadow:0 0 0 2px #0c1d2a,0 0 0 3px #c2cfcc,inset 0 2px 2px #fff6,0 4px 7px #0008;transform:translateY(-2px)}
+#civ-unit-dock .cud-act:active:not(:disabled){transform:translateY(1px);box-shadow:0 0 0 2px #0c1d2a,inset 0 2px 4px #0009}
+#civ-unit-dock .cud-act:disabled{opacity:.5;filter:grayscale(.5)}
+@media(max-width:580px){
+ #civ-rankings .cr-head{min-height:68px;padding:12px 18px}#civ-rankings .cr-head h2{font-size:23px}
+ #civ-rankings .cr-tabs{padding:8px 6px 4px}#civ-rankings .cr-tabs button{min-height:67px;gap:6px}#civ-rankings .cr-tabs button>svg{width:19px;height:19px;padding:7px}#civ-rankings .cr-tabs button span{font-size:11px}
+ #civ-rankings .cr-body{padding:18px 18px 24px}#civ-rankings .cr-race{grid-template-columns:68px minmax(0,1fr) 58px 29px 7px;gap:10px;min-height:103px}#civ-rankings .cr-race .cr-medallion{transform:scale(.83);transform-origin:left center;margin-right:-14px}#civ-rankings .cr-race-main strong{font-size:21px}#civ-rankings .cr-race-value{font-size:23px}#civ-rankings .cr-race .cr-face{width:28px;height:28px}
+ #civ-rankings .cr-req-top{grid-template-columns:80px minmax(0,1fr) auto;gap:12px}#civ-rankings .cr-req h3{font-size:29px}#civ-rankings .cr-req-top>b{font-size:36px}#civ-rankings .cr-rank>li:not(.cr-unknown){grid-template-columns:22px 40px minmax(0,1fr) auto;gap:11px}#civ-rankings .cr-face{width:40px;height:40px}#civ-rankings .cr-value{font-size:23px}#civ-rankings .cr-identity>strong{font-size:15px}
+ #civ-unit-dock{right:14px;max-width:calc(100vw - 28px)}#civ-unit-dock .cud-medal{width:62px;height:62px;flex-basis:62px}#civ-unit-dock .cud-medal svg.unit-art{width:48px!important;height:48px!important}#civ-unit-dock .cud-body{min-width:0;max-width:calc(100vw - 76px);padding-left:30px}#civ-unit-dock .cud-stats{gap:9px}#civ-unit-dock .cud-actions{gap:8px}#civ-unit-dock .cud-act{width:34px;height:34px}
+}
+@media(prefers-reduced-motion:reduce){#civ-rankings *,#civ-unit-dock *{transition:none!important}}

@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-11",
+  "sourceAlbum": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+  "previousPlaylists": {
+    "china": {
+      "soft": [
+        "asianoriental2",
+        "eastminster"
+      ],
+      "majestic": [
+        "eastminster",
+        "asianoriental2"
+      ],
+      "heroic": [
+        "asian-drums",
+        "heroic-age"
+      ]
+    },
+    "korea": {
+      "soft": [
+        "arirang",
+        "asianoriental2"
+      ],
+      "majestic": [
+        "arirang",
+        "eastminster"
+      ],
+      "heroic": [
+        "asian-drums",
+        "heroic-age"
+      ]
+    },
+    "japan": {
+      "soft": [
+        "ishikari-lore",
+        "asianoriental1"
+      ],
+      "majestic": [
+        "asianoriental1",
+        "eastminster"
+      ],
+      "heroic": [
+        "samurai",
+        "asian-drums"
+      ]
+    },
+    "classical": {
+      "soft": [
+        "temple-of-the-manes",
+        "ancient-rite"
+      ],
+      "majestic": [
+        "ancient-rite",
+        "heroic-age"
+      ],
+      "heroic": [
+        "heroic-age",
+        "intrepid"
+      ]
+    },
+    "persia": {
+      "soft": [
+        "desert-city",
+        "sultan"
+      ],
+      "majestic": [
+        "sultan",
+        "ibn-al-noor"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "intrepid"
+      ]
+    },
+    "egypt": {
+      "soft": [
+        "desert-city",
+        "temple-of-the-manes"
+      ],
+      "majestic": [
+        "ancient-rite",
+        "sultan"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "heroic-age"
+      ]
+    },
+    "india": {
+      "soft": [
+        "dhaka",
+        "lake-aria"
+      ],
+      "majestic": [
+        "dhaka",
+        "ancient-rite"
+      ],
+      "heroic": [
+        "intrepid",
+        "heroic-age"
+      ]
+    },
+    "arabia": {
+      "soft": [
+        "desert-city",
+        "sultan"
+      ],
+      "majestic": [
+        "sultan",
+        "ibn-al-noor"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "intrepid"
+      ]
+    },
+    "ottoman": {
+      "soft": [
+        "sultan",
+        "desert-city"
+      ],
+      "majestic": [
+        "ibn-al-noor",
+        "ancient-rite"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "heroic-age"
+      ]
+    },
+    "steppe": {
+      "soft": [
+        "tribe",
+        "asianoriental1"
+      ],
+      "majestic": [
+        "shaman",
+        "heroic-age"
+      ],
+      "heroic": [
+        "asian-drums",
+        "intrepid"
+      ]
+    },
+    "mali": {
+      "soft": [
+        "tribe",
+        "lake-aria"
+      ],
+      "majestic": [
+        "shaman",
+        "ancient-rite"
+      ],
+      "heroic": [
+        "shaman",
+        "anglozulu"
+      ]
+    },
+    "zulu": {
+      "soft": [
+        "tribe",
+        "lake-aria"
+      ],
+      "majestic": [
+        "anglozulu",
+        "shaman"
+      ],
+      "heroic": [
+        "anglozulu",
+        "intrepid"
+      ]
+    },
+    "england": {
+      "soft": [
+        "angevin",
+        "the-britons"
+      ],
+      "majestic": [
+        "the-britons",
+        "angevin-b"
+      ],
+      "heroic": [
+        "angevin-b",
+        "heroic-age"
+      ]
+    },
+    "russia": {
+      "soft": [
+        "kalinka",
+        "lake-aria"
+      ],
+      "majestic": [
+        "kalinka",
+        "heroic-age"
+      ],
+      "heroic": [
+        "heroic-age",
+        "intrepid"
+      ]
+    },
+    "andes": {
+      "soft": [
+        "tribe",
+        "qetzyl"
+      ],
+      "majestic": [
+        "qetzyl",
+        "shaman"
+      ],
+      "heroic": [
+        "shaman",
+        "heroic-age"
+      ]
+    }
+  },
+  "playlists": {
+    "china": {
+      "soft": [
+        "eastern-thought",
+        "forgotten-shrine",
+        "asianoriental2"
+      ],
+      "majestic": [
+        "forgotten-shrine",
+        "eastern-thought",
+        "city-leviathan"
+      ],
+      "heroic": [
+        "asian-drums",
+        "samurai",
+        "city-leviathan"
+      ]
+    },
+    "korea": {
+      "soft": [
+        "forgotten-shrine",
+        "eastern-thought",
+        "asianoriental2"
+      ],
+      "majestic": [
+        "forgotten-shrine",
+        "rachels-weave",
+        "eastern-thought"
+      ],
+      "heroic": [
+        "asian-drums",
+        "forgotten-shrine",
+        "city-leviathan"
+      ]
+    },
+    "japan": {
+      "soft": [
+        "ishikari-lore",
+        "forgotten-shrine",
+        "asianoriental1"
+      ],
+      "majestic": [
+        "forgotten-shrine",
+        "asianoriental1",
+        "eastern-thought"
+      ],
+      "heroic": [
+        "samurai",
+        "asian-drums",
+        "city-leviathan"
+      ]
+    },
+    "classical": {
+      "soft": [
+        "temple-of-the-manes",
+        "rachels-weave",
+        "moon-cave"
+      ],
+      "majestic": [
+        "city-leviathan",
+        "rachels-weave",
+        "temple-of-the-manes"
+      ],
+      "heroic": [
+        "city-leviathan",
+        "skypole-gorge",
+        "angevin-b"
+      ]
+    },
+    "persia": {
+      "soft": [
+        "desert-city",
+        "sultan",
+        "sun-cave-village"
+      ],
+      "majestic": [
+        "sultan",
+        "ibn-al-noor",
+        "city-leviathan"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "city-leviathan",
+        "sultan"
+      ]
+    },
+    "egypt": {
+      "soft": [
+        "desert-city",
+        "sun-cave-village",
+        "temple-of-the-manes"
+      ],
+      "majestic": [
+        "moon-cave",
+        "sultan",
+        "city-leviathan"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "city-leviathan",
+        "qetzyl"
+      ]
+    },
+    "india": {
+      "soft": [
+        "dhaka",
+        "sun-cave-village",
+        "lake-aria"
+      ],
+      "majestic": [
+        "dhaka",
+        "sun-cave-village",
+        "city-leviathan"
+      ],
+      "heroic": [
+        "sultan",
+        "city-leviathan",
+        "shaman"
+      ]
+    },
+    "arabia": {
+      "soft": [
+        "desert-city",
+        "sultan",
+        "sun-cave-village"
+      ],
+      "majestic": [
+        "sultan",
+        "ibn-al-noor",
+        "moon-cave"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "sultan",
+        "city-leviathan"
+      ]
+    },
+    "ottoman": {
+      "soft": [
+        "sultan",
+        "desert-city",
+        "rachels-weave"
+      ],
+      "majestic": [
+        "ibn-al-noor",
+        "sultan",
+        "city-leviathan"
+      ],
+      "heroic": [
+        "ibn-al-noor",
+        "city-leviathan",
+        "sultan"
+      ]
+    },
+    "steppe": {
+      "soft": [
+        "tribe",
+        "skypole-gorge",
+        "asianoriental1"
+      ],
+      "majestic": [
+        "shaman",
+        "skypole-gorge",
+        "eastern-thought"
+      ],
+      "heroic": [
+        "asian-drums",
+        "shaman",
+        "city-leviathan"
+      ]
+    },
+    "mali": {
+      "soft": [
+        "accralate",
+        "tribe",
+        "sun-cave-village"
+      ],
+      "majestic": [
+        "shaman",
+        "accralate",
+        "sun-cave-village"
+      ],
+      "heroic": [
+        "shaman",
+        "accralate",
+        "city-leviathan"
+      ]
+    },
+    "zulu": {
+      "soft": [
+        "tribe",
+        "accralate",
+        "lake-aria"
+      ],
+      "majestic": [
+        "shaman",
+        "accralate",
+        "skypole-gorge"
+      ],
+      "heroic": [
+        "shaman",
+        "city-leviathan",
+        "accralate"
+      ]
+    },
+    "england": {
+      "soft": [
+        "angevin",
+        "rachels-weave",
+        "the-britons"
+      ],
+      "majestic": [
+        "rachels-weave",
+        "the-britons",
+        "angevin-b"
+      ],
+      "heroic": [
+        "angevin-b",
+        "city-leviathan",
+        "skypole-gorge"
+      ]
+    },
+    "russia": {
+      "soft": [
+        "moon-cave",
+        "skypole-gorge",
+        "lake-aria"
+      ],
+      "majestic": [
+        "moon-cave",
+        "city-leviathan",
+        "skypole-gorge"
+      ],
+      "heroic": [
+        "city-leviathan",
+        "skypole-gorge",
+        "angevin-b"
+      ]
+    },
+    "andes": {
+      "soft": [
+        "tribe",
+        "sun-cave-village",
+        "qetzyl"
+      ],
+      "majestic": [
+        "qetzyl",
+        "shaman",
+        "skypole-gorge"
+      ],
+      "heroic": [
+        "shaman",
+        "city-leviathan",
+        "qetzyl"
+      ]
+    }
+  },
+  "records": [
+    {
+      "key": "rachels-weave",
+      "title": "Rachel's Weave",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/02-0x2a722-rachels_weave.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/rachels-weave.ogg",
+      "original": "art-source/audio/rachels-weave.ogg",
+      "originalSha256": "438ac956b4fe9f7880ff5fe829589c8c01d1b4ba75f465488dea3abfbef4443d",
+      "sha256": "b670c0728416cfe515036c25586c19e377fd39910613e1fd3babcb849b7c9b21",
+      "bytes": 2070701
+    },
+    {
+      "key": "sun-cave-village",
+      "title": "Sun Cave Village",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/03-0x2a723-sun_cave_village_1.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/sun-cave-village.ogg",
+      "original": "art-source/audio/sun-cave-village.ogg",
+      "originalSha256": "909032674b825bd9c830e9d0c6549a09855e2b204e61e5763d2e2d7e6d8d1242",
+      "sha256": "4db7db8de56d3a006dd2283332db663b6bd3dbcf8f128d5c54487359766fa206",
+      "bytes": 2037855
+    },
+    {
+      "key": "skypole-gorge",
+      "title": "Skypole Gorge",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/04-0x2a724-skypole_gorge.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/skypole-gorge.ogg",
+      "original": "art-source/audio/skypole-gorge.ogg",
+      "originalSha256": "4d06dcb2c1143f83ae402969a40774878e2d091c2b5b107c1e75ef10c56fcf34",
+      "sha256": "d5bbf22a0a0ccde37ee1027c665a3fbf6ab73db5206dbdc129b70afb60261130",
+      "bytes": 2257200
+    },
+    {
+      "key": "moon-cave",
+      "title": "Moon Cave",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/05-0x2a725-moon_cave.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/moon-cave.ogg",
+      "original": "art-source/audio/moon-cave.ogg",
+      "originalSha256": "d1b6d3232b18e9f40e88bde3e9bf60d0a00e18d68a9b88bfa0665eeab15c2cc4",
+      "sha256": "80f2bf669ea952b8aa5edd74858caa617673d18a61963fb0a83b97ec4e47e17b",
+      "bytes": 3424808
+    },
+    {
+      "key": "forgotten-shrine",
+      "title": "Forgotten Shrine in the Forest",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/07-0x2a727-forgotten_shrine_in_the_forest.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/forgotten-shrine.ogg",
+      "original": "art-source/audio/forgotten-shrine.ogg",
+      "originalSha256": "0788b0497a5383d6affc995f6926a9bee11d404d7a3d7c42c968f21606164267",
+      "sha256": "3f77329ee4c7b4856638826d4b11683effb1ac6039fe51790c46a4e42475b233",
+      "bytes": 2580483
+    },
+    {
+      "key": "city-leviathan",
+      "title": "City of the Leviathan",
+      "artist": "John Oestmann",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://opengameart.org/content/chasing-the-leviathan-adventure-world-music-album",
+      "url": "https://opengameart.org/sites/default/files/08-0x2a728-city_of_the_leviathan.ogg",
+      "extension": ".ogg",
+      "kind": "music",
+      "file": "music/city-leviathan.ogg",
+      "original": "art-source/audio/city-leviathan.ogg",
+      "originalSha256": "8f614dfe19f9e1a83cce51b12bea3f924f19d39d402955a042ca18dd688f5c56",
+      "sha256": "b9e0619d36322ba998a97d1327c719e38216ac5bc260793e1af0317cf1d80854",
+      "bytes": 4400213
+    },
+    {
+      "key": "eastern-thought",
+      "title": "Eastern Thought",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100682",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Eastern%20Thought.mp3",
+      "extension": ".mp3",
+      "instruments": "Strings, Metals, Percussion",
+      "description": "Moderately relaxed, moderately intense, very eastern.",
+      "kind": "music",
+      "file": "music/eastern-thought.ogg",
+      "original": "art-source/audio/eastern-thought.mp3",
+      "originalSha256": "5daab860de26f2c47701958a21dcbe6c6283a7955863e72fe9ca5a536d6d552d",
+      "sha256": "a716d5f5a7b63dd8e3612b5c2a042d4e1bc342dea120624c8eae8f105e7c5ce8",
+      "bytes": 2945643
+    },
+    {
+      "key": "accralate",
+      "title": "Accralate",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100341",
+      "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Accralate.mp3",
+      "extension": ".mp3",
+      "instruments": "Percussion, Marimba",
+      "description": "African-inspired lazy drum ensemble. Feel change in the middle; Tempo change near the end. Lots of polyrhythms. This piece exhibits some phantom notes athat you hear, but don't really exist. Hard to explain. Batu, Conga, Marimba, Agogo, Cowbell, Clave.",
+      "kind": "music",
+      "file": "music/accralate.ogg",
+      "original": "art-source/audio/accralate.mp3",
+      "originalSha256": "f9760f923aac20d3048774f39eefddb2d952f64ecabac4850f7c53110950e9fd",
+      "sha256": "cde3b9716e6b971c928c9bdcc9b9ecda4e8a0f5da2d1d3a31cddcf33e5d2cbd4",
+      "bytes": 3399464
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "generator": "Built-in ImageGen",
+  "records": [
+    {
+      "key": "envoy-death",
+      "original": "art-source/envoy-negotiation-20261006/envoy-death.png",
+      "prompt": "art-source/envoy-negotiation-20261006/death-prompt.txt",
+      "sourceSha256": "bbf54a7691aaa614bc382fed4bed24671899f2407108ef38d8fff124fa7ed44c",
+      "runtime": "web/assets/negotiation/envoy-death.webp",
+      "runtimeSha256": "0d32e73828a71d0f75a5c8e42738086ff29b8872dcb939796ced7e8f99ae383e",
+      "bytes": 251628,
+      "alpha": true,
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "poses": 8,
+      "columns": 4,
+      "rows": 2,
+      "baseSign": 1
+    },
+    {
+      "key": "council-hall",
+      "original": "art-source/envoy-negotiation-20261006/council-hall.png",
+      "prompt": "art-source/envoy-negotiation-20261006/hall-prompt.txt",
+      "sourceSha256": "32ed5daf9d00a654b343b744af0a919dec2db1fd69ab8e8fefadf2ef261b19b8",
+      "runtime": "web/assets/negotiation/council-hall.webp",
+      "runtimeSha256": "ce4629adc89cd13517a171b7d905231df68bcb339b99f4d3c7d4425f4da0b522",
+      "bytes": 145514,
+      "alpha": false,
+      "sourceWidth": 1672,
+      "sourceHeight": 941
+    },
+    {
+      "key": "envoy-audience",
+      "original": "art-source/envoy-negotiation-20261006/envoy-audience.png",
+      "prompt": "art-source/envoy-negotiation-20261006/envoy-prompt.txt",
+      "sourceSha256": "266a9bb7dd16e4320920f12c13a43b757937258d921e6387c7ec80b5f36982be",
+      "runtime": "web/assets/negotiation/envoy-audience.webp",
+      "runtimeSha256": "d98131788357d50d4ec928c5b836186c0b120f935da893be482eabc0688743a4",
+      "bytes": 94422,
+      "alpha": true,
+      "sourceWidth": 1024,
+      "sourceHeight": 1536
+    }
+  ],
+  "notes": "Original generated art. The death sheet has eight independently generated painted poses; audience art is composited with the existing historical leader portraits. No commercial game artwork."
+}

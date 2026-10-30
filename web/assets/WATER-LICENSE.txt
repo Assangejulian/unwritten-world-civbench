@@ -1,0 +1,7 @@
+Water 001 normal texture
+Creator: Katsukagi / 3DTextures.me
+License: CC0 1.0 Universal (public domain dedication)
+Asset: https://3dtextures.me/2017/12/28/water-001/
+License statement: https://3dtextures.me/about/
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Only the normal map is bundled; game colors and river geometry are original code.
